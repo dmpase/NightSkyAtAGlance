@@ -1,0 +1,105 @@
+Webb Society Deep-Sky Observer's Handbook, Volume 3, Open and Globular Clusters
+A Catalogue of Globular Clusters, 367 - 429, pg 156 - 182
+
+WS     : Webb Society Catalog Index
+Cat    : Catalog identifier, e.g., NGC or IC
+RA     : Right Ascension
+Dec    : Declination
+m      : Apparent magnitude
+AD     : Apparent diameter
+Con Cl : Concentration classes of clusters
+Con    : Constellation
+
+|WS  |Cat          |RA     |Dec   |m    |AD  |Con Cl |Con|
+| 367|NGC 1904     |05 23.2|-24 33| 7.84| 7.8|V      |Lep|
+| 367|M79          |
+| 368|ngc 2419     |
+| 369|ngc 4147     |
+| 370|ngc 4590     |
+| 370|M68          |
+| 371|ngc 5024     |
+| 371|M53          |
+| 372|ngc 5053     |
+| 373|ngc 5272     |
+| 373|M3           |
+| 374|ngc 5466     |
+| 375|ngc 5634     |
+| 376|ngc 5897     |
+| 377|ngc 5904     |
+| 377|M5           |
+| 378|ngc 6093     |
+| 378|M80          |
+| 379|ngc 6121     |
+| 379|M4           |
+| 380|ngc 6144     |
+| 381|ngc 6171     |
+| 381|M107         |
+| 382|ngc 6205     |
+| 382|M13          |
+| 383|ngc 6218     |
+| 383|M12          |
+| 384|ngc 6229     |
+| 385|ngc 6235     |
+| 386|ngc 6254     |
+| 386|M10          |
+| 387|ngc 6266     |
+| 387|M62          |
+| 388|ngc 6273     |
+| 388|M19          |
+| 389|ngc 6284     |
+| 390|ngc 6287     |
+| 391|ngc 6325     |
+| 392|ngc 6341     |
+| 392|M92          |
+| 393|ngc 6333     |
+| 393|M9           |
+| 394|ngc 6342     |
+| 395|ngc 6356     |
+| 396|ngc 6402     |
+| 396|M14          |
+| 397|ngc 6401     |
+| 398|ngc 6426     |
+| 399|ngc 6517     |
+| 400|ngc 6535     |
+| 401|ngc 6539     |
+| 402|ngc 6626     |
+| 402|M28          |
+| 403|ngc 6638     |
+| 404|ngc 6637     |
+| 404|M69          |
+| 405|ngc 6656     |
+| 405|M22          |
+| 406|ngc 6681     |
+| 406|M70          |
+| 407|ngc 6712     |
+| 408|ngc 6715     |
+| 408|M54          |
+| 409|ngc 6760     |
+| 410|ngc 6779     |
+| 410|M56          |
+| 411|ngc 6809     |
+| 411|M55          |
+| 412|ngc 6838     |
+| 412|M71          |
+| 413|ngc 6864     |
+| 413|M75          |
+| 414|ngc 6934     |
+| 415|ngc 6981     |
+| 415|M72          |
+| 416|ngc 7006     |
+| 417|ngc 7078     |
+| 417|M72          |
+| 418|ngc 7089     |
+| 418|M2           |
+| 419|ngc 7099     |
+| 419|M30          |
+| 420|ngc 288      |
+| 421|ngc 5139     |
+| 422|ngc 5694     |
+| 423|ngc 6293     |
+| 424|ngc 6304     |
+| 425|ngc 6316     |
+| 426|ngc 6355     |
+| 427|ngc 6366     |
+| 428|ngc 6440     |
+| 429|ngc 6642     |

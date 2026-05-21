@@ -1,0 +1,1 @@
+package lib.stars.catalog;

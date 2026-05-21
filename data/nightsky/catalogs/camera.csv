@@ -1,0 +1,7 @@
+# name, sensor width (mm), sensor height (mm), sensor width (px), sensor height (px), pixel size (um), size, lens interface, color, max exposure (s), min exposure (s), bit depth, well (ke), read noise (e), quantum efficiency (%)
+Canon EOS Rebel 7Ti, 22.3, 14.9, 6000, 4000, 3.72, APS-C  , EF-S, RGB,    30, 0.000250
+ZWO ASI290MM Mini,    5.6,  3.2, 1936, 1096, 2.89, 1/2.8" ,1.25", Mono, 1000, 0.000064, 12,  14.6, 3.2, 80
+ZWO ASI662MC,       5.568,3.132, 1920, 1080, 2.89, 1/2.8" ,1.25", RGB,  2000, 0.000032, 12,38.2,  1.22, 91
+ZWO ASI585MM,        11.2,  6.3, 3840, 2160, 2.92, 1/1.2" ,  M42, Mono, 2000, 0.000032, 12,38.7,   0.7, 91
+ZWO ASI183MC Pro,    13.2,  8.8, 5496, 3672, 2.40,        ,  M42, RGB,  2000, 0.000032, 12,  15,   3.0, 84
+ZWO ASI2400MC Pro,   36.0, 24.0, 6072, 4042, 5.93, Full   ,  M54, RGB,  2000, 0.000032, 14, 100,   1.1, 80

@@ -1,0 +1,2540 @@
+1
+https://www.stellar-journeys.org/Herschel%202500%20Observing%20LogBook.pdf
+The Herschel – 2500
+William and Caroline Herschel
+2
+William Herschel published his deep-sky discoveries as three separate catalogues:
+Catalogue of One Thousand New Nebulae and Clusters of Stars (1786),
+Catalogue of a Second Thousand New Nebulae and Clusters of Stars (1789),
+Catalogue of 500 New Nebulae ... (1802).
+Herschel classified his list into eight sub-categories:
+Class I - Bright Nebulae;
+Class II - Faint Nebulae;
+Class III - Very Faint Nebulae;
+Class IV - Planetary Nebulae;
+Class V - Very Large Nebulae;
+Class VI - Very Compressed and Rich Clusters of Stars;
+Class VII - Compressed Clusters of Small and Large Stars;
+Class VIII - Coarsely Scattered Clusters of Stars.
+
+Class I - Bright Nebulae:
+This Herschel class tends to be objects of various sizes and shapes, such as galaxies,
+clusters, and nebula. But the one thing they all have in common is that they are very
+bright. These are the easiest Herschel Objects to observe.
+
+Class II - Faint Nebulae:
+This Herschel class tends to be objects that are generally faint, such as unresolved
+clusters and dim galaxies. You’ll need fairly dark skies and a medium to large telescope.
+
+Class III - Very Faint Nebulae:
+This Herschel class tends to be made up of very, very faint objects, mostly galaxies. This
+class of objects will require a dark sky location, a large telescope, or video / CCD
+camera, and a bit of luck.
+
+Class IV - Planetary Nebulae:
+This Herschel class tends to be made up of objects that are actually planetary nebula, but
+you can find some emission nebula and galaxies mixed in.
+
+Class V - Very Large Nebulae:
+This Herschel class tends to consist of very large deep-sky objects. They may not
+necessarily be very bright. Depending on the object, you may need a dark-sky location, and
+a wide-field eyepiece.
+
+Class VI - Very Compressed and Rich Clusters of Stars:
+This Herschel class tends to be mostly bright resolvable globular clusters, and large open
+clusters with numerous members.
+
+Class VII - Compressed Clusters of Small and Large Stars:
+This Herschel class tends to be open clusters containing bright fore-ground stars, or
+cluster members with widely varying luminosities.
+
+Class VIII - Coarsely Scattered Clusters of Stars:
+This Herschel class tends to be loose, somewhat dim open clusters.
+Best suited for wide-field eyepieces.
+Actually only 2482 total objects
+3
+Name     Con Herschel Type             Mag     Size R. A.   Dec    Notes Date
+NGC   13 And H866-3   Galaxy           13.6     2.7 00:08.8 +33~26
+NGC   29 And H853-2   Galaxy           12.6     1.8 00:10.8 +33~21
+NGC   39 And H861-3   Galaxy           13.5     1.1 00:12.3 +31~03
+NGC   68 And H16-5    Galaxy           13       1.5 00:18.3 +30~04
+NGC  108 And H148-3   Galaxy           12.1     2.3 00:25.9 +29~13
+NGC  160 And H476-3   Galaxy           12.4     3.2 00:36.1 +23~57
+NGC  205 And H18-5    Galaxy            8      17.4 00:40.4 +41~41 "400" M110 M31 group
+NGC  206 And H36-5    Knot in galaxy    4.2         00:40.6 +40~44 with M31
+NGC  214 And H209-2   Galaxy           12.2     2.1 00:41.5 +25~30
+NGC  233 And H149-3   Galaxy           12.4     2   00:43.4 +30~35
+NGC  252 And H609-2   Galaxy           12.3     1.7 00:48.0 +27~38 Brightest in group
+NGC  280 And H477-3   Galaxy           13.2     1.6 00:52.5 +24~20 distorted
+NGC  393 And H54-1    Galaxy           12.5     1.7 01:08.6 +39~40
+NGC  404 And H224-2   Galaxy           10.1     4.4 01:09.4 +35~43 "400" Near Beta And
+NGC  477 And H577-3   Galaxy           13       2.3 01:21.3 +40~29 main arms split
+NGC  513 And H169-3   Galaxy           12.9     0.7 01:23.8 +33~49
+NGC  523 And H170-3   Galaxy           12.7     2.9 01:25.3 +34~02 Peculiar SAC?*
+NGC  536 And H171-3   Galaxy           12.3     3.1 01:26.4 +34~43
+NGC  537 And H170-3   Nonexistent      -        -   01:26.3 +34~05
+NGC  551 And H560-3   Galaxy           12.7     1.8 01:27.6 +37~11
+NGC  679 And H175-3   Galaxy           12.4     2.3 01:49.7 +35~47
+NGC  687 And H561-3   Galaxy           12.3     1.4 01:50.6 +36~21
+NGC  703 And H562-3   Galaxy           13.3     1.2 01:52.8 +36~09 NGC 708 group
+NGC  704 And H563-3   Galaxy           13.1         01:52.7 +36~06 Double system
+NGC  705 And H564-3   Galaxy           13.6     1.1 01:52.8 +36~08 NGC 708 group
+NGC  708 And H565-3   Galaxy           12.7     3   01:52.8 +36~10 NGC 708 group
+NGC  752 And H32-7    Open cluster      5.7    50   01:57.8 +37~41 "400" 70 stars
+NGC  797 And H566-3   Galaxy           12.2     1.7 02:03.4 +38~07 double nebula
+NGC  818 And H604-2   Galaxy           12.5     3.2 02:08.7 +38~47
+NGC  828 And H605-2   Galaxy           12.2     3.2 02:10.2 +39~12 Peculiar
+NGC  834 And H567-3   Galaxy           13.1     1.1 02:11.0 +37~40
+NGC  845 And H604-3   Galaxy           13.5     1.6 02:12.3 +37~29
+NGC  891 And H19-5    Galaxy           10      13.5 02:22.6 +42~21 "400" NGC 1023 group
+NGC  898 And H570-3   Galaxy           12.9     1.8 02:23.3 +41~57
+NGC  910 And H571-3   Galaxy           12.2     2.2 02:25.4 +41~50
+NGC  980 And H572-3   Galaxy           13       1.7 02:35.5 +40~54
+NGC  982 And H573-3   Galaxy           12.5     1.6 02:35.4 +40~57
+NGC 7640 And H600-2   Galaxy           10.9    10.7 23:22.1 +40~51 nearly edge on
+NGC 7662 And H18-4    Planetary Neb     8.3     0.1 23:25.9 +42~33 "400" Blue Snowball
+NGC 7686 And H69-8    Open cluster      5.6    14   23:30.2 +49~08 "400"
+NGC 7707 And H579-3   Galaxy           13.4     1.2 23:34.8 +44~18
+NGC 2997 Ant H50-5    Galaxy            9.3    10   09:45.6 -31~11
+NGC 6728 Aql H13-8    Nonexistent                   19:00.0 - 8~57
+NGC 6755 Aql H19-7    Open cluster      7.5    15   19:07.8 + 4~14 "400"
+NGC 6756 Aql H62-7    Open cluster     10.6     4   19:08.7 + 4~41 "400"
+NGC 6772 Aql H14-4    Planetary Neb    14.2     1   19:14.6 - 2~42
+NGC 6781 Aql H743-3   Planetary Neb    11.4     1.8 19:18.4 + 6~33 "400"
+NGC 6804 Aql H38-6    Planetary Neb    12       1.1 19:31.6 + 9~13
+NGC 6814 Aql H744-3   Galaxy           11.2     3.2 19:42.7 -10~19
+NGC 6828 Aql H73-8    Nonexistent                   19:50.4 + 7~55
+NGC 6837 Aql H18-8    Open cluster                  19:53.5 +11~41 Not in Uranometria
+NGC 6840 Aql H19-8    Open cluster                  19:55.3 +12~06 Not in Uranometria
+NGC 6926 Aql H142-3   Galaxy           12.4     2.1 20:33.1 - 2~01
+NGC 6962 Aqr H426-2   Galaxy           12 3         20:47.3 + 0~19 with 6959,61,63,64,67
+NGC 6964 Aqr H427-2   Galaxy           12.7     1.9 20:47.4 + 0~18 with 6959,61,62,63,67
+NGC 7009 Aqr H1-4     Planetary Neb     8.3     1.7 21:04.2 -11~22 "400" Saturn Nebula
+NGC 7081 Aqr H859-3   Galaxy           12.7     1   21:31.4 + 2~30
+NGC 7165 Aqr H930-3   Galaxy           13.5     1   21:59.5 -16~31
+NGC 7171 Aqr H692-3   Galaxy           12.2     2.1 22:01.0 -13~16
+NGC 7180 Aqr H693-3   Galaxy           12.5     1.8 22:02.3 -20~33
+NGC 7183 Aqr H595-2   Galaxy           11.9     4.1 22:02.4 -18~56
+NGC 7184 Aqr H1-2     Galaxy           11.2     6.5 22:02.7 -20~49
+NGC 7218 Aqr H897-2   Galaxy           12       2.8 22:10.2 -16~40
+NGC 7230 Aqr H931-3   Galaxy           13.5     1.1 22:14.3 -17~04
+NGC 7246 Aqr H932-3   Galaxy           14.6     1.8 22:17.5 -15~32
+NGC 7251 Aqr H933-3   Galaxy           11.8     1.8 22:20.4 -15~46
+NGC 7252 Aqr H458-3   Galaxy           12.1     2.2 22:20.7 -24~41
+NGC 7284 Aqr H469-2   Galaxy           11.9     2.2 22:28.6 -24~51
+NGC 7302 Aqr H31-4    Galaxy           12.2     2.1 22:32.4 -14~07
+NGC 7309 Aqr H476-2   Galaxy           12.5     1.6 22:34.3 -10~21
+NGC 7364 Aqr H442-2   Galaxy           12.6     1.6 22:44.5 - 0~07
+NGC 7371 Aqr H477-2   Galaxy           12.1     2.1 22:46.1 -11~00 Faint outer ring
+NGC 7377 Aqr H598-2   Galaxy           11.6     2.2 22:47.8 -22~19
+NGC 7391 Aqr H443-2   Galaxy           12       1.8 22:50.7 - 1~31
+NGC 7392 Aqr H702-2   Galaxy           11.9     2   22:51.8 -20~36
+NGC 7393 Aqr H453-2   Galaxy           12.6     2   22:51.7 - 5~33
+NGC 7443 Aqr H450-2   Galaxy           12.6     1.5 23:00.1 -12~48 with NGC7444
+NGC 7444 Aqr H451-2   Galaxy           12.8     1.4 23:00.1 -12~50 with NGC7443
+NGC 7492 Aqr H558-3   Globular         11.5     6.2 23:08.4 -15~37
+NGC 7526 Aqr H470-3   Asterism                      23:13.9 - 9~12
+NGC 7576 Aqr H454-2   Galaxy           13       1.5 23:17.4 - 4~44
+NGC 7585 Aqr H236-2   Galaxy           11.7     2.3 23:18.0 - 4~39
+NGC 7592 Aqr H186-3   Galaxy           14.2     1.1 23:18.4 - 4~25 colliding pair
+NGC 7600 Aqr H431-2   Galaxy           11.9     3   23:18.9 - 7~35
+NGC 7606 Aqr H104-1   Galaxy           10.8     5.8 23:19.1 - 8~29 "400"
+NGC 7665 Aqr H438-3   Galaxy           12.7     0.9 23:27.2 - 9~24
+NGC 7721 Aqr H432-2   Galaxy           11.6     3.3 23:38.8 - 6~31
+NGC 7723 Aqr H110-1   Galaxy           11.2     2.8 23:38.9 -12~58 "400"
+NGC 7725 Aqr H189-3   Galaxy           12.2     0.8 23:39.3 - 4~32
+NGC 7727 Aqr H111-1   Galaxy           10.6     5.6 23:39.9 -12~18 "400"
+NGC  673 Ari H589-2   Galaxy           12.6     2.1 01:48.4 +11~32
+NGC  678 Ari H228-2   Galaxy           12.2     4.6 01:49.4 +22~00 NGC 697 group
+NGC  680 Ari H229-2   Galaxy           11.9     2.7 01:49.8 +21~58
+NGC  691 Ari H617-2   Galaxy           11.4     3.5 01:50.7 +21~46 NGC 697 group
+NGC  695 Ari H618-2   Galaxy           12.8     0.5 01:51.2 +22~35 NGC 697 group
+NGC  697 Ari H179-3   Galaxy           12       4.7 01:51.3 +22~21 NGC 697 group
+NGC  772 Ari H112-1   Galaxy           10.3     7.1 01:59.3 +19~01 "400"
+NGC  774 Ari H214-3   Galaxy           13       2   01:59.4 +14~01
+NGC  781 Ari H215-3   Galaxy           13       1.6 02:00.1 +12~38
+NGC  794 Ari H207-3   Galaxy           12.7     1.3 02:02.5 +18~22
+NGC  803 Ari H208-3   Galaxy           12.4     3.3 02:03.8 +16~02
+NGC  821 Ari H152-1   Galaxy           10.8     3.5 02:08.4 +11~00
+NGC  871 Ari H201-3   Galaxy           13.5     1.3 02:17.2 +14~33 with NGC 870
+NGC  877 Ari H246-2   Galaxy           11.8     2.3 02:18.0 +14~33 NGC 877 group
+NGC  924 Ari H474-3   Galaxy           12.4     2.3 02:26.8 +20~30 NGC 932 group
+NGC  972 Ari H211-2   Galaxy           11.3     3.6 02:34.2 +29~19 coarse spiral
+NGC  990 Ari H557-3   Galaxy           12.4     1.8 02:36.4 +11~39
+NGC 1012 Ari H152-3   Galaxy           12       2.7 02:39.3 +30~09 large nucleus
+NGC 1024 Ari H592-2   Galaxy           12.1     4.4 02:39.2 +10~51 brtst in grp
+NGC 1030 Ari H581-3   Galaxy           13.2     1.6 02:39.9 +18~01
+NGC 1036 Ari H475-3   Galaxy           13.2     1.5 02:40.5 +19~18 asymmetric
+NGC 1056 Ari H584-3   Galaxy           12.4     2.3 02:42.9 +28~33 lge nucl bulge
+NGC 1088 Ari H582-3   Galaxy           13.7     1.1 02:47.0 +16~11 appears disturbed
+NGC 1134 Ari H254-2   Galaxy           12.1     2.3 02:53.6 +13~00
+NGC 1156 Ari H619-2   Galaxy           11.7     3.1 02:59.7 +25~14 dwarf
+NGC 1240 Ari H164-3   Single star                   03:12.9 +30~34
+NGC 1664 Aur H59-8    Open cluster      7.6    18   04:51.1 +43~42 "400"
+NGC 1778 Aur H61-8    Open cluster      7.7     7   05:08.1 +37~03
+NGC 1857 Aur H33-7    Open cluster      7       6   05:20.2 +39~21 "400"
+NGC 1883 Aur H34-7    Open cluster     12       3   05:25.9 +46~33
+NGC 1907 Aur H39-7    Open cluster      8.2     7   05:28.0 +35~19 "400"
+NGC 1931 Aur H261-1   Clstr wth        11.3     3   05:31.4 +34~15 "400"
+NGC 1985 Aur H865-3   Planetary Neb                 05:37.7 +32~00
+NGC 2126 Aur H68-8    Open cluster     10.2     6   06:03.0 +49~54 "400"
+NGC 2192 Aur H57-7    Open cluster     10.9     6   06:15.2 +39~51
+NGC 2240 Aur H49-8    Nonexistent                   06:32.9 +35~12
+NGC 2281 Aur H71-8    Open cluster      5.4    15   06:49.3 +41~04 "400"
+NGC 2387 Aur H820-2   Galaxy           14.3         07:29.0 +36~52 double system
+NGC 5239 Boo H101-3   Galaxy           12.8     1.9 13:36.5 + 7~22
+NGC 5248 Boo H34-1    Galaxy           10.3     6.2 13:37.5 + 8~53 "400"
+NGC 5249 Boo H72-3    Galaxy           12.9     1.2 13:37.6 +15~58
+NGC 5251 Boo H369-3   Galaxy           13.8     0.7 13:37.5 +27~25
+NGC 5293 Boo H6-5     Galaxy           13.1     1.6 13:46.9 +16~16
+NGC 5416 Boo H56-3    Galaxy           13.3     1.4 14:02.1 + 9~27
+NGC 5417 Boo H11-3    Galaxy           13 1.    4   14:02.1 + 8~03
+NGC 5446 Boo H57-3    Galaxy           14.5     NIU 14:05.1 + 9~37
+NGC 5463 Boo H58-3    Galaxy           13       1.1 14:06.1 + 9~22
+NGC 5466 Boo H9-6     Globular          9.1    11   14:05.5 +28~32 "400"
+NGC 5481 Boo H693-2   Galaxy           12.2     1.8 14:06.7 +50~43
+NGC 5482 Boo H59-3    Galaxy           12.9     1.2 14:08.4 + 8~56
+NGC 5490 Boo H32-3    Galaxy           12.1     2.3 14:10.0 +17~33
+NGC 5492 Boo H876-2   Galaxy           12.8     1.6 14:10.5 +19~37
+NGC 5500 Boo H674-3   Galaxy           13.3     1   14:10.2 +48~33
+NGC 5513 Boo H877-2   Galaxy           12.6     1.9 14:13.2 +20~26
+NGC 5515 Boo H685-3   Galaxy           12.9     1.4 14:12.5 +39~18
+NGC 5520 Boo H676-3   Galaxy           12.4     1.6 14:12.3 +50~22
+NGC 5522 Boo H644-3   Galaxy           13.5     1.6 14:14.8 +15~09
+NGC 5523 Boo H134-3   Galaxy           12.1     4.3 14:14.8 +25~19
+NGC 5529 Boo H414-3   Galaxy           11.9     5.7 14:15.6 +36~13
+NGC 5532 Boo H47-3    Galaxy           11.9     1.6 14:16.9 +10~48
+NGC 5533 Boo H418-2   Galaxy           11.8     3.4 14:16.1 +35~21
+NGC 5536 Boo H731-3   Galaxy           13.5     0.9 14:16.3 +39~30 massive bar
+NGC 5541 Boo H732-3   Galaxy           12.8     0.8 14:16.4 +39~35
+NGC 5544 Boo H419-2   Galaxy           13.4 0.9 14:17.0 +36~34
+NGC 5546 Boo H551-3   Galaxy           12.3 1.3 14:18.1 + 7~34
+NGC 5548 Boo H194-2   Galaxy           12.6 1.6 14:18.0 +25~08
+NGC 5557 Boo H99-1    Galaxy           11 2.2 14:18.4 +36~30 "400"
+NGC 5559 Boo H347-3   Galaxy           14 1.5 14:19.1 +24~48
+NGC 5570 Boo H12-3    Galaxy           14.4 NIU 14:19.4 + 7~26
+NGC 5579 Boo H415-3   Galaxy           13.6 1.7 14:20.5 +35~11
+NGC 5582 Boo H754-2   Galaxy           11.6 2.8 14:20.7 +39~42
+NGC 5587 Boo H110-3   Galaxy           12.5 2.5 14:22.2 +13~55
+NGC 5589 Boo H416-3   Galaxy           13.3 1.2 14:21.5 +35~15
+NGC 5590 Boo H417-3   Galaxy           12.3 1.8 14:21.7 +35~11
+NGC 5594 Boo H135-3   Galaxy           14 1.1 14:23.2 +26~15
+NGC 5596 Boo H418-3   Galaxy           13.4 1.2 14:22.5 +37~07
+NGC 5598 Boo H733-3   Galaxy           13 1.5 14:22.5 +40~19 NGC 5603 group
+NGC 5600 Boo H177-2   Galaxy           12.1 1.3 14:23.8 +14~38
+NGC 5602 Boo H694-2   Galaxy           12.7 1.3 14:22.3 +50~31
+NGC 5603 Boo H734-3   Galaxy           13 1.4 14:23.1 +40~22 NGC 5603 group
+NGC 5608 Boo H673-2   Galaxy           13.4 2.7 14:23.3 +41~46
+NGC 5610 Boo H136-3   Galaxy           13.2 2 14:24.3 +24~36
+NGC 5614 Boo H420-2   Galaxy           11.7 2.7 14:24.1 +34~52
+NGC 5616 Boo H419-3   Galaxy           13.8 2.2 14:24.2 +36~26
+NGC 5621 Boo H14-3    Nonexistent               14:27.8 + 8~15
+NGC 5622 Boo H677-3   Galaxy           13.2 1.6 14:26.2 +48~33
+NGC 5623 Boo H329-2   Galaxy           12.5 1.6 14:27.2 +33~14
+NGC 5630 Boo H674-2   Galaxy           13.1 2.3 14:27.6 +41~16
+NGC 5633 Boo H185-1   Galaxy           12.4 2.3 14:27.5 +46~09
+NGC 5635 Boo H132-3   Galaxy           12.5 2.2 14:28.5 +27~25
+NGC 5637 Boo H357-2   Galaxy           13.8 0.9 14:28.9 +23~11
+NGC 5642 Boo H126-3   Galaxy           12.6 1.8 14:29.2 +30~01
+NGC 5649 Boo H645-3   Galaxy           13.2 0.8 14:30.6 +14~00
+NGC 5653 Boo H330-2   Galaxy           12.2 1.6 14:30.2 +31~13
+NGC 5654 Boo H420-3   Galaxy           12.9 1.5 14:29.9 +36~21 double nucleus
+NGC 5656 Boo H421-2   Galaxy           11.8 1.6 14:30.4 +35~19
+NGC 5660 Boo H695-2   Galaxy           11.9 2.9 14:29.8 +49~37
+NGC 5665 Boo H27-2    Galaxy           12 2.1 14:32.4 + 8~05
+NGC 5669 Boo H79-2    Galaxy           11.3 4.1 14:32.7 + 9~53
+NGC 5672 Boo H310-3   Galaxy           13.5 0.8 14:32.6 +31~40
+NGC 5673 Boo H696-2   Galaxy           12.1 2.4 14:31.5 +49~58
+NGC 5675 Boo H422-2   Galaxy           12.7 2.4 14:32.6 +36~17
+NGC 5676 Boo H189-1   Galaxy           11.2 3.7 14:32.8 +49~28 "400"
+NGC 5677 Boo H283-3   Galaxy           13.7 0.9 14:34.2 +25~27
+NGC 5684 Boo H421-3   Galaxy           12.7 1.9 14:35.8 +36~32
+NGC 5687 Boo H808-2   Galaxy           11.8 2.6 14:34.9 +54~29
+NGC 5689 Boo H188-1   Galaxy           11.9 3.7 14:35.5 +48~45 "400"
+NGC 5695 Boo H423-2   Galaxy           12.8 1.5 14:37.3 +36~34
+NGC 5696 Boo H648-2   Galaxy           13 1.8 14:37.0 +41~49
+NGC 5697 Boo H675-2   Galaxy           13.7 1 14:36.6 +41~41
+NGC 5698 Boo H700-2   Galaxy           13 1.7 14:37.2 +38~28
+NGC 5699 Boo H127-3   Nonexistent               14:38.3 +29~30
+NGC 5702 Boo H894-3   Galaxy           13.3 1.1 14:38.8 +20~31
+NGC 5703 Boo H128-3   Nonexistent               14:38.5 +29~30
+NGC 5704 Boo H649-2   Nonexistent               14:37.9 +40~31
+NGC 5710 Boo H895-3   Galaxy           13 1 14:39.3 +20~03
+NGC 5714 Boo H675-3   Galaxy           13.4 2.7 14:38.2 +46~38
+NGC 5730 Boo H657-3   Galaxy           14.1 2 14:40.3 +42~45
+NGC 5731 Boo H658-3   Galaxy           13.1 1.7 14:40.0 +42~46
+NGC 5732 Boo H686-3   Galaxy           13.5 1.4 14:40.6 +38~39
+NGC 5735 Boo H133-3   Galaxy           12.3 2.6 14:42.4 +28~44
+NGC 5737 Boo H896-3   Galaxy           13.5 1.3 14:43.2 +18~53
+NGC 5739 Boo H171-1   Galaxy           12.1 1.8 14:42.5 +41~50
+NGC 5747 Boo H48-3    Galaxy           13.6 1 14:44.4 +12~09
+NGC 5751 Boo H809-2   Galaxy           13.2 1.4 14:43.9 +53~25
+NGC 5754 Boo H687-3   Galaxy           13.1 1.8 14:45.4 +38~47
+NGC 5760 Boo H885-3   Galaxy           13.3 1.5 14:47.7 +18~31
+NGC 5771 Boo H129-3   Galaxy           13.6 0.8 14:52.2 +29~51
+NGC 5773 Boo H130-3   Galaxy           13.5 1 14:52.5 +29~48
+NGC 5784 Boo H676-2   Galaxy           12.4 1.9 14:54.2 +42~33
+NGC 5787 Boo H677-2   Galaxy           13.1 1 14:55.3 +42~30
+NGC 5789 Boo H976-3   Galaxy           13.7 0.9 14:56.6 +30~13
+NGC 5797 Boo H678-3   Galaxy           12.8 1 14:56.3 +49~42
+NGC 5798 Boo H131-3   Galaxy           13.1 1.3 14:57.7 +29~58
+NGC 5804 Boo H679-3   Galaxy           13.1 1.2 14:55.7 +49~39
+NGC 5820 Boo H756-2   Galaxy           12.4 2.2 14:58.7 +53~53
+NGC 5821 Boo H811-3   Galaxy           13.5 1.6 14:58.9 +53~55
+NGC 5851 Boo H886-3   Galaxy           14 1 15:06.9 +12~52
+NGC 5852 Boo H887-3   Galaxy           13.5 1.1 15:07.0 +12~51
+NGC 5856 Boo H71-4    Nonexistent               15:07.3 +18~27
+NGC 5857 Boo H751-2   Galaxy           13.1 1.2 15:07.5 +19~36
+NGC 5859 Boo H572-2   Galaxy           12.4 2.7 15:07.6 +19~35
+NGC 5875 Boo H755-2   Galaxy           12.4 2.4 15:09.2 +52~32
+NGC 5888 Boo H659-3   Galaxy           13.4 1.4 15:13.1 +41~16
+NGC 5893 Boo H678-2   Galaxy           13.2 1.3 15:13.6 +41~58
+NGC 5899 Boo H650-2   Galaxy           11.7 2.6 15:15.0 +42~03
+NGC 5900 Boo H660-3   Galaxy           14 1.4 15:15.1 +42~13
+NGC 5902 Boo H737-3   Galaxy           13 1.1 15:14.4 +50~21
+NGC 5922 Boo H661-3   Galaxy           15 p 0.5 15:21.2 +41~40 Not in Uranometria
+NGC 5930 Boo H651-2   Galaxy           12.2 1.8 15:26.1 +41~41
+NGC 5966 Boo H634-3   Galaxy           12.2 1.8 15:35.8 +39~47
+NGC 5992 Boo H635-3   Galaxy           13.7 0.9 15:44.4 +41~05
+NGC 5993 Boo H636-3   Galaxy           13.1 1.1 15:44.5 +41~07
+NGC 1501 Cam H53-4    Planetary Neb    11.5 0.9 04:07.0 +60~55 "400"
+NGC 1502 Cam H47-7    Open cluster     5.7 8 04:07.7 +62~20 "400"
+NGC 1569 Cam H768-2   Galaxy           11.2 2.9 04:30.8 +64~51
+NGC 1961 Cam H747-3   Galaxy           11.1 4.3 05:42.1 +69~23 "400"
+NGC 2253 Cam H54-7    Open cluster              06:42.4 +66~20
+NGC 2347 Cam H746-3   Galaxy           12.5 2 07:16.1 +64~43 faint roundness
+NGC 2366 Cam H748-3   Galaxy           10.9 7.6 07:28.9 +69~13
+NGC 2403 Cam H44-5    Galaxy           8.4 17.8 07:36.9 +65~36 "400" in M81 group
+NGC 2655 Cam H288-1   Galaxy           10.1 5.1 08:55.6 +78~13 "400" large nucleus
+NGC 3901 Cam H970-3   Galaxy           13.7 1.7 11:43.0 +77~24
+NGC 4127 Cam H279-1   Galaxy           12.7 2.9 12:08.4 +76~48
+NGC 5295 Cam H946-3   Galaxy           13.8 NIU 13:38.6 +79~27
+NGC 5640 Cam H949-3   Galaxy           14.4 NIU 14:20.8 +80~06
+NGC 6907 Cap H141-3   Galaxy           11.3 3.4 20:25.1 -24~49
+NGC  129 Cas H79-8    Open cluster     6.5 21 00:29.9 +60~14 "400"
+NGC  136 Cas H35-6    Open cluster     1 00:31.5 +61~32 "400"
+NGC  185 Cas H707-2   Galaxy           9.2 11.5 00:39.0 +48~20 "400"
+NGC  225 Cas H78-8    Open cluster     7 12 00:43.4 +61~47 "400" W shaped
+NGC  278 Cas H159-1   Galaxy           10.9 2.2 00:52.1 +47~33 "400" Lg B nucl
+NGC  381 Cas H64-8    Open cluster     9.3 6 01:08.3 +61~35 "400"
+NGC  436 Cas H45-7    Open cluster     8.8 6 01:15.6 +58~49 "400"
+NGC  457 Cas H42-7    Open cluster     6.4 13 01:19.1 +58~20 "400" Phi Cas not part
+NGC  559 Cas H48-7    Open cluster     9.5 4 01:29.5 +63~18 "400"
+NGC  637 Cas H49-7    Open cluster     8.2 4 01:42.9 +64~00 "400"
+NGC  654 Cas H46-7    Open cluster     6.5 5 01:44.1 +61~53 "400"
+NGC  659 Cas H65-8    Open cluster     7.9 5 01:44.2 +60~42 "400" 30 Stars
+NGC  663 Cas H31-6    Open cluster     7.1 16 01:46.0 +61~15 "400"
+NGC  896 Cas H695-3   Nebula           27 02:24.8 +61~54
+NGC 1027 Cas H66-8    Open cluster     6.7 20 02:42.7 +61~33 "400" 12 stars
+NGC 1343 Cas H694-3   Galaxy           12.3 2.8 03:37.8 +72~34 ringshaped nucl
+NGC 7635 Cas H52-4    Nebula           5 15 23:20.7 +61~12 Bubble Nebula
+NGC 7789 Cas H30-6    Open cluster     6.7 16 23:57.0 +56~44 "400"
+NGC 7790 Cas H56-7    Open cluster     8.5 17 23:58.4 +61~13 "400"
+NGC 5253 Cen H638-2   Galaxy           10.6 4 13:39.9 -31~39
+NGC   40 Cep H58-4    Planetary Neb    10.7 0.3 00:13.0 +72~32
+NGC 1184 Cep H704-2   Galaxy           12.4 2.6 03:16.6 +80~48
+NGC 6939 Cep H42-6    Open cluster      7.8 8 20:31.4 +60~38 "400"
+NGC 6946 Cep H76-4    Galaxy            8.9 11 20:34.8 +60~09 "400" Nearby spiral
+NGC 7023 Cep H74-4    Clstr wth         7.1 10 21:00.5 +68~10
+NGC 7076 Cep H936-3   Nebula           13.2 2 21:26.3 +62~53
+NGC 7129 Cep H75-4    Clstr wth        11.5 7 21:41.3 +66~06
+NGC 7139 Cep H696-3   Planetary Neb    13.3 1.3 21:45.9 +63~39
+NGC 7142 Cep H66-7    Open cluster      9.3 4 21:45.9 +65~48 "400"
+NGC 7160 Cep H67-8    Open cluster      6.1 7 21:53.7 +62~36 "400"
+NGC 7234 Cep H63-8    Nonexistent             22:12.1 +56~58
+NGC 7354 Cep H705-2   Planetary Neb    12.2 0.2 22:40.4 +61~17
+NGC 7380 Cep H77-8    Clstr wth         7.2 25 22:47.0 +58~06 "400"
+NGC 7419 Cep H43-7    Open cluster     13 2 22:54.3 +60~50
+NGC 7423 Cep H745-3   Open cluster     15 p 6 22:55.3 +57~08 Not in Uranometria
+NGC 7510 Cep H44-7    Open cluster      7.9 4 23:11.5 +60~34 "400"
+NGC 7538 Cep H706-2   Nebula            5 9 23:13.5 +61~31
+NGC 7708 Cep H62-8    Nonexistent           23:34.3 +72~55
+NGC 7762 Cep H55-7    Open cluster     10 11 23:49.8 +68~02
+NGC  132 Cet H855-2   Galaxy           12.7 1.7 00:30.2 + 2~06
+NGC  151 Cet H478-2   Galaxy           11.5 3.7 00:34.0 - 9~42
+NGC  154 Cet H467-3   Galaxy           13.1 1 00:34.1 -12~39
+NGC  157 Cet H3-2     Galaxy           10.4 4.3 00:34.8 - 8~24 "400"
+NGC  163 Cet H954-3   Galaxy           12.8 1.4 00:36.0 -10~07
+NGC  173 Cet H871-3   Galaxy           13 3.7 00:37.2 + 1~56
+NGC  175 Cet H223-3   Galaxy           12.1 2.6 00:37.4 -19~56
+NGC  191 Cet H479-2   Galaxy           13.3 1.5 00:39.0 - 9~00
+NGC  192 Cet H872-3   Galaxy           12.6 2.2 00:39.3 + 0~51
+NGC  196 Cet H860-2   Galaxy           12.9 1.3 00:39.3 + 0~54
+NGC  201 Cet H873-3   Galaxy           12.9 2.1 00:39.7 + 0~51 NGC 192 group
+NGC  210 Cet H452-2   Galaxy           10.9 5.4 00:40.6 -13~52
+NGC  216 Cet H244-3   Galaxy           13.3 1.8 00:41.4 -21~03
+NGC  217 Cet H480-2   Galaxy           12.7 2.5 00:41.5 -10~02
+NGC  227 Cet H444-2   Galaxy           12.2 1.7 00:42.6 - 1~32
+NGC  244 Cet H485-3   Galaxy           13.3 1.3 00:45.8 -15~36
+NGC  245 Cet H445-2   Galaxy           12.2 1.2 00:46.1 - 1~44 Peculiar
+NGC  246 Cet H25-5    Planetary Neb    10.9 0.4 00:47.0 -11~53 "400"
+NGC  247 Cet H20-5    Galaxy            8.9 20 00:47.1 -20~46 "400"
+NGC  255 Cet H472-2   Galaxy           11.8 3.1 00:47.8 -11~28
+NGC  259 Cet H621-2   Galaxy           12.5 2.3 00:48.1 - 2~47
+NGC  268 Cet H463-3   Galaxy           13.1 1.3 00:50.2 - 5~12
+NGC  270 Cet H955-3   Galaxy           12.1 2 00:50.7 - 8~39
+NGC  271 Cet H446-2   Galaxy           12 2.3 00:50.8 - 1~53
+NGC  273 Cet H430-3   Galaxy           12.9 1.7 00:50.8 - 6~53
+NGC  274 Cet H429-3   Galaxy           11.8 1.3 00:51.0 - 7~03
+NGC  279 Cet H439-3   Galaxy           12.7 1.6 00:52.3 - 2~12
+NGC  337 Cet H433-2   Galaxy           11.6 2.8 00:59.8 - 7~35 Coarse spiral pattern
+NGC  352 Cet H191-3   Galaxy           12.6 2.3 01:02.1 - 4~15
+NGC  357 Cet H434-2   Galaxy           11.8 2.6 01:03.4 - 6~20
+NGC  426 Cet H592-3   Galaxy           12.8 1.7 01:12.9 - 0~17 NGC 430 group
+NGC  428 Cet H622-2   Galaxy           11.4 4.1 01:12.9 + 0~59 patchy central region
+NGC  429 Cet H593-3   Galaxy           13.4 1.6 01:13.0 - 0~20 NGC 430 group
+NGC  430 Cet H447-2   Galaxy           12.5 1.8 01:13.1 - 0~15 NGC 430 group
+NGC  450 Cet H440-3   Galaxy           12.1 3.2 01:15.5 - 0~52
+NGC  493 Cet H594-3   Galaxy           12.5 3.8 01:22.2 + 0~57
+NGC  521 Cet H461-2   Galaxy           11.7 3.5 01:24.6 + 1~44
+NGC  533 Cet H462-2   Galaxy           11.4 4.1 01:25.5 + 1~46 many S galaxies near
+NGC  545 Cet H448-2   Galaxy           12.2 3 01:26.0 - 1~20 double system
+NGC  547 Cet H449-2   Galaxy           12.3 1.7 01:26.0 - 1~21 double system
+NGC  550 Cet H463-2   Galaxy           12.7 1.8 01:26.7 + 2~01
+NGC  560 Cet H441-3   Galaxy           12.9 2.3 01:27.4 - 1~55
+NGC  564 Cet H442-3   Galaxy           12.5 1.8 01:27.8 - 1~53
+NGC  584 Cet H100-1   Galaxy           10.4 3.8 01:31.3 - 6~52 "400"
+NGC  586 Cet H431-3   Galaxy           13.2 1.6 01:31.6 - 6~54
+NGC  596 Cet H4-2     Galaxy           10.9 3.5 01:32.9 - 7~02 "400"
+NGC  599 Cet H473-2   Galaxy           13.7 1.7 01:32.8 -12~11
+NGC  600 Cet H432-3   Galaxy           12.4 3.5 01:33.1 - 7~19
+NGC  615 Cet H282-2   Galaxy           11.5 4 01:35.1 - 7~20 "400"
+NGC  622 Cet H454-3   Galaxy           12.9 1.9 01:36.0 + 0~40
+NGC  624 Cet H471-3   Galaxy           12.8 2.7 01:35.7 -10~00
+NGC  636 Cet H283-2   Galaxy           11.3 2.3 01:39.1 - 7~31
+NGC  681 Cet H481-2   Galaxy           11.8 2.8 01:49.2 -10~26 like M104
+NGC  682 Cet H501-2   Galaxy           12.7 1.3 01:49.0 -14~59
+NGC  701 Cet H62-1    Galaxy           12.2 2.5 01:51.1 - 9~42
+NGC  702 Cet H192-3   Galaxy           13.1 1.7 01:51.3 - 4~03 probable interacting
+NGC  720 Cet H105-1   Galaxy           10.2 4.4 01:53.0 -13~44 "400"
+NGC  723 Cet H460-3   Galaxy           12.4 1.3 01:53.9 -23~46
+NGC  731 Cet H266-3   Galaxy           12.1 1.7 01:54.9 - 9~01
+NGC  748 Cet H193-3   Galaxy           12.6 2.9 01:56.4 - 4~28
+NGC  755 Cet H265-3   Galaxy           12.6 4 01:56.4 - 9~04
+NGC  762 Cet H464-3   Galaxy           13.5 1.5 01:57.1 - 5~26
+NGC  773 Cet H468-3   Galaxy           13.2 1.4 01:59.0 -11~31
+NGC  779 Cet H101-1   Galaxy           11 4.1 01:59.7 - 5~58 "400" nearly edge-on
+NGC  788 Cet H435-2   Galaxy           12.3 1.8 02:01.1 - 6~49
+NGC  790 Cet H433-3   Galaxy           12.7 1.3 02:01.5 - 5~23
+NGC  827 Cet H227-3   Galaxy           12.7 2.5 02:08.8 + 7~58
+NGC  833 Cet H482-2   Galaxy           12.7 1.9 02:09.3 -10~08
+NGC  835 Cet H483-2   Galaxy           12.2 1.4 02:09.4 -10~08 Contact with NGC 833
+NGC  838 Cet H484-2   Galaxy           12.8 1.7 02:09.6 -10~09
+NGC  839 Cet H485-2   Galaxy           13 1.8 02:09.7 -10~11
+NGC  850 Cet H259-3   Galaxy           12.9 1.4 02:11.2 - 1~30
+NGC  853 Cet H486-2   Galaxy           12.7 2 02:11.8 - 9~18
+NGC  863 Cet H260-3   Galaxy           12.9 1.2 02:14.6 - 0~46
+NGC  864 Cet H457-3   Galaxy           11 4.6 02:15.5 + 6~00
+NGC  873 Cet H474-2   Galaxy           12.4 1.7 02:16.6 -11~20
+NGC  875 Cet H2-3     Galaxy           12.9 1.4 02:15.9 + 1~03
+NGC  881 Cet H436-2   Galaxy           12.4 2.9 02:18.7 - 6~35
+NGC  883 Cet H437-2   Galaxy           12.4 1.6 02:19.0 - 6~45
+NGC  887 Cet H486-3   Galaxy           12 1.8 02:19.6 -16~04
+NGC  895 Cet H438-2   Galaxy           11.8 3.6 02:21.6 - 5~31 NGC 894 p/o NGC 895
+NGC  907 Cet H224-3   Galaxy           12.6 2.2 02:23.0 -20~43
+NGC  908 Cet H153-1   Galaxy           10.2 5.5 02:23.1 -21~14 "400"
+NGC  936 Cet H23-4    Galaxy           10.1 5.2 02:27.6 - 1~09 "400" central bar
+NGC  941 Cet H261-3   Galaxy           12.4 2.8 02:28.5 - 1~09 with NGC 936
+NGC  945 Cet H487-2   Galaxy           12.1 2.2 02:28.6 -10~32
+NGC  955 Cet H278-2   Galaxy           12 3 02:30.6 - 1~07
+NGC  958 Cet H237-2   Galaxy           12.2 2.8 02:30.7 - 2~57 edge-on spiral
+NGC  977 Cet H472-3   Galaxy           12.7 1.7 02:33.0 -10~44
+NGC  991 Cet H434-3   Galaxy           11.7 2.9 02:35.5 - 7~09
+NGC 1022 Cet H102-1   Galaxy           11.4 2.5 02:38.5 - 6~40 "400"
+NGC 1032 Cet H5-2     Galaxy           11.6 3.5 02:39.4 + 1~06
+NGC 1035 Cet H284-2   Galaxy           12.2 2.2 02:39.5 - 8~08 Nearly edge-on spiral
+NGC 1044 Cet H228-3   Galaxy           13.2 0.6 02:41.1 + 8~44 dbl system
+NGC 1045 Cet H488-2   Galaxy           12.1 2.2 02:40.4 -11~18
+NGC 1046 Cet H229-3   Galaxy           13.8 02:41.2 + 8~43
+NGC 1052 Cet H63-1    Galaxy           10.6 2.9 02:41.1 - 8~15 "400"
+NGC 1055 Cet H1-1     Galaxy           10.6 7.6 02:41.8 + 0~26 "400" edge-on
+NGC 1055 Cet H6-2     Galaxy           10.6 7.6 02:41.8 + 0~26 "400" edge-on
+NGC 1070 Cet H273-2   Galaxy           11.9 2.6 02:43.3 + 4~58
+NGC 1073 Cet H455-3   Galaxy           11 4.9 02:43.7 + 1~23 NGC 1068 group
+NGC 1087 Cet H466-2   Galaxy           11 3.5 02:46.4 - 0~30 NGC1068 group
+NGC 1090 Cet H465-2   Galaxy           11.9 3.8 02:46.6 - 0~15 NGC 1068 group
+NGC 1094 Cet H462-3   Galaxy           12.5 1.2 02:47.5 - 0~17 NGC 1068 group
+NGC 1153 Cet H274-2   Galaxy           12.3 1.3 02:58.1 + 3~22
+NGC 7826 Cet H29-8    Nonexistent               00:05.2 -20~44
+NGC 2204 CMa H13-7    Open cluster      8.6 13 06:15.7 -18~39 "400"
+NGC 2283 CMa H271-3   Galaxy           12.2 2.8 06:45.9 -18~14
+NGC 2318 CMa H14-7    Open cluster              06:59.5 -13~42
+NGC 2327 CMa H25-4    Nebula            1.5 07:04.3 -11~18
+NGC 2352 CMa H15-7    Nonexistent           07:13.6 -24~06 Open cluster    
+NGC 2354 CMa H16-7    Open cluster      6.5 20 07:14.3 -25~44 "400"
+NGC 2358 CMa H45-8    Nonexistent              07:16.8 -17~03 "faint stars?" Open cluster    
+NGC 2359 CMa H21-5    Nebula            8 07:18.6 -13~12 Duck Nebula
+NGC 2360 CMa H12-7    Open cluster      7.2 13 07:17.8 -15~37 "400"
+NGC 2362 CMa H17-7    Clstr wth         4.1 8 07:18.8 -24~57 "400" Tau CMa
+NGC 2367 CMa H27-8    Open cluster      7.9 4 07:20.1 -21~56
+NGC 2374 CMa H35-8    Open cluster      8 19 07:24.0 -13~16
+NGC 2394 CMi H44-8    Nonexistent            07:28.6 + 7~02 Open cluster    
+NGC 2402 CMi H19-3    Galaxy           14.4 07:30.8 + 9~39 double system,contact
+NGC 2459 CMi H479-3   Not documented        07:52.0 + 9~33 several faint stars - open cluster
+NGC 2508 CMi H7-3     Galaxy           12.7 2 08:02.0 + 8~34
+NGC 2507 Cnc H554-2   Galaxy           12.2 1.6 08:01.6 +15~43
+NGC 2512 Cnc H605-3   Galaxy           13.1 1.3 08:03.1 +23~24
+NGC 2513 Cnc H512-3   Galaxy           11.6 2.5 08:02.5 + 9~25 brightest in group
+NGC 2529 Cnc H752-3   Galaxy           08:07.9 +17~49 Undocumented in Uran (2530?)
+NGC 2545 Cnc H627-2   Galaxy           12.4 2.2 08:14.2 +21~21 one-arm spiral
+NGC 2554 Cnc H303-2   Galaxy           12 3.2 08:17.9 +23~28 faint asym disc
+NGC 2558 Cnc H606-3   Galaxy           12.9 2 08:19.4 +20~30
+NGC 2562 Cnc H607-3   Galaxy           12.9 1.4 08:20.4 +21~08
+NGC 2563 Cnc H634-2   Galaxy           12.3 2.3 08:20.6 +21~04
+NGC 2577 Cnc H259-2   Galaxy           12.4 1.8 08:22.7 +22~33
+NGC 2582 Cnc H753-3   Galaxy           13 1 08:25.3 +20~20 s-shaped
+NGC 2592 Cnc H315-2   Galaxy           12.3 1.7 08:27.1 +25~58 brightest of 3
+NGC 2595 Cnc H599-3   Galaxy           12.3 2.9 08:27.7 +21~29 slightly asym spiral
+NGC 2599 Cnc H234-3   Galaxy           12.2 2.4 08:32.2 +22~34
+NGC 2604 Cnc H292-3   Galaxy           12.3 1.9 08:33.3 +29~33 irregular - 2604A & B
+NGC 2608 Cnc H318-2   Galaxy           12.3 2.3 08:35.3 +28~28 asym arms
+NGC 2619 Cnc H319-2   Galaxy           12.4 2.6 08:37.6 +28~43 many very thin arms
+NGC 2628 Cnc H235-3   Galaxy           13.3 1.1 08:40.5 +23~33
+NGC 2648 Cnc H49-3    Galaxy           11.8 3.3 08:42.7 +14~17 spiral
+NGC 2661 Cnc H50-3    Galaxy           12.8 1.5 08:46.0 +12~38 singular,patchy
+NGC 2672 Cnc H48-2    Galaxy           11.6 2.6 08:49.3 +19~04 H80-2
+NGC 2678 Cnc H10-8    Nonexistent 08:50.2 +11~20 Open cluster     - large & course
+NGC 2679 Cnc H294-3   Galaxy           13.3 1.8 08:51.5 +30~52 comp superimp
+NGC 2743 Cnc H608-3   Galaxy           13.7 1.1 09:05.0 +25~00
+NGC 2744 Cnc H60-3    Galaxy           13.4 1.8 09:04.7 +18~28 double system
+NGC 2750 Cnc H291-3   Galaxy           11.9 2 09:05.7 +25~26 slightly asym
+NGC 2764 Cnc H236-3   Galaxy           12.9 1.3 09:08.3 +21~27
+NGC 2774 Cnc H61-3    Galaxy           13.7 0.9 09:10.6 +18~42
+NGC 2775 Cnc H2-1     Galaxy           10.3 4.5 09:10.3 + 7~02 "400"
+NGC 2783 Cnc H295-3   A Galaxy           12.6 2.1 09:13.6 +29~59 NGC 2778 group & IC2449
+NGC 2796 Cnc H296-3   Galaxy           13.8 1.3 09:16.7 +30~55 brightest of three
+NGC 2802 Cnc H62-3    Galaxy           14.5 0.9 09:16.7 +18~58 double system w 2803
+NGC 2803 Cnc H63-3    Galaxy           14.3 1.3 09:16.7 +18~58 double system w 2802
+NGC 2843 Cnc H64-3    Galaxy           NIU NIU 09:20.4 +18~57 not found
+IC  4051 Com H363-3   Galaxy           13.2 1.1 13:00.9 +28~00
+NGC 4015 Com H323-3   Galaxy           13.2 0.9 11:58.7 +25~03
+NGC 4017 Com H369-2   Galaxy           12.2 2.1 11:58.7 +27~26
+NGC 4021 Com H324-3   Galaxy           14.5 0.2 11:59.0 +25~06
+NGC 4028 Com H3-3     Nonexistent 11:59.9 +16~14
+NGC 4032 Com H404-2   Galaxy           12.2 1.7 12:00.6 +20~04
+NGC 4037 Com H77-3    Galaxy           11.9 2.6 12:01.4 +13~24
+NGC 4049 Com H390-3   Galaxy           13.2 0.8 12:03.0 +18~46
+NGC 4061 Com H394-3   Galaxy           13.1 1.2 12:04.1 +20~13
+NGC 4065 Com H395-3   Galaxy           12.6 1.2 12:04.2 +20~13
+NGC 4069 Com H392-3   Galaxy           12:04.2 +20~20
+NGC 4070 Com H391-3   Galaxy           13.1 1.2 12:04.2 +20~26
+NGC 4074 Com H393-3   Galaxy           14.5 0.4 12:04.6 +20~20
+NGC 4076 Com H396-3   Galaxy           13.3 0.8 12:04.6 +20~12
+NGC 4080 Com H355-3   Galaxy           13.8 1.2 12:05.0 +27~00
+NGC 4095 Com H382-3   Galaxy           13.5 12:06.0 +20~35
+NGC 4098 Com H383-3   Galaxy           13.7 1 12:06.1 +20~37
+NGC 4099 Com H384-3   Nonexistent 12:06.1 +20~39
+NGC 4101 Com H326-3   Galaxy           13.5 1 12:06.2 +25~34
+NGC 4104 Com H370-2   Galaxy           12.1 2.6 12:06.6 +28~10
+NGC 4126 Com H68-3    Galaxy           13.4 1 12:08.7 +16~09
+NGC 4131 Com H356-3   Galaxy           13.2 1.4 12:08.7 +29~18 NGC 4134 group
+NGC 4132 Com H357-3   Galaxy           13.9 1.1 12:09.0 +29~14
+NGC 4134 Com H371-2   Galaxy           12.8 2.1 12:09.2 +29~11 NGC 4134 group
+NGC 4136 Com H321-2   Galaxy           11 3.8 12:09.3 +29~56
+NGC 4146 Com H327-3   Galaxy           12.7 1.6 12:10.3 +26~26
+NGC 4147 Com H19-1    Globular 10.2 4 12:10.1 +18~33 "400"
+NGC 4150 Com H73-1    Galaxy           11.6 2.1 12:10.6 +30~24 "400"
+NGC 4152 Com H83-2    Galaxy           12.2 2 12:10.6 +16~02
+NGC 4153 Com H11-1    Nonexistent 12:10.8 +18~22
+NGC 4158 Com H405-2   Galaxy           12.1 1.6 12:11.2 +20~11
+NGC 4162 Com H353-2   Galaxy           12.2 2.3 12:11.9 +24~07
+NGC 4169 Com H358-3   Galaxy           12.2 1.8 12:12.2 +29~10 NGC 4196 group
+NGC 4173 Com H372-2   Galaxy           13 p 4.8 12:12.3 +29~11 NOT IN URANOMETRIA
+NGC 4174 Com H359-3   Galaxy           13.3 0.7 12:12.4 +29~08 NGC 4169 group
+NGC 4175 Com H360-3   Galaxy           13.2 1.9 12:12.5 +29~09 NGC 4169 group
+NGC 4185 Com H373-2   Galaxy           12.1 2.7 12:13.4 +28~31
+NGC 4189 Com H106-2   Galaxy           11.7 2.5 12:13.8 +13~26
+NGC 4196 Com H374-2   Galaxy           12.8 1.5 12:14.4 +28~25
+NGC 4203 Com H175-1   Galaxy           10.9 3.5 12:15.1 +33~12 "400"
+NGC 4204 Com H397-3   Galaxy           12.4 4.3 12:15.2 +20~39
+NGC 4208 Com H107-2   Not documented 12:15.4 +13~54 NGC 4214
+NGC 4209 Com H375-2   Nonexistent 12:15.5 +28~31
+NGC 4212 Com H108-2   Galaxy           11.2 2.7 12:15.7 +13~54
+NGC 4213 Com H354-2   Galaxy           12.5 1.7 12:15.7 +23~59
+NGC 4222 Com H109-2   Galaxy           13.3 2.8 12:16.4 +13~19
+NGC 4237 Com H11-2    Galaxy           11.7 2.3 12:17.2 +15~19
+NGC 4245 Com H74-1    Galaxy           11.4 3.2 12:17.6 +29~36 "400"
+NGC 4251 Com H89-1    Galaxy           10.7 3.7 12:18.1 +28~10 "400" lens shape
+NGC 4253 Com H702-3   Galaxy           13.1 0.8 12:18.4 +29~49
+NGC 4262 Com H110-2   Galaxy           11.6 1.9 12:19.5 +14~53
+NGC 4272 Com H299-3   Galaxy           13.1 1 12:19.8 +30~20
+NGC 4274 Com H75-1    Galaxy           10.4 6.7 12:19.8 +29~37 "400"
+NGC 4275 Com H376-2   Galaxy           13.1 0.7 12:19.9 +27~37
+NGC 4278 Com H90-1    Galaxy           10.2 3.5 12:20.1 +29~17 =K553 K553 K55 H322-2 "400"
+NGC 4283 Com H323-2   Galaxy           12.1 1.1 12:20.3 +29~19
+NGC 4286 Com H300-3   Galaxy           13.1 1.7 12:20.7 +29~21
+NGC 4293 Com H5-5     Galaxy           10.4 5.3 12:21.2 +18~23 "400"
+NGC 4298 Com H111-2   Galaxy           11.4 3.2 12:21.5 +14~36
+NGC 4302 Com H112-2   Galaxy           11.6 4.7 12:21.7 +14~36 nearly edge on
+NGC 4310 Com H378-2   Galaxy           12.2 2.1 12:22.4 +29~12 NGC 4311
+NGC 4312 Com H628-2   Galaxy           11.8 4.7 12:22.5 +15~32
+NGC 4314 Com H76-1    Galaxy           10.6 4.2 12:22.6 +29~53 "400"
+NGC 4317 Com H324-2   Single star 12:22.6 +31~03
+NGC 4328 Com H84-2    Galaxy           13.5 1.5 12:23.3 +15~48
+NGC 4336 Com H406-2   Galaxy           12.5 1.5 12:23.6 +19~27
+NGC 4340 Com H85-2    Galaxy           11.2 3.7 12:23.6 +16~43
+NGC 4344 Com H31-3    Galaxy           12.3 1.4 12:23.6 +17~32
+NGC 4350 Com H86-2    Galaxy           11 2.5 12:24.0 +16~42 "400"
+NGC 4359 Com H648-3   Galaxy           12.7 3.3 12:24.2 +31~31
+NGC 4375 Com H379-2   Galaxy           12.8 1.3 12:25.0 +28~33
+NGC 4377 Com H12-1    Galaxy           11.7 1.5 12:25.2 +14~46
+NGC 4379 Com H87-2    Galaxy           11.7 1.5 12:25.2 +15~36
+NGC 4393 Com H361-3   Galaxy           12.1 3.2 12:25.8 +27~33
+NGC 4394 Com H55-2    Galaxy           10.9 3.3 12:25.9 +18~13 "400"
+NGC 4405 Com H88-2    Galaxy           12 1.6 12:26.1 +16~11
+NGC 4414 Com H77-1    Galaxy           10.1 4.4 12:26.4 +31~13 "400"
+NGC 4419 Com H113-2   Galaxy           11.1 3.4 12:26.9 +15~03 "400"
+NGC 4421 Com H89-2    Galaxy           11.6 2.7 12:27.0 +15~28
+NGC 4448 Com H91-1    Galaxy           11.1 3.7 12:28.2 +28~37 "400"
+NGC 4450 Com H56-2    Galaxy           10.1 5 12:28.5 +17~05 = H90-2 "400"
+NGC 4455 Com H355-2   Galaxy           12.3 2.5 12:28.7 +22~49 Nearly edge-on spiral
+NGC 4459 Com H161-1   Galaxy           10.4 3.5 12:29.0 +13~59 "400"
+NGC 4468 Com H630-2   Galaxy           12.8 1.2 12:29.5 +14~03
+NGC 4473 Com H114-2   Galaxy           10.2 3.7 12:29.8 +13~26 "400" Markarian's chain
+NGC 4474 Com H117-2   Galaxy           11.5 1.9 12:29.9 +14~04 = H629-2 spindle shaped
+NGC 4475 Com H362-3   Galaxy           13.6 1.8 12:29.8 +27~15
+NGC 4477 Com H115-2   Galaxy           10.4 3.9 12:30.0 +13~38 "400" Markarian's chain
+NGC 4479 Com H116-2   Galaxy           12.4 1.5 12:30.3 +13~35
+NGC 4489 Com H91-2    Galaxy           12 1.8 12:30.8 +16~45
+NGC 4494 Com H83-1    Galaxy           9.8 4.6 12:31.4 +25~47 "400"
+NGC 4495 Com H301-3   Galaxy           13.2 1.5 12:31.3 +29~09
+NGC 4498 Com H69-3    Galaxy           12.2 3.2 12:31.7 +16~51
+NGC 4502 Com H92-2    Galaxy           13.9 1.2 12:32.1 +16~42
+NGC 4506 Com H631-2   Galaxy           12.7 1.6 12:32.2 +13~25
+NGC 4514 Com H302-3   Galaxy           13.2 1.1 12:32.5 +29~44
+NGC 4515 Com H93-2    Galaxy           12.3 1.3 12:33.0 +16~15
+NGC 4516 Com H78-3    Galaxy           12.8 1.6 12:33.1 +14~34
+NGC 4525 Com H325-2   Galaxy           12.2 2.7 12:33.8 +30~17
+NGC 4529 Com H26-3    Galaxy           14 NIU 12:31.8 +20~30
+NGC 4540 Com H94-2    Galaxy           11.7 1.9 12:34.8 +15~33
+NGC 4548 Com H120-2   Galaxy           10.2 5 12:35.4 +14~30 "400" M91
+NGC 4555 Com H343-2   Galaxy           12.1 1.4 12:35.7 +26~31
+NGC 4556 Com H380-2   Galaxy           13.1 1.2 12:35.8 +26~54
+NGC 4559 Com H92-1    Galaxy           10 12 12:36.0 +27~58 "400" multi arm spiral
+NGC 4561 Com H407-2   Galaxy           12.5 1.3 12:36.1 +19~20
+NGC 4565 Com H24-5    Galaxy           9.6 16.2 12:36.3 +25~59 "400" edge-on galaxy
+NGC 4571 Com H602-3   Galaxy           11.3 3.8 12:36.9 +14~13
+NGC 4595 Com H632-2   Galaxy           12.1 1.6 12:39.9 +15~18
+NGC 4634 Com H603-3   Galaxy           12.4 2.4 12:42.7 +14~18
+NGC 4651 Com H12-2    Galaxy           10.8 3.5 12:43.7 +16~24
+NGC 4659 Com H127-2   Galaxy           12.1 1.6 12:44.5 +13~31
+NGC 4670 Com H328-3   Galaxy           12.7 1.5 12:45.3 +27~08
+NGC 4673 Com H329-3   Galaxy           12.9 1 12:45.6 +27~04
+NGC 4676 Com H326-2   A Galaxy           13 2 12:46.1 +30~44 Mice Galaxy
+NGC 4685 Com H398-3   Galaxy           12.6 1.5 12:47.1 +19~28
+NGC 4689 Com H128-2   Galaxy           10.9 3.7 12:47.8 +13~46 "400"
+NGC 4692 Com H381-2   Galaxy           12.6 1.1 12:47.9 +27~13
+NGC 4710 Com H95-2    Galaxy           11 3.9 12:49.6 +15~10
+NGC 4725 Com H611-3   Galaxy           9.4 11 12:50.4 +25~30 "400"
+NGC 4747 Com H344-2   Galaxy           12.3 3.2 12:51.8 +25~47
+NGC 4752 Com H82-3    Single star 12:52.3 +13~29
+NGC 4758 Com H70-3    Galaxy           13.1 2.7 12:52.7 +15~51
+NGC 4789 Com H345-2   Galaxy           12.1 1.4 12:54.3 +27~04
+NGC 4793 Com H93-1    Galaxy           11.6 3.1 12:54.6 +28~56
+NGC 4798 Com H382-2   Galaxy           13.2 0.9 12:55.0 +27~25
+NGC 4816 Com H383-2   Galaxy           12.8 1.3 12:56.2 +27~45
+NGC 4819 Com H346-2   Galaxy           13.2 1 12:56.5 +26~59
+NGC 4827 Com H384-2   Galaxy           12.9 1.4 12:56.7 +27~11
+NGC 4839 Com H386-2   Galaxy           12.1 4.1 12:57.4 +27~30
+NGC 4840 Com H385-2   Galaxy           13.7 0.5 12:57.5 +27~37
+NGC 4841 Com H387-2   A Galaxy           12.8 1.7 12:57.5 +28~29
+NGC 4869 Com H388-2   Galaxy           13.8 0.6 12:59.4 +27~55
+NGC 4874 Com H389-2   Galaxy           11.7 2.4 12:59.6 +27~58
+NGC 4889 Com H391-2   Galaxy           11.5 2.8 13:00.1 +27~58
+NGC 4892 Com H390-2   Galaxy           13.9 1.5 13:00.0 +26~54
+NGC 4911 Com H392-2   Galaxy           12.8 1.2 13:00.9 +27~47
+NGC 4921 Com H393-2   Galaxy           12.2 2.3 13:01.4 +27~53
+NGC 4923 Com H394-2   Galaxy           13.7 0.9 13:01.5 +27~51
+NGC 4927 Com H364-3   Galaxy           13.7 NIU 13:02.0 +28~00
+NGC 4944 Com H395-2   Galaxy           12.9 1.5 13:03.8 +28~11
+NGC 4952 Com H396-2   Galaxy           12.4 1.3 13:05.0 +29~08
+NGC 4957 Com H397-2   Galaxy           13 1.1 13:05.2 +27~34
+NGC 4961 Com H398-2   Galaxy           13.6 1.5 13:05.8 +27~44
+NGC 4962 Com H303-3   Nonexistent 13:05.9 +29~04
+NGC 4966 Com H304-3   Galaxy           13.3 0.9 13:06.3 +29~04
+NGC 4979 Com H346-3   Galaxy           13.8 1 13:07.6 +24~49
+NGC 4983 Com H365-3   Galaxy           13.9 1.1 13:08.4 +28~19
+NGC 5000 Com H366-3   Galaxy           13.2 1.6 13:09.8 +28~54
+NGC 5004 Com H305-3   Galaxy           12.9 1.6 13:11.1 +29~38
+NGC 5012 Com H85-1    Galaxy           12.2 2.7 13:11.6 +22~55
+NGC 5016 Com H356-2   Galaxy           12.8 1.7 13:12.1 +24~06
+NGC 5032 Com H367-3   Galaxy           12.8 2 13:13.4 +27~48
+NGC 5053 Com H7-6     Globular 9.8 10.5 13:16.4 +17~42
+NGC 5056 Com H306-3   Galaxy           13.1 1.7 13:16.2 +30~56
+NGC 5057 Com H307-3   Galaxy           13 1.2 13:16.5 +31~01
+NGC 5065 Com H308-3   Galaxy           13.6 1.4 13:17.6 +31~04
+NGC 5089 Com H327-2   Galaxy           13 1.9 13:19.6 +30~15
+NGC 5116 Com H368-3   Galaxy           12.7 2.1 13:22.9 +26~59
+NGC 5180 Com H71-3    Galaxy           13 1.5 13:29.4 +16~49 double system
+NGC 5958 CrB H399-2   Galaxy           12.6 1 15:34.7 +28~40
+NGC 6001 CrB H371-3   Galaxy           13.6 1 15:47.7 +28~38
+NGC 6038 CrB H622-3   Galaxy           13.5 1.1 16:02.6 +37~21
+NGC 6089 CrB H889-3   Galaxy           14 0.7 16:12.7 +33~02
+NGC 6103 CrB H888-3   Galaxy           13.8 0.7 16:15.7 +31~57
+NGC 6104 CrB H688-3   Galaxy           13.2 0.8 16:16.5 +35~42
+NGC 6120 CrB H623-3   Galaxy           13.8 0.5 16:19.8 +37~47 with 6119 & 6122
+NGC 6129 CrB H891-3   Galaxy           13.7 0.7 16:21.8 +37~59
+NGC 6137 CrB H624-3   Galaxy           12.4 1.9 16:23.1 +37~55
+NGC 6142 CrB H892-3   Galaxy           13.8 2.1 16:23.4 +37~16
+NGC 3456 Crt H29-4    Galaxy           12.4 1.6 10:54.1 -16~02
+NGC 3497 Crt H824-3   Nonexistent 11:01.4 -19~28 = 3528? real?  Use 3528
+NGC 3508 Crt H507-2   Galaxy           13.2 1 11:02.9 -16~18
+NGC 3511 Crt H39-5    Galaxy           11 5.5 11:03.4 -23~05
+NGC 3513 Crt H40-5    Galaxy           11.5 2.9 11:03.8 -23~15 S shaped spiral
+NGC 3571 Crt H819-2   Galaxy           12.1 3.4 11:11.5 -18~17
+NGC 3591 Crt H529-3   Galaxy           13.1 1.3 11:14.1 -14~04
+NGC 3636 Crt H550-2   Galaxy           12.4 1.7 11:20.4 -10~17
+NGC 3637 Crt H551-2   Galaxy           12.7 1.7 11:20.7 -10~16
+NGC 3660 Crt H635-2   Galaxy           13.2 2.9 11:23.6 - 8~40
+NGC 3661 Crt H530-3   Galaxy           14 1.7 11:23.7 -13~48
+NGC 3667 Crt H531-3   A Galaxy           12.7 1.4 11:24.3 -13~49
+NGC 3672 Crt H131-1   Galaxy           11.4 3.9 11:25.0 - 9~48 Multi arm spiral
+NGC 3693 Crt H532-3   Galaxy           12.3 3.7 11:28.2 -13~10
+NGC 3715 Crt H562-3   Galaxy           11.1 1.5 11:31.5 -14~12
+NGC 3732 Crt H552-2   Galaxy           12.5 1.4 11:34.2 - 9~51
+NGC 3734 Crt H935-3   Galaxy           13.7 1.4 11:34.7 -14~06
+NGC 3791 Crt H609-3   Galaxy           13.7 1.3 11:39.8 - 9~23
+NGC 3887 Crt H120-1   Galaxy           10.6 3.5 11:47.1 -16~51
+NGC 3892 Crt H553-2   Galaxy           11.5 3.4 11:48.0 -10~58
+NGC 3955 Crt H623-2   Galaxy           11.3 3.7 11:54.0 -23~10
+NGC 3956 Crt H290-3   Galaxy           12.2 3.4 11:54.0 -20~34 Nearly edge-on spiral
+NGC 3957 Crt H294-2   Galaxy           12 3.1 11:54.0 -19~34 edge-on lenticular
+NGC 3962 Crt H67-1    Galaxy           10.7 2.6 11:54.7 -13~58 "400"
+NGC 3981 Crt H274-3   Galaxy           11 3.3 11:56.1 -19~54 Nearly edge-on spiral
+NGC 4024 Crv H295-2   Galaxy           11.9 1.7 11:58.5 -18~21
+NGC 4027 Crv H296-2   Galaxy           11.2 3.8 11:59.5 -19~16 "400"
+NGC 4033 Crv H508-2   Galaxy           11.8 2.2 12:00.6 -17~51
+NGC 4035 Crv H279-3   Galaxy           12.4 1.2 12:00.5 -15~57
+NGC 4038 Crv H28.1-4  Galaxy           10.5 5.4 12:01.9 -18~52 "400" Ringtail Galaxy
+NGC 4039 Crv H28.2-4  Galaxy           10.3 5.4 12:01.9 -18~53
+NGC 4050 Crv H509-2   Galaxy           12.2 3.4 12:02.9 -16~22
+NGC 4114 Crv H533-3   Galaxy           12.7 1.7 12:07.2 -14~11
+NGC 4177 Crv H534-3   Galaxy           13.2 1.6 12:12.8 -14~00
+NGC 4263 Crv H535-3   Galaxy           11.8 1.2 12:19.7 -12~15
+NGC 4361 Crv H65-1    Planetary Neb 10.9 1.8 12:24.5 -18~48 "400"
+NGC 4462 Crv H764-3   Galaxy           ###### 3.7 12:29.3 -23~10 Not in Uranometria
+NGC 4714 Crv H536-3   Galaxy           12.5 1.5 12:50.3 -13~18
+NGC 4724 Crv H280-3   Galaxy           13.9 0.9 12:50.9 -14~20
+NGC 4727 Crv H298-2   Galaxy           13 1.1 12:51.0 -14~20
+NGC 4748 Crv H537-3   Galaxy           13.5 0.8 12:52.2 -13~24
+NGC 4756 Crv H281-3   Galaxy           12.4 1.8 12:52.9 -15~25
+NGC 4763 Crv H489-3   Galaxy           12.6 1.7 12:53.4 -17~00
+NGC 4782 Crv H135-1   Galaxy           11.7 1.8 12:54.6 -12~34
+NGC 4783 Crv H136-1   Galaxy           11.5 1.8 12:54.6 -12~33 = 3C278
+NGC 4794 Crv H538-2   Galaxy           13.7 1.5 12:55.2 -12~37
+NGC 4804 Crv H40-4    Nonexistent 12:55.9 -13~02 = NGC4802 (?)
+NGC 4111 CVn H195-1   Galaxy           10.8 4.8 12:07.1 +43~04 "400"
+NGC 4117 CVn H708-3   Galaxy           13 2.5 12:07.8 +43~08
+NGC 4138 CVn H196-1   Galaxy           11.3 2.9 12:09.5 +43~41
+NGC 4143 CVn H54-4    Galaxy           10.7 2.9 12:09.6 +42~32 "400"
+NGC 4145 CVn H169-1   Galaxy           11.3 6 12:10.0 +39~53
+NGC 4151 CVn H165-1   Galaxy           10.8 6.4 12:10.5 +39~24 "400"
+NGC 4156 CVn H642-2   Galaxy           13.2 1.3 12:10.8 +39~28
+NGC 4163 CVn H399-3   Galaxy           14 1.9 12:12.2 +36~10
+NGC 4181 CVn H777-3   Galaxy           14 NIU 12:13.4 +50~46
+NGC 4183 CVn H697-3   Galaxy           12.3 5 12:13.3 +43~42
+NGC 4187 CVn H813-2   A Galaxy           13.2 1.2 12:13.4 +50~44
+NGC 4190 CVn H409-2   Galaxy           13.3 1.6 12:13.7 +36~38
+NGC 4214 CVn H95-1    Galaxy           9.8 10 12:15.6 +36~20 "400" = NGC 4208
+NGC 4217 CVn H748-2   Galaxy           11.2 5 12:15.8 +47~06
+NGC 4218 CVn H718-3   Galaxy           12.5 0.9 12:15.8 +48~08
+NGC 4220 CVn H209-1   Galaxy           11.4 3.5 12:16.2 +47~53
+NGC 4227 CVn H518-2   Galaxy           12.7 1.6 12:16.5 +33~31
+NGC 4229 CVn H519-2   Galaxy           13.2 1.2 12:16.7 +33~34
+NGC 4231 CVn H719-3   Galaxy           13.3 1.2 12:16.8 +47~27
+NGC 4232 CVn H720-3   Galaxy           13.6 1.4 12:16.8 +47~26
+NGC 4242 CVn H725-3   Galaxy           10.8 5.2 12:17.5 +45~37
+NGC 4244 CVn H41-5    Galaxy           10.4 17 12:17.5 +37~49
+NGC 4248 CVn H742-2   Galaxy           12.5 2.9 12:17.8 +47~25
+NGC 4258 CVn H43-5    Galaxy           8.4 20 12:19.0 +47~18 "400" M106
+NGC 4288 CVn H726-3   Galaxy           12.9 2.7 12:20.6 +46~17
+NGC 4346 CVn H210-1   Galaxy           11.1 3.2 12:23.5 +47~00 "400"
+NGC 4369 CVn H166-1   Galaxy           11.7 2.2 12:24.6 +39~23
+NGC 4381 CVn H743-2   Nonexistent 12:25.1 +48~50 = NGC4357 (?)
+NGC 4389 CVn H749-2   Galaxy           11.7 2.4 12:25.6 +45~41
+NGC 4392 CVn H729-3   Galaxy           13.7 0.7 12:25.2 +45~52
+NGC 4395 CVn H29.1-5  Galaxy           10.2 14.5 12:25.8 +33~33
+NGC 4401 CVn H29.2-5  Nonexistent 12:25.9 +33~31
+NGC 4449 CVn H213-1   Galaxy           9.6 5.5 12:28.2 +44~06 "400"
+NGC 4460 CVn H212-1   Galaxy           11.3 4.3 12:28.8 +44~52
+NGC 4485 CVn H197-1   Galaxy           11.9 2.7 12:30.5 +41~42 "400"
+NGC 4490 CVn H198-1   Galaxy           9.8 6.4 12:30.6 +41~38 "400"
+NGC 4534 CVn H410-2   Galaxy           12.3 4.1 12:34.1 +35~31
+NGC 4583 CVn H495-3   Galaxy           13.5 1.1 12:38.0 +33~28
+NGC 4617 CVn H744-2   Galaxy           13.2 2.8 12:41.1 +50~26
+NGC 4618 CVn H178-1   Galaxy           10.8 4.1 12:41.5 +41~09 H179-1 "400"
+NGC 4619 CVn H411-2   Galaxy           12.7 1.4 12:41.7 +35~04
+NGC 4625 CVn H660-2   Galaxy           12.3 1.4 12:41.9 +41~16
+NGC 4627 CVn H659-2   Galaxy           12.4 2.1 12:42.0 +32~34
+NGC 4631 CVn H42-5    Galaxy           9.2 15.5 12:42.1 +32~32 "400"
+NGC 4655 CVn H661-2   Galaxy           14.1 1 12:43.6 +41~02
+NGC 4656 CVn H176-1   Galaxy           10.5 20 12:44.0 +32~10 "400"
+NGC 4657 CVn H177-1   Galaxy           10.5 15 12:44.2 +32~12 Superimposed on 4656
+NGC 4662 CVn H643-2   Galaxy           12.7 2.3 12:44.5 +37~07
+NGC 4704 CVn H662-2   Galaxy           13.7 0.9 12:48.8 +41~55
+NGC 4707 CVn H815-3   Galaxy           12.9 2.3 12:48.4 +51~10
+NGC 4711 CVn H412-2   Galaxy           13.4 1.4 12:48.9 +35~21
+NGC 4719 CVn H424-3   Galaxy           13.2 1.6 12:50.1 +33~09
+NGC 4737 CVn H496-3   Galaxy           14.3 0.6 12:50.9 +34~09
+NGC 4741 CVn H721-3   Galaxy           13.7 1.4 12:50.9 +47~40
+NGC 4774 CVn H618-3   Galaxy           14.3 0.6 12:53.2 +36~49
+NGC 4800 CVn H211-1   Galaxy           11.5 1.6 12:54.6 +46~32 "400"
+NGC 4834 CVn H817-3   Galaxy           14.5 0.9 12:56.4 +52~18
+NGC 4861 CVn H30-4    Galaxy           12.3 4.1 12:59.0 +34~52
+NGC 4868 CVn H644-2   Galaxy           12.2 1.5 12:59.1 +37~19
+NGC 4914 CVn H645-2   Galaxy           11.6 3.5 13:00.7 +37~19
+NGC 4932 CVn H818-3   Galaxy           13.6 1.6 13:02.6 +50~27
+NGC 4956 CVn H413-2   Galaxy           12.4 1.5 13:05.1 +35~11
+NGC 4963 CVn H663-2   Galaxy           13.2 1.2 13:05.8 +41~43
+NGC 4985 CVn H654-3   Galaxy           13.7 1.3 13:08.1 +41~41
+NGC 4986 CVn H401-3   Galaxy           13.2 1.6 13:08.4 +35~12
+NGC 4987 CVn H815-2   Galaxy           13.4 1.2 13:08.0 +51~56
+NGC 4998 CVn H819-3   Galaxy           14.1 0.9 13:08.2 +50~40
+NGC 5003 CVn H655-3   Galaxy           13.4 1 13:08.6 +43~44 double system
+NGC 5005 CVn H96-1    Galaxy           9.8 5.8 13:10.9 +37~03 "400"
+NGC 5009 CVn H820-3   Galaxy           14.5 1.2 13:10.8 +50~05
+NGC 5014 CVn H414-2   Galaxy           12.8 1.6 13:11.5 +36~17
+NGC 5023 CVn H664-2   Galaxy           12.3 6.9 13:12.2 +44~02
+NGC 5025 CVn H649-3   Galaxy           13.4 2 13:12.8 +31~48
+NGC 5033 CVn H97-1    Galaxy           10.2 10.5 13:13.4 +36~36 "400"
+NGC 5040 CVn H816-2   Galaxy           14.1 1 13:13.6 +51~16
+NGC 5074 CVn H309-3   Galaxy           14 0.7 13:18.4 +31~28
+NGC 5093 CVn H633-3   Galaxy           13.7 1.5 13:19.6 +40~23
+NGC 5096 CVn H650-3   Galaxy           13.8 1.5 13:20.2 +33~05
+NGC 5103 CVn H665-2   Galaxy           12.6 1.4 13:20.5 +43~04
+NGC 5107 CVn H619-3   Galaxy           13.2 1.6 13:21.4 +38~32
+NGC 5112 CVn H646-2   Galaxy           12.1 3.7 13:21.9 +38~44
+NGC 5123 CVn H666-2   Galaxy           12.8 1.3 13:23.2 +43~04
+NGC 5127 CVn H328-2   Galaxy           11.9 2.3 13:23.8 +31~34
+NGC 5141 CVn H402-3   Galaxy           12.8 1.5 13:24.9 +36~23
+NGC 5142 CVn H403-3   Galaxy           13.3 1 13:25.0 +36~24
+NGC 5145 CVn H667-2   Galaxy           12.3 2.1 13:25.2 +43~15
+NGC 5149 CVn H404-3   Galaxy           12.9 1.5 13:26.1 +35~56
+NGC 5154 CVn H405-3   Galaxy           13.8 1.3 13:26.4 +36~00
+NGC 5157 CVn H651-3   Galaxy           13.2 1.5 13:27.4 +32~01
+NGC 5173 CVn H672-3   Galaxy           12.1 1 13:28.4 +46~36
+NGC 5187 CVn H652-3   Galaxy           13.3 1.7 13:29.9 +31~07
+NGC 5195 CVn H186-1   Galaxy           9.6 6.4 13:30.0 +47~16 "400" with M51
+NGC 5198 CVn H689-2   Galaxy           11.8 2 13:30.2 +46~40
+NGC 5199 CVn H406-3   Galaxy           14 0.9 13:30.6 +34~49
+NGC 5214 CVn H656-3   Galaxy           13.6 1 13:32.8 +41~52
+NGC 5223 CVn H407-3   Galaxy           13 1.5 13:34.4 +34~42 NGC 5223 Group
+NGC 5225 CVn H822-3   Galaxy           13.5 0.6 13:33.3 +51~30
+NGC 5228 CVn H408-3   Galaxy           13.3 1 13:34.5 +34~46 NGC 5223 Group
+NGC 5233 CVn H425-3   Galaxy           13.9 1.1 13:35.1 +34~40 NGC 5223 Group
+NGC 5238 CVn H823-3   Galaxy           13.4 1.8 13:34.7 +51~37
+NGC 5240 CVn H409-3   Galaxy           13.1 1.9 13:35.9 +35~34
+NGC 5243 CVn H620-3   Galaxy           13.1 1.4 13:36.2 +38~21
+NGC 5263 CVn H370-3   Galaxy           13.3 1.5 13:40.0 +28~24
+NGC 5265 CVn H410-3   Galaxy           13.9 0.6 13:40.1 +36~51
+NGC 5273 CVn H98-1    Galaxy           11.6 2.8 13:42.1 +35~39 "400"
+NGC 5289 CVn H668-2   Galaxy           13 1.7 13:45.1 +41~30
+NGC 5290 CVn H170-1   Galaxy           12.5 3.3 13:45.3 +41~43
+NGC 5297 CVn H180-1   Galaxy           11.8 5.3 13:46.4 +43~52
+NGC 5301 CVn H688-2   Galaxy           12.7 3.8 13:46.4 +46~06
+NGC 5303 CVn H681-3   Galaxy           12.6 0.9 13:47.8 +38~18
+NGC 5305 CVn H621-3   Galaxy           13.6 1.5 13:47.9 +37~50
+NGC 5311 CVn H710-2   Galaxy           12.3 2 13:49.0 +40~00
+NGC 5312 CVn H422-3   Galaxy           13.9 0.8 13:49.8 +33~38
+NGC 5313 CVn H711-2   Galaxy           12 1.5 13:49.7 +39~59
+NGC 5318 CVn H423-3   Galaxy           12.6 1.5 13:50.5 +33~43 double w/ 5319
+NGC 5320 CVn H669-2   Galaxy           12.1 3.3 13:50.3 +41~22
+NGC 5326 CVn H712-2   Galaxy           11.9 2 13:50.8 +39~34
+NGC 5336 CVn H670-2   Galaxy           12.8 1.5 13:52.1 +43~15
+NGC 5337 CVn H698-3   Galaxy           12.5 1.6 13:52.5 +39~42
+NGC 5347 CVn H424-2   Galaxy           12.6 1.6 13:53.3 +33~29
+NGC 5350 CVn H713-2   Galaxy           11.3 2.1 13:53.4 +40~22
+NGC 5351 CVn H697-2   Galaxy           12.1 2.7 13:53.5 +37~55 sBN w knotty arms
+NGC 5352 CVn H415-2   Galaxy           13 1.2 13:53.6 +36~09
+NGC 5353 CVn H714-2   Galaxy           11 2.8 13:53.5 +40~17
+NGC 5354 CVn H715-2   Galaxy           11.4 2.2 13:53.5 +40~18
+NGC 5355 CVn H699-3   Galaxy           13.1 1.2 13:53.8 +40~21
+NGC 5361 CVn H682-3   Galaxy           13.8 0.9 13:54.7 +38~27
+NGC 5362 CVn H671-2   Galaxy           12.3 2.2 13:54.9 +41~19
+NGC 5371 CVn H716-2   Galaxy           10.6 4.1 13:55.7 +40~28
+NGC 5377 CVn H187-1   Galaxy           11.3 4.1 13:56.3 +47~14
+NGC 5380 CVn H698-2   Galaxy           12.3 1.8 13:56.9 +37~37
+NGC 5383 CVn H181-1   Galaxy           11.4 3.2 13:57.1 +41~51
+NGC 5394 CVn H191-1   Galaxy           13 1.7 13:58.6 +37~27
+NGC 5395 CVn H190-1   Galaxy           11.4 2.7 13:58.6 +37~25
+NGC 5396 CVn H125-3   Nonexistent 13:59.0 +29~07
+NGC 5399 CVn H411-3   Galaxy           13.8 1.2 13:59.5 +34~47
+NGC 5401 CVn H412-3   Galaxy           13.7 1.5 13:59.7 +36~15
+NGC 5403 CVn H683-3   Galaxy           13.6 2.9 13:59.9 +38~11
+NGC 5406 CVn H699-2   Galaxy           12.3 1.7 14:00.3 +38~55
+NGC 5407 CVn H684-3   Galaxy           13.2 1.3 14:00.9 +39~09
+NGC 5410 CVn H672-2   Galaxy           13 1.5 14:00.7 +41~00
+NGC 5433 CVn H653-3   Galaxy           13.6 1.6 14:02.5 +32~31
+NGC 5440 CVn H416-2   Galaxy           12.3 2.9 14:03.0 +34~46 NGC 5444 Group
+NGC 5444 CVn H417-2   Galaxy           11.8 2.5 14:03.4 +35~08 NGC 5444 Group
+NGC 5445 CVn H413-3   Galaxy           13 1.7 14:03.5 +35~02 NGC 5444 Group
+NGC 6824 Cyg H878-2   Galaxy           11.9 2.1 19:43.7 +56~07
+NGC 6826 Cyg H73-4    Planetary Neb 8.8 2.3 19:44.8 +50~31 "400" Blinking Planetary Neb
+NGC 6834 Cyg H16-8    Open cluster     7.8 5 19:52.2 +29~25 "400"
+NGC 6857 Cyg H144-3   Planetary Neb NIU NIU 20:01.9 +33~31
+NGC 6866 Cyg H59-7    Open cluster     7.6 7 20:03.7 +44~00 "400"
+NGC 6874 Cyg H86-8    Nonexistent 20:07.8 +38~14
+NGC 6888 Cyg H72-4    Nebula           5 20 20:12.0 +38~21 Crescent Nebula
+NGC 6894 Cyg H13-4    Planetary Neb 12.3 0.7 20:16.4 +30~34
+NGC 6895 Cyg H83-8    Nonexistent 20:16.4 +50~14
+NGC 6910 Cyg H56-8    Open cluster     7.4 8 20:23.1 +40~47 "400"
+NGC 6960 Cyg H15-5    Nebula           5 70 20:45.7 +30~43 Veil
+NGC 6979 Cyg H206-2   Nebula NIU           7 20:51.0 +32~09 Veil
+NGC 6989 Cyg H82-8    Nonexistent 20:54.1 +45~17
+NGC 6991 Cyg H76-8    Open cluster     NIU 5 20:56.6 +47~25
+NGC 6992 Cyg H14-5    Nebula           5 60 20:56.4 +31~43 Veil, with NGC6995
+NGC 6997 Cyg H58-8    Open cluster     ###### 15 20:56.5 +44~38 Not in Uranometria
+NGC 7000 Cyg H37?-5   Nebula           5 120 20:58.8 +44~20 "400" North American Nebula
+NGC 7008 Cyg H192-1   Planetary Neb 10.7 1.4 21:00.6 +54~33 "400"
+NGC 7013 Cyg H203-2   Galaxy           11.3 4.8 21:03.6 +29~54
+NGC 7024 Cyg H57-8    Nonexistent 21:06.0 +41~30
+NGC 7031 Cyg H74-8    Open cluster     9.1 5 21:07.3 +50~50
+NGC 7044 Cyg H24-6    Open cluster     12 3.5 21:12.9 +42~29 "400"
+NGC 7062 Cyg H51-7    Open cluster     8.3 7 21:23.2 +46~23 "400"
+NGC 7067 Cyg H50-7    Open cluster     9.7 3 21:24.2 +48~01
+NGC 7082 Cyg H52-7    Open cluster     7.2 25 21:29.4 +47~05
+NGC 7086 Cyg H32-6    Open cluster     8.4 9 21:30.5 +51~35 "400"
+NGC 7128 Cyg H40-7    Open cluster     9.7 3 21:44.0 +53~43 "400"
+NGC 6905 Del H16-4    Planetary Neb 11.1 1.7 20:22.4 +20~07 "400" Blue Flash Neb
+NGC 6934 Del H103-1   Globular 8.7 5.9 20:34.2 + 7~24 "400"
+NGC 6950 Del H23-8    Nonexistent 20:41.2 +16~38
+NGC 6956 Del H219-3   Galaxy           12.3 1.6 20:44.0 +12~31
+NGC 7006 Del H52-1    Globular 10.6 2.8 21:01.5 +16~11 "400" very remote
+UGC 6515 Dra H969-3   Open cluster     11:32.5 +74~32
+NGC 2908 Dra H977-3   Galaxy           14 p 09:43.5 +79~41 Not in Uranometria ?*
+NGC 2938 Dra H963-3   Galaxy           13.5 2.2 09:38.3 +76~19
+NGC 2963 Dra H315-3   Galaxy           13.5 1.1 09:47.8 +72~58 P w NGC 2957
+NGC 2977 Dra H282-1   Galaxy           12.5 1.5 09:43.8 +74~52 low surface br
+NGC 3057 Dra H978-3   Galaxy           13 2.6 10:05.6 +80~17
+NGC 3061 Dra H903-2   Galaxy           12.8 1.8 09:56.2 +75~52
+NGC 3144 Dra H964-3   Galaxy           13.4 1.3 10:15.5 +74~13
+NGC 3147 Dra H79-1    Galaxy           10.6 4.3 10:16.9 +73~24 "400"
+NGC 3155 Dra H965-3   Galaxy           12.8 1.5 10:23.0 +74~47
+NGC 3183 Dra H283-1   Galaxy           11.9 2.2 10:26.5 +74~39
+NGC 3197 Dra H966-3   Galaxy           13.5 1.3 10:14.4 +77~49
+NGC 3210 Dra H979-3   Galaxy           10:27.2 +79~51 Not in Uranometria
+NGC 3212 Dra H980-3   Galaxy           13.1 1.6 10:28.1 +79~47
+NGC 3215 Dra H981-3   Galaxy           13 1 10:29.0 +79~46
+NGC 3252 Dra H316-3   Galaxy           13.5 1.8 10:34.4 +73~46
+NGC 3329 Dra H284-1   Galaxy           12.2 2 10:44.7 +76~49
+NGC 3343 Dra H317-3   Galaxy           13.4 1.3 10:46.1 +73~21
+NGC 3403 Dra H335-2   Galaxy           12.2 3.2 10:53.9 +73~41
+NGC 3465 Dra H967-3   Galaxy           13.5 1.4 10:59.3 +75~12
+NGC 3500 Dra H968-3   Galaxy           15 p 11:01.7 +75~13 Not in Uranometria
+NGC 3523 Dra H904-2   Galaxy           12.8 1.5 11:02.8 +75~08
+NGC 3562 Dra H337-2   Galaxy           12.2 1.7 11:12.9 +72~53
+NGC 3682 Dra H262-1   Galaxy           12.5 2.1 11:27.7 +66~35
+NGC 3735 Dra H287-1   Galaxy           11.8 3.9 11:36.0 +70~32 nearly edge-on
+NGC 3747 Dra H969-3   Nonexistent 11:37.5 +74~59
+NGC 3752 Dra H905-2   Galaxy           12.8 1.6 11:32.5 +74~38
+NGC 3879 Dra H881-2   Galaxy           13.1 2.3 11:46.9 +69~24
+NGC 3890 Dra H940-3   Galaxy           13.2 0.9 11:49.4 +74~20
+NGC 3939 Dra H971-3   Nonexistent 11:53.2 +75~07
+NGC 3961 Dra H905-3   Galaxy           13.5 1.3 11:55.0 +69~20
+NGC 4034 Dra H903-3   Galaxy           13.5 1.6 12:01.5 +69~19
+NGC 4120 Dra H904-3   Galaxy           13.5 1.6 12:08.5 +69~33
+NGC 4128 Dra H263-1   Galaxy           12 2.5 12:08.5 +68~46
+NGC 4133 Dra H278-1   Galaxy           12.3 1.8 12:08.6 +74~56
+NGC 4159 Dra H941-3   Galaxy           13.4 1.4 12:10.7 +76~09
+NGC 4210 Dra H850-3   Galaxy           12.5 1.9 12:15.3 +65~59
+NGC 4236 Dra H51-5    Galaxy           9.6 21 12:16.7 +69~28 spiral structure
+NGC 4238 Dra H851-3   Galaxy           13.6 1.6 12:16.9 +63~25
+NGC 4250 Dra H264-1   Galaxy           11.8 2.3 12:17.4 +70~48
+NGC 4256 Dra H846-2   Galaxy           11.9 4.1 12:18.7 +65~54 edge-on spindle
+NGC 4291 Dra H275-1   Galaxy           11.5 2 12:20.3 +75~22
+NGC 4319 Dra H276-1   Galaxy           11.9 2.8 12:21.7 +75~19
+NGC 4331 Dra H942-3   Galaxy           14.1 2 12:22.4 +76~11
+NGC 4332 Dra H847-2   Galaxy           12.2 2.2 12:22.8 +65~51
+NGC 4363 Dra H938-3   Galaxy           13.5 1.4 12:23.5 +74~57
+NGC 4386 Dra H277-1   Galaxy           11.7 2.8 12:24.5 +75~32
+NGC 4391 Dra H852-3   Galaxy           12.7 1.2 12:25.3 +64~56
+NGC 4441 Dra H848-2   Galaxy           12.7 4.1 12:27.3 +64~48
+NGC 4521 Dra H849-2   Galaxy           12.2 2.5 12:32.8 +63~57
+NGC 4545 Dra H850-2   Galaxy           12.3 2.7 12:34.6 +63~31
+NGC 4572 Dra H939-3   Galaxy           14.1 1.6 12:35.9 +74~15
+NGC 4589 Dra H273-1   Galaxy           10.7 3 12:37.4 +74~12
+NGC 4648 Dra H274-1   Galaxy           12 1.7 12:41.8 +74~25
+NGC 4693 Dra H906-3   Galaxy           13.4 2.2 12:47.1 +71~12
+NGC 4749 Dra H907-3   Galaxy           13.5 1.6 12:51.2 +71~38
+NGC 4750 Dra H78-4    Galaxy           11.2 2.1 12:50.1 +72~52 Dark ring around nucl
+NGC 4857 Dra H908-3   Galaxy           13.8 1.2 12:57.2 +70~12
+NGC 5667 Dra H807-2   Galaxy           12.5 1.6 14:30.4 +59~29
+NGC 5678 Dra H237-1   Galaxy           11.3 3.2 14:32.1 +57~55
+NGC 5777 Dra H806-3   Galaxy           13.3 3.2 14:51.3 +58~58
+NGC 5866 Dra H215-1   Galaxy           9.9 6.6 15:06.5 +55~46 "400" M102
+NGC 5879 Dra H757-2   Galaxy           11.6 4.4 15:09.8 +57~00
+NGC 5881 Dra H818-2   Galaxy           13.3 1.7 15:09.1 +62~57
+NGC 5894 Dra H763-2   Galaxy           12.9 3 15:11.7 +59~49
+NGC 5905 Dra H758-2   Galaxy           11.7 4.3 15:15.4 +55~31
+NGC 5907 Dra H759-2   Galaxy           10.3 11.5 15:15.9 +56~19 "400"
+NGC 5908 Dra H760-2   Galaxy           11.8 2.7 15:16.7 +55~25
+NGC 5949 Dra H906-2   Galaxy           12 2.1 15:28.0 +64~46
+NGC 5963 Dra H761-2   Galaxy           12.5 3.7 15:33.5 +56~35
+NGC 5965 Dra H762-2   Galaxy           11.7 5.5 15:34.0 +56~42
+NGC 5982 Dra H764-2   Galaxy           11.1 3 15:38.7 +59~21 "400"
+NGC 5985 Dra H766-2   Galaxy           11.1 5.3 15:39.6 +59~20
+NGC 5987 Dra H765-2   Galaxy           11.7 4.7 15:39.9 +58~05
+NGC 5989 Dra H738-3   Galaxy           13.1 0.9 15:41.5 +59~45
+NGC 6015 Dra H739-3   Galaxy           11.1 6.4 15:51.4 +62~19
+NGC 6079 Dra H884-3   Galaxy           12.7 1.4 16:04.5 +69~38
+NGC 6088 Dra H812-3   Galaxy           15.6 0.7 16:10.7 +57~28
+NGC 6125 Dra H810-2   Nonexistent 16:18.9 +57~36 = NGC6130 (?)
+NGC 6140 Dra H740-3   Galaxy           11.3 7.3 16:20.9 +65~23
+NGC 6143 Dra H811-2   Galaxy           13.2 0.9 16:21.7 +55~05
+NGC 6182 Dra H813-3   Galaxy           13.5 1.7 16:29.5 +55~31
+NGC 6338 Dra H812-2   Galaxy           12.3 1.5 17:15.3 +57~25
+NGC 6340 Dra H767-2   Galaxy           11 3 17:10.4 +72~18
+NGC 6412 Dra H41-6    Galaxy           11.8 2.3 17:29.6 +75~42
+NGC 6434 Dra H741-3   Galaxy           12.4 2.2 17:36.8 +72~05
+NGC 6543 Dra H37-4    Planetary Neb 8.8 5.8 17:58.6 +66~38 "400" Cat's eye neb.
+NGC 6742 Dra H742-3   Planetary Neb 13.4 0.5 18:59.3 +48~28
+NGC 7046 Equ H858-3   Galaxy           13.1 1.6 21:14.9 + 2~50
+NGC 1084 Eri H64-1    Galaxy           10.6 2.9 02:46.0 - 7~35 "400"
+NGC 1114 Eri H449-3   Galaxy           12.8 1.5 02:49.2 -17~00
+NGC 1125 Eri H450-3   Galaxy           12.6 1.5 02:51.8 -16~38
+NGC 1140 Eri H470-2   Galaxy           12.5 1.4 02:54.6 -10~02
+NGC 1162 Eri H469-3   Galaxy           12.5 1.3 02:58.9 -12~24
+NGC 1172 Eri H502-2   Galaxy           12 2.2 03:01.6 -14~50
+NGC 1187 Eri H245-3   Galaxy           10.7 5.2 03:02.6 -22~52 Multi arm spiral
+NGC 1199 Eri H503-2   Galaxy           11.5 2.2 03:03.6 -15~37 Brightest group
+NGC 1200 Eri H475-2   Galaxy           12.7 2.8 03:03.8 -11~59
+NGC 1208 Eri H285-2   Galaxy           12.6 1.9 03:06.2 - 9~32
+NGC 1209 Eri H504-2   Galaxy           11.4 2.6 03:06.0 -15~37
+NGC 1232 Eri H258-2   Galaxy           9.9 7.8 03:09.8 -20~35 face-on spiral
+NGC 1239 Eri H262-3   Galaxy           14.2 1.1 03:11.0 - 2~31
+NGC 1241 Eri H286-2   Galaxy           12 2.8 03:11.3 - 8~55
+NGC 1242 Eri H591-3   Galaxy           13.7 0.9 03:11.3 - 8~54
+NGC 1247 Eri H900-2   Galaxy           12.5 3 03:12.2 -10~29
+NGC 1248 Eri H443-3   Galaxy           12.5 1.1 03:12.8 - 5~13
+NGC 1253 Eri H17-4    Galaxy           11.7 5.4 03:14.1 - 2~49
+NGC 1266 Eri H194-3   Galaxy           12.7 1.5 03:16.0 - 2~24
+NGC 1284 Eri H956-3   Galaxy           12.1 2 03:17.6 -10~18
+NGC 1287 Eri H195-3   Galaxy           14.2 0.9 03:18.6 - 2~45
+NGC 1299 Eri H287-2   Galaxy           13.6 1.2 03:20.1 - 6~17
+NGC 1304 Eri H444-3   Galaxy           13.7 1.3 03:21.0 - 4~35
+NGC 1308 Eri H568-3   Galaxy           13.9 1.3 03:22.5 - 2~45
+NGC 1309 Eri H106-1   Galaxy           11.6 2.3 03:22.1 -15~24
+NGC 1320 Eri H197-3   Galaxy           12.4 1.7 03:24.8 - 3~01
+NGC 1321 Eri H196-3   Galaxy           13.7 1.1 03:24.9 - 3~00
+NGC 1324 Eri H445-3   Galaxy           13.4 2 03:25.0 - 5~45
+NGC 1325 Eri H77-4    Galaxy           11.6 4.6 03:24.4 -21~33
+NGC 1331 Eri H959-3   Galaxy           13.2 1 03:26.5 -21~21
+NGC 1332 Eri H60-1    Galaxy           10.3 4.6 03:26.3 -21~20
+NGC 1353 Eri H246-3   Galaxy           11.4 3.4 03:32.1 -20~49
+NGC 1354 Eri H487-3   Galaxy           13.7 2.6 03:32.4 -15~13
+NGC 1357 Eri H290-2   Galaxy           11.5 3.6 03:33.2 -13~40
+NGC 1358 Eri H446-3   Galaxy           12.1 2.8 03:33.7 - 5~05
+NGC 1362 Eri H960-3   Galaxy           12.5 1.3 03:33.8 -20~17
+NGC 1370 Eri H559-3   Galaxy           12.4 1.5 03:35.2 -20~22
+NGC 1376 Eri H288-2   Galaxy           12.1 2.2 03:37.1 - 5~03
+NGC 1377 Eri H961-3   Galaxy           12.4 1.9 03:36.7 -20~54
+NGC 1393 Eri H451-3   Galaxy           12 1.8 03:38.6 -18~26
+NGC 1395 Eri H58-1    Galaxy           9.7 5.4 03:38.5 -23~02
+NGC 1397 Eri H569-3   Galaxy           13.7 1.5 03:39.6 - 4~40
+NGC 1400 Eri H593-2   Galaxy           11.1 1.9 03:39.5 -18~41
+NGC 1401 Eri H247-3   Galaxy           12.3 2.3 03:39.4 -22~44
+NGC 1407 Eri H107-1   Galaxy           9.8 2.5 03:40.2 -18~35 "400"
+NGC 1415 Eri H267-2   Galaxy           11.5 3.2 03:41.0 -22~34
+NGC 1417 Eri H455-2   Galaxy           12 2.8 03:42.0 - 4~42
+NGC 1418 Eri H456-2   Galaxy           13.6 0.9 03:42.3 - 4~44
+NGC 1421 Eri H291-2   Galaxy           11.4 3.6 03:42.5 -13~29 Nearly edge-on
+NGC 1426 Eri H248-3   Galaxy           11.4 2.1 03:42.8 -22~07
+NGC 1439 Eri H249-3   Galaxy           11.2 2.8 03:44.8 -21~55
+NGC 1440 Eri H458-2   Galaxy           11.5 2.3 03:45.0 -18~16
+NGC 1441 Eri H597-2   Galaxy           12.9 1.5 03:45.7 - 4~06
+NGC 1442 Eri H594-2   Not documented d 3:45.0 -18~16
+NGC 1452 Eri H459-2   Galaxy           12.1 2.5 03:45.4 -18~38 = NGC 1455
+NGC 1453 Eri H155-1   Galaxy           11.6 2.1 03:46.4 - 3~58
+NGC 1461 Eri H460-2   Galaxy           11.7 3.3 03:48.5 -16~24 Lens-shaped
+NGC 1482 Eri H962-3   Galaxy           12.1 2.2 03:54.7 -20~30
+NGC 1498 Eri H3-7     Nonexistent 04:00.5 -12~01
+NGC 1507 Eri H279-2   Galaxy           12.2 3.4 04:04.5 - 2~11
+NGC 1516 Eri H499-3   A Galaxy           11.6 0.5 04:08.1 - 8~53
+NGC 1535 Eri H26-4    Planetary Neb 9.6 0.7 04:14.2 -12~44 "400"
+NGC 1552 Eri H490-3   Galaxy           12.9 2 04:20.3 - 0~40 spiral
+NGC 1576 Eri H587-3   Galaxy           13.5 1.3 04:26.2 - 3~37
+NGC 1600 Eri H158-1   Galaxy           10.9 2.3 04:31.7 - 5~05 brtst in grp
+NGC 1609 Eri H585-3   Galaxy           13.5 1.1 04:32.6 - 4~22
+NGC 1611 Eri H586-3   Galaxy           13 1.9 04:33.0 - 4~17
+NGC 1618 Eri H524-2   Galaxy           12.6 2.8 04:36.1 - 3~09
+NGC 1620 Eri H514-2   Galaxy           12.3 2.9 04:36.6 - 0~09
+NGC 1635 Eri H515-2   Galaxy           12.4 1.5 04:40.1 - 0~33
+NGC 1636 Eri H522-2   Galaxy           12 1.3 04:40.7 - 8~36
+NGC 1637 Eri H122-1   Galaxy           10.9 3.3 04:41.5 - 2~51 Strong asymm vF
+NGC 1638 Eri H525-2   Galaxy           12.1 2.5 04:41.6 - 1~49
+NGC 1643 Eri H588-3   Galaxy           12.8 1.1 04:43.6 - 5~17
+NGC 1646 Eri H523-2   Galaxy           13 04:44.3 - 8~33
+NGC 1653 Eri H526-2   Galaxy           12 1.7 04:45.8 - 2~25
+NGC 1659 Eri H589-3   Galaxy           12.5 1.7 04:46.5 - 4~47
+NGC 1665 Eri H457-2   Galaxy           13.2 1.9 04:48.2 - 5~25
+NGC 1700 Eri H32-4    Galaxy           11 2.9 04:56.9 - 4~52 smooth
+NGC 1779 Eri H500-3   Galaxy           12.1 2.2 05:05.3 - 9~09
+NGC  686 For H459-3   Galaxy           12.4 1.5 01:49.0 -23~48
+NGC  922 For H239-3   Galaxy           12.2 1.9 02:25.1 -24~47
+NGC 1097 For H48-5    Galaxy           9.3 9.3 02:46.3 -30~17
+NGC 1201 For H109-1   Galaxy           10.6 4.4 03:04.1 -26~04
+NGC 1344 For H257-1   Galaxy           10.3 3.9 03:28.3 -31~04
+NGC 1366 For H857-3   Galaxy           11.9 1.9 03:33.9 -31~12
+NGC 1371 For H262-2   Galaxy           10.6 4.9 03:35.0 -24~56 = NGC 1367
+NGC 1385 For H263-2   Galaxy           11.2 3 03:37.5 -24~30
+NGC 1425 For H852-2   Galaxy           10.8 5.4 03:42.2 -29~54
+NGC 2129 Gem H26-8    Open cluster     6.7 7 06:01.0 +23~18 "400"
+NGC 2158 Gem H17-6    Open cluster     8.6 5 06:07.5 +24~06 "400" Edge of M35
+NGC 2224 Gem H35-7    Nonexistent 06:27.6 +12~38 open cluster - large & course
+NGC 2234 Gem H9-8     Nonexistent 06:29.3 +16~41
+NGC 2266 Gem H21-6    Open cluster     9.5 7 06:43.2 +26~58 "400"
+NGC 2274 Gem H615-2   Galaxy           12.1 1.8 06:47.2 +33~34
+NGC 2275 Gem H614-2   Galaxy           13.1 1.3 06:47.2 +33~36 distorted
+NGC 2289 Gem H898-3   Galaxy           13.2 1.1 06:50.7 +33~27 NGC 2289 group
+NGC 2290 Gem H897-3   Galaxy           13.2 1.2 06:51.0 +33~26 NGC 2289 group
+NGC 2304 Gem H2-6     Open cluster     10 5 06:55.0 +18~01 "400"
+NGC 2331 Gem H40-8    Open cluster     8.5 18 07:07.2 +27~21
+NGC 2333 Gem H899-3   Galaxy           13.3 1.2 07:08.4 +35~11
+NGC 2339 Gem H769-2   Galaxy           11.6 2.8 07:08.3 +18~47
+NGC 2355 Gem H6-6     Open cluster     9.7 9 07:16.9 +13~47 "400"
+NGC 2356 Gem H6-7     Nonexistent 07:17.1 +13~58 H6-6?  Open clust - large/course
+NGC 2371 Gem H316-2   Planetary Neb 11.3 0.9 07:25.6 +29~29 "400" with NGC2372
+NGC 2372 Gem H317-2   Planetary Neb 11.3 0.9 07:25.6 +29~30 "400" with NGC2371
+NGC 2385 Gem H703-3   Galaxy           14.2 0.7 07:28.4 +33~50
+NGC 2388 Gem H900-3   Galaxy           13.7 0.9 07:28.8 +33~49 NGC 2389 group
+NGC 2389 Gem H901-3   Galaxy           12.8 2.1 07:29.1 +33~51 NGC 2389 group
+NGC 2392 Gem H45-4    Planetary Neb 9.2 0.7 07:29.2 +20~55 "400" Eskimo nebula
+NGC 2395 Gem H11-8    Open cluster     8 12 07:27.1 +13~35 "400"
+NGC 2420 Gem H1-6     Open cluster     8.3 10 07:38.5 +21~34 "400"
+NGC 2435 Gem H616-2   Galaxy           12.8 2.4 07:44.2 +31~38
+NGC 2481 Gem H302-2   Galaxy           12.9 1.5 07:57.3 +23~46 distorted
+NGC 6046 Her H33-3    Nonexistent 16:04.9 +19~21
+NGC 6058 Her H637-3   Planetary Neb 12.9 0.4 16:04.4 +40~41
+NGC 6064 Her H140-3   Nonexistent 16:07.0 +20~33
+NGC 6073 Her H74-3    Galaxy           13.5 1.1 16:10.1 +16~42
+NGC 6106 Her H151-2   Galaxy           12.2 2.3 16:18.8 + 7~25
+NGC 6146 Her H638-3   Galaxy           12.5 1.3 16:25.2 +40~53
+NGC 6150 Her H639-3   Galaxy           14 NIU 16:25.8 +40~30
+NGC 6154 Her H680-3   Galaxy           12.7 2 16:25.6 +49~50
+NGC 6155 Her H690-2   Galaxy           12.2 1.3 16:26.1 +48~22
+NGC 6158 Her H647-2   Galaxy           13.7 NIU 16:27.7 +39~23
+NGC 6160 Her H652-2   Galaxy           13.2 1.8 16:27.7 +40~55
+NGC 6166 Her H875-2   Galaxy           12 2.4 16:28.6 +39~33
+NGC 6173 Her H640-3   Galaxy           12.1 1.9 16:29.8 +40~49
+NGC 6175 Her H641-3   Galaxy           13.7 1.4 16:29.9 +40~39
+NGC 6177 Her H890-3   Galaxy           13.6 1.6 16:30.6 +35~04
+NGC 6181 Her H753-2   Galaxy           11.9 2.6 16:32.3 +19~50
+NGC 6186 Her H730-3   Galaxy           12.9 1.6 16:34.4 +21~33
+NGC 6195 Her H893-3   Galaxy           13 1.5 16:36.5 +39~02
+NGC 6207 Her H701-2   Galaxy           11.6 3 16:43.1 +36~50 "400"
+NGC 6229 Her H50-4    Globular 9.4 4.5 16:47.0 +47~32 "400"
+NGC 6239 Her H727-3   Galaxy           12.4 2.3 16:50.1 +42~44
+NGC 6241 Her H735-3   Galaxy           13.8 0.8 16:50.1 +45~24
+NGC 6255 Her H689-3   Galaxy           12.7 3.2 16:54.8 +36~30
+NGC 6267 Her H123-3   Galaxy           13.1 1.3 16:58.2 +22~59
+NGC 6278 Her H124-3   Galaxy           12.4 2.1 17:00.9 +23~01
+NGC 6283 Her H728-3   Galaxy           12.9 1.1 16:59.4 +49~56
+NGC 6301 Her H57-4    Galaxy           13.4 2.3 17:08.6 +42~20
+NGC 6372 Her H137-3   Galaxy           12.9 1.6 17:27.5 +26~28 NGC6371 nearby
+NGC 6389 Her H901-2   Galaxy           12.1 2.9 17:32.7 +16~24
+NGC 6500 Her H957-3   Galaxy           12.2 2.3 17:56.0 +18~20
+NGC 6501 Her H958-3   Galaxy           12 1.6 17:56.1 +18~22
+NGC 6548 Her H555-3   Galaxy           11.7 2.8 18:06.0 +18~35 = NGC6550 6549 nearby
+NGC 6555 Her H902-2   Galaxy           12.4 1.9 18:07.8 +17~36
+IC  2995 Hya H382-3   Galaxy           13.5 3.1 12:05.8 -27~56
+NGC 2548 Hya H22-6    Open cluster     5.8 54 08:13.8 - 5~48 "400" M48
+NGC 2555 Hya H256-3   Galaxy           12.2 1.9 08:18.0 + 0~44
+NGC 2610 Hya H35-4    Planetary Neb 12.8 0.6 08:33.4 -16~09
+NGC 2618 Hya H257-3   Galaxy           12.1 2.7 08:36.2 + 0~42 very diffuse outside
+NGC 2695 Hya H280-2   Galaxy           11.9 1.6 08:54.5 - 3~05
+NGC 2708 Hya H281-2   Galaxy           12 2.6 08:56.1 - 3~22
+NGC 2718 Hya H557-2   Galaxy           11.8 2.1 08:58.9 + 6~18
+NGC 2721 Hya H529-2   Galaxy           11.7 2.6 08:58.9 - 4~46
+NGC 2722 Hya H264-3   Galaxy           12.6 1.9 08:58.8 - 3~43
+NGC 2763 Hya H275-3   Galaxy           12.1 2.3 09:06.8 -15~30
+NGC 2765 Hya H520-2   Galaxy           12.1 1.7 09:07.6 + 3~23
+NGC 2781 Hya H66-1    Galaxy           11.5 3.9 09:11.5 -14~49
+NGC 2784 Hya H59-1    Galaxy           10.1 5.1 09:12.3 -24~10
+NGC 2811 Hya H505-2   Galaxy           11.3 2.7 09:16.2 -16~19 "400"
+NGC 2815 Hya H242-3   Galaxy           11.8 3.4 09:16.3 -23~38
+NGC 2848 Hya H488-3   Galaxy           12.1 2.7 09:20.2 -16~32
+NGC 2855 Hya H132-1   Galaxy           11.6 2.7 09:21.5 -11~55
+NGC 2863 Hya H520-3   Galaxy           12.7 1.1 09:23.6 -10~24
+NGC 2889 Hya H555-2   Galaxy           11.8 2 09:27.2 -11~38
+NGC 2902 Hya H276-3   Galaxy           12.2 1.5 09:30.9 -14~44
+NGC 2907 Hya H506-2   Galaxy           11.7 2.1 09:31.6 -16~44 Nearly edge-on
+NGC 2921 Hya H597-3   Galaxy           12 3.2 09:34.7 -20~57
+NGC 2935 Hya H556-2   Galaxy           11.1 4.3 09:36.7 -21~08
+NGC 2983 Hya H289-3   Galaxy           11.7 2.6 09:43.7 -20~29
+NGC 2986 Hya H311-2   Galaxy           10.6 4.1 09:44.3 -21~17
+NGC 2992 Hya H277-3   Galaxy           11.9 4.1 09:45.7 -14~20 Long streamer
+NGC 2993 Hya H278-3   Galaxy           12.6 1.6 09:45.8 -14~22
+NGC 3052 Hya H272-3   Galaxy           12.2 2.1 09:54.5 -18~38
+NGC 3072 Hya H273-3   Galaxy           12.7 1.8 09:57.6 -19~21
+NGC 3078 Hya H268-2   Galaxy           11 3 09:58.4 -26~56
+NGC 3081 Hya H596-3   Galaxy           12 2 09:59.5 -22~50
+NGC 3091 Hya H293-2   Galaxy           11 3.5 10:00.2 -19~38
+NGC 3145 Hya H518-3   Galaxy           11.7 2.3 10:10.2 -12~26
+NGC 3242 Hya H27-4    Planetary Neb 7.8 20.8 10:24.8 -18~38 "400" Ghost of Jupiter
+NGC 3411 Hya H522-3   Galaxy           11.9 2 10:50.3 -12~51 =NGC 3402
+NGC 3585 Hya H269-2   Galaxy           10 2.9 11:13.3 -26~45
+NGC 3621 Hya H241-1   Galaxy           8.9 9.8 11:18.3 -32~49 "400"
+NGC 3885 Hya H828-3   Galaxy           11.8 3.2 11:46.8 -27~55
+NGC 3904 Hya H864-2   Galaxy           11 2.2 11:49.2 -29~17
+NGC 3923 Hya H259-1   Galaxy           9.6 6.9 11:51.0 -28~48
+NGC 4087 Hya H754-3   Galaxy           12.1 1.8 12:05.6 -26~33
+NGC 4105 Hya H865-2   Galaxy           10.4 3.7 12:06.7 -29~46
+NGC 4106 Hya H866-2   Galaxy           10.6 4 12:06.8 -29~46
+NGC 4970 Hya H765-3   Galaxy           12.2 1.7 13:07.5 -24~02
+NGC 4993 Hya H766-3   Galaxy           12.3 1.4 13:09.7 -23~24
+NGC 5061 Hya H138-1   Galaxy           10.2 4.1 13:18.1 -26~50
+NGC 5078 Hya H566-2   Galaxy           10.6 4.8 13:19.8 -27~24 Nearly edge-on
+NGC 5085 Hya H780-2   Galaxy           11.3 3.2 13:20.3 -24~26
+NGC 5101 Hya H567-2   Galaxy           10.4 6 13:21.8 -27~26
+NGC 5328 Hya H923-3   Galaxy           11.8 1.7 13:52.9 -28~29
+NGC 5592 Hya H924-3   Galaxy           12.9 1.6 14:23.9 -28~41
+NGC 5694 Hya H196-2   Globular 10.2 3.6 14:39.6 -26~32 "400"
+NGC 7197 Lac H599-2   Galaxy           12.8 1.9 22:02.9 +41~03
+NGC 7209 Lac H53-7    Open cluster     6.7 25 22:05.2 +46~30 "400"
+NGC 7223 Lac H862-3   Galaxy           12.2 1.8 22:10.2 +41~00
+NGC 7231 Lac H606-2   Galaxy           13 1.9 22:12.4 +45~19
+NGC 7243 Lac H75-8    Open cluster     6.4 21 22:15.3 +49~53 "400"
+NGC 7245 Lac H29-6    Open cluster     9.2 5 22:15.3 +54~20
+NGC 7248 Lac H863-3   Galaxy           12.4 1.8 22:16.9 +40~30
+NGC 7250 Lac H864-3   Galaxy           12.6 1.2 22:18.3 +40~35
+NGC 7296 Lac H41-7    Open cluster     9.7 4 22:28.2 +52~17 "400"
+NGC 7426 Lac H576-3   Galaxy           12.3 1.7 22:56.1 +36~21
+NGC 2872 Leo H57-2    Galaxy           11.9 1.8 09:25.7 +11~26
+NGC 2874 Leo H58-2    Galaxy           12.5 2.2 09:25.8 +11~26 H547-2 disturbed
+NGC 2893 Leo H297-3   Galaxy           13.2 1.1 09:30.3 +29~32 brightest in group
+NGC 2894 Leo H8-3     Galaxy           12.4 2.1 09:29.4 + 7~43 diffuse
+NGC 2903 Leo H56-1    Galaxy           8.9 12.6 09:32.2 +21~30 "400" short B nuc. bar
+NGC 2905 Leo H57-1    Knot in galaxy ###### 13.3 09:32.2 +21~31 With NGC 2903
+NGC 2906 Leo H495-2   Galaxy           12.7 1.4 09:32.2 + 8~27
+NGC 2911 Leo H40-2    Galaxy           11.5 3.7 09:33.8 +10~09 brightest in group
+NGC 2914 Leo H513-3   Galaxy           13.1 1.2 09:34.0 +10~07 NGC 2911 group
+NGC 2916 Leo H260-2   Galaxy           12 2.6 09:35.0 +21~42 asym,radial filaments
+NGC 2918 Leo H298-3   Galaxy           12.6 1.4 09:35.8 +31~42
+NGC 2939 Leo H4-3 b   Galaxy           12.4 2.4 09:38.1 + 9~31 rightest of 3
+NGC 2948 Leo H519-3   Galaxy           12.9 1.6 09:38.9 + 6~57
+NGC 2964 Leo H114-1   Galaxy           11.3 3.2 09:42.9 31~51 "400" vfaint bar
+NGC 2968 Leo H491-2   Galaxy           11.8 2.2 09:43.2 +31~56
+NGC 2984 Leo H34-3    Galaxy           13.4 0.6 09:43.6 +11~04
+NGC 3020 Leo H51-3    Galaxy           11.9 2.9 09:50.1 +12~49 NGC 3020 group
+NGC 3024 Leo H52-3    Galaxy           13.1 1.8 09:50.5 +12~46 NGC 3020 group
+NGC 3041 Leo H98-2    Galaxy           11.5 3.7 09:53.1 +16~41
+NGC 3053 Leo H600-3   Galaxy           12.7 1.6 09:55.6 +16~26
+NGC 3060 Leo H601-3   Galaxy           13 2.2 09:56.4 +16~51
+NGC 3067 Leo H492-2   Galaxy           11.7 2.5 09:58.4 +32~22
+NGC 3068 Leo H293-3   Galaxy           14.3 1.1 09:58.5 +28~53
+NGC 3070 Leo H59-2    Galaxy           12.3 1.6 09:58.0 +10~22
+NGC 3080 Leo H934-3   Galaxy           13.4 0.8 09:59.9 +13~03
+NGC 3088 Leo H24-3    A Galaxy           13.7 0.6 10:01.1 +22~24 very faint spindle A&B
+NGC 3107 Leo H898-2   Galaxy           13.4 0.7 10:03.3 +13~38
+NGC 3129 Leo H65-3    Nonexistent 10:08.4 +18~25 two stars only
+NGC 3153 Leo H53-3    Galaxy           12.7 2.1 10:12.9 +12~40
+NGC 3162 Leo H43-2    Galaxy           11.6 3.1 10:13.5 +22~44
+NGC 3177 Leo H25-3    Galaxy           12.4 1.5 10:16.6 +21~07 NGC 3190 group
+NGC 3190 Leo H44-2    Galaxy           11.2 4.2 10:18.1 +21~50 "400"
+NGC 3193 Leo H45-2    Galaxy           10.9 2.5 10:18.4 +21~54 "400" NGC 3190 group
+NGC 3196 Leo H348-3   Galaxy           14.7 NIU 10:18.8 +27~40
+NGC 3216 Leo H330-3   Galaxy           13.4 1.4 10:21.7 +23~54
+NGC 3226 Leo H28-2    Galaxy           11.4 2.5 10:23.4 +19~54 "400"
+NGC 3227 Leo H29-2    Galaxy           10.3 6.9 10:23.5 +19~52 "400"
+NGC 3239 Leo H10-4    Galaxy           11.3 5.5 10:25.1 +17~10
+NGC 3248 Leo H347-2   Galaxy           12.4 2.5 10:27.8 +22~50
+NGC 3270 Leo H331-3   Galaxy           13.1 2.8 10:31.5 +24~51
+NGC 3274 Leo H358-2   Galaxy           12.8 1.9 10:32.3 +27~40
+NGC 3299 Leo H54-3    Galaxy           12.8 1.8 10:36.4 +12~42 NGC 3306 group
+NGC 3300 Leo H55-3    Galaxy           12.1 1.8 10:36.6 +14~10
+NGC 3301 Leo H46-2    Galaxy           11.4 3.4 10:36.9 +21~53 Nearly edge-on
+NGC 3303 Leo H66-3    Galaxy           13.5 3.4 10:37.1 +18~08 double system
+NGC 3332 Leo H272-1   Galaxy           12.3 1.4 10:40.4 + 9~11
+NGC 3338 Leo H77-2    Galaxy           11.1 4.8 10:42.1 +13~45 Leo group
+NGC 3342 Leo H5-3     Single star 10:42.7 + 9~26
+NGC 3345 Leo H26-1    Double star 10:43.6 +11~59 (?)
+NGC 3346 Leo H7-5     Galaxy           11.7 2.4 10:43.7 +14~52
+NGC 3356 Leo H107-3   Galaxy           13.3 1.6 10:44.2 + 6~45
+NGC 3367 Leo H78-2    Galaxy           11.5 2.3 10:46.6 +13~45
+NGC 3370 Leo H81-2    Galaxy           11.6 2.7 10:47.1 +17~16
+NGC 3377 Leo H99-2    Galaxy           10.4 4.1 10:47.7 +13~59 "400" Leo group
+NGC 3379 Leo H17-1    Galaxy           9.3 3.9 10:47.8 +12~35 "400" M105 Leo Group
+NGC 3384 Leo H18-1    Galaxy           9.9 5.5 10:48.3 +12~38 "400" Leo group
+NGC 3389 Leo H41-2    Galaxy           11.8 2.7 10:48.5 +12~32 Leo group
+NGC 3412 Leo H27-1    Galaxy           10.5 3.3 10:50.9 +13~25 "400" Leo group
+NGC 3425 Leo H108-3   Galaxy           13.1 1.1 10:51.4 + 8~34
+NGC 3433 Leo H20-3    Galaxy           11.6 3.7 10:52.1 +10~09
+NGC 3434 Leo H497-3   Galaxy           12.1 2.1 10:52.0 + 3~48
+NGC 3437 Leo H47-2    Galaxy           12.1 2.6 10:52.6 +22~56
+NGC 3455 Leo H82-2    Galaxy           12 2.6 10:54.5 +17~17 Nearly edge-on
+NGC 3462 Leo H16-2    Galaxy           12.2 1.7 10:55.3 + 7~42
+NGC 3473 Leo H67-3    Galaxy           13.6 1 10:58.0 +17~07
+NGC 3475 Leo H332-3   Galaxy           13.1 1.6 10:58.3 +24~14
+NGC 3485 Leo H100-2   Galaxy           11.6 2.4 11:00.0 +14~50
+NGC 3489 Leo H101-2   Galaxy           10.3 3.7 11:00.3 +13~54 "400" Leo group
+NGC 3491 Leo H21-3    Galaxy           13.2 0.8 11:00.6 +12~10
+NGC 3495 Leo H498-3   Galaxy           11.8 4.4 11:01.3 + 3~38 Nearly edge-on
+NGC 3498 Leo H75-3    Triple st 11:01.9 +14~23
+NGC 3506 Leo H22-3    Galaxy           12.5 1.2 11:03.2 +11~05
+NGC 3507 Leo H7-4     Galaxy           10.9 3.1 11:03.5 +18~08
+NGC 3509 Leo H598-3   Galaxy           12.7 1.9 11:04.4 + 4~50
+NGC 3521 Leo H13-1    Galaxy           9 12.5 11:05.8 - 0~02 "400"
+NGC 3524 Leo H23-3    Galaxy           12.8 1.6 11:06.5 +11~24
+NGC 3535 Leo H111-3   Galaxy           13.5 1.1 11:08.5 + 4~50
+NGC 3547 Leo H42-2    Galaxy           12.8 1.9 11:09.9 +10~43
+NGC 3559 Leo H79-3    Galaxy           12.7 1.2 11:10.7 +12~01
+NGC 3567 Leo H89-3    Galaxy           13.2 1.1 11:11.3 + 5~50
+NGC 3593 Leo H29-1    Galaxy           10.9 5.3 11:14.6 +12~49 "400" NGC 3607 group
+NGC 3596 Leo H102-2   Galaxy           11.2 4 11:15.1 +14~47 Leo group
+NGC 3599 Leo H49-2    Galaxy           11.9 2.5 11:15.4 +18~07 NGC 3607 group
+NGC 3604 Leo H626-2   Nonexistent 11:16.3 + 4~31
+NGC 3605 Leo H27-3    Galaxy           12.3 1.2 11:16.8 +18~01
+NGC 3607 Leo H50-2    Galaxy           9.9 4.6 11:16.9 +18~03 "400" NGC 3607 group
+NGC 3608 Leo H51-2    Galaxy           10.8 2.7 11:17.0 +18~09 "400" NGC 3607 group
+NGC 3611 Leo H521-2   Galaxy           12.2 2.5 11:17.5 + 4~33
+NGC 3615 Leo H333-3   Galaxy           12.8 1.4 11:18.0 +23~24
+NGC 3616 Leo H76-3    Nonexistent 11:18.2 +14~44
+NGC 3618 Leo H334-3   Galaxy           13.6 0.9 11:18.5 +23~29
+NGC 3626 Leo H52-2    Galaxy           11 2.6 11:20.1 +18~21 "400"
+NGC 3628 Leo H8-5     Galaxy           9.5 14 11:20.3 +13~36 "400" Leo group
+NGC 3629 Leo H338-2   Galaxy           12.1 1.9 11:20.5 +26~58
+NGC 3632 Leo H30-2    Nonexistent 11:20.5 +18~09
+NGC 3640 Leo H33-2    Galaxy           10.4 4.6 11:21.1 + 3~14 "400"
+NGC 3645 Leo H32-2    Galaxy           14.1 NIU 11:21.6 + 2~59
+NGC 3646 Leo H15-3    Galaxy           11.1 3.5 11:21.7 +20~10
+NGC 3649 Leo H16-3    Galaxy           13.7 1.5 11:22.2 +20~13
+NGC 3651 Leo H335-3   Galaxy           13.2 1.1 11:22.4 +24~18
+NGC 3653 Leo H336-3   Galaxy           13.6 0.9 11:22.5 +24~16
+NGC 3655 Leo H5-1     Galaxy           11.7 1.5 11:22.9 +16~35 "400"
+NGC 3659 Leo H53-2    Galaxy           12.3 1.8 11:23.8 +17~49
+NGC 3662 Leo H4-4     Galaxy           12.9 1.4 11:23.8 - 1~06 triple system
+NGC 3666 Leo H20-1    Galaxy           12 4.1 11:24.4 +11~21
+NGC 3670 Leo H337-3   Galaxy           13.5 1.2 11:24.7 +23~57
+NGC 3679 Leo H112-3   Galaxy           14 1.1 11:26.2 - 5~35
+NGC 3681 Leo H159-2   Galaxy           11.2 2.5 11:26.5 +16~52
+NGC 3686 Leo H160-2   Galaxy           11.3 2.8 11:27.7 +17~13 = H28-3 "400"
+NGC 3689 Leo H339-2   Galaxy           12.3 1.5 11:28.2 +25~40
+NGC 3691 Leo H54-2    Galaxy           11.8 1 11:28.2 +16~55
+NGC 3692 Leo H152-2   Galaxy           12.1 2.8 11:28.4 + 9~24
+NGC 3701 Leo H349-2   Galaxy           12.9 1.8 11:29.4 +24~05
+NGC 3705 Leo H13-2    Galaxy           11.1 4.6 11:30.1 + 9~17
+NGC 3710 Leo H350-2   Galaxy           13.1 1 11:31.0 +22~46
+NGC 3713 Leo H367-2   Galaxy           13.2 1.2 11:31.6 +28~09
+NGC 3728 Leo H351-2   Galaxy           14.8 0.8 11:33.2 +24~27
+NGC 3731 Leo H80-3    Galaxy           12.9 1 11:34.2 +12~32
+NGC 3768 Leo H29-3    Galaxy           12.4 1.5 11:37.2 +17~51
+NGC 3772 Leo H352-2   Galaxy           13.5 1.1 11:37.8 +22~42
+NGC 3773 Leo H81-3    Galaxy           12 1.4 11:38.2 +12~07
+NGC 3790 Leo H109-3   Galaxy           13.9 1 11:39.8 +17~43 NGC 3801 group
+NGC 3798 Leo H340-3   Galaxy           12.1 2.6 11:40.2 +24~43
+NGC 3800 Leo H103-2   Galaxy           12.7 1.7 11:40.2 +15~21
+NGC 3801 Leo H161-2   Galaxy           12 2.3 11:40.3 +17~44
+NGC 3802 Leo H30-3    Galaxy           13.3 1.1 11:40.3 +17~46
+NGC 3805 Leo H375-3   Galaxy           12.7 1.4 11:40.8 +20~22
+NGC 3808 Leo H338-3   Galaxy           11.9 0.7 11:40.7 +22~27 double system
+NGC 3810 Leo H21-1    Galaxy           10.8 3.8 11:41.0 +11~28 "400"
+NGC 3812 Leo H320-3   Galaxy           12.4 1.7 11:41.1 +24~51
+NGC 3815 Leo H339-3   Galaxy           13 1.7 11:41.7 +24~49
+NGC 3821 Leo H376-3   Galaxy           12.9 1.4 11:42.2 +20~20
+NGC 3826 Leo H341-2   Galaxy           13.4 0.9 11:42.4 +26~30
+NGC 3832 Leo H340-3   Galaxy           13 2 11:43.5 +22~44
+NGC 3842 Leo H377-3   Galaxy           11.8 1.4 11:44.0 +19~57
+NGC 3851 Leo H378-3   Galaxy           14.4 0.3 11:44.3 +19~59
+NGC 3860 Leo H386-3   A Galaxy           13.4 1.1 11:44.6 +19~49
+NGC 3862 Leo H385-3   Galaxy           12.7 1 11:45.1 +19~36
+NGC 3872 Leo H104-2   Galaxy           11.7 2.2 11:45.8 +13~46
+NGC 3875 Leo H387-3   Galaxy           13.9 0.9 11:45.8 +19~46
+NGC 3883 Leo H372-3   Galaxy           12.7 2.8 11:46.8 +20~42
+NGC 3884 Leo H388-3   Galaxy           12.6 1.7 11:46.2 +20~25
+NGC 3900 Leo H82-1    Galaxy           11.3 2.9 11:49.2 +27~01 "400"
+NGC 3902 Leo H321-3   Galaxy           12.8 1.6 11:49.3 +26~07
+NGC 3911 Leo H341-3   Galaxy           13.8 1.1 11:49.4 +24~57
+NGC 3912 Leo H342-2   Galaxy           12.4 1.6 11:50.1 +26~29 "400"
+NGC 3926 Leo H379-3   A Galaxy           13.5 1 11:51.5 +22~03 double system
+NGC 3937 Leo H389-3   Galaxy           12.5 1.8 11:52.7 +20~39
+NGC 3940 Leo H380-3   Galaxy           12.8 1.3 11:52.7 +21~01
+NGC 3944 Leo H322-3   Galaxy           12.9 1.4 11:53.1 +26~14
+NGC 3947 Leo H403-2   Galaxy           13.2 1.3 11:53.4 +20~45
+NGC 3951 Leo H342-3   Galaxy           13.6 1.1 11:53.7 +23~24
+NGC 3954 Leo H381-3   Galaxy           13.7 0.8 11:53.7 +20~54
+NGC 3968 Leo H162-2   Galaxy           11.8 2.7 11:55.5 +11~58
+NGC 3983 Leo H343-2   Galaxy           14 1.1 11:56.4 +23~53
+NGC 4002 Leo H344-3   Galaxy           14 0.7 11:58.0 +23~13
+NGC 4003 Leo H345-3   Galaxy           13.3 1.5 11:58.0 +23~08 NGC 4007
+NGC 4004 Leo H354-3   A Galaxy           13.7 1.8 11:58.1 +27~53
+NGC 4007 Leo H325-3   Not documented 11:58.2 +25~08
+NGC 4008 Leo H368-2   Galaxy           12 2.4 11:58.3 +28~12
+NGC 1832 Lep H292-2   Galaxy           11.4 2.8 05:12.1 -15~41
+NGC 1888 Lep H289-2   Galaxy           12 3 05:22.5 -11~30
+NGC 1954 Lep H590-3   Galaxy           11.8 4.2 05:32.8 -14~04
+NGC 1964 Lep H21-4    Galaxy           10.8 6.2 05:33.4 -21~57 "400"
+NGC 1979 Lep H240-3   Galaxy           11.8 2 05:33.8 -23~19
+NGC 1993 Lep H269-3   Galaxy           12.4 1.3 05:35.5 -17~49
+NGC 2073 Lep H241-3   Galaxy           12.4 1.4 05:45.9 -21~59
+NGC 2076 Lep H267-3   Galaxy           13 2.2 05:46.8 -16~46
+NGC 2089 Lep H270-3   Galaxy           11.9 2 05:47.8 -17~36
+NGC 2124 Lep H225-3   Galaxy           12.6 2.7 05:57.9 -20~04
+NGC 2139 Lep H264-2   Galaxy           11.4 3 06:01.1 -23~40
+NGC 2196 Lep H265-2   Galaxy           11.2 2.8 06:12.2 -21~48
+NGC 5595 Lib H121-3   Galaxy           12 2.2 14:24.2 -16~43
+NGC 5597 Lib H122-3   Galaxy           12 2.4 14:24.5 -16~46
+NGC 5605 Lib H120-3   Galaxy           12.3 1.4 14:25.1 -13~10
+NGC 5716 Lib H671-3   Galaxy           12.9 2 14:41.1 -17~29
+NGC 5728 Lib H184-1   Galaxy           11.5 3.7 14:42.4 -17~15
+NGC 5729 Lib H508-3   Galaxy           12.6 2.7 14:42.0 - 9~03
+NGC 5757 Lib H690-3   Galaxy           12 2.3 14:47.8 -19~05
+NGC 5768 Lib H373-3   Galaxy           12.5 1.8 14:52.1 - 2~32
+NGC 5791 Lib H691-3   Galaxy           11.9 2.4 14:58.8 -19~16
+NGC 5792 Lib H683-2   Galaxy           11.2 7.3 14:58.4 - 1~05
+NGC 5812 Lib H71-1    Galaxy           11.2 2.4 15:01.0 - 7~27
+NGC 5861 Lib H192-2   Galaxy           11.6 2.8 15:09.3 -11~19
+NGC 5878 Lib H736-3   Galaxy           11.5 3 15:13.8 -14~16
+NGC 5885 Lib H116-3   Galaxy           11.8 3.2 15:15.1 -10~05
+NGC 5897 Lib H19-6    Globular 8.6 12.6 15:17.4 -21~01 = H8-6 (?) "400"
+NGC 5898 Lib H138-3   Galaxy           11.5 1.7 15:18.2 -24~06
+NGC 5903 Lib H139-3   Galaxy           11.5 2 15:18.6 -24~04
+NGC 2859 LMi H137-1   Galaxy           10.9 4.6 09:24.3 +34~31 "400" bright nucleus
+NGC 2955 LMi H541-3   Galaxy           12.9 1.4 09:41.3 +35~53
+NGC 2965 LMi H751-3   Galaxy           13.4 1.2 09:43.2 +36~14 brightest in group
+NGC 3003 LMi H26-5    Galaxy           11.7 5.9 09:48.6 +33~25
+NGC 3021 LMi H115-1   Galaxy           12.1 1.4 09:51.0 +33~33
+NGC 3074 LMi H542-3   Galaxy           12.7 2.2 09:59.7 +35~24
+NGC 3099 LMi H478-3   A Galaxy           14.8 0.5 10:02.7 +32~42
+NGC 3104 LMi H48-4    Galaxy           13.1 3.3 10:03.9 +40~45
+NGC 3106 LMi H320-2   Galaxy           12.4 1.8 10:03.9 +31~11
+NGC 3158 LMi H639-2   Galaxy           11.8 2.3 10:13.8 +38~46
+NGC 3163 LMi H640-2   Galaxy           13.1 1.4 10:14.1 +38~39 NGC 3158 group
+NGC 3245 LMi H86-1    Galaxy           10.8 2.9 10:27.3 +28~30 "400"
+NGC 3254 LMi H72-1    Galaxy           11.5 5.1 10:29.3 +29~30
+NGC 3265 LMi H349-3   Galaxy           12.9 0.9 10:31.1 +28~48
+NGC 3277 LMi H359-2   Galaxy           11.7 2.2 10:32.9 +28~31 "400"
+NGC 3294 LMi H164-1   Galaxy           11.8 3.5 10:36.3 +37~20 "400"
+NGC 3304 LMi H615-3   Galaxy           13.4 1.4 10:37.6 +37~27
+NGC 3327 LMi H348-2   Galaxy           13.4 1.3 10:40.0 +24~05
+NGC 3334 LMi H641-2   Galaxy           12.8 1.1 10:41.4 +37~18
+NGC 3344 LMi H81-1    Galaxy           9.9 6.9 10:43.5 +24~55 "400"
+NGC 3380 LMi H360-2   Galaxy           12.5 1.5 10:48.2 +28~36
+NGC 3381 LMi H565-2   Galaxy           11.7 2.1 10:48.4 +34~42
+NGC 3395 LMi H116-1   Galaxy           12.1 1.6 10:49.8 +32~59 "400"
+NGC 3396 LMi H117-1   Galaxy           12.1 3.4 10:49.9 +32~59
+NGC 3400 LMi H361-2   Galaxy           13.2 1.1 10:50.8 +28~28
+NGC 3413 LMi H493-2   Galaxy           12.1 1.7 10:51.3 +32~46 NGC 3395 group
+NGC 3414 LMi H362-2   Galaxy           11 3 10:51.3 +27~59 "400"
+NGC 3418 LMi H363-2   Galaxy           13.2 1.1 10:51.3 +28~07
+NGC 3424 LMi H494-2   Galaxy           12.4 2.5 10:51.8 +32~54 NGC 3395 group
+NGC 3430 LMi H118-1   Galaxy           11.6 4.1 10:52.2 +32~57 NGC 3395 group
+NGC 3432 LMi H172-1   Galaxy           11.2 6.9 10:52.5 +36~37 "400"
+NGC 3451 LMi H364-2   Galaxy           13 1.7 10:54.4 +27~14
+NGC 3486 LMi H87-1    Galaxy           10.5 6.6 11:00.4 +28~58 "400"
+NGC 3504 LMi H88-1    Galaxy           10.9 2.3 11:03.2 +27~58 "400"
+NGC 3510 LMi H365-2   Galaxy           12.2 3.8 11:03.7 +28~53
+NGC 3512 LMi H366-2   Galaxy           12.4 1.7 11:04.0 +28~02
+NGC 2320 Lyn H861-2   Galaxy           11.9 1.4 07:05.6 +50~36
+NGC 2322 Lyn H874-3   Galaxy           13.8 1.2 07:05.9 +50~31
+NGC 2326 Lyn H734-2   Galaxy           13.1 1.6 07:08.4 +50~44
+NGC 2329 Lyn H735-2   Galaxy           12.4 1.3 07:09.2 +48~37
+NGC 2332 Lyn H862-2   Galaxy           12.8 1.5 07:09.5 +50~11
+NGC 2340 Lyn H736-2   Galaxy           11.7 1.8 07:11.0 +50~10
+NGC 2415 Lyn H821-2   Galaxy           12.4 1 07:36.9 +35~15
+NGC 2419 Lyn H218-1   Globular 10.4 4.1 07:38.1 +38~53 "400" Intergalactic Wanderer
+NGC 2426 Lyn H822-2   Galaxy           13.1 1.1 07:43.2 +52~49
+NGC 2431 Lyn H829-3   Galaxy           13.4 0.8 07:45.3 +53~04
+NGC 2469 Lyn H836-3   Galaxy           12.7 0.9 07:58.1 +56~41
+NGC 2474 Lyn H830-3   Galaxy           13.3 0.6 07:57.9 +52~51 double system w 2475
+NGC 2488 Lyn H837-3   Galaxy           12.4 1.4 08:01.8 +56~34
+NGC 2493 Lyn H750-3   Galaxy           12 2.2 08:00.4 +39~50
+NGC 2497 Lyn H838-3   Galaxy           13.2 1.3 08:02.3 +56~57 compact
+NGC 2500 Lyn H709-3   Galaxy           11.6 2.9 08:01.9 +50~44 bright nucleus in bar
+NGC 2505 Lyn H839-3   Galaxy           13.2 1.2 08:04.0 +53~34
+NGC 2532 Lyn H726-2   Galaxy           12.4 2.2 08:10.2 +33~57
+NGC 2534 Lyn H840-3   Galaxy           12.9 1.3 08:12.9 +55~40 peculiar
+NGC 2537 Lyn H55-4    Galaxy           11.7 1.7 08:13.2 +46~00 Bear Paw galaxy
+NGC 2541 Lyn H710-3   Galaxy           11.8 6.6 08:14.7 +49~04
+NGC 2543 Lyn H719-2   Galaxy           11.9 2.5 08:13.0 +36~15
+NGC 2552 Lyn H711-3   Galaxy           12.1 3.6 08:19.3 +50~01 irreg spiral struct
+NGC 2649 Lyn H727-2   Galaxy           12.3 1.6 08:44.1 +34~43
+NGC 2683 Lyn H200-1   Galaxy           9.7 9.3 08:52.7 +33~25 "400" peanut-shaped
+NGC 2691 Lyn H658-2   Galaxy           13.1 1.5 08:54.8 +39~32 compact
+NGC 2704 Lyn H625-3   Galaxy           13.4 1.1 08:56.9 +39~22
+NGC 2719 Lyn H540-3   Galaxy           13.1 1.3 09:00.3 +35~44 high surf brightn
+NGC 2746 Lyn H825-3   Galaxy           13.1 1.6 09:06.0 +35~22 medium compact
+NGC 2755 Lyn H626-3   Galaxy           13.2 1.1 09:07.9 +41~43 compact
+NGC 2759 Lyn H647-3   Galaxy           13 1 09:08.6 +37~37 brightest in group
+NGC 2770 Lyn H490-2   Galaxy           12.2 3.3 09:09.6 +33~07
+NGC 2778 Lyn H564-2   Galaxy           12.4 1.4 09:12.3 +35~01 brightest in group
+NGC 2780 Lyn H826-3   Galaxy           13.3 0.9 09:12.7 +34~55 NGC 2778 group
+NGC 2782 Lyn H167-1   Galaxy           11.5 3.8 09:14.1 +40~07 "400" broad bar
+NGC 2798 Lyn H708-2   Galaxy           12.3 2.8 09:17.4 +42~00 Nearly edge-on
+NGC 2832 Lyn H113-1   Galaxy           11.5 3.3 09:19.8 +33~44
+NGC 2838 Lyn H627-3   Galaxy           13.6 09:20.7 +39~19
+NGC 2840 Lyn H827-3   Galaxy           13.8 0.9 09:20.8 +35~23
+NGC 2844 Lyn H628-3   Galaxy           12.9 1.9 09:21.8 +40~09 brightest in NGC2852
+NGC 2852 Lyn H629-3   Galaxy           13.2 1 09:23.2 +40~10 compact,NGC 2844 group
+NGC 2853 Lyn H630-3   Galaxy           13.3 1.7 09:23.3 +40~12 NGC 2844 group
+NGC 6646 Lyr H907-2   Galaxy           12.6 1.2 18:29.6 +39~52
+NGC 2167 Mon H44-4    Nonexistent 06:06.9 - 6~12 bright star only
+NGC 2170 Mon H19-4    Nebula           2 06:07.5 - 6~24
+NGC 2182 Mon H38-4    Nebula           3 06:09.5 - 6~20
+NGC 2185 Mon H20-4    Nebula           3 06:11.1 - 6~13 "400"
+NGC 2215 Mon H20-7    Open cluster     8.4 11 06:21.0 - 7~17 "400"
+NGC 2225 Mon H26-7    Open cluster     06:26.6 - 9~39
+NGC 2232 Mon H25-8    Open cluster     3.9 30 06:26.6 - 4~45 "400"
+NGC 2236 Mon H5-7     Open cluster     8.5 7 06:29.7 + 6~50
+NGC 2244 Mon H2-7     Open cluster     4.8 24 06:32.4 + 4~52 "400" In Rosette nebula
+NGC 2245 Mon H3-4     Nebula           5 06:32.7 +10~10
+NGC 2251 Mon H3-8     Open cluster     7.3 10 06:34.7 + 8~22 "400"
+NGC 2252 Mon H50-8    Open cluster     7.7 20 06:35.0 + 5~23
+NGC 2254 Mon H22-7    Open cluster     9.7 4 06:36.0 + 7~40
+NGC 2259 Mon H28-6    Open cluster     10.8 5 06:38.6 +10~53
+NGC 2260 Mon H48-8    Nonexistent 06:38.1 - 1~28
+NGC 2261 Mon H2-4     H Nebula           2 06:39.2 + 8~44 ubble's variable neb
+NGC 2262 Mon H37-7    Open cluster     11.3 4 06:38.4 + 1~11
+NGC 2264 Mon H27-5    H5-8 Clstr wth 3.9 60 06:41.1 + 9~53 "400" Xtms Tree
+NGC 2269 Mon H3-6     Open cluster     10 4 06:43.9 + 4~34
+NGC 2270 Mon H36-7    Nonexistent 06:43.9 + 3~26
+NGC 2286 Mon H31-8    Open cluster     7.5 15 06:47.6 - 3~10 "400"
+NGC 2301 Mon H27-6    Open cluster     6 12 06:51.8 + 0~28 "400"
+NGC 2302 Mon H39-8    Open cluster     8.9 3 06:51.9 - 7~04
+NGC 2306 Mon H51-8    Nonexistent 06:54.6 - 7~11
+NGC 2309 Mon H18-6    Open cluster     10.5 3 06:56.2 - 7~12
+NGC 2311 Mon H60-8    Open cluster     9.6 6 06:57.8 - 4~35 "400"
+NGC 2316 Mon H304-2   Nebula           4 06:59.7 - 7~46
+NGC 2319 Mon H1-8     Nonexistent 07:01.1 + 3~04
+NGC 2324 Mon H38-7    Open cluster     8.4 8 07:04.2 + 1~03 "400"
+NGC 2335 Mon H32-8    Open cluster     7.2 12 07:06.6 -10~05 "400"
+NGC 2343 Mon H33-8    Open cluster     6.7 7 07:08.3 -10~39 "400"
+NGC 2346 Mon H65-4    Planetary Neb 0.9 07:09.4 - 0~48
+NGC 2349 Mon H27-7    Nonexistent 07:10.0 - 8~37
+NGC 2353 Mon H34-8    Open cluster     7.1 20 07:14.6 -10~18 "400"
+NGC 2506 Mon H37-6    Open cluster     7.6 7 08:00.2 -10~47 "400"
+NGC 6171 Oph H40-6    Globular 8.1 10 16:32.5 -13~03 "400" M107
+NGC 6235 Oph H584-2   Globular 10.2 5 16:53.4 -22~11 "400"
+NGC 6284 Oph H11-6    Globular 9 5.6 17:04.5 -24~46 "400"
+NGC 6287 Oph H195-2   Globular 9.2 5.1 17:05.2 -22~42 "400"
+NGC 6293 Oph H12-6    Globular 8.2 7.9 17:10.2 -26~35 "400"
+NGC 6304 Oph H147-1   Globular 8.4 6.8 17:14.5 -29~28 "400"
+NGC 6316 Oph H45-1    Globular 8.8 4.9 17:16.6 -28~08 "400"
+NGC 6342 Oph H149-1   Globular 9.8 3 17:21.2 -19~35 "400"
+NGC 6355 Oph H46-1    Globular 9.7 5 17:24.0 -26~21 "400"
+NGC 6356 Oph H48-1    Globular 8.2 7.2 17:23.6 -17~49 "400"
+NGC 6369 Oph H11-4    Planetary Neb 11.4 1.1 17:29.3 -23~46 "400" Little Ghost
+NGC 6401 Oph H44-1    Globular 9.5 5.6 17:38.6 -23~55 "400"
+NGC 6426 Oph H587-2   Globular 11.2 3.2 17:44.9 + 3~00 "400"
+NGC 6517 Oph H199-2   Globular 10.3 4.3 18:01.8 - 8~58 "400"
+NGC 6633 Oph H72-8    Open cluster     4.6 27 18:27.7 + 6~34 "400"
+IC   434 Ori H35-5    Nebula           60 05:41.0 - 2~24
+NGC 1662 Ori H1-7     Open cluster     6.4 20 04:48.5 +10~56
+NGC 1663 Ori H7-8     Open cluster     04:48.6 +13~10
+NGC 1670 Ori H501-3   Galaxy           12.7 1.9 04:49.9 - 2~44
+NGC 1678 Ori H502-3   Galaxy           13.2 1.1 04:51.7 - 2~38
+NGC 1682 Ori H527-2   Galaxy           11.8 1 04:52.3 - 3~06
+NGC 1684 Ori H528-2   Galaxy           11.7 2.3 04:52.5 - 3~06
+NGC 1713 Ori H516-2   Galaxy           12.7 2.2 04:58.9 - 0~30
+NGC 1729 Ori H503-3   Galaxy           12.3 1.9 05:00.1 - 3~21
+NGC 1762 Ori H453-3   Galaxy           12.6 1.6 05:03.6 + 1~34
+NGC 1788 Ori H32-5    Nebula           8 05:06.9 - 3~21 "400"
+NGC 1908 Ori H33-5    Nonexistent 05:26.0 - 2~32
+NGC 1909 Ori H38-5    Nonexistent 05:25.9 - 8~08
+NGC 1924 Ori H447-3   Galaxy           12.5 1.4 05:27.9 - 5~19
+NGC 1977 Ori H30-5    Nebula           20 05:35.5 - 4~52
+NGC 1980 Ori H31-5    Nebula           14 05:35.4 - 5~54 "400"
+NGC 1982 Ori H1-3     Nebula           9 20 05:35.6 - 5~16 M43
+NGC 1990 Ori H34-5    Nebula           50 05:36.2 - 1~12
+NGC 1999 Ori H33-4    Nebula           16 05:36.5 - 6~42 "400"
+NGC 2022 Ori H34-4    Planetary Neb 11.9 0.3 05:42.1 + 9~05 "400"
+NGC 2023 Ori H24-4    Nebula           10 05:41.6 - 2~14
+NGC 2024 Ori H28-5    Nebula           30 05:41.9 - 1~51 "400" Tank Track Neb
+NGC 2063 Ori H2-8     Nonexistent 05:46.8 + 8~48
+NGC 2071 Ori H36-4    Nebula           4 05:47.2 + 0~18
+NGC 2110 Ori H448-3   Galaxy           12.4 1.6 05:52.2 - 7~27
+NGC 2112 Ori H24-7    Open cluster     8.4 11 05:53.9 + 0~24
+NGC 2169 Ori H24-8    Open cluster     5.9 7 06:08.4 +13~57 "400"
+NGC 2180 Ori H6-8     Nonexistent 06:09.6 + 4~43
+NGC 2186 Ori H25-7    Open cluster     8.7 4 06:12.2 + 5~27 "400"
+NGC 2194 Ori H5-6     Open cluster     8.5 10 06:13.8 +12~48 "400"
+NGC   14 Peg H591-2   Galaxy           12.1 3 00:08.8 +15~49
+NGC   16 Peg H15-4    Galaxy           12 2.1 00:09.1 +27~44
+NGC   23 Peg H147-3   Galaxy           12 2.3 00:09.9 +25~55
+NGC   52 Peg H183-3   Galaxy           13.3 2.4 00:14.6 +18~33
+NGC 7042 Peg H209-3   Galaxy           12 1.9 21:13.8 +13~33
+NGC 7137 Peg H261-2   Galaxy           12.4 1.5 21:48.2 +22~10
+NGC 7156 Peg H452-3   Galaxy           13 1.7 21:54.6 + 2~57
+NGC 7177 Peg H247-2   Galaxy           11.2 3.3 22:00.7 +17~44
+NGC 7186 Peg H165-3   Not documented 22:01.0 +35~06
+NGC 7217 Peg H207-2   Galaxy           10.2 3.7 22:07.9 +31~22 "400"
+NGC 7280 Peg H248-2   Galaxy           12.1 1.7 22:26.5 +16~09
+NGC 7311 Peg H428-2   Galaxy           12.5 1.6 22:34.2 + 5~35
+NGC 7316 Peg H180-3   Galaxy           13 1 22:35.9 +20~19
+NGC 7321 Peg H237-3   Galaxy           12.9 1.6 22:36.4 +21~38
+NGC 7331 Peg H53-1    Galaxy           9.5 10.7 22:37.1 +34~25 "400"
+NGC 7332 Peg H233-2   Galaxy           11.1 3.7 22:37.4 +23~48
+NGC 7335 Peg H166-3   Galaxy           13.3 1.3 22:37.3 +34~27
+NGC 7339 Peg H234-2   Galaxy           12.2 2.6 22:37.8 +23~47
+NGC 7385 Peg H216-3   Galaxy           12.3 1.6 22:49.9 +11~36
+NGC 7386 Peg H217-3   Galaxy           12.5 2.1 22:50.0 +11~42
+NGC 7432 Peg H465-3   Galaxy           13.4 1.5 22:58.0 +13~08
+NGC 7436 Peg H243-3   Galaxy           NIU 2 22:58.0 +26~09
+NGC 7448 Peg H251-2   Galaxy           11.7 2.5 23:00.1 +15~59 "400" NGC 7448 group
+NGC 7454 Peg H249-2   Galaxy           11.8 1.8 23:01.1 +16~23 NGC 7448 group
+NGC 7457 Peg H212-2   Galaxy           11.2 4.1 23:01.0 +30~09
+NGC 7463 Peg H210-3   Galaxy           13.2 2.9 23:01.9 +15~59 NGC 7448 group
+NGC 7465 Peg H211-3   Galaxy           12.6 1.2 23:02.0 +15~58 NGC 7448 group
+NGC 7468 Peg H202-3   Galaxy           13.7 0.8 23:03.0 +16~36 two jets
+NGC 7469 Peg H230-3   Galaxy           12.3 1.5 23:03.3 + 8~52
+NGC 7479 Peg H55-1    Galaxy           10.8 4 23:04.9 +12~19 "400" barred spiral
+NGC 7497 Peg H203-3   Galaxy           12.2 4 23:09.1 +18~11
+NGC 7515 Peg H220-3   Galaxy           12.4 1.6 23:12.9 +12~41
+NGC 7550 Peg H181-3   Galaxy           12.2 1.4 23:15.3 +18~57 with NGC7547
+NGC 7559 Peg H221-3   Galaxy           13.8 1.3 23:15.9 +13~17
+NGC 7563 Peg H222-3   Galaxy           12.8 1.9 23:16.0 +13~11
+NGC 7570 Peg H238-3   Galaxy           13.2 1.5 23:16.8 +13~29
+NGC 7578 Peg H182-3   Galaxy           14 1 23:17.2 +18~41 double system
+NGC 7619 Peg H439-2   Galaxy           11.1 2.8 23:20.2 + 8~12
+NGC 7623 Peg H435-3   Galaxy           12.8 1.6 23:20.5 + 8~24
+NGC 7625 Peg H250-2   Galaxy           12.1 1.4 23:20.5 +17~14
+NGC 7626 Peg H440-2   Galaxy           11.1 2.4 23:20.7 + 8~13
+NGC 7634 Peg H441-2   Galaxy           12.6 1.2 23:21.6 + 8~52
+NGC 7647 Peg H473-3   Galaxy           13.6 1.1 23:24.1 +16~47
+NGC 7648 Peg H218-3   Galaxy           13 1.6 23:23.8 + 9~39
+NGC 7659 Peg H212-3   Galaxy           14 0.9 23:26.0 +14~12
+NGC 7671 Peg H226-3   Galaxy           12.8 1.4 23:27.3 +12~28
+NGC 7678 Peg H226-2   Galaxy           11.8 2.3 23:28.5 +22~25
+NGC 7680 Peg H860-3   Galaxy           12.6 1.6 23:28.5 +32~24
+NGC 7681 Peg H242-2   Galaxy           13.7 1.4 23:28.6 +17~16
+NGC 7691 Peg H213-3   Galaxy           12.9 2.2 23:32.6 +15~50
+NGC 7711 Peg H244-2   Galaxy           12.2 4.1 23:35.7 +15~18
+NGC 7720 Peg H146-3   Galaxy           12.3 1.6 23:38.5 +27~02 3C456
+NGC 7741 Peg H208-2   Galaxy           11.3 4 23:43.9 +26~05
+NGC 7742 Peg H255-2   Galaxy           11.6 2 23:44.3 +10~46
+NGC 7743 Peg H256-2   Galaxy           11.5 2.3 23:44.4 + 9~56
+NGC 7753 Peg H213-2   Galaxy           12 3.2 23:47.1 +29~29
+NGC 7760 Peg H854-3   Galaxy           13.4 1 23:49.3 +30~58
+NGC 7769 Peg H230-2   Galaxy           12 1.6 23:51.1 +20~09 NGC 7769 group
+NGC 7771 Peg H231-2   Galaxy           12.2 2.3 23:51.4 +20~07 NGC 7769 group
+NGC 7773 Peg H851-2   Galaxy           13.4 1.1 23:52.3 +31~16
+NGC 7794 Peg H466-3   Galaxy           12.5 1.3 23:58.6 +10~42
+NGC 7798 Peg H232-2   Galaxy           13 p 1.5 23:59.4 +20~45
+NGC 7800 Peg H10-2    Galaxy           12.6 2.1 23:59.6 +14~49
+NGC 7805 Peg H855-3   Galaxy           13.3 0.9 00:01.4 +31~26
+NGC 7806 Peg H856-3   Galaxy           13.5 1 00:01.5 +31~27
+NGC 7810 Peg H984-3   Galaxy           13 1 00:02.4 +12~57
+NGC 7814 Peg H240-2   Galaxy           10.6 6 00:03.3 +16~09 Nearly edge-on
+NGC 7817 Peg H227-2   Galaxy           11.8 3.7 00:04.0 +20~45
+NGC  651 Per H193-1   Planetary Neb 10.1 0.1 01:42.3 +51~35 "400" M76 = NGC 650 Little Dumbbell
+NGC  869 Per H33-6    Open cluster     5.3 30 02:19.0 +57~09 "400"  Double Cluster
+NGC  884 Per H34-6    Open cluster     6.1 30 02:22.4 +57~07 "400"  Double Cluster
+NGC 1003 Per H238-2   Galaxy           11.5 5.4 02:39.3 +40~52
+NGC 1023 Per H156-1   Galaxy           9.5 8.7 02:40.4 +39~04 "400" brtst in grp
+NGC 1058 Per H633-2   Galaxy           11.5 3 02:43.5 +37~21 NGC1023 grp
+NGC 1122 Per H601-2   Galaxy           12.1 2 02:52.8 +42~12
+NGC 1129 Per H602-2   Galaxy           12.5 4.1 02:54.5 +41~35
+NGC 1138 Per H580-3   Galaxy           12.8 1.4 02:56.5 +43~03
+NGC 1160 Per H199-3   Galaxy           12.8 1.4 03:01.2 +44~58
+NGC 1161 Per H239-2   Galaxy           11 2.8 03:01.2 +44~55
+NGC 1167 Per H178-3   Galaxy           12.3 3.1 03:01.7 +35~12
+NGC 1169 Per H620-2   Galaxy           11.7 4.4 03:03.6 +46~23
+NGC 1175 Per H607-2   Galaxy           12.8 2.5 03:04.5 +42~20 Saturn-like
+NGC 1186 Per H43-4    Galaxy           11.4 3.7 03:05.5 +42~50
+NGC 1193 Per H608-2   Open cluster     12.6 2 03:05.8 +44~23
+NGC 1207 Per H578-3   Galaxy           12.6 1.8 03:08.2 +38~23
+NGC 1245 Per H25-6    Open cluster     8.4 10 03:14.7 +47~15 "400"
+NGC 1275 Per H603-2   Galaxy           11.6 2.6 03:19.8 +41~31 Perseus A
+NGC 1293 Per H574-3   Galaxy           13.4 1 03:21.6 +41~24
+NGC 1294 Per H575-3   Galaxy           13.1 1.8 03:21.7 +41~22
+NGC 1342 Per H88-8    Open cluster     6.7 14 03:31.6 +37~20 "400"
+NGC 1348 Per H84-8    Open cluster     5 03:33.8 +51~26
+NGC 1444 Per H80-8    Open cluster     6.6 4 03:49.4 +52~40 "400"
+NGC 1491 Per H258-1   Nebula           25 04:03.4 +51~19
+NGC 1513 Per H60-7    Open cluster     8.4 9 04:10.0 +49~31 "400"
+NGC 1528 Per H61-7    Open cluster     6.4 24 04:15.4 +51~14 "400"
+NGC 1545 Per H85-8    Open cluster     6.2 18 04:20.9 +50~15 "400"
+NGC 1579 Per H217-1   Nebula           12 04:30.2 +35~16
+NGC 1582 Per H70-8    Open cluster     7 37 04:32.0 +43~51
+NGC 1605 Per H26-6    Open cluster     10.7 5 04:35.0 +45~15
+NGC 1624 Per H49-5    Clstr wth 10.4 5 04:40.4 +50~27
+NGC   12 Psc H868-3   Galaxy           14.1 1.9 00:08.7 + 4~37
+NGC   36 Psc H456-3   Galaxy           14.4 2.4 00:11.4 + 6~23
+NGC   57 Psc H241-2   Galaxy           11.6 2.6 00:15.4 +17~18
+NGC   61 Psc H428-3   A Galaxy           14.7 1.1 00:16.5 - 6~14
+NGC   95 Psc H257-2   Galaxy           12.6 1.9 00:22.2 +10~30
+NGC  125 Psc H869-3   Galaxy           12.3 2 00:28.8 + 2~50
+NGC  128 Psc H854-2   Galaxy           11.6 3.4 00:29.2 + 2~51
+NGC  137 Psc H471-2   Galaxy           12.8 1.6 00:31.1 +10~11
+NGC  180 Psc H876-3   Galaxy           12.9 2.6 00:38.0 + 8~38
+NGC  182 Psc H870-3   Galaxy           12.6 2.3 00:38.2 + 2~44
+NGC  193 Psc H595-3   Galaxy           12.3 1.7 00:39.3 + 3~20
+NGC  194 Psc H856-2   Galaxy           12.1 1.9 00:39.3 + 3~02
+NGC  198 Psc H857-2   Galaxy           12.8 1.3 00:39.4 + 2~48 NGC 182 group
+NGC  200 Psc H858-2   Galaxy           12.6 1.8 00:39.6 + 2~53 NGC 182 group
+NGC  213 Psc H200-3   Galaxy           13.3 1.6 00:41.2 +16~28
+NGC  234 Psc H245-2   Galaxy           12.5 1.6 00:43.4 +14~20
+NGC  251 Psc H204-3   Galaxy           13.2 2.3 00:47.8 +19~34 amorph disc
+NGC  257 Psc H863-2   Galaxy           12.6 2 00:48.1 + 8~19
+NGC  266 Psc H153-3   Galaxy           11.6 3.2 00:49.8 +32~16
+NGC  296 Psc H214-2   Galaxy           15 1.1 00:55.4 +31~40
+NGC  315 Psc H210-2   Galaxy           11.2 3 00:57.8 +30~21
+NGC  379 Psc H215-2   Galaxy           12.6 1.8 01:07.3 +32~31
+NGC  380 Psc H216-2   Galaxy           12.5 1.6 01:07.3 +32~29 NGC 383 group
+NGC  383 Psc H217-2   Galaxy           11.9 2.3 01:07.4 +32~25 NGC 383 group
+NGC  392 Psc H218-2   Galaxy           12.7 1.2 01:08.4 +33~07 Brightest of 3
+NGC  407 Psc H219-2   Galaxy           13.4 1.8 01:10.6 +33~07
+NGC  410 Psc H220-2   Galaxy           11.5 2.3 01:11.0 +33~09
+NGC  420 Psc H154-3   Galaxy           12.1 2 01:12.1 +32~06
+NGC  421 Psc H155-3   Nonexistent 01:12.1 +32~09
+NGC  459 Psc H205-3   Galaxy           14.4 1 01:18.0 +17~33
+NGC  467 Psc H108-1   Galaxy           11.9 2.4 01:19.2 + 3~18 NGC 470 group
+NGC  470 Psc H250-3   Galaxy           11.9 3 01:19.7 + 3~25 NGC 470 group
+NGC  473 Psc H206-3   Galaxy           12.5 2.6 01:19.9 +16~33
+NGC  474 Psc H251-3   Galaxy           11.1 7.9 01:20.1 + 3~25 NGC 470 group
+NGC  488 Psc H252-3   Galaxy           10.3 5.2 01:21.8 + 5~15 "400"
+NGC  495 Psc H156-3   Galaxy           13.2 1.5 01:22.9 +33~28 in triple sub- group
+NGC  496 Psc H157-3   Galaxy           13.3 1.6 01:23.3 +33~33
+NGC  499 Psc H158-3   Galaxy           12 2 01:23.2 +33~28
+NGC  507 Psc H159-3   Galaxy           11.2 4.3 01:23.7 +33~15
+NGC  508 Psc H160-3   Galaxy           12.8 1.6 01:23.7 +33~17
+NGC  514 Psc H252-2   Galaxy           11.9 3.5 01:24.1 +12~55
+NGC  515 Psc H167-3   Galaxy           13 1.7 01:24.6 +33~29
+NGC  517 Psc H168-3   Galaxy           12.4 2.1 01:24.7 +33~27
+NGC  520 Psc H253-3   Galaxy           11.2 4.8 01:24.6 + 3~48 M82 type galaxy
+NGC  524 Psc H151-1   Galaxy           10.6 3.2 01:24.8 + 9~32 "400"
+NGC  532 Psc H556-3   Galaxy           12.9 2.6 01:25.3 + 9~16 Singular
+NGC  552 Psc H172-3   Nonexistent 01:27.8 +33~28
+NGC  553 Psc H173-3   Nonexistent 01:27.8 +33~28
+NGC  660 Psc H253-2   Galaxy           10.8 9.1 01:43.0 +13~38
+NGC  665 Psc H588-2   Galaxy           12.1 2.4 01:44.8 +10~26
+NGC  676 Psc H42-4    Galaxy           9.6 4.6 01:49.0 + 5~54 Brightest in chain
+NGC  693 Psc H859-2   Galaxy           12.4 2.9 01:50.5 + 6~09 NGC 676 group
+NGC  706 Psc H596-2   Galaxy           12.5 1.9 01:51.8 + 6~18 NGC 676 group
+NGC  718 Psc H270-2   Galaxy           11.7 2.8 01:53.2 + 4~12 2 smooth arms
+NGC  741 Psc H271-2   Galaxy           11.3 3.2 01:56.4 + 5~38 Brightest in group
+NGC  742 Psc H272-2   Galaxy           14.3 0.2 01:56.5 + 5~38 Compact
+NGC 7458 Psc H590-2   Galaxy           12.5 1.1 23:01.5 + 1~45
+NGC 7506 Psc H184-3   Galaxy           12.9 1.7 23:11.8 - 2~10
+NGC 7537 Psc H429-2   Galaxy           13.2 1.9 23:14.6 + 4~30
+NGC 7541 Psc H430-2   Galaxy           11.7 3.1 23:14.7 + 4~32
+NGC 7556 Psc H235-2   Galaxy           11.7 2.4 23:15.9 - 2~20
+NGC 7562 Psc H467-2   Galaxy           11.6 2.1 23:16.0 + 6~41
+NGC 7566 Psc H185-3   Galaxy           13.7 1.5 23:16.6 - 2~21
+NGC 7685 Psc H426-3   Galaxy           13.2 1.7 23:30.6 + 3~54
+NGC 7694 Psc H187-3   Galaxy           12.8 1.8 23:33.4 - 2~42
+NGC 7701 Psc H188-3   Galaxy           13.7 1.6 23:34.6 - 2~51
+NGC 7750 Psc H427-3   Galaxy           12.9 1.6 23:46.7 + 3~47
+NGC 7751 Psc H437-3   Galaxy           12.8 1.5 23:47.0 + 6~51
+NGC 7778 Psc H231-3   Galaxy           12.7 1.1 23:53.3 + 7~52 NGC 7782 group
+NGC 7779 Psc H232-3   Galaxy           12.7 1.3 23:53.4 + 7~52 NGC 7782 group
+NGC 7782 Psc H233-3   Galaxy           12.2 1.9 23:53.9 + 7~58
+NGC 7785 Psc H468-2   Galaxy           11.6 1.8 23:55.3 + 5~55
+NGC 7797 Psc H867-3   Galaxy           13.7 1.1 23:59.0 + 3~38
+NGC 7816 Psc H436-3   Galaxy           12.8 1.8 00:03.8 + 7~28
+NGC 7832 Psc H190-3   Galaxy           13.8 1.7 00:06.6 - 3~42
+NGC 2396 Pup H36-8    Open cluster     7.4 10 07:28.1 -11~44
+NGC 2401 Pup H65-7    Open cluster     12.6 2 07:29.4 -13~58
+NGC 2413 Pup H52-8    Nonexistent 07:33.3 -13~06  Open Cluster
+NGC 2414 Pup H37-8    Open cluster     7.9 4 07:33.3 -15~27
+NGC 2421 Pup H67-7    Open cluster     8.3 10 07:36.3 -20~37 "400"
+NGC 2422 Pup H38-8    Open cluster     4.4 30 07:36.6 -14~30 "400" M47
+NGC 2423 Pup H28-7    Open cluster     6.7 19 07:37.1 -13~52 "400"
+NGC 2425 Pup H87-8    Open cluster     3 07:38.3 -14~52
+NGC 2428 Pup H47-8    Nonexistent 07:39.2 -16~31 open cluster
+NGC 2430 Pup H46-8    Nonexistent 07:39.4 -16~21 open cluster
+NGC 2432 Pup H36-6    Open cluster     10.2 7 07:40.9 -19~05
+NGC 2438 Pup H39-4    Planetary Neb 11 1.1 07:41.8 -14~44 "400"
+NGC 2440 Pup H64-4    Planetary Neb 9.4 0.5 07:41.9 -18~13 "400"
+NGC 2467 Pup H22-4    Clstr wth 7.1 14 07:52.6 -26~23
+NGC 2479 Pup H58-7    Open cluster     9.6 7 07:55.1 -17~43 "400"
+NGC 2482 Pup H10-7    Open cluster     7.3 12 07:54.9 -24~18 "400"
+NGC 2489 Pup H23-7    Open cluster     7.9 8 07:56.2 -30~04 "400"
+NGC 2509 Pup H1-8     Open cluster     9.3 8 08:00.7 -19~04 "400"
+NGC 2525 Pup H877-3   Galaxy           11.6 2.9 08:05.6 -11~26
+NGC 2527 Pup H30-8    Open cluster     6.5 22 08:05.3 -28~10 "400"
+NGC 2539 Pup H11-7    Open cluster     6.5 22 08:10.7 -12~50 "400"
+NGC 2566 Pup H288-3   Galaxy           11 4.1 08:18.7 -25~29 and IC2311
+NGC 2567 Pup H64-7    Open cluster     7.4 10 08:18.6 -30~38 "400"
+NGC 2571 Pup H39-6    Open cluster     7 13 08:18.9 -29~44 "400"
+NGC 2578 Pup H902-3   Galaxy           12.4 2.4 08:21.4 -13~19
+NGC 2613 Pyx H266-2   Galaxy           10.4 7.2 08:33.4 -22~58 "400" Nearly edge-on
+NGC 2627 Pyx H63-7    Open cluster     8.4 11 08:37.3 -29~57 "400"
+NGC   24 Scl H461-3   Galaxy           11.5 5.5 00:09.9 -24~58
+NGC  253 Scl H1-5     Galaxy           7.1 25.1 00:47.6 -25~17 "400" Sculptor galaxay
+NGC  288 Scl H20-6    Globular 8.1 13.8 00:52.8 -26~35 "400" loose globular
+NGC  613 Scl H281-1   Galaxy           10 5.8 01:34.3 -29~25 "400"
+NGC 7507 Scl H2-2     Galaxy           10.4 2.6 23:12.1 -28~32
+NGC 5998 Sco H29-7    Nonexistent 15:49.4 -28~36
+NGC 6144 Sco H10-6    Globular 9.1 9.3 16:27.3 -26~02 "400"
+NGC 6451 Sco H13-6    Open cluster     8.2 7 17:50.7 -30~13 "400" Tom Thumb clust
+NGC 6664 Sct H12-8    Open cluster     7.8 16 18:36.7 - 8~13 "400"
+NGC 6712 Sct H47-1    Globular 8.2 7.2 18:53.1 - 8~42 "400"
+NGC 5910 Ser H400-2   Galaxy           13.6 0.9 15:19.3 +20~55
+NGC 5913 Ser H374-3   Galaxy           13.2 1.8 15:20.9 - 2~35
+NGC 5921 Ser H148-1   Galaxy           10.8 4.9 15:21.9 + 5~04
+NGC 5928 Ser H874-2   Galaxy           12.2 2.2 15:25.9 +18~05
+NGC 5936 Ser H130-2   Galaxy           12.4 1.5 15:30.0 +12~59
+NGC 5937 Ser H401-2   Galaxy           12.3 2 15:30.8 - 2~49
+NGC 5951 Ser H654-2   Galaxy           12.7 3.2 15:33.7 +15~00
+NGC 5953 Ser H178-2   Galaxy           12.1 1.7 15:34.5 +15~12
+NGC 5954 Ser H179-2   Galaxy           12.1 1 15:34.6 +15~12
+NGC 5962 Ser H96-2    Galaxy           11.3 2.6 15:36.5 +16~37
+NGC 5970 Ser H76-2    Galaxy           11.5 2.7 15:38.5 +12~11
+NGC 5980 Ser H655-2   Galaxy           12.6 1.7 15:41.4 +15~47
+NGC 5984 Ser H656-2   Galaxy           12.5 2.7 15:42.9 +14~14 bright narrow bar
+NGC 5990 Ser H425-2   Galaxy           12.4 1.5 15:46.4 + 2~24
+NGC 5996 Ser H97-2    Galaxy           12.8 1.8 15:46.9 +17~52
+NGC 6010 Ser H583-2   Galaxy           12.6 1.9 15:54.4 + 0~32
+NGC 6012 Ser H657-2   Galaxy           12 1.9 15:54.2 +14~35
+NGC 6018 Ser H646-3   Galaxy           13.4 1.4 15:57.5 +15~51
+NGC 6021 Ser H73-3    Galaxy           13.1 1.6 15:57.5 +15~56
+NGC 6070 Ser H553-3   Galaxy           11.8 3.6 16:10.0 + 0~43
+NGC 6118 Ser H402-2   Galaxy           11.7 4.6 16:21.8 - 2~17 "400"
+NGC 6604 Ser H15-8    Clstr wth 6.5 4 18:18.1 -12~14
+NGC 2967 Sex H275-2   Galaxy           11.6 3 09:42.1 + 0~20
+NGC 2969 Sex H527-3   Galaxy           14.7 1.5 09:41.8 - 8~37
+NGC 2974 Sex H61-1    Galaxy           10.8 3.4 09:42.6 - 3~42 "400" bright nucleus
+NGC 2979 Sex H521-3   Galaxy           12.8 1.7 09:43.1 -10~23
+NGC 2980 Sex H528-3   Galaxy           13 1.6 09:43.2 - 9~37
+NGC 2990 Sex H624-2   Galaxy           12.8 1.3 09:46.3 + 5~43 bright nucleus
+NGC 3044 Sex H254-3   Galaxy           12 4.8 09:53.7 + 1~35 Nearly edge-on
+NGC 3055 Sex H4-6     Galaxy           12.1 2.2 09:55.3 + 4~16
+NGC 3115 Sex H163-1   Galaxy           8.9 8.1 10:05.2 - 7~43 "400" Spindle Galaxy
+NGC 3122 Sex H305-2   Galaxy           NIU 1.8 10:06.5 - 6~32
+NGC 3156 Sex H255-3   Galaxy           12.3 1.8 10:12.7 + 3~08 NGC 3166 group
+NGC 3166 Sex H3-1     Galaxy           10.6 5.2 10:13.8 + 3~26 "400" NGC 3166 group
+NGC 3169 Sex H4-1     Galaxy           10.5 4.8 10:14.2 + 3~28 "400"
+NGC 3401 Sex H88-3    Nonexistent 10:50.4 + 5~48 nothing there
+NGC 3423 Sex H6-4     Galaxy           11.1 3.9 10:51.2 + 5~50 face on spiral
+NGC 3423 Sex H131-2   Galaxy           11.1 3.9 10:51.2 + 5~50 face on spiral
+NGC 6839 Sge H16?-6   Nonexistent 19:54.5 +17~54
+NGC 6440 Sgr H150-1   Globular 9.1 5.4 17:48.9 -20~22 "400"
+NGC 6445 Sgr H586-2   Planetary Neb 11.2 0.6 17:49.2 -20~01 "400" Little Gem
+NGC 6507 Sgr H53-8    Open cluster     9.6 6 17:59.6 -17~24
+NGC 6514 Sgr H41-4    Clstr wth 6.3 29 18:02.3 -23~02 H41-10,11,12-5 "400" M20
+NGC 6520 Sgr H7-7     Open cluster     7.6 6 18:03.4 -27~54 "400" near B86
+NGC 6522 Sgr H49-1    Globular 8.6 5.6 18:03.6 -30~02 "400"
+NGC 6526 Sgr H9-5     Nebula           5 40 18:02.6 -23~35
+NGC 6528 Sgr H200-2   Globular 9.5 3.7 18:04.8 -30~03 "400"
+NGC 6533 Sgr H13-5    Nonexistent 18:05.1 -24~53
+NGC 6540 Sgr H198-2   Open cluster     14.6 0.8 18:06.3 -27~49 "400"
+NGC 6544 Sgr H197-2   Globular 8.3 8.9 18:07.3 -25~00 "400"
+NGC 6553 Sgr H12-4    Globular 8.3 8.1 18:09.3 -25~54 "400"
+NGC 6561 Sgr H54-8    Nonexistent 18:10.5 -16~48 open cluster
+NGC 6568 Sgr H30-7    Open cluster     8.6 12 18:12.8 -21~36 "400"
+NGC 6569 Sgr H201-2   Globular 8.7 5.8 18:13.6 -31~50 "400"
+NGC 6583 Sgr H31-7    Open cluster     10 2.8 18:15.8 -22~08 "400"
+NGC 6596 Sgr H55-8    Open cluster     NIU 10 18:17.5 -16~40
+NGC 6624 Sgr H50-1    Globular 8.3 5.9 18:23.7 -30~22 "400"
+NGC 6629 Sgr H204-2   Planetary Neb 11.6 0.3 18:25.7 -23~12 "400"
+NGC 6638 Sgr H51-1    Globular 9.2 5 18:30.9 -25~30 "400"
+NGC 6642 Sgr H205-2   Globular 8.8 4.5 18:31.9 -23~29 "400"
+NGC 6645 Sgr H23-6    Open cluster     8.5 10 18:32.6 -16~54 "400"
+NGC 6647 Sgr H14-8    Open cluster     ###### 18:31.5 -17~21 Milky way starcloud
+NGC 6698 Sgr H15-6    Nonexistent 18:48.2 -25~55
+NGC 6717 Sgr H143-3   Globular 9.2 3.9 18:55.1 -22~42
+NGC 6818 Sgr H51-4    Planetary Neb 9.3 0.3 19:44.0 -14~09 "400" Little Gem
+NGC 1409 Tau H263-3   Galaxy           13.9 0.9 03:41.2 - 1~17 post-eruptive pair
+NGC 1514 Tau H69-4    Planetary Neb 10.9 1.9 04:09.2 +30~47
+NGC 1550 Tau H464-2   Galaxy           12 1.7 04:19.6 + 2~26
+NGC 1587 Tau H8-2     Galaxy           11.7 1.8 04:30.7 + 0~40
+NGC 1588 Tau H9-2     Galaxy           12.9 1.4 04:30.8 + 0~39 compact,disturbed
+NGC 1589 Tau H7-2     Galaxy           11.8 3.1 04:30.8 + 0~51
+NGC 1633 Tau H952-3   Galaxy           13.5 1.1 04:40.0 + 7~21
+NGC 1634 Tau H953-3   Galaxy           14.1 0.5 04:40.0 + 7~20
+NGC 1647 Tau H8-8     Open cluster     6.4 45 04:46.0 +19~04 "400"
+NGC 1750 Tau H43-8    Open cluster     05:03.9 +23~39 "400" P.O NGC 1746
+NGC 1758 Tau H21-7    Open cluster     05:04.4 +23~46
+NGC 1802 Tau H41-8    Nonexistent 05:10.2 +24~06
+NGC 1817 Tau H4-7     Open cluster     7.7 16 05:12.1 +16~42 "400"
+NGC 1896 Tau H4-8     Nonexistent 05:25.4 +20~10
+NGC 1996 Tau H42-8    Nonexistent 05:38.2 +25~49
+NGC 2026 Tau H28-8    Nonexistent 05:43.1 +20~07
+NGC  598 Tri H17-5    Galaxy           5.7 62 01:33.9 +30~39 "400" M33 Pinwheel
+NGC  604 Tri H150-3   Knot in galaxy 1 01:34.5 +30~48 with M33
+NGC  614 Tri H174-3   Galaxy           12.7 1.6 01:35.8 +33~42
+NGC  661 Tri H610-2   Galaxy           12.2 2 01:44.2 +28~42
+NGC  670 Tri H611-2   Galaxy           12.1 2.5 01:47.4 +27~53
+NGC  672 Tri H157-1   Galaxy           10.8 6.6 01:47.9 +27~26 coarse spiral
+NGC  684 Tri H612-2   Galaxy           12.3 3.1 01:50.2 +27~39
+NGC  735 Tri H176-3   Galaxy           13.3 1.6 01:56.6 +34~11
+NGC  736 Tri H221-2   Galaxy           12.2 2 01:56.7 +33~03 with NGC 736
+NGC  740 Tri H221-2   Galaxy           14 1.6 01:56.9 +33~01 with NGC 740
+NGC  750 Tri H222-2   Galaxy           12.2 1.6 01:57.5 +33~13 Contact pair
+NGC  777 Tri H223-2   Galaxy           11.4 2.8 02:00.2 +31~26 with NGC 778
+NGC  780 Tri H583-3   Galaxy           13.4 1.6 02:00.5 +28~13
+NGC  807 Tri H151-3   Galaxy           12.5 2.2 02:04.8 +28~59
+NGC  855 Tri H613-2   Galaxy           12.6 3.3 02:14.0 +27~53
+NGC  890 Tri H225-2   Galaxy           11.2 2.9 02:22.0 +33~16
+NGC  925 Tri H177-3   Galaxy           10 9.8 02:27.3 +33~35 NGC 1023 group
+NGC  949 Tri H154-1   Galaxy           11.9 2.8 02:30.8 +37~08
+NGC  987 Tri H161-3   Galaxy           12.4 1.3 02:36.8 +33~19
+NGC 1060 Tri H162-3   Galaxy           11.8 2.3 02:43.2 +32~24 very diffuse
+NGC 1066 Tri H163-3   Galaxy           13.2 1.7 02:43.8 +32~27
+NGC 2629 UMa H982-3   Galaxy           12.3 2.3 08:47.2 +72~59
+NGC 2639 UMa H204-1   Galaxy           11.8 2 08:43.6 +50~12 faint thin spiral arm
+NGC 2641 UMa H983-3   Galaxy           13.6 1.3 08:48.1 +72~54 compact
+NGC 2650 UMa H908-2   Galaxy           13.3 1.6 08:50.0 +70~18
+NGC 2681 UMa H242-1   Galaxy           10.3 3.8 08:53.5 +51~19 "400" Compact center
+NGC 2684 UMa H712-3   Galaxy           12.6 0.8 08:54.8 +49~08 peculiar
+NGC 2692 UMa H831-3   Galaxy           13.3 1.2 08:57.0 +52~04
+NGC 2693 UMa H823-2   Galaxy           11.7 2.2 08:57.0 +51~21 very compact
+NGC 2701 UMa H66-4    Galaxy           12.3 1.8 08:59.1 +53~46 bright center
+NGC 2710 UMa H841-3   Galaxy           12.9 2 08:59.8 +55~41
+NGC 2726 UMa H834-2   Galaxy           12.5 1.6 09:04.9 +59~56
+NGC 2742 UMa H249-1   Galaxy           11.4 3 09:07.6 +60~29 "400" bright nucleus
+NGC 2756 UMa H828-2   Galaxy           12.4 1.6 09:09.0 +53~51
+NGC 2768 UMa H250-1   Galaxy           9.9 6.6 09:11.6 +60~02 "400"
+NGC 2787 UMa H216-1   Galaxy           10.8 3.4 09:19.3 +69~12 "400"
+NGC 2800 UMa H832-3   Galaxy           12.8 1.4 09:18.6 +52~31
+NGC 2805 UMa H878-3   Galaxy           11.3 6.3 09:20.3 +64~06 slightly asym
+NGC 2810 UMa H749-3   A Galaxy           12.2 1.7 09:22.1 +71~50
+NGC 2814 UMa H868-2   Galaxy           13.8 1.4 09:21.2 +64~15 NGC 2805 group
+NGC 2820 UMa H869-2   Galaxy           12.8 4.3 09:21.8 +64~16 v flat cent bulge
+NGC 2841 UMa H205-1   Galaxy           9.2 6.1 09:22.0 +50~58 "400" fine spiral
+NGC 2854 UMa H714-3   Galaxy           13 1.7 09:24.0 +49~13 double galaxy,brightest of 3
+NGC 2856 UMa H713-3   Galaxy           13.1 1 09:24.2 +49~15 narrow tail
+NGC 2870 UMa H846-3   Galaxy           13 2.5 09:27.8 +57~23
+NGC 2880 UMa H260-1   Galaxy           11.6 2.6 09:29.6 +62~30 very compact
+NGC 2950 UMa H68-4    Galaxy           11 3.2 09:42.6 +58~51 "400"
+NGC 2976 UMa H285-1   Galaxy           10.2 5 09:47.3 +67~55 "400"
+NGC 2985 UMa H78-1    Galaxy           10.4 3.9 09:50.4 +72~17 "400"
+NGC 2998 UMa H717-2   Galaxy           12.5 2.4 09:48.7 +44~05
+NGC 3027 UMa H23-5    Galaxy           11.8 4.6 09:55.7 +72~12
+NGC 3034 UMa H79-4    Galaxy           8.4 11.2 09:55.8 +69~41 "400" M82
+NGC 3043 UMa H835-2   Galaxy           12.6 1.7 09:56.2 +59~18
+NGC 3063 UMa H909-2   Double star 10:01.6 +72~08
+NGC 3065 UMa H333-2   Galaxy           12.5 1.8 10:01.9 +72~10
+NGC 3066 UMa H334-2   Galaxy           12.9 1.1 10:02.2 +72~07 = H909-2 ?
+NGC 3073 UMa H853-3   Galaxy           13.4 1.2 10:00.9 +55~37 NGC 3079 group
+NGC 3077 UMa H286-1   Galaxy           9.9 4.6 10:03.3 +68~44 "400" M81 group
+NGC 3079 UMa H47-5    Galaxy           10.6 7.6 10:02.0 +55~41 "400"
+NGC 3102 UMa H916-3   Galaxy           13.3 0.9 10:04.6 +60~07
+NGC 3182 UMa H265-1   Galaxy           12.1 2.1 10:19.5 +58~12
+NGC 3184 UMa H168-1   Galaxy           9.8 6.9 10:18.3 +41~25 "400"
+NGC 3188 UMa H910-3   Galaxy           13.7 1.1 10:19.7 +57~25
+NGC 3192 UMa H704-3   Galaxy           15 0.3 10:19.0 +46~27
+NGC 3198 UMa H199-1   Galaxy           10.3 9.2 10:19.9 +45~33 "400"
+NGC 3202 UMa H720-2   Galaxy           13.2 1.2 10:20.5 +43~01
+NGC 3205 UMa H721-2   Galaxy           13.2 1.4 10:20.8 +42~57
+NGC 3206 UMa H266-1   Galaxy           11.9 2.6 10:21.8 +56~56
+NGC 3207 UMa H722-2   Galaxy           13.2 1.3 10:21.0 +42~58 NGC 3202 group
+NGC 3220 UMa H911-3   Galaxy           13 1.2 10:23.7 +57~02
+NGC 3225 UMa H882-2   Galaxy           12.6 2.1 10:25.1 +58~09
+NGC 3237 UMa H631-3   Galaxy           13 1.1 10:25.8 +39~39
+NGC 3238 UMa H883-2   Galaxy           12.9 1.3 10:26.7 +57~14
+NGC 3259 UMa H870-2   Galaxy           12.1 2.1 10:32.6 +65~03
+NGC 3266 UMa H871-2   Galaxy           12.4 1.4 10:33.3 +64~45
+NGC 3284 UMa H912-3   Single star 10:36.0 +58~32
+NGC 3286 UMa H917-3   Galaxy           13.6 0.8 10:36.3 +58~37
+NGC 3288 UMa H918-3   Galaxy           14 1 10:36.4 +58~33
+NGC 3298 UMa H767-3   Galaxy           14 NIU 10:37.2 +50~06
+NGC 3310 UMa H60-4    Galaxy           10.8 3.5 10:38.7 +53~30 "400"
+NGC 3319 UMa H700-3   Galaxy           11.1 6.9 10:39.2 +41~41
+NGC 3320 UMa H745-2   Galaxy           12.3 2 10:39.6 +47~24
+NGC 3348 UMa H80-1    Galaxy           11.2 2 10:47.2 +72~50
+NGC 3353 UMa H842-3   Galaxy           12.8 1.4 10:45.4 +55~58
+NGC 3359 UMa H52-5    Galaxy           10.6 7.2 10:46.6 +63~13
+NGC 3364 UMa H318-3   Galaxy           12.8 1.6 10:48.5 +72~25
+NGC 3374 UMa H701-3   Galaxy           13.7 1.3 10:47.9 +43~10
+NGC 3392 UMa H881-3   Galaxy           13.7 0.8 10:51.0 +65~46
+NGC 3394 UMa H872-2   Galaxy           12.4 1.8 10:50.6 +65~43
+NGC 3398 UMa H792-3   Galaxy           14.4 0.9 10:51.5 +55~23
+NGC 3407 UMa H919-3   Galaxy           13.6 1.4 10:52.3 +61~23
+NGC 3408 UMa H913-3   Galaxy           13.4 0.8 10:52.2 +58~26
+NGC 3415 UMa H718-2   Galaxy           12.7 1.9 10:51.7 +43~43
+NGC 3435 UMa H887-2   Galaxy           13.2 1.7 10:54.8 +61~18
+NGC 3440 UMa H914-3   Galaxy           13.2 2.1 10:53.9 +57~07 NGC 3445 group
+NGC 3445 UMa H267-1   Galaxy           12.6 1.6 10:54.6 +56~59 NGC 3445 group
+NGC 3448 UMa H233-1   Galaxy           12.1 4.9 10:54.7 +54~19
+NGC 3458 UMa H268-1   Galaxy           12.2 1.4 10:56.0 +57~07 NGC 3445 group
+NGC 3468 UMa H632-3   Galaxy           13 1.6 10:57.4 +40~57
+NGC 3470 UMa H888-2   Galaxy           13.2 1.6 10:58.7 +59~31
+NGC 3471 UMa H972-3   Galaxy           12.5 1.7 10:59.1 +61~32
+NGC 3478 UMa H705-3   Galaxy           12.9 2.4 10:59.5 +46~07
+NGC 3488 UMa H269-1   Galaxy           12.9 1.9 11:01.4 +57~41
+NGC 3499 UMa H793-3   Galaxy           13.6 0.7 11:03.2 +56~13
+NGC 3516 UMa H336-2   Galaxy           11.7 2.1 11:06.8 +72~34
+NGC 3517 UMa H884-2   Galaxy           13 0.9 11:05.6 +56~31
+NGC 3527 UMa H350-3   Galaxy           13.7 1.1 11:07.3 +28~32
+NGC 3530 UMa H915-3   Galaxy           13.8 0.6 11:08.7 +57~14
+NGC 3543 UMa H920-3   Galaxy           14.1 1.3 11:10.8 +61~22
+NGC 3549 UMa H220-1   Galaxy           12.1 3 11:10.9 +53~23 nearly edge on
+NGC 3550 UMa H351-3   Galaxy           13.3 1 11:10.6 +28~46 peculiar,double nucl
+NGC 3552 UMa H352-3   Galaxy           13.8 0.6 11:10.6 +28~42
+NGC 3556 UMa H46-5    Galaxy           10 8.1 11:11.5 +55~40 "400" M108
+NGC 3577 UMa H723-3   Galaxy           13.4 1.5 11:13.8 +48~16
+NGC 3583 UMa H728-2   Galaxy           11.1 2.5 11:14.2 +48~19
+NGC 3589 UMa H921-3   Galaxy           13.8 1.6 11:15.2 +60~42
+NGC 3594 UMa H770-3   Galaxy           13.7 1.3 11:16.1 +55~42
+NGC 3595 UMa H706-3   Galaxy           12.1 1.5 11:15.4 +47~27
+NGC 3600 UMa H709-2   Galaxy           11.7 3.8 11:15.8 +41~36
+NGC 3610 UMa H270-1   Galaxy           10.8 3.2 11:18.4 +58~47 "400"
+NGC 3613 UMa H271-1   Galaxy           10.9 3.4 11:18.6 +58~00 "400"
+NGC 3614 UMa H729-2   Galaxy           11.6 4.2 11:18.3 +45~45
+NGC 3619 UMa H244-1   Galaxy           11.5 3.7 11:19.4 +57~46 "400"
+NGC 3622 UMa H879-2   Galaxy           13.2 1.2 11:20.2 +67~15
+NGC 3625 UMa H885-2   Galaxy           13.1 1.9 11:20.5 +57~47
+NGC 3631 UMa H226-1   Galaxy           10.4 5.5 11:21.0 +53~10 "400"
+NGC 3642 UMa H245-1   Galaxy           11.2 5.7 11:22.3 +59~05
+NGC 3652 UMa H775-2   Galaxy           12.2 2.7 11:22.6 +37~46
+NGC 3654 UMa H880-2   Galaxy           12.7 1.6 11:24.1 +69~26
+NGC 3656 UMa H782-2   Galaxy           12.5 1.6 11:23.6 +53~51
+NGC 3657 UMa H768-3   Galaxy           12.4 2.7 11:23.9 +52~55
+NGC 3658 UMa H59-4    Galaxy           12.2 1.8 11:24.0 +38~34
+NGC 3665 UMa H219-1   Galaxy           10.8 3.5 11:24.7 +38~46 "400"
+NGC 3668 UMa H845-2   Galaxy           12.3 1.9 11:25.5 +63~27
+NGC 3669 UMa H829-2   Galaxy           12.4 2 11:25.4 +57~43
+NGC 3671 UMa H922-3   Galaxy           14.6 NIU 11:25.8 +60~29
+NGC 3674 UMa H886-2   Galaxy           12.2 1.5 11:26.4 +57~03
+NGC 3675 UMa H194-1   Galaxy           10.2 6.2 11:26.1 +43~35 "400"
+NGC 3683 UMa H246-1   Galaxy           12.4 1.9 11:27.5 +56~53
+NGC 3687 UMa H770-2   Galaxy           12 1.6 11:28.0 +29~31
+NGC 3690 UMa H247-1   Galaxy           11.5 2.5 11:28.5 +58~33 double system
+NGC 3714 UMa H353-3   Galaxy           14.1 2 11:31.8 +28~22
+NGC 3718 UMa H221-1   Galaxy           10.5 8.7 11:32.6 +53~04
+NGC 3725 UMa H836-2   Galaxy           13 1.5 11:33.7 +61~53
+NGC 3726 UMa H730-2   Galaxy           10.4 5.6 11:33.3 +47~02 "400"
+NGC 3729 UMa H222-1   Galaxy           11.4 3.1 11:33.8 +53~08 "400"
+NGC 3733 UMa H771-3   Galaxy           12.4 4.4 11:35.0 +54~51
+NGC 3737 UMa H772-3   Galaxy           12.8 1 11:35.6 +54~57
+NGC 3738 UMa H783-2   Galaxy           11.7 3.2 11:35.8 +54~31
+NGC 3740 UMa H847-3   Galaxy           14.2 0.9 11:36.2 +59~59
+NGC 3756 UMa H784-2   Galaxy           11.5 4.4 11:36.8 +54~18
+NGC 3757 UMa H843-3   Galaxy           12.6 1.1 11:37.1 +58~26
+NGC 3762 UMa H837-2   Galaxy           12.6 2.1 11:37.5 +61~46
+NGC 3769 UMa H731-2   Galaxy           11.8 3 11:37.7 +47~54 nearly edge on
+NGC 3770 UMa H838-2   Galaxy           12.9 1 11:38.0 +59~37
+NGC 3780 UMa H227-1   Galaxy           11.5 2.8 11:39.4 +56~16
+NGC 3782 UMa H732-2   Galaxy           12.4 1.3 11:39.3 +46~31 asymmetric spiral
+NGC 3794 UMa H773-3   Galaxy           15 p 11:39.6 +55~11 Not in Uranometria
+NGC 3795 UMa H844-3   A Galaxy           13.1 2.1 11:40.1 +58~37
+NGC 3796 UMa H839-2   Galaxy           12.5 1.3 11:40.6 +60~18
+NGC 3804 UMa H830-2   Galaxy           12.9 2.3 11:40.9 +56~12 = NGC 3794
+NGC 3811 UMa H737-2   Galaxy           12.3 2.3 11:41.3 +47~42
+NGC 3813 UMa H94-1    Galaxy           11.7 1.9 11:41.3 +36~33 "400"
+NGC 3824 UMa H774-3   Galaxy           13.6 1.3 11:42.8 +52~47
+NGC 3829 UMa H775-3   Galaxy           14 0.9 11:43.5 +52~43
+NGC 3838 UMa H831-2   Galaxy           12.3 1.4 11:44.2 +57~57
+NGC 3850 UMa H776-3   Galaxy           13.3 2 11:45.6 +55~53
+NGC 3870 UMa H833-3   Galaxy           13 0.9 11:45.9 +50~12
+NGC 3877 UMa H201-1   Galaxy           11 5.1 11:46.1 +47~30 "400" edge on spiral
+NGC 3888 UMa H785-2   Galaxy           12.1 1.6 11:47.6 +55~58
+NGC 3891 UMa H723-2   Galaxy           12.4 2.1 11:48.0 +30~23
+NGC 3893 UMa H738-2   Galaxy           10.5 4.2 11:48.6 +48~43 "400"
+NGC 3894 UMa H248-1   Galaxy           11.6 2 11:48.8 +59~25
+NGC 3895 UMa H832-2   Galaxy           13.1 1.2 11:49.1 +59~26
+NGC 3896 UMa H739-2   Galaxy           12.9 1.6 11:48.9 +48~41
+NGC 3897 UMa H408-2   Galaxy           12.9 1.9 11:49.0 +35~01
+NGC 3898 UMa H228-1   Galaxy           10.7 3.3 11:49.2 +56~05 "400"
+NGC 3906 UMa H715-3   Galaxy           12.6 1.6 11:49.7 +48~26
+NGC 3913 UMa H786-2   Galaxy           12.6 2.7 11:50.6 +55~21
+NGC 3916 UMa H787-2   Galaxy           13.9 1.5 11:50.8 +55~09
+NGC 3917 UMa H824-2   Galaxy           11.8 4.7 11:50.8 +51~50 nearly edge on
+NGC 3921 UMa H788-2   Galaxy           12.4 2 11:51.1 +55~05
+NGC 3922 UMa H716-3   Galaxy           12.8 1.7 11:51.2 +50~11
+NGC 3924 UMa H825-2   Galaxy           14.5 1.6 11:52.6 +50~01
+NGC 3928 UMa H740-2   Galaxy           12.6 1.4 11:51.8 +48~41
+NGC 3930 UMa H616-3   Galaxy           12.4 4.1 11:51.8 +38~01
+NGC 3931 UMa H769-3   Galaxy           13.3 1.1 11:51.2 +52~00
+NGC 3938 UMa H203-1   Galaxy           10.4 5.4 11:52.8 +44~07 "400" face on spiral
+NGC 3941 UMa H173-1   Galaxy           10.3 3.7 11:52.9 +36~59 "400"
+NGC 3945 UMa H251-1   Galaxy           10.8 5.9 11:53.2 +60~41 "400"
+NGC 3949 UMa H202-1   Galaxy           11 3 11:53.7 +47~52 "400"
+NGC 3953 UMa H45-5    Galaxy           10.1 6 11:53.8 +52~20 "400"
+NGC 3958 UMa H833-2   Galaxy           13 1.3 11:54.6 +58~22
+NGC 3963 UMa H67-4    Galaxy           11.9 2.7 11:55.0 +58~30 symetrical arms
+NGC 3971 UMa H724-2   Galaxy           12.7 1.4 11:55.6 +30~00
+NGC 3972 UMa H789-2   Galaxy           12.3 3.8 11:55.8 +55~19
+NGC 3977 UMa H790-2   Galaxy           13.4 1.6 11:56.1 +55~24
+NGC 3978 UMa H840-2   Galaxy           12.7 1.6 11:56.2 +60~31
+NGC 3982 UMa H62-4    Galaxy           11 2.2 11:56.5 +55~08 "400"
+NGC 3985 UMa H707-3   Galaxy           12.6 1 11:56.7 +48~20
+NGC 3990 UMa H791-2   Galaxy           12.6 1.4 11:57.6 +55~28
+NGC 3992 UMa H61-4    Galaxy           9.8 7.6 11:57.6 +53~23 "400" M109
+NGC 3998 UMa H229-1   Galaxy           10.7 3 11:57.9 +55~27 "400"
+NGC 4013 UMa H733-2   Galaxy           11.2 4.7 11:58.5 +43~57 edge on
+NGC 4020 UMa H725-2   Galaxy           12.7 1.8 11:58.9 +30~25
+NGC 4025 UMa H617-3   Galaxy           13.6 2.6 11:59.2 +37~48
+NGC 4026 UMa H223-1   Galaxy           10.8 4.6 11:59.4 +50~58 "400" edge on
+NGC 4036 UMa H253-1   Galaxy           10.7 3.8 12:01.4 +61~54 "400" spindle shape
+NGC 4041 UMa H252-1   Galaxy           11.3 2.6 12:02.2 +62~08 "400"
+NGC 4047 UMa H741-2   Galaxy           12.2 1.1 12:02.9 +48~38
+NGC 4051 UMa H56-4    Galaxy           10.2 5.5 12:03.2 +44~32 "400" thick spiral arms
+NGC 4054 UMa H794-3   Galaxy           14.2 0.5 12:03.2 +57~54
+NGC 4062 UMa H174-1   Galaxy           11.1 4.4 12:04.1 +31~54
+NGC 4068 UMa H781-2   Galaxy           12.5 2.7 12:04.0 +52~35
+NGC 4085 UMa H224-1   Galaxy           12.4 2.5 12:05.4 +50~21 "400"
+NGC 4088 UMa H206-1   Galaxy           10.6 5.4 12:05.6 +50~33 "400"
+NGC 4096 UMa H207-1   Galaxy           10.6 6.5 12:06.0 +47~29 nearly edge on
+NGC 4097 UMa H400-3   Galaxy           13.4 1.2 12:06.1 +36~52
+NGC 4100 UMa H717-3   Galaxy           11.2 5.1 12:06.2 +49~35 nearly edge on spiral
+NGC 4102 UMa H225-1   Galaxy           11.2 2.9 12:06.4 +52~43 "400"
+NGC 4141 UMa H795-3   Galaxy           13.7 1.3 12:09.7 +58~51
+NGC 4142 UMa H814-3   Galaxy           13.3 2 12:09.5 +53~06
+NGC 4144 UMa H747-2   Galaxy           11.6 6.3 12:10.0 +46~27
+NGC 4149 UMa H802-2   Galaxy           13.2 1.3 12:10.4 +58~19
+NGC 4154 UMa H845-3   Single star 12:10.7 +58~21
+NGC 4157 UMa H208-1   Galaxy           11.3 7.1 12:11.1 +50~29 edge on narrow streak
+NGC 4161 UMa H803-2   Galaxy           12.9 1.1 12:11.4 +57~44
+NGC 4172 UMa H792-2   Galaxy           13.2 1.3 12:12.2 +56~11
+NGC 4194 UMa H867-2   Galaxy           12.5 2.1 12:14.2 +54~32
+NGC 4195 UMa H796-3   Galaxy           14.2 1.6 12:14.2 +59~37
+NGC 4198 UMa H793-2   Galaxy           13.6 1 12:14.3 +56~01
+NGC 4199 UMa H797-3   Galaxy           14.5 0.5 12:14.8 +59~54
+NGC 4271 UMa H804-2   Galaxy           12.6 1.5 12:19.6 +56~45
+NGC 4284 UMa H798-3   Galaxy           13.5 2.7 12:20.2 +58~06
+NGC 4290 UMa H805-2   Galaxy           11.8 2.3 12:20.8 +58~06
+NGC 4335 UMa H806-2   Galaxy           12.4 1.9 12:23.0 +58~27
+NGC 4358 UMa H799-3   Galaxy           15.4 0.3 12:24.0 +58~24
+NGC 4362 UMa H800-3   Galaxy           14.3 0.7 12:24.2 +58~22
+NGC 4364 UMa H801-3   Galaxy           13.4 1.3 12:24.0 +58~24
+NGC 4384 UMa H879-3   Galaxy           13 1.3 12:25.2 +54~30
+NGC 4500 UMa H234-1   Galaxy           12.5 1.6 12:31.4 +57~58
+NGC 4511 UMa H834-3   Galaxy           13.7 0.8 12:32.2 +56~29
+NGC 4547 UMa H802-3   Galaxy           16.4 0.7 12:34.8 +58~56 double with 4549
+NGC 4549 UMa H807-3   Galaxy           16.4 0.3 12:34.8 +58~56 double with 4547
+NGC 4566 UMa H880-3   Galaxy           13.1 1.1 12:35.9 +54~13
+NGC 4605 UMa H254-1   Galaxy           10.3 6.4 12:40.0 +61~37
+NGC 4644 UMa H794-2   Galaxy           14 1.8 12:42.7 +55~09 NGC 4686 group
+NGC 4646 UMa H794-2   Galaxy           13.4 0.5 12:42.9 +54~51
+NGC 4675 UMa H778-3   Galaxy           14.4 1.5 12:45.6 +54~44
+NGC 4686 UMa H795-2   Galaxy           12.6 1.9 12:46.7 +54~33 NGC 4686 group
+NGC 4695 UMa H796-2   Galaxy           13.4 1.1 12:47.5 +54~23 NGC 4686 group
+NGC 4732 UMa H814-2   Galaxy           13.8 1.2 12:50.1 +52~52
+NGC 4801 UMa H816-3   Galaxy           14.4 0.8 12:54.6 +53~06
+NGC 4814 UMa H243-1   Galaxy           12 3.2 12:55.4 +58~21
+NGC 4964 UMa H779-3   Galaxy           13.2 1.2 13:05.4 +56~18
+NGC 4967 UMa H783-3   Galaxy           14.2 NIU 13:05.7 +53~34
+NGC 4973 UMa H781-3   Galaxy           13.3 0.7 13:05.5 +53~41
+NGC 4974 UMa H782-3   Galaxy           14.7 0.7 13:05.9 +53~40
+NGC 4977 UMa H780-3   Galaxy           13.3 1.8 13:06.2 +55~39
+NGC 5007 UMa H848-3   Galaxy           13.3 0.9 13:09.3 +62~10
+NGC 5109 UMa H826-2   Galaxy           12.8 1.6 13:20.9 +57~39
+NGC 5113 UMa H808-3   Galaxy           14.3 0.9 13:21.4 +57~42
+NGC 5163 UMa H821-3   Galaxy           13.6 1.1 13:26.9 +52~45
+NGC 5164 UMa H784-3   Galaxy           13.7 0.9 13:27.2 +55~29
+NGC 5201 UMa H797-2   Galaxy           13.1 1.6 13:29.2 +53~04
+NGC 5204 UMa H63-4    Galaxy           11.3 4.9 13:29.6 +58~25 M101 group
+NGC 5216 UMa H841-2   Galaxy           12.6 2.7 13:32.1 +62~42 Connected to 5218
+NGC 5218 UMa H842-2   Galaxy           12.3 1.8 13:32.2 +62~46
+NGC 5250 UMa H817-2   Galaxy           13 1 13:36.0 +51~14
+NGC 5255 UMa H803-3   Galaxy           14.4 0.8 13:37.3 +57~06
+NGC 5256 UMa H673-3   Galaxy           13.2 1.1 13:38.3 +48~17
+NGC 5278 UMa H798-2   Galaxy           12.7 1.3 13:41.6 +55~40
+NGC 5294 UMa H785-3   Galaxy           14.2 NIU 13:45.2 +55~17
+NGC 5308 UMa H255-1   Galaxy           11.4 2.6 13:47.0 +60~58
+NGC 5322 UMa H256-1   Galaxy           10.2 6.1 13:49.3 +60~12 "400"
+NGC 5342 UMa H849-3   Galaxy           13.5 0.9 13:51.4 +59~53
+NGC 5368 UMa H786-3   Galaxy           13 0.8 13:54.5 +54~20
+NGC 5370 UMa H843-2   Galaxy           13.2 1.4 13:54.1 +60~41
+NGC 5372 UMa H809-3   Galaxy           13.2 0.6 13:54.7 +58~41
+NGC 5376 UMa H844-2   Galaxy           12.1 1.6 13:55.3 +59~30
+NGC 5379 UMa H239-1   Galaxy           12.9 2 13:55.6 +59~45
+NGC 5389 UMa H240-1   Galaxy           12 4.6 13:56.1 +59~44
+NGC 5402 UMa H810-3   Galaxy           13.7 1.1 13:58.2 +59~49
+NGC 5422 UMa H230-1   Galaxy           11.8 3 14:00.7 +55~10
+NGC 5430 UMa H827-2   Galaxy           11.9 2.1 14:00.8 +59~20
+NGC 5443 UMa H799-2   Galaxy           12.3 3 14:02.2 +55~49
+NGC 5447 UMa H787-3   Knot in galaxy 14:02.5 +54~17 with M101
+NGC 5448 UMa H691-2   Galaxy           11 3.9 14:02.8 +49~10
+NGC 5461 UMa H788-3   Knot in galaxy 14:03.7 +54~19 with M101
+NGC 5462 UMa H789-3   Knot in galaxy 14:03.9 +54~22 with M101
+NGC 5473 UMa H231-1   Galaxy           11.4 2.6 14:04.7 +54~54 "400"
+NGC 5474 UMa H214-1   Galaxy           10.8 6 14:05.0 +53~40 "400"
+NGC 5475 UMa H800-2   Galaxy           12.6 1.9 14:05.2 +55~45
+NGC 5477 UMa H790-3   Galaxy           14 1.7 14:05.6 +54~28
+NGC 5480 UMa H692-2   Galaxy           12.1 1.6 14:06.4 +50~43
+NGC 5484 UMa H791-3   Galaxy           14.7 NIU 14:06.8 +55~02
+NGC 5485 UMa H232-1   Galaxy           11.4 2.7 14:07.2 +55~00
+NGC 5486 UMa H801-2   Galaxy           13.3 1.4 14:07.4 +55~06
+NGC 5526 UMa H804-3   Galaxy           13.5 1.8 14:13.9 +57~46
+NGC 5540 UMa H805-3   Galaxy           13.9 NIU 14:14.8 +60~00
+NGC 5585 UMa H235-1   Galaxy           10.7 5.6 14:19.8 +56~44 M101 group
+NGC 5631 UMa H236-1   Galaxy           11.5 1.8 14:26.6 +56~35 "400"
+NGC 4972 UMi H937-3   Nonexistent 13:04.2 +75~18
+NGC 5034 UMi H909-3   Galaxy           13.2 0.9 13:12.2 +70~39
+NGC 5144 UMi H70-4    Galaxy           13.1 1.2 13:22.9 +70~31
+NGC 5323 UMi H899-2   Galaxy           13.5 1.4 13:45.5 +76~51
+NGC 5452 UMi H947-3   Galaxy           13.3 2.1 13:54.5 +78~13
+NGC 5547 UMi H948-3   Galaxy           13.5 0.9 14:09.8 +78~36
+NGC 5607 UMi H331-2   Galaxy           13.4 0.8 14:19.4 +71~35
+NGC 5620 UMi H319-3   Galaxy           14 NIU 14:22.5 +69~34
+NGC 5671 UMi H882-3   Galaxy           13.3 1.6 14:27.7 +69~38
+NGC 5712 UMi H950-3   Galaxy           14.3 NIU 14:29.7 +78~51
+NGC 5819 UMi H311-3   Galaxy           13.5 0.9 14:54.0 +73~08
+NGC 5832 UMi H332-2   Galaxy           12.1 3.4 14:57.8 +71~41
+NGC 5836 UMi H312-3   Galaxy           13.9 1.2 14:59.5 +73~53
+NGC 5909 UMi H943-3   Galaxy           13.7 1 15:11.5 +75~22
+NGC 5912 UMi H944-3   Galaxy           13.7 NIU 15:11.7 +75~22
+NGC 6011 UMi H313-3   Galaxy           13.5 1.6 15:46.6 +72~09
+NGC 6048 UMi H873-2   Galaxy           12.3 2.2 15:57.6 +70~42
+NGC 6068 UMi H973-3   Galaxy           12.8 1 15:55.4 +79~00
+NGC 6071 UMi H883-3   Galaxy           14 0.9 16:01.1 +70~37
+NGC 6094 UMi H314-3   Galaxy           13.2 1.8 16:06.6 +72~30
+NGC 6217 UMi H280-1   Galaxy           11.2 3.3 16:32.6 +78~12 "400"
+NGC 6251 UMi H974-3   Galaxy           12.6 1.8 16:32.6 +82~33
+NGC 6252 UMi H975-3   Galaxy           14.2 0.7 16:32.5 +82~36
+NGC 6324 UMi H945-3   Galaxy           12.8 0.9 17:05.4 +75~25
+NGC 6331 UMi H951-3   Galaxy           14.4 NIU 17:03.5 +78~38
+NGC 3818 Vir H284-3   Galaxy           11.7 2 11:42.0 - 6~09
+NGC 3822 Vir H153-2   Galaxy           13.1 1.3 11:42.2 +10~17
+NGC 3825 Vir H154-2   Galaxy           13 1.3 11:42.4 +10~17
+NGC 3833 Vir H102-3   Galaxy           13.5 1.4 11:43.5 +10~10
+NGC 3848 Vir H35-3    Galaxy           13.8 0.8 11:43.7 +10~16
+NGC 3852 Vir H36-3    Nonexistent 11:44.4 +10~18 = NGC 3848?
+NGC 3874 Vir H104-3   Double star 11:45.8 + 8~33
+NGC 3876 Vir H103-3   Galaxy           12.8 1 11:45.4 + 9~11
+NGC 3914 Vir H90-3    Galaxy           13.2 1 11:50.6 + 6~35
+NGC 3915 Vir H113-3   Nonexistent 11:50.6 - 5~08
+NGC 3952 Vir H612-3   Galaxy           13.1 1.7 11:53.7 - 4~00
+NGC 3976 Vir H132-2   Galaxy           11.5 3.3 11:56.0 + 6~45 nearly edge on spiral
+NGC 4030 Vir H121-1   Galaxy           10.6 3.8 12:00.4 - 1~06 "400" face on spiral
+NGC 4044 Vir H491-3   Galaxy           13 1.1 12:02.5 - 0~11
+NGC 4045 Vir H276-2   Galaxy           11.8 2.8 12:02.7 + 1~59
+NGC 4067 Vir H37-3    Galaxy           12.5 1.5 12:04.2 +10~51
+NGC 4073 Vir H277-2   Galaxy           11.4 2.1 12:04.5 + 1~54
+NGC 4077 Vir H258-3   Galaxy           13.1 1 12:04.7 + 1~48
+NGC 4119 Vir H14-2    Nonexistent 12:07.9 + 9~33
+NGC 4123 Vir H4-5     Galaxy           11.2 4.5 12:08.2 + 2~53
+NGC 4124 Vir H33-1    Galaxy           11.3 4.6 12:08.2 +10~23
+NGC 4129 Vir H548-2   Galaxy           12.5 2.3 12:08.9 - 9~02 edge on barred spiral
+NGC 4168 Vir H105-2   Galaxy           11.2 2.8 12:12.3 +13~12
+NGC 4179 Vir H9-1     Galaxy           11 3.9 12:12.9 + 1~18 "400" edge on spindle shape
+NGC 4180 Vir H133-2   Galaxy           12.6 1.6 12:13.1 + 7~02
+NGC 4193 Vir H163-2   Galaxy           12.4 2.3 12:13.9 +13~10
+NGC 4197 Vir H134-2   Galaxy           12.8 3.5 12:14.6 + 5~48
+NGC 4200 Vir H164-2   Galaxy           13 1.5 12:14.8 +12~11
+NGC 4206 Vir H165-2   Galaxy           12.2 5.3 12:15.3 +13~02 Member Virgo Group
+NGC 4215 Vir H135-2   Galaxy           12.1 1.5 12:15.9 + 6~24 edge on lens shape
+NGC 4216 Vir H35-1    Galaxy           10 7.8 12:15.9 +13~09 "400" edge on streak
+NGC 4223 Vir H137-2   Nonexistent 12:16.5 + 6~42
+NGC 4224 Vir H136-2   Galaxy           11.8 1.8 12:16.6 + 7~28 edge on
+NGC 4233 Vir H496-2   Galaxy           11.9 2 12:17.1 + 7~37
+NGC 4235 Vir H17-2    Galaxy           11.6 3.6 12:17.2 + 7~11 nearly edge on
+NGC 4241 Vir H480-3   Galaxy           11.9 2.5 12:17.4 + 6~41
+NGC 4246 Vir H91-3    Galaxy           12.7 2.2 12:18.0 + 7~11
+NGC 4260 Vir H138-2   Galaxy           11.8 2 12:19.4 + 6~06
+NGC 4261 Vir H139-2   Galaxy           10.4 3.5 12:19.4 + 5~49 "400"
+NGC 4264 Vir H140-2   Galaxy           12.8 0.8 12:19.6 + 5~51
+NGC 4267 Vir H166-2   Galaxy           10.9 3.7 12:19.8 +12~48
+NGC 4270 Vir H568-2   Galaxy           12.2 1.7 12:19.8 + 5~28
+NGC 4273 Vir H569-2   Galaxy           11.9 2.3 12:19.9 + 5~21 "400"
+NGC 4277 Vir H571-2   Galaxy           13.4 0.8 12:20.1 + 5~21
+NGC 4281 Vir H573-2   Galaxy           11.3 2.5 12:20.4 + 5~23 = H570-2 (?) "400"
+NGC 4294 Vir H61-2    Galaxy           12.1 2.7 12:21.3 +11~31
+NGC 4296 Vir H92-3    Galaxy           12.7 1.5 12:21.5 + 6~40
+NGC 4297 Vir H93-3    Galaxy           14.2 0.5 12:21.5 + 6~40
+NGC 4299 Vir H62-2    Galaxy           12.5 1.7 12:21.7 +11~30
+NGC 4300 Vir H572-2   Galaxy           12.9 1.4 12:21.7 + 5~23
+NGC 4303 Vir H139-1   Galaxy           9.7 6 12:21.9 + 4~28 "400" M61 face on spiral
+NGC 4313 Vir H63-2    Galaxy           11.6 3.2 12:22.6 +11~48
+NGC 4326 Vir H141-2   Galaxy           13.3 1.6 12:23.2 + 6~04 NGC 4339 group
+NGC 4333 Vir H142-2   Galaxy           13.6 0.9 12:23.4 + 6~02
+NGC 4339 Vir H143-2   Galaxy           11.3 2 12:23.6 + 6~05
+NGC 4341 Vir H95-3    Galaxy           14 p 12:24.0 + 7~07 Not in Uranometria
+NGC 4342 Vir H96-3    Galaxy           14 p 1.1 12:23.6 + 7~03 Not in Uranometria
+NGC 4343 Vir H94-3    Galaxy           12.1 2.4 12:23.7 + 6~57
+NGC 4348 Vir H625-2   Galaxy           12.5 2.8 12:23.9 - 3~27 edge on
+NGC 4352 Vir H64-2    Galaxy           12.6 2 12:24.1 +11~13
+NGC 4356 Vir H481-3   Galaxy           13.3 2.8 12:24.3 + 8~33
+NGC 4365 Vir H30-1    Galaxy           9.6 5.6 12:24.5 + 7~19 "400"
+NGC 4366 Vir H97-3    Unknown 12:25.0 + 7~27
+NGC 4368 Vir H38-3    Nonexistent 12:24.7 +10~36
+NGC 4370 Vir H144-2   Galaxy           12.6 1.4 12:24.9 + 7~27
+NGC 4371 Vir H22-1    Galaxy           10.8 3.9 12:24.9 +11~42 "400"
+NGC 4376 Vir H530-2   Galaxy           14 p 12:25.3 + 4~56 Not in Uranometria
+NGC 4378 Vir H123-1   Galaxy           11.7 3 12:25.3 + 4~55
+NGC 4387 Vir H167-2   Galaxy           12.1 1.5 12:25.7 +12~49
+NGC 4388 Vir H168-2   Galaxy           11 5.7 12:25.8 +12~40 edge on lens
+NGC 4390 Vir H39-3    Galaxy           12.6 1.6 12:25.8 +10~27
+NGC 4403 Vir H755-3   Galaxy           13 2 12:26.3 - 7~41
+NGC 4404 Vir H756-3   Galaxy           11.2 1.5 12:26.4 - 7~41
+NGC 4409 Vir H17-3    Nonexistent 12:26.5 + 2~30
+NGC 4412 Vir H34-2    Galaxy           12.4 1.5 12:26.6 + 3~58
+NGC 4413 Vir H169-2   Galaxy           12.2 2.2 12:26.5 +12~37
+NGC 4415 Vir H482-3   Galaxy           12.1 1.3 12:26.6 + 8~25
+NGC 4417 Vir H155-2   Galaxy           11.2 3.6 12:26.8 + 9~35 edge on lens shape
+NGC 4418 Vir H492-3   Galaxy           13.1 1.3 12:26.9 - 0~51
+NGC 4420 Vir H23-2    Galaxy           12.1 2 12:27.0 + 2~30
+NGC 4422 Vir H114-3   Galaxy           13.7 1.5 12:27.3 - 5~49
+NGC 4423 Vir H145-2   Galaxy           13.5 2 12:27.1 + 5~52
+NGC 4425 Vir H170-2   Galaxy           11.9 3.4 12:27.2 +12~44 lens shaped
+NGC 4429 Vir H65-2    Galaxy           10.2 5.5 12:27.4 +11~07 "400"
+NGC 4430 Vir H146-2   Galaxy           12 2.7 12:27.4 + 6~15
+NGC 4431 Vir H171-2   Galaxy           12.9 1.7 12:27.5 +12~18 NGC 4440 group
+NGC 4434 Vir H497-2   Galaxy           12.2 1.3 12:27.5 + 8~09
+NGC 4435 Vir H28-1    Galaxy           10.9 3 12:27.7 +13~05 "400" Markarian's chain
+NGC 4436 Vir H172-2   Galaxy           13.1 1.9 12:27.7 +12~19
+NGC 4438 Vir H28-1    Galaxy           10.1 9.3 12:27.8 +13~01 "400" Markarian's chain
+NGC 4440 Vir H173-2   Galaxy           11.8 2 12:27.9 +12~18 NGC 4440 group
+NGC 4442 Vir H156-2   Galaxy           10.5 4.6 12:28.1 + 9~48 "400"
+NGC 4452 Vir H23-1    Galaxy           12.4 2.4 12:28.7 +11~45 cigar shaped edge on
+NGC 4453 Vir H26-2    Galaxy           14.8 0.6 12:28.7 + 6~30 double nebula
+NGC 4454 Vir H180-2   Galaxy           11.9 2.3 12:28.8 - 1~56
+NGC 4457 Vir H35-2    Galaxy           10.8 3 12:29.0 + 3~34
+NGC 4458 Vir H121-2   Galaxy           12.1 1.5 12:29.0 +13~15 Markarian's chain
+NGC 4461 Vir H122-2   Galaxy           11.2 3.7 12:29.0 +13~11 = H174-2 Markarian's chain
+NGC 4464 Vir H483-3   Galaxy           12.5 0.9 12:29.4 + 8~10
+NGC 4469 Vir H157-2   Galaxy           11.2 2.9 12:29.5 + 8~45 edge on
+NGC 4470 Vir H18-2    Galaxy           12.1 1.3 12:29.6 + 7~49
+NGC 4476 Vir H123-2   Galaxy           12.2 1.7 12:30.0 +12~21
+NGC 4478 Vir H124-2   Galaxy           11.4 1.7 12:30.3 +12~20 "400"
+NGC 4480 Vir H531-2   Galaxy           12.4 2.3 12:30.4 + 4~15
+NGC 4482 Vir H40-3    Galaxy           12.7 1.7 12:30.2 +10~47
+NGC 4487 Vir H776-2   Galaxy           10.9 4.1 12:31.1 - 8~03 Coarse structured spiral
+NGC 4488 Vir H484-3   Galaxy           12.2 4.2 12:30.9 + 8~22
+NGC 4491 Vir H41-3    Galaxy           12.6 1.6 12:31.0 +11~29
+NGC 4492 Vir H499-2   Galaxy           12.6 1.9 12:31.0 + 8~05
+NGC 4496 Vir H36-2    A Galaxy           11.4 4 12:31.6 + 3~56 overlapping 4496B
+NGC 4497 Vir H42-3    Galaxy           12.5 2 12:31.5 +11~37
+NGC 4503 Vir H66-2    Galaxy           11.1 3.5 12:32.1 +11~11
+NGC 4504 Vir H771-2   Galaxy           11.2 5 12:32.3 - 7~34
+NGC 4505 Vir H18-3    Nonexistent 12:32.3 + 3~59 = NGC4496 (?)
+NGC 4517 Vir H5-4     Galaxy           10.4 9.9 12:32.8 + 0~07 NGC4437
+NGC 4519 Vir H158-2   Galaxy           11.8 3.5 12:33.5 + 8~39
+NGC 4520 Vir H757-3   Galaxy           14 1.3 12:33.8 - 7~23
+NGC 4526 Vir H31-1    Galaxy           9.7 7.1 12:34.0 + 7~42 = H38-1 "400"
+NGC 4527 Vir H37-2    Galaxy           10.5 6 12:34.1 + 2~39 "400"
+NGC 4528 Vir H67-2    Galaxy           12.1 1.5 12:34.1 +11~19
+NGC 4531 Vir H175-2   Galaxy           11.4 3.5 12:34.3 +13~05
+NGC 4532 Vir H147-2   Galaxy           11.9 3.2 12:34.3 + 6~28
+NGC 4535 Vir H500-2   Galaxy           9.8 6.8 12:34.3 + 8~12 "400" S-shaped spiral
+NGC 4536 Vir H2-5     Galaxy           10.6 6.4 12:34.5 + 2~11 "400"
+NGC 4541 Vir H493-3   Galaxy           13 1.5 12:35.2 - 0~13
+NGC 4546 Vir H160-1   Galaxy           10.3 3.2 12:35.5 - 3~48 "400"
+NGC 4550 Vir H36-1    Galaxy           11.7 3.3 12:35.5 +12~13 "400"
+NGC 4551 Vir H37-1    Galaxy           12 1.7 12:35.6 +12~16
+NGC 4560 Vir H119-1   Nonexistent 12:36.1 + 7~41
+NGC 4564 Vir H68-2    Galaxy           11.1 3.1 12:36.4 +11~26
+NGC 4567 Vir H8-4     Galaxy           11.3 3 12:36.5 +11~15 siamese Twins w NGC4568
+NGC 4568 Vir H9-4     Galaxy           10.8 4.6 12:36.6 +11~14 siamese Twins w NGC4567
+NGC 4570 Vir H32-1    Galaxy           10.9 4.1 12:36.9 + 7~15 "400" lens shaped
+NGC 4577 Vir H13-3    Nonexistent 12:37.5 + 6~04
+NGC 4578 Vir H15-2    Galaxy           11.4 3.6 12:37.5 + 9~33
+NGC 4580 Vir H124-1   Galaxy           11.8 2.4 12:37.8 + 5~22
+NGC 4586 Vir H125-1   Galaxy           11.7 3.6 12:38.5 + 4~19
+NGC 4588 Vir H98-3    Galaxy           14.3 1.3 12:38.8 + 6~46
+NGC 4591 Vir H504-3   Galaxy           13 1.6 12:39.3 + 6~01
+NGC 4592 Vir H31-2    Galaxy           11.7 4.7 12:39.3 - 0~32
+NGC 4593 Vir H183-2   Galaxy           10.9 3.9 12:39.7 - 5~21
+NGC 4594 Vir H43-1    Galaxy           8.3 8.9 12:40.0 -11~37 "400" M104 Sombrero
+NGC 4596 Vir H24-1    Galaxy           10.5 3.9 12:39.9 +10~11 "400"
+NGC 4597 Vir H636-2   Galaxy           12.1 4.1 12:40.2 - 5~48
+NGC 4598 Vir H105-3   Galaxy           12.7 1.7 12:40.3 + 8~23
+NGC 4599 Vir H509-3   Galaxy           12.6 1.6 12:40.5 + 1~11
+NGC 4600 Vir H577-2   Galaxy           12.7 1.3 12:40.4 + 3~08
+NGC 4602 Vir H184-2   Galaxy           11.5 3 12:40.6 - 5~08
+NGC 4606 Vir H43-3    Galaxy           11.8 2.6 12:41.0 +11~55
+NGC 4608 Vir H69-2    Galaxy           11 3 12:41.2 +10~09
+NGC 4610 Vir H19-2    Nonexistent 12:41.4 + 7~43
+NGC 4612 Vir H148-2   Galaxy           10.9 1.6 12:41.5 + 7~19
+NGC 4623 Vir H149-2   Galaxy           12.2 2 12:42.2 + 7~41
+NGC 4626 Vir H772-2   Galaxy           11.9 1.5 12:42.4 - 7~02
+NGC 4628 Vir H773-2   Galaxy           13.7 1.8 12:42.4 - 6~57
+NGC 4630 Vir H532-2   Galaxy           12.7 1.6 12:42.5 + 3~58
+NGC 4632 Vir H14-1    Galaxy           11.7 2.9 12:42.5 - 0~05
+NGC 4636 Vir H38-2    Galaxy           9.5 7.1 12:42.8 + 2~41 "400"
+NGC 4638 Vir H70-2    Galaxy           11.2 2.9 12:42.8 +11~26 = H176-2 with NGC4637
+NGC 4639 Vir H125-2   Galaxy           11.5 2.9 12:42.9 +13~15
+NGC 4642 Vir H494-3   Galaxy           12.9 1.8 12:43.3 - 0~39
+NGC 4643 Vir H10-1    Galaxy           10.6 3.4 12:43.3 + 1~59 "400"
+NGC 4647 Vir H44-3    Galaxy           11.3 2.7 12:43.5 +11~35
+NGC 4653 Vir H662-3   Galaxy           12.3 2.6 12:43.9 - 0~34
+NGC 4654 Vir H126-2   Galaxy           10.5 4.9 12:44.0 +13~08 "400"
+NGC 4658 Vir H558-2   Galaxy           12.5 1.3 12:44.6 -10~05
+NGC 4660 Vir H71-2    Galaxy           11.2 2.4 12:44.5 +11~11 "400"
+NGC 4664 Vir H39-2    Not documented 12:45.1 + 3~03
+NGC 4665 Vir H142-1   Galaxy           10.5 4.1 12:45.1 + 3~03 "400"
+NGC 4666 Vir H15-1    Galaxy           10.8 4.5 12:45.1 - 0~28 "400"
+NGC 4668 Vir H663-3   Galaxy           13.1 1.4 12:45.5 - 0~32
+NGC 4671 Vir H774-2   Galaxy           13.2 1.5 12:45.8 - 7~04
+NGC 4682 Vir H523-3   Galaxy           12.2 2.2 12:47.3 -10~04
+NGC 4684 Vir H181-2   Galaxy           11.4 2.6 12:47.3 - 2~43
+NGC 4688 Vir H543-3   Galaxy           11.9 4 12:47.8 + 4~20
+NGC 4690 Vir H664-3   Galaxy           12.9 1.1 12:47.9 - 1~38
+NGC 4691 Vir H182-2   Galaxy           11.1 2.6 12:48.2 - 3~20
+NGC 4694 Vir H72-2    Galaxy           11.4 3.5 12:48.2 +10~59
+NGC 4697 Vir H39-1    Galaxy           9.2 4.4 12:48.6 - 5~48 "400"
+NGC 4698 Vir H8-1     Galaxy           10.6 3.2 12:48.4 + 8~29 "400"
+NGC 4698 Vir H6-3     Galaxy           10.6 3.2 12:48.4 + 8~29 "400"
+NGC 4699 Vir H129-1   Galaxy           9.5 4.4 12:49.0 - 8~40 "400"
+NGC 4700 Vir H524-3   Galaxy           11.9 2.8 12:49.1 -11~25 edge on spiral
+NGC 4701 Vir H578-2   Galaxy           12.4 3.3 12:49.2 + 3~23
+NGC 4703 Vir H514-3   Galaxy           13.7 2.8 12:49.3 - 9~07
+NGC 4705 Vir H610-3   Galaxy           12.8 3.2 12:49.4 - 5~12
+NGC 4708 Vir H722-3   Galaxy           13.8 1.1 12:49.7 -11~06
+NGC 4713 Vir H140-1   Galaxy           11.7 2.9 12:50.0 + 5~19
+NGC 4720 Vir H611-3   Galaxy           14.2 1 12:50.7 - 4~07
+NGC 4731 Vir H41-1    Galaxy           11.5 5.4 12:51.0 - 6~24 Narrow bright bar
+NGC 4733 Vir H73-2    Galaxy           11.8 2 12:51.1 +10~55
+NGC 4739 Vir H515-3   Galaxy           12.6 1.5 12:51.6 - 8~25
+NGC 4742 Vir H133-1   Galaxy           11.3 2.3 12:51.8 -10~27
+NGC 4753 Vir H16-1    Galaxy           9.9 4.1 12:52.4 - 1~12 "400"
+NGC 4754 Vir H25-1    Galaxy           10.6 4.6 12:52.3 +11~19 = H74-2 "400"
+NGC 4759 Vir H559-2   Galaxy           13 1.7 12:53.1 - 9~11
+NGC 4762 Vir H75-2    Galaxy           10.3 9.1 12:52.9 +11~14 "400"
+NGC 4765 Vir H544-3   Galaxy           13 1.4 12:53.2 + 4~28
+NGC 4770 Vir H525-3   Galaxy           13 1.5 12:53.5 - 9~31
+NGC 4771 Vir H535-2   Galaxy           12.3 3.7 12:53.4 + 1~16 edge on
+NGC 4772 Vir H24-2    Galaxy           11 2.7 12:53.5 + 2~10
+NGC 4773 Vir H516-3   Galaxy           14.1 1.3 12:53.6 - 8~38
+NGC 4775 Vir H186-2   Galaxy           11.1 2 12:53.8 - 6~37 face on spiral
+NGC 4777 Vir H517-3   Galaxy           13.7 1.8 12:54.0 - 8~47
+NGC 4779 Vir H106-3   Galaxy           12.4 1.9 12:53.8 + 9~44
+NGC 4781 Vir H134-1   Galaxy           11.1 2.9 12:54.4 -10~32 "400" Coarse spiral
+NGC 4784 Vir H526-3   Galaxy           14.2 1.2 12:54.6 -10~37
+NGC 4786 Vir H187-2   Galaxy           11.7 1.1 12:54.5 - 6~52
+NGC 4790 Vir H560-2   Galaxy           12.1 1.4 12:54.9 -10~15
+NGC 4795 Vir H21-2    Galaxy           12.1 1.9 12:55.0 + 8~04
+NGC 4799 Vir H548-3   Galaxy           13.3 1.5 12:55.3 + 2~54
+NGC 4808 Vir H141-1   Galaxy           11.7 2.4 12:55.8 + 4~18
+NGC 4813 Vir H777-2   Galaxy           13.7 1.3 12:56.6 - 6~48
+NGC 4818 Vir H549-2   Galaxy           11.1 3.4 12:56.8 - 8~31
+NGC 4825 Vir H563-2   Galaxy           12.1 2 12:57.2 -13~40
+NGC 4843 Vir H613-3   Galaxy           13 2 12:58.0 - 3~37
+NGC 4845 Vir H536-2   Galaxy           11.2 4.8 12:58.0 + 1~35 "400" edge on
+NGC 4856 Vir H68-1    Galaxy           10.5 3.1 12:59.3 -15~02 "400"
+NGC 4866 Vir H162-1   Galaxy           11.2 5.5 12:59.5 +14~10 "400"
+NGC 4877 Vir H299-2   Galaxy           12.4 1.9 13:00.4 -15~17
+NGC 4878 Vir H758-3   Galaxy           13.7 1.3 13:00.3 - 6~05
+NGC 4879 Vir H759-3   Galaxy           14.2 1.2 13:00.5 - 6~03
+NGC 4880 Vir H83-3    Galaxy           11.4 3.4 13:00.2 +12~29
+NGC 4888 Vir H778-2   Nonexistent 13:01.1 - 6~04 = NGC4879? cf 4878/79
+NGC 4890 Vir H614-3   Galaxy           11.9 1 13:00.6 - 4~34
+NGC 4899 Vir H300-2   Galaxy           11.9 1.9 13:00.9 -13~57
+NGC 4900 Vir H143-1   Galaxy           11.4 2.3 13:00.6 + 2~30 "400"
+NGC 4902 Vir H69-1    Galaxy           10.9 2.5 13:01.0 -14~31
+NGC 4904 Vir H517-2   Galaxy           12 2.2 13:01.0 - 0~02
+NGC 4910 Vir H3-5     Nonexistent 13:01.4 + 1~40
+NGC 4915 Vir H47-4    Galaxy           12.1 1.7 13:01.5 - 4~33
+NGC 4925 Vir H779-2   Galaxy           14.3 1.2 13:02.1 - 7~42
+NGC 4928 Vir H190-2   Galaxy           12.5 1.2 13:03.0 - 8~05
+NGC 4933 Vir H191-2   A Galaxy           11.7 1.3 13:03.9 -11~30 interacting w/ 4933B
+NGC 4939 Vir H561-2   Galaxy           11.3 4.3 13:04.2 -10~20 Well defined spiral
+NGC 4941 Vir H40-1    Galaxy           11.1 3.7 13:04.2 - 5~33
+NGC 4942 Vir H761-3   Galaxy           13.8 1.9 13:04.3 - 7~39
+NGC 4951 Vir H188-2   Galaxy           11.9 3.2 13:05.1 - 6~30 Nearly edge on
+NGC 4958 Vir H130-1   Galaxy           10.7 3.6 13:05.8 - 8~01 "400"
+NGC 4981 Vir H189-2   Galaxy           11.3 2.7 13:08.8 - 6~47
+NGC 4984 Vir H301-2   Galaxy           11.3 3.2 13:09.0 -15~31
+NGC 4989 Vir H185-2   Galaxy           12.8 1.7 13:09.4 - 5~25
+NGC 4995 Vir H42-1    Galaxy           11.1 2.5 13:09.7 - 7~50 "400" Dense spiral
+NGC 4999 Vir H537-2   Galaxy           11.8 2.1 13:09.6 + 1~40
+NGC 5015 Vir H637-2   Galaxy           12.1 2.1 13:12.4 - 4~19
+NGC 5017 Vir H669-3   Galaxy           12.6 2 13:12.9 -16~46
+NGC 5018 Vir H746-2   Galaxy           10.8 2.6 13:13.0 -19~31
+NGC 5019 Vir H545-3   Galaxy           13.5 0.8 13:12.8 + 4~44
+NGC 5020 Vir H129-2   Galaxy           11.7 3 13:12.6 +12~36
+NGC 5037 Vir H510-2   Galaxy           12.2 2.2 13:15.0 -16~35 Nearly edge on
+NGC 5044 Vir H511-2   Galaxy           10.8 3 13:15.4 -16~23
+NGC 5047 Vir H670-3   Galaxy           12.7 2.5 13:15.8 -16~31
+NGC 5049 Vir H512-2   Galaxy           13 1.7 13:16.0 -16~24
+NGC 5054 Vir H513-2   Galaxy           10.9 4.8 13:17.0 -16~38 "400" Three branch spiral
+NGC 5068 Vir H312-2   Galaxy           9.6 7.1 13:18.9 -21~02
+NGC 5073 Vir H282-3   Galaxy           12.3 3 13:19.4 -14~52
+NGC 5076 Vir H117-3   Galaxy           13.2 1.4 13:19.4 -12~45
+NGC 5077 Vir H193-2   Galaxy           11.3 1.9 13:19.5 -12~39
+NGC 5079 Vir H118-3   Galaxy           13 1.4 13:19.6 -12~42
+NGC 5084 Vir H313-2   Galaxy           10.4 11 13:20.3 -21~50 Nearly edge on
+NGC 5087 Vir H724-3   Galaxy           11 3 13:20.4 -20~37
+NGC 5094 Vir H539-3   Galaxy           13.2 1.2 13:20.7 -14~05
+NGC 5106 Vir H22-2    Single star 13:21.7 + 8~29
+NGC 5111 Vir H119-3   Galaxy           11.7 1.9 13:22.8 -12~58
+NGC 5118 Vir H925-3   Galaxy           13.7 0.8 13:23.5 + 6~23
+NGC 5129 Vir H653-2   Galaxy           12.1 1.7 13:24.1 +13~59
+NGC 5134 Vir H314-2   Galaxy           11.2 2.8 13:25.3 -21~08
+NGC 5136 Vir H84-3    Galaxy           14 0.3 13:24.8 +13~44
+NGC 5146 Vir H115-3   Galaxy           12.3 1.8 13:26.5 -12~19
+NGC 5147 Vir H25-2    Galaxy           11.8 1.6 13:26.3 + 2~06
+NGC 5170 Vir H22-5    Galaxy           11.3 7.8 13:29.8 -17~58
+NGC 5174 Vir H45-3    Galaxy           12.4 3.4 13:29.3 +11~00 with NGC5175
+NGC 5175 Vir H46-3    Galaxy           12.4 3.4 13:29.3 +11~00 with NGC5174
+NGC 5183 Vir H679-2   Galaxy           12.7 1.8 13:30.1 - 1~44
+NGC 5184 Vir H680-2   Galaxy           12.6 2 13:30.2 - 1~41
+NGC 5185 Vir H642-3   Galaxy           13.3 1.7 13:30.0 +13~25
+NGC 5203 Vir H507-3   Galaxy           12.5 1.5 13:32.2 - 8~48
+NGC 5207 Vir H643-3   Galaxy           13.2 1.7 13:32.2 +13~54
+NGC 5208 Vir H9-3     Galaxy           13.1 1.6 13:32.5 + 7~19
+NGC 5209 Vir H10-3    Galaxy           13 1.2 13:32.7 + 7~20
+NGC 5210 Vir H99-3    Galaxy           12.9 1.6 13:32.9 + 7~10
+NGC 5221 Vir H86-3    Galaxy           13 2.7 13:34.9 +13~49
+NGC 5222 Vir H85-3    Galaxy           13.1 NIU 13:34.9 +13~44
+NGC 5224 Vir H926-3   Galaxy           14 0.7 13:35.2 + 6~28
+NGC 5227 Vir H928-3   Galaxy           13.1 1.5 13:35.3 + 1~25
+NGC 5230 Vir H87-3    Galaxy           12.1 1.9 13:35.5 +13~40
+NGC 5235 Vir H100-3   Galaxy           14 1.1 13:36.1 + 6~34
+NGC 5247 Vir H297-2   Galaxy           10.1 5.2 13:38.1 -17~53
+NGC 5252 Vir H505-3   Galaxy           13 1.5 13:38.3 + 4~31
+NGC 5257 Vir H895-2   Galaxy           12.9 1.6 13:39.9 + 0~50
+NGC 5258 Vir H896-2   Galaxy           12.9 1.6 13:40.0 + 0~50
+NGC 5300 Vir H533-2   Galaxy           11.4 3.5 13:48.3 + 3~57 face on spiral
+NGC 5306 Vir H306-2   Galaxy           12.1 1.3 13:49.1 - 7~12
+NGC 5324 Vir H307-2   Galaxy           11.7 2.1 13:52.1 - 6~03
+NGC 5327 Vir H685-2   Galaxy           12.6 1.9 13:52.1 - 2~12
+NGC 5329 Vir H549-3   Galaxy           12.4 1.5 13:52.2 + 2~20  Double system
+NGC 5331 Vir H929-3   Galaxy           14.1 1.3 13:52.4 + 2~06  Double system
+NGC 5334 Vir H665-3   Galaxy           11.3 4.1 13:52.9 - 1~07 low surface brt.
+NGC 5343 Vir H308-2   Galaxy           12.7 1.7 13:54.0 - 7~34
+NGC 5345 Vir H686-2   Galaxy           12.4 1.8 13:54.3 - 1~25
+NGC 5356 Vir H506-3   Galaxy           12.6 2.7 13:55.0 + 5~20
+NGC 5363 Vir H6-1     Galaxy           10.1 5 13:56.1 + 5~15 "400"
+NGC 5364 Vir H534-2   Galaxy           10.5 6.6 13:56.2 + 5~01 "400" sBN Galaxy
+NGC 5369 Vir H285-3   Galaxy           13.6 1 13:56.8 - 5~29
+NGC 5374 Vir H889-2   Galaxy           12.5 1.6 13:57.5 + 6~06
+NGC 5382 Vir H546-3   Galaxy           12.6 1.5 13:58.2 + 6~16
+NGC 5386 Vir H547-3   Galaxy           13.2 1 13:58.2 + 6~21
+NGC 5392 Vir H666-3   Galaxy           13.4 1.1 13:59.4 - 3~12
+NGC 5400 Vir H667-3   Galaxy           12.9 1.5 14:00.6 - 2~51
+NGC 5426 Vir H309-2   Galaxy           12.1 2.3 14:03.4 - 6~04 2' S of 5427
+NGC 5427 Vir H310-2   Galaxy           11.4 2.6 14:03.4 - 6~02 2' N of 5426
+NGC 5468 Vir H286-3   Galaxy           12.5 2.6 14:06.6 - 5~27
+NGC 5476 Vir H287-3   Galaxy           12.2 1.7 14:08.2 - 6~05
+NGC 5478 Vir H762-3   Galaxy           13.6 1.1 14:08.2 - 1~42
+NGC 5491 Vir H890-2   A Galaxy           12.8 1.4 14:10.9 + 6~22 contact pair w/ 5491B
+NGC 5493 Vir H46-4    Galaxy           11.4 1.5 14:11.5 - 5~03
+NGC 5506 Vir H687-2   Galaxy           11.9 2.7 14:13.2 - 3~13
+NGC 5507 Vir H49-4    Galaxy           12.5 1.5 14:13.3 - 3~09
+NGC 5549 Vir H552-3   Galaxy           12.8 1.5 14:18.5 + 7~22
+NGC 5560 Vir H579-2   Galaxy           12.4 3.9 14:20.1 + 4~00
+NGC 5566 Vir H144-1   Galaxy           10.6 5.7 14:20.3 + 3~56 "400" double galaxy
+NGC 5574 Vir H145-1   Galaxy           12.4 1.1 14:20.9 + 3~14
+NGC 5576 Vir H146-1   Galaxy           11 3 14:21.1 + 3~16 "400"
+NGC 5599 Vir H927-3   Galaxy           13.6 1.4 14:23.7 + 6~34
+NGC 5604 Vir H668-3   Galaxy           12.8 2 14:24.7 - 3~13
+NGC 5618 Vir H763-3   Galaxy           13.4 1.6 14:27.2 - 2~16
+NGC 5634 Vir H70-1    Globular 9.4 4.9 14:29.6 - 5~59 "400"
+NGC 5636 Vir H580-2   Galaxy           12.7 1.4 14:29.7 + 3~16 NGC 5638 group
+NGC 5638 Vir H581-2   Galaxy           11.2 2.3 14:29.7 + 3~14
+NGC 5645 Vir H150-2   Galaxy           12.5 2.9 14:30.7 + 7~17
+NGC 5652 Vir H891-2   Galaxy           12.5 1.9 14:30.9 + 5~58
+NGC 5661 Vir H892-2   Galaxy           13.3 1.5 14:31.9 + 6~14
+NGC 5668 Vir H574-2   Galaxy           11.5 3.2 14:33.4 + 4~27
+NGC 5674 Vir H893-2   Galaxy           13 1.1 14:33.8 + 5~26
+NGC 5679 Vir H894-2   Galaxy           13 1 14:35.0 + 5~20
+NGC 5690 Vir H582-2   Galaxy           11.8 3.3 14:37.7 + 2~17
+NGC 5691 Vir H681-2   Galaxy           12.3 1.7 14:37.9 - 0~24
+NGC 5701 Vir H575-2   Galaxy           10.9 4.1 14:39.2 + 5~22
+NGC 5713 Vir H182-1   Galaxy           11.2 3 14:40.2 - 0~17 NGC 5713 group
+NGC 5718 Vir H550-3   Galaxy           12.9 1.4 14:40.8 + 3~28
+NGC 5719 Vir H682-2   Galaxy           12.2 2.9 14:40.9 - 0~19
+NGC 5740 Vir H538-2   Galaxy           11.9 3.1 14:44.4 + 1~41
+NGC 5746 Vir H126-1   Galaxy           10.6 7.9 14:44.9 + 1~57 "400" edge on
+NGC 5750 Vir H183-1   Galaxy           11.6 2.9 14:46.2 - 0~13
+NGC 5770 Vir H576-2   Galaxy           13 p 14:53.4 + 3~57 dwarf Not in Uranometria
+NGC 5775 Vir H554-3   Galaxy           11.4 4.3 14:54.0 + 3~33 with NGC5774
+NGC 5806 Vir H539-2   Galaxy           11.7 2.7 15:00.0 + 1~54 NGC 5846 group
+NGC 5813 Vir H127-1   Galaxy           10.5 3.4 15:01.2 + 1~42 NGC 5846 group
+NGC 5831 Vir H540-2   Galaxy           11.5 2 15:04.1 + 1~13
+NGC 5838 Vir H542-2   Galaxy           10.9 3.8 15:05.4 + 2~06 NGC 5846 group
+NGC 5839 Vir H541-2   Galaxy           12.7 1.2 15:05.5 + 1~38 NGC 5846 group
+NGC 5845 Vir H511-3   Galaxy           12.5 0.6 15:06.0 + 1~38 NGC 5846 group
+NGC 5846 Vir H128-1   Galaxy           10 3 15:06.4 + 1~36 "400" NGC 5846 group
+NGC 5850 Vir H543-2   Galaxy           10.8 4.6 15:07.1 + 1~33 NGC 5846 group
+NGC 5854 Vir H544-2   Galaxy           11.9 2.2 15:07.8 + 2~34 NGC 5846 group
+NGC 5864 Vir H585-2   Galaxy           11.8 2.4 15:09.6 + 3~03 NGC 5846 group
+NGC 5865 Vir H684-2   Galaxy           15 p 15:09.9 + 0~31 Not in Uranometria
+NGC 5869 Vir H545-2   Not documented 13 p 15:09.9 + 0~28 Not in Uranometria
+NGC 6793 Vul H81-8    Open cluster     NIU 6 19:23.2 +22~11
+NGC 6800 Vul H21-8    Open cluster     NIU 5 19:27.2 +25~08
+NGC 6802 Vul H14-6    Open cluster     8.8 3 19:30.6 +20~16 "400"
+NGC 6823 Vul H18-7    Open cluster     7.1 12 19:43.1 +23~18 "400"
+NGC 6830 Vul H9-7     Open cluster     7.9 12 19:51.0 +23~04 "400"
+NGC 6847 Vul H202-2   Nonexistent 19:57.0 +29~20
+NGC 6882 Vul H22-8    Open cluster     8.1 18 20:11.7 +26~33 "400"
+NGC 6885 Vul H20-8    Open cluster     8.1 7 20:12.0 +26~29 "400"
+NGC 6938 Vul H17-8    Nonexistent 20:34.8 +22~15
+NGC 6940 Vul H8-7     Open cluster     6.3 31 20:34.6 +28~18 "400"
+NGC 7052 Vul H145-3   Galaxy           12.4 2.5 21:18.6 +26~27
+NGC  932 Ari H489-2   Galaxy          
+NGC 1794 Lep H268-3   Galaxy          

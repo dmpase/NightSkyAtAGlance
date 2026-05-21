@@ -1,0 +1,550 @@
+https://www.stellar-journeys.org/WebbObjects-Tour.HTM
+https://www.stellar-journeys.org/WebbGALF.HTM
+
+W# 	Object 	Telescope & Camera Notes
+430
+	8" SCT f6.3, StellaCam-3 @ 25 seconds
+431
+	8" SCT f6.3, StellaCam-3 @ 45 seconds
+432
+	8" SCT f6.3, StellaCam-3 @ 30 seconds
+433
+	6" RC f5, StellaCam-3 @ 20 seconds
+434
+	8" SCT f6.3, StellaCam-3, @ 45 seconds
+435
+	8" SCT f5, StellaCam-3 @ 60 seconds
+436
+	8" SCT f5, StellaCam-3, @ 45 seconds
+437
+	6" RC f5, StellaCam-3 @ 20 seconds
+438
+	8" SCT f5, StellaCam-3, @ 30 seconds
+439
+	8" SCT f6.3, StellaCam-II, @ 8 seconds
+440
+	8" SCT f6.3, StellaCam-3 @ 45 seconds
+441
+	6" RC f5, StellaCam-3 @ 30 seconds
+442
+	6" RC f5, StellaCam-3 @ 25 seconds
+443
+	8" SCT f6.3, StellaCam-3, @ 30 seconds
+444
+	8" SCT f6.3, StellaCam-3 @ 30 seconds
+445
+	8" SCT f6.3, StellaCam-3, @ 45 seconds
+446
+	8" SCT f6.3, StellaCam-3 @ 25 seconds
+447
+	8" SCT f6.3, StellaCam-3 @ 25 seconds
+448
+	8" SCT f6.3, StellaCam-3 @ 25 seconds
+449
+	8" SCT f6.3, StellaCam-3 @ 25 seconds
+450
+	8" SCT f6.3, StellaCam-3 @ 25 seconds
+451
+	8" SCT f6.3, StellaCam-3 @ 25 seconds
+452
+	8" SCT f6.3, StellaCam-3 @ 25 seconds
+453
+	8" SCT f5, StellaCam-3, 45 seconds
+454
+	8" SCT f6.3, StellaCam-3 @ 30 seconds
+455
+	8" SCT f5, StellaCam-3, 45 seconds
+456
+	6" RC f5, StellaCam-3 @ 45 seconds
+457
+	6" RC f5, StellaCam-3 @ 30 seconds
+458
+	8" SCT f6.3, StellaCam-3 @ 50 seconds
+459
+	8" SCT f5, StellaCam-3, 45 seconds
+460
+	8" SCT f6.3, StellaCam-3 @ 25 seconds
+461
+	8" SCT f6.3, StellaCam-3 @ 25 seconds
+462
+	8" SCT f6.3, StellaCam-3 @ 25 seconds
+463
+	8" SCT f6.3, StellaCam-3 @ 25 seconds
+464
+	8" SCT f6.3, StellaCam-3 @ 30 seconds
+465
+	8" SCT f6.3, StellaCam-3 @ 35 seconds
+466
+	8" SCT f6.3, StellaCam-3 @ 25 seconds
+467
+	8" SCT f6.3, StellaCam-3 @ 35 seconds
+468
+	8" SCT f6.3, StellaCam-3 @ 25 seconds
+469
+	8" SCT f6.3, StellaCam-3 @ 30 seconds
+470
+	8" SCT f6.3, StellaCam-3 @ 25 seconds
+471
+	8" SCT f6.3, StellaCam-3 @ 25 seconds
+472
+	8" SCT f6.3, StellaCam-3, @ 45 seconds
+473
+	8" SCT f6.3, StellaCam-3 @ 25 seconds
+474
+	8" SCT f6.3, StellaCam-3 @ 30 seconds
+475
+	8" SCT f6.3, StellaCam-3 @ 25 seconds
+476
+	8" SCT f6.3, StellaCam-3 @ 25 seconds
+477
+	8" SCT f6.3, StellaCam-3, @ 45 seconds
+478
+	8" SCT f6.3, StellaCam-3 @ 30 seconds
+479
+	8" SCT f6.3, StellaCam-3 @ 30 seconds
+480
+	8" SCT f6.3, StellaCam-3 @ 25 seconds
+481
+	8" SCT f6.3, StellaCam-3 @ 30 seconds
+482
+	8" SCT f6.3, StellaCam-3 @ 25 seconds
+483
+	8" SCT f6.3, StellaCam-3 @ 25 seconds
+484
+	6" RC f5, StellaCam-3 @ 25 seconds
+485
+	8" SCT f6.3, StellaCam-3 @ 25 seconds
+486
+	8" SCT f5, StellaCam-3 @ 25 seconds
+487
+	6" RC f5, StellaCam-3 @ 25 seconds
+488
+	6" RC f5, StellaCam-3 @ 25 seconds
+489
+	8" SCT f6.3, StellaCam-3 @ 25 seconds
+490
+	8" SCT f6.3, StellaCam-3 @ 25 seconds
+491
+	8" SCT f6.3, StellaCam-3 @ 35 seconds
+492
+	6" RC f5, StellaCam-3 @ 25 seconds
+493
+	6" RC f5, StellaCam-3 @ 8 seconds
+494
+	8" SCT f5, StellaCam-3 @ 25 seconds
+495
+	6" RC f5, StellaCam-3 @ 8 seconds
+496
+	6" RC f5, StellaCam-3 @ 8 seconds
+497
+	6" RC f5, StellaCam-3 @ 8 seconds
+498
+	6" RC f5, StellaCam-3 @ 25 seconds
+499
+	8" SCT f6.3, StellaCam-3 @ 20 seconds
+500
+	8" SCT f6.3, StellaCam-3 @ 20 seconds
+501
+	6" RC f5, StellaCam-3 @ 8 seconds
+502
+	8" SCT f6.3, StellaCam-3 @ 8 seconds
+503
+	8" SCT f5, StellaCam-3 @ 40 seconds
+504
+	6" RC f5, StellaCam-3 @ 30 seconds
+505
+	6" RC f5, StellaCam-3 @ 25 seconds
+506
+	8" SCT f6.3, StellaCam-3 @ 35 seconds
+507
+	8" SCT f5, StellaCam-3 @ 40 seconds
+508
+	6" RC f5, StellaCam-3 @ 25 seconds
+509
+	8" SCT f6.3, StellaCam-3 @ 30 seconds
+510
+	8" SCT f6.3, StellaCam-3 @ 30 seconds
+512
+	8" SCT f6.3, StellaCam-3 @ 35 seconds
+513
+	6" RC f5, StellaCam-3 @ 30 seconds
+514
+	8" SCT f6.3, StellaCam-3 @ 30 seconds
+515
+	6" RC f9, StellaCam-3 @ 8 seconds
+516
+	6" RC f5, StellaCam-3 @ 25 seconds
+517
+	8" SCT f6.3, StellaCam-3 @ 35 seconds
+518
+	8" SCT f6.3, StellaCam-3 @ 60 seconds
+519
+	8" SCT f6.3, StellaCam-3 @ 20 seconds
+520
+	8" SCT f6.3, StellaCam-3 @ 35 seconds
+521
+	8" SCT f6.3, StellaCam-3 @ 30 seconds
+522
+	6" RC f5, StellaCam-3 @ 25 seconds
+523
+	6" RC f9, StellaCam-3 @ 15 seconds
+524
+	6" RC f5, StellaCam-3 @ 20 seconds
+525
+	8" SCT f6.3, StellaCam-3 @ 20 seconds
+526
+	8" SCT f5, StellaCam-3 @ 25 seconds
+527
+	80mm Refractor f6.3, StellaCam-II @ 8 seconds
+528
+	8" SCT f6.3, StellaCam-3 @ 25 seconds
+529
+	80mm Refractor f6.3, StellaCam-II @ 8 seconds
+530
+	80mm Refractor f6.3, StellaCam-II @ 8 seconds
+531
+	6" RC f5, StellaCam-3 @ 20 seconds
+532
+	6" RC f5, StellaCam-3 @ 90 seconds
+533
+	6" RC f5, StellaCam-3 @ 60 seconds
+533?
+	8" SCT f5, StellaCam-3 @ 25 seconds
+534
+	6" RC f5, StellaCam-3 @ 20 seconds
+535
+	6" RC f5, StellaCam-3 @ 20 seconds
+536
+	8" SCT f6.3, StellaCam-3 @ 25 seconds
+537
+	8" SCT f6.3, StellaCam-3 @ 35 seconds
+538
+	8" SCT f6.3, StellaCam-3 @ 20 seconds
+539
+	8" SCT f6.3, StellaCam-3 @ 20 seconds
+540
+	8" SCT f5, StellaCam-3 @ 25 seconds
+541
+	8" SCT f5, StellaCam-3 @ 25 seconds
+542
+	8" SCT f5, StellaCam-3 @ 25 seconds
+543
+	6" RC f9, StellaCam-3 @ 15 seconds
+544
+	6" RC f9, StellaCam-3 @ 15 seconds
+545
+	6" RC f9, StellaCam-3 @ 15 seconds
+546
+	6" RC f9, StellaCam-3 @ 15 seconds
+547
+	8" SCT f5, StellaCam-3 @ 25 seconds
+548
+	6" RC f5, StellaCam-3 @ 20 seconds
+549
+	8" SCT f6.3, StellaCam-3 @ 30 seconds
+550
+	8" SCT f6.3, StellaCam-3 @ 35 seconds
+551
+	8" SCT f6.3, StellaCam-3 @ 30 seconds
+552
+	8" SCT f6.3, StellaCam-3 @ 25 seconds
+553
+	8" SCT f10, StellaCam-II @ 8 seconds
+554
+	8" SCT f6.3, StellaCam-3 @ 25 seconds
+555
+	8" SCT f6.3, StellaCam-3 @ 25 seconds
+556
+	8" SCT f6.3, StellaCam-3 @ 25 seconds
+557
+	8" SCT f6.3, StellaCam-3 @ 20 seconds
+558
+	8" SCT f6.3, StellaCam-3 @ 20 seconds
+559
+	8" SCT f5, StellaCam-3 @ 25 seconds
+560
+	8" SCT f6.3, StellaCam-3 @ 35 seconds
+561
+	8" SCT f6.3, StellaCam-3 @ 35 seconds
+562
+	8" SCT f6.3, StellaCam-3 @ 20 seconds
+563
+	8" SCT f6.3, StellaCam-3 @ 25 seconds
+564
+	6" RC f5, StellaCam-3 @ 15 seconds
+565
+	6" RC f9, StellaCam-3 @ 15 seconds
+566
+	8" SCT f6.3, StellaCam-3 @ 30 seconds
+567
+	8" SCT f6.3, StellaCam-3 @ 30 seconds
+568
+	80mm Refractor f6.3, StellaCam-II @ 8 seconds
+569
+	6" RC f9, StellaCam-3 @ 15 seconds
+570
+	8" SCT f5, StellaCam-3 @ 25 seconds
+571
+	8" SCT f6.3, StellaCam-3 @ 25 seconds
+572
+	6" RC f5, StellaCam-3 @ 20 seconds
+573
+	8" SCT f6.3, StellaCam-3 @ 35 seconds
+574
+	6" RC f5, StellaCam-3 @ 20 seconds
+575
+	6" RC f9, StellaCam-3 @ 20 seconds
+576
+	6" RC f5, StellaCam-3 @ 20 seconds
+577
+	8" SCT f6.3, StellaCam-3 @ 35 seconds
+578
+	8" SCT f6.3, StellaCam-3 @ 25 seconds
+579
+	6" RC f5, StellaCam-3 @ 20 seconds
+580
+	6" RC f9, StellaCam-3 @ 15 seconds
+581
+	6" RC f5, StellaCam-3 @ 20 seconds
+582
+	8" SCT f6.3, StellaCam-3 @ 35 seconds
+583
+	6" RC f5, StellaCam-3 @ 20 seconds
+584
+	6" RC f5, StellaCam-3 @ 20 seconds
+585
+	8" SCT f6.3, StellaCam-3 @ 35 seconds
+586
+	6" RC f5, StellaCam-3 @ 20 seconds
+587
+	8" SCT f6.3, StellaCam-II @ 8 seconds
+588
+	6" RC f5, StellaCam-3 @ 20 seconds
+589
+	8" SCT f6.3, StellaCam-3 @ 20 seconds
+590
+	8" SCT f6.3, StellaCam-3 @ 30 seconds
+591
+	6" RC f5, StellaCam-3 @ 20 seconds
+592
+	6" RC f9, StellaCam-3 @ 15 seconds
+593
+	6" RC f5, StellaCam-3 @ 20 seconds
+594
+	8" SCT f6.3, StellaCam-3 @ 60 seconds
+595
+	8" SCT f6.3, Samsung @ 8 seconds
+596
+	8" SCT f6.3, StellaCam-3 @ 35 seconds
+597
+	8" SCT f6.3, StellaCam-3 @ 60 seconds
+598
+	6" RC f9, StellaCam-3 @ 25 seconds
+599
+	8" SCT f6.3, StellaCam-3 @ 35 seconds
+600
+	6" RC f9, StellaCam-3 @ 25 seconds
+601
+	8" SCT f6.3, StellaCam-3 @ 25 seconds
+602
+	6" RC f5, StellaCam-3 @ 30 seconds
+603
+	6" RC f9, StellaCam-3 @ 15 seconds
+604
+	6" RC f9, StellaCam-3 @ 15 seconds
+605
+	6" RC f9, StellaCam-3 @ 15 seconds
+606
+	6" RC f5, StellaCam-3 @ 20 seconds
+607
+	6" RC f9, StellaCam-3 @ 15 seconds
+608
+	8" SCT f6.3, StellaCam-3 @ 25 seconds
+609
+	8" SCT f6.3, StellaCam-II @ 8 seconds
+610
+	8" SCT f6.3, Samsung @ 8 seconds
+611
+	8" SCT f6.3, StellaCam-3 @ 25 seconds
+612
+	8" SCT f6.3, StellaCam-3 @ 60 seconds
+613
+	6" RC f9, StellaCam-3 @ 15 seconds
+614
+	6" RC f5, StellaCam-3 @ 20 seconds
+615
+	6" RC f9, StellaCam-3 @ 25 seconds
+616
+	8" SCT f6.3, StellaCam-3 @ 35 seconds
+617
+	6" RC f9, StellaCam-3 @ 15 seconds
+618
+	8" SCT f6.3, StellaCam-3 @ 25 seconds
+619
+	8" SCT f6.3, StellaCam-3 @ 25 seconds
+620
+	8" SCT f6.3, StellaCam-II @ 8 seconds
+621
+	6" RC f9, StellaCam-3 @ 25 seconds
+622
+	8" SCT f6.3, StellaCam-3 @ 25 seconds
+623
+	6" RC f9, StellaCam-3 @ 15 seconds
+624
+	6" RC f9, StellaCam-3 @ 15 seconds
+625
+	6" RC f9, StellaCam-3 @ 15 seconds
+626
+	6" RC f9, StellaCam-3 @ 25 seconds
+627
+	6" RC f9, StellaCam-3 @ 30 seconds
+628
+	6" RC f9, StellaCam-3 @ 15 seconds
+629
+	6" RC f9, StellaCam-3 @ 15 seconds
+630
+	8" SCT f6.3, StellaCam-3 @ 35 seconds
+631
+	6" RC f9, StellaCam-3 @ 25 seconds
+632
+	6" RC f9, StellaCam-3 @ 25 seconds
+633
+	8" SCT f6.3, StellaCam-3 @ 25 seconds
+634
+	6" RC f9, StellaCam-3 @ 25 seconds
+635
+	8" SCT f6.3, StellaCam-3 @ 25 seconds
+636
+	8" SCT f6.3, StellaCam-3 @ 25 seconds
+637
+	8" SCT f5, StellaCam-3 @ 35 seconds
+638
+	8" SCT f6.3, StellaCam-3 @ 35 seconds
+640
+	8" SCT f6.3, StellaCam-3 @ 25 seconds
+641
+	8" SCT f6.3, StellaCam-3 @ 25 seconds
+642
+	6" RC f9, StellaCam-3 @ 15 seconds
+643
+	8" SCT f6.3, StellaCam-3 @ 90 seconds
+644
+	8" SCT f5, StellaCam-3 @ 35 seconds
+645
+	8" SCT f6.3, StellaCam-3 @ 30 seconds
+646
+	8" SCT f6.3, StellaCam-3 @ 35 seconds
+647
+	8" SCT f6.3, StellaCam-3 @ 35 seconds
+648
+	8" SCT f6.3, StellaCam-3 @ 25 seconds
+649
+	8" Dob f4.5, 16mm 57x
+650
+	6" RC f9, StellaCam-3 @ 25 seconds
+651
+	8" SCT f6.3, StellaCam-EX @ 2.5 seconds
+652
+	8" SCT f6.3, StellaCam-3 @ 45 seconds
+653
+	6" RC f5, StellaCam-3 @ 90 seconds
+654
+	8" SCT f6.3, StellaCam-3 @ 35 seconds
+655
+	8" SCT f6.3, StellaCam-3 @ 35 seconds
+656
+	8" SCT f6.3, StellaCam-3 @ 35 seconds
+657
+	8" SCT f6.3, StellaCam-3 @ 30 seconds
+657?
+	8" SCT f6.3, Samsung @ 8 Seconds
+658
+	6" RC f9, StellaCam-3 @ 25 seconds
+659
+	8" SCT f6.3, StellaCam-3 @ 35 seconds
+660
+	8" SCT f6.3, StellaCam-3 @ 35 seconds
+661
+	6" RC f5, StellaCam-3 @ 90 seconds
+662
+	6" RC f5, StellaCam-3 @ 20 seconds
+663
+	8" SCT f5, StellaCam-3 @ 25 seconds
+664
+	80mm Refractor f6.3, StellaCam-II @ 8 seconds
+665
+	8" SCT f5, StellaCam-3 @ 25 seconds
+666
+	8" SCT f6.3, Samsung @ 8 Seconds
+667
+	6" RC f5, StellaCam-3 @ 20 seconds
+668
+	8" SCT f6.3, StellaCam-3 @ 25 seconds
+669
+	8" SCT f5, StellaCam-3 @ 25 seconds
+670
+	8" SCT f6.3, StellaCam-3 @ 25 seconds
+671
+	8" SCT f6.3, StellaCam-3 @ 25 seconds
+672
+	6" RC f9, StellaCam-3 @ 20 seconds
+673
+	6" RC f9, StellaCam-3 @ 20 seconds
+674
+	6" RC f9, StellaCam-3 @ 30 seconds
+675
+	80mm Refractor f6.3, StellaCam-II 8 seconds
+676
+	8" SCT f5, StellaCam-3 @ 25 seconds
+677
+	8" SCT f6.3, Samsung @ 8 seconds
+678
+	6" RC f9, StellaCam-3 @ 20 seconds
+679
+	8" SCT f6.3, StellaCam-3 @ 30 seconds
+680
+	6" RC f9, StellaCam-3 @ 20 seconds
+681
+	6" RC f9, StellaCam-3 @ 20 seconds
+682
+	6" RC f9, StellaCam-3 @ 20 seconds
+683
+	6" RC f5, StellaCam-3 @ 30 seconds
+684
+	6" RC f5, StellaCam-3 @ 25 seconds
+685
+	6" RC f5, StellaCam-3 @ 40 seconds
+686
+	8" SCT f6.3, StellaCam-3 @ 120 seconds
+687
+	8" SCT f6.3, StellaCam-3 @ 60 seconds
+688
+	8" SCT f6.3, StellaCam-3 @ 45 seconds
+689
+	8" SCT f5, StellaCam-3 @ 45 seconds
+690
+	6" RC f5, StellaCam-3 @ 30 seconds
+691
+	8" SCT f6.3, StellaCam-3 @ 25 seconds
+692
+	8" SCT f6.3, StellaCam-3 @ 25 seconds
+693
+	8" SCT f6.3, StellaCam-3 @ 25 seconds
+694
+	8" SCT f6.3, StellaCam-3 @ 60 seconds
+695
+	8" SCT f6.3, StellaCam-3 @ 60 seconds
+696
+	8" SCT f6.3, StellaCam-3 @ 60 seconds
+697
+	8" SCT f5, StellaCam-3 @ 60 seconds
+698
+	8" SCT f6.3, StellaCam-3 @ 45 seconds
+699
+	8" SCT f6.3, StellaCam-3 @ 45 seconds
+700
+	8" SCT f6.3, StellaCam-3 25 seconds
+
+
+
+

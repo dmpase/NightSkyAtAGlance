@@ -1,0 +1,329 @@
+https://www.stellar-journeys.org/WebbObjects-Tour.HTM
+https://www.stellar-journeys.org/WebbPLANETF.HTM
+
+W# 	Object 	Telescope Sketch 	ep (x) 	Vid Cam 	Exp (sec) 	Telescope vidcap
+1 	
+	 
+  	 
+  	SC-3 	15 	6" RC f5
+2 	
+	 
+  	 
+  	SC-3 	30 	6" RC f5
+3 	
+	13.1"
+Reflector 	12.5mm
+(91x) 	SC-3 	45 	8" SCT f6.3
+4 	
+	 
+  	 
+  	SC-3 	20 	6" RC f5
+5 	
+	 
+  	 
+  	SC-3 	30 	8" SCT f6.3
+6 	
+	 
+  	 
+  	SC-3 	25 	6" RC f5
+7 	
+	 
+  	 
+  	SC-3 	25 	6" RC f5
+8 	
+	 
+  	 
+  	SC-3 	30 	6" RC f5
+9 	
+	 
+  	 
+  	SC-3 	30 	8" SCT F6.3
+10 	
+	 
+  	 
+  	SC-3 	30 	8" SCT f6.3
+11 	
+	 
+  	 
+  	SC-3 	25 	6" RC f5
+12 	
+	 
+  	 
+  	SC-3 	15 	8" SCT f5
+13 	
+	 
+  	 
+  	SC-3 	8 	8" SCT f6.3
+14 	
+	 
+  	 
+  	SC-3 	30 	8" SCT f6.3
+15 	
+	 
+  	 
+  	SC-3 	25 	6" RC f5
+16 	
+	 
+  	 
+  	SC-II 	8 	8" SCT f6.3
+17 	
+	 
+  	 
+  	SC-3 	20 	8" SCT f5
+18 	
+	 
+  	 
+  	SC-3 	15 	8" SCT f5
+19 	
+	 
+  	 
+  	SC-3 	20 	8" SCT f5
+20 	
+	 
+  	 
+  	SC-3 	30 	6" RC f5
+21 	
+	13.1"
+Reflector 	28mm 2.8B
+(102x) 	SC-3 	45 	8" SCT f6.3
+22 	
+	 
+  	 
+  	SC-3 	20 	8" SCT f5
+23 	
+	 
+  	 
+  	SC-3 	20 	8" SCT f6.3
+24 	
+	 
+  	 
+  	SC-3 	15 	8" SCT f6.3
+25 	
+	 
+  	 
+  	SC-3 	25 	8" SCT f6.3
+26 	
+	 
+  	 
+  	SC-3 	25 	6" RC f5
+27 	
+	 
+  	 
+  	SC-3 	30 	8" SCT f6.3
+28 	
+	 
+  	 
+  	SC-3 	12 	8" SCT f6.3
+29 	
+	8"
+Reflector 	16mm
+(57x) 	SC-3 	90 	8" SCT f6.3
+30 	
+	 
+  	 
+  	SC-3 	20 	8" SCT f6.3
+31 	
+	 
+  	 
+  	SC-3 	20 	8" SCT f5
+32 	
+	 
+  	 
+  	SC-3 	20 	8" SCT f6.3
+33 	
+	8"
+Reflector 	20mm
+(100x) 	SC-3 	25 	6" RC f5
+34 	
+	 
+  	 
+  	SC-3 	20 	8" SCT f5
+35 	
+	13.1"
+Reflector 	12mm
+(91x) 	SDC-435 	8 	8" SCT f6.3
+36 	
+	 
+  	 
+  	SC-3 	15 	8" SCT f5
+37 	
+	8"
+Reflector 	16mm 2.8B
+(160x) 	  	  	 
+38 	
+	 
+  	 
+  	SC-3 	15 	6" RC f5
+39 	
+	8"
+Reflector 	8mm
+(114x) 	SC-3 	10 	8" SCT f6.3
+40 	
+	 
+  	 
+  	SC-3 	25 	8" SCT f5
+41 	
+	 
+  	 
+  	SC-3 	20 	8" SCT f6.3
+42 	
+	 
+  	 
+  	SC-3 	20 	8" SCT f6.3
+43 	
+	10"
+Reflector 	8mm
+(79x) 	SC-3 	30 	8" SCT f6.3
+44 	
+	8"
+Reflector 	16mm
+(57x) 	  	  	 
+45 	
+	 
+  	 
+  	SC-3 	30 	8" SCT f6.3
+46 	
+	 
+  	 
+  	SC-3 	20 	8" SCT f6.3
+47 	
+	 
+  	 
+  	SC-II 	8 	8" SCT f6.3
+48 	
+	 
+  	 
+  	SC-3 	30 	8" SCT f6.3
+49 	
+	 
+  	 
+  	SC-3 	20 	8" SCT f6.3
+50 	
+	 
+  	 
+  	SC-II 	8 	8" SCT f6.3
+51 	
+	 
+  	 
+  	SC-3 	30 	8" SCT f6.3
+52 	
+	 
+  	 
+  	SC-3 	30 	8" SCT f6.3
+53 	
+	 
+  	 
+  	SC-II 	8 	8" SCT f6.3
+54 	
+	 
+  	 
+  	SC-3 	30 	8" SCT f6.3
+55 	
+	 
+  	 
+  	SC-3 	15 	8" SCT f6.3
+56 	
+	 
+  	 
+  	SC-3 	20 	8" SCT f6.3
+57 	
+	 
+  	 
+  	SC-3 	10 	8" SCT f6.3
+58 	
+	13.1"
+Reflector 	8mm
+(143x) 	SC-3 	8 	8" SCT f6.3
+59 	
+	 
+  	 
+  	SC-3 	15 	8" SCT f6.3
+60 	
+	 
+  	 
+  	SC-3 	25 	6" RC f5
+61 	
+	10"
+Reflector 	27mm
+(52x) 	SC-3 	60 	8" SCT f6.3
+62 	
+	 
+  	 
+  	SC-3 	20 	8" SCT f6.3
+63 	
+	 
+  	 
+  	SDC-435 	8 	8" SCT f6.3
+64 	
+	 
+  	 
+  	SC-3 	25 	6" RC f5
+65 	
+	 
+  	 
+  	SDC-435 	8 	8" SCT f6.3
+66 	
+	8"
+SCT f10 	24mm
+(85x) 	SDC-435 	8 	8" SCT f6.3
+67 	
+	 
+  	 
+  	SC-3 	30 	6" RC f5
+68 	
+	 
+  	 
+  	SC-3 	8 	6" RC f5
+69 	
+	8"
+SCT f10 	24mm
+(85x) 	SC-EX 	2.5 	8" SCT f10
+70 	
+	 
+  	 
+  	SC-3 	30 	6" RC f5
+71 	
+	 
+  	 
+  	SC-3 	20 	8" SCT f6.3
+72 	
+	 
+  	 
+  	SC-3 	25 	6" RC f5
+73 	
+	 
+  	 
+  	SC-3 	25 	6" RC f5
+74 	
+	 
+  	 
+  	SC-3 	15 	8" SCT f6.3
+75 	
+	 
+  	 
+  	SC-3 	15 	8" SCT f6.3
+76 	
+	 
+  	 
+  	SC-3 	25 	6" RC f5
+77 	
+	 
+  	 
+  	SC-3 	20 	8" SCT f6.3
+78 	
+	8"
+Reflector 	8mm
+(114x) 	SC-II 	8 	8" SCT f6.3
+79 	
+	8"
+Reflector 	24mm 2.8B
+(106x) 	SC-II 	8 	8" SCT f6.3
+80 	
+	 
+  	 
+  	SC-3 	15 	8" SCT f6.3
+
+ 
+
+
+

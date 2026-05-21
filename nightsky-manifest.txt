@@ -1,0 +1,8 @@
+Manifest-Version: 1.0
+Created-By: Douglas M. Pase
+Package-Name: 
+Main-Class: nightskyataglance.NightSkyAtAGlance
+Class-Path: 
+Sealed: true
+
+
