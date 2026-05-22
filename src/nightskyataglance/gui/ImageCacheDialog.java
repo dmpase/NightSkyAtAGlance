@@ -37,7 +37,6 @@ package nightskyataglance.gui;
 
 
 import java.awt.Button;
-import java.awt.Checkbox;
 import java.awt.Dialog;
 import java.awt.Dimension;
 import java.awt.GraphicsConfiguration;
@@ -56,6 +55,7 @@ import java.awt.event.WindowListener;
 import java.io.File;
 import java.io.IOException;
 
+import javax.swing.JCheckBox;
 import javax.swing.JFileChooser;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
@@ -69,7 +69,7 @@ public class ImageCacheDialog extends Dialog implements WindowListener, KeyListe
 	public final MainFrame frame;
 	public final ImageCacheDialog dialog;
 
-	public static final Checkbox   cache_cb      = new Checkbox();
+	public static final JCheckBox  cache_cb      = new JCheckBox();
 	public static final JLabel     cache_jl      = new JLabel("Cache Images Locally");
 	public static final JLabel     cache_path_jl = new JLabel("Cache Path");
 	public static final JTextField cache_path_tf = new JTextField("", 56);
@@ -84,7 +84,7 @@ public class ImageCacheDialog extends Dialog implements WindowListener, KeyListe
 		frame    = f;
 		dialog   = this;
 
-		cache_cb.setState(PersistentState.cache_images);
+		cache_cb.setSelected(PersistentState.cache_images);
 		cache_path_tf.setText(PersistentState.cache_path);
 
 		addWindowListener(this);
@@ -235,7 +235,7 @@ public class ImageCacheDialog extends Dialog implements WindowListener, KeyListe
 		save_b.addActionListener(new ActionListener() {
 			@Override public void actionPerformed(ActionEvent e)
 			{
-				PersistentState.cache_images = cache_cb.getState();
+				PersistentState.cache_images = cache_cb.isSelected();
 				// System.out.printf("248: cache='%s' path='%s'%n", cache_images, cache_path);
 				try {
 					File cache_dir = new File(PersistentState.cache_path);

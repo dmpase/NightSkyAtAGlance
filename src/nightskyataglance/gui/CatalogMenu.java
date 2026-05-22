@@ -106,12 +106,12 @@ public class CatalogMenu extends Menu {
 	public static final MenuItem wvs = new MenuItem(WEBB_VARIABLE_STARS);
 	public static final MenuItem fav = new MenuItem(FAVORITE_DSOS);
 
+	public static boolean aux_enabled = false;
+
 	public CatalogMenu(MainFrame f, String name)
 	{
 		super(name);
 		main_frame = f;
-		
-		boolean aux_enabled = false;
 
     	add(cns);
     	add(cna); cna.setEnabled(false);

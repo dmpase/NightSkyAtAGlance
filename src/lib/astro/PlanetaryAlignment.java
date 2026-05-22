@@ -109,7 +109,7 @@ public class PlanetaryAlignment {
 			return;
 		}
 
-		for (long current_solar_time_ms=start_time_ms; 0 < count && delta_time_ms != 0 && current_solar_time_ms <= end_time_ms; current_solar_time_ms+=delta_time_ms) {
+		for (long current_solar_time_ms=start_time_ms; valid && 0 < count && delta_time_ms != 0 && current_solar_time_ms <= end_time_ms; current_solar_time_ms+=delta_time_ms) {
 			SolarLocation solar_location = new SolarLocation(current_solar_time_ms, timezone);
 			elts[SUN    ].set_ra_hrs(PracticalAstronomy.adjust24(solar_location.right_ascension));
 			elts[SUN    ].set_de_deg(PracticalAstronomy.adjust90(solar_location.declination));
@@ -163,5 +163,7 @@ public class PlanetaryAlignment {
 		}
 
 		best_avg = (0 < count) ? best_sum / count : 0;
+		
+		valid = valid && best_cst != Long.MIN_VALUE;
 	}
 }

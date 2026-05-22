@@ -37,7 +37,6 @@ package nightskyataglance.gui;
 
 
 import java.awt.Button;
-import java.awt.Checkbox;
 import java.awt.Dialog;
 import java.awt.Dimension;
 import java.awt.GraphicsConfiguration;
@@ -52,6 +51,7 @@ import java.awt.event.WindowEvent;
 import java.awt.event.WindowListener;
 import java.util.TimeZone;
 
+import javax.swing.JCheckBox;
 import javax.swing.JPanel;
 import javax.swing.JTextField;
 
@@ -71,37 +71,37 @@ public class FilterDialog extends Dialog implements WindowListener {
 	public final JTextField diameter_min_tf  = new JTextField("", spaces);
 	public final JTextField diameter_max_tf  = new JTextField("", spaces);
 
-	public final Checkbox star                    = new Checkbox();
-	public final Checkbox double_star             = new Checkbox();
-	public final Checkbox variable_star           = new Checkbox();
-	public final Checkbox asterism                = new Checkbox();
-	public final Checkbox open_cluster            = new Checkbox();
+	public final JCheckBox star                    = new JCheckBox();
+	public final JCheckBox double_star             = new JCheckBox();
+	public final JCheckBox variable_star           = new JCheckBox();
+	public final JCheckBox asterism                = new JCheckBox();
+	public final JCheckBox open_cluster            = new JCheckBox();
 
-	public final Checkbox nebula                  = new Checkbox();
-	public final Checkbox dark_nebula             = new Checkbox();
-	public final Checkbox diffuse_nebula          = new Checkbox();
-	public final Checkbox emission_nebula         = new Checkbox();
-	public final Checkbox gaseous_nebula          = new Checkbox();
-	public final Checkbox planetary_nebula        = new Checkbox();
-	public final Checkbox reflection_nebula       = new Checkbox();
-	public final Checkbox supernova_remnant       = new Checkbox();
-	public final Checkbox open_cluster_and_nebula = new Checkbox();
+	public final JCheckBox nebula                  = new JCheckBox();
+	public final JCheckBox dark_nebula             = new JCheckBox();
+	public final JCheckBox diffuse_nebula          = new JCheckBox();
+	public final JCheckBox emission_nebula         = new JCheckBox();
+	public final JCheckBox gaseous_nebula          = new JCheckBox();
+	public final JCheckBox planetary_nebula        = new JCheckBox();
+	public final JCheckBox reflection_nebula       = new JCheckBox();
+	public final JCheckBox supernova_remnant       = new JCheckBox();
+	public final JCheckBox open_cluster_and_nebula = new JCheckBox();
 
-	public final Checkbox galaxy                  = new Checkbox();
-	public final Checkbox barred_irregular_galaxy = new Checkbox();
-	public final Checkbox barred_spiral_galaxy    = new Checkbox();
-	public final Checkbox dwarf_spheroidal_galaxy = new Checkbox();
-	public final Checkbox elliptical_galaxy       = new Checkbox();
-	public final Checkbox galaxy_cluster          = new Checkbox();
-	public final Checkbox globular_cluster        = new Checkbox();
-	public final Checkbox interacting_galaxy      = new Checkbox();
-	public final Checkbox irregular_galaxy        = new Checkbox();
-	public final Checkbox lenticular_galaxy       = new Checkbox();
-	public final Checkbox spiral_galaxy           = new Checkbox();
-	public final Checkbox starburst_galaxy        = new Checkbox();
-	public final Checkbox supergiant_elliptical_galaxy = new Checkbox();
+	public final JCheckBox galaxy                  = new JCheckBox();
+	public final JCheckBox barred_irregular_galaxy = new JCheckBox();
+	public final JCheckBox barred_spiral_galaxy    = new JCheckBox();
+	public final JCheckBox dwarf_spheroidal_galaxy = new JCheckBox();
+	public final JCheckBox elliptical_galaxy       = new JCheckBox();
+	public final JCheckBox galaxy_cluster          = new JCheckBox();
+	public final JCheckBox globular_cluster        = new JCheckBox();
+	public final JCheckBox interacting_galaxy      = new JCheckBox();
+	public final JCheckBox irregular_galaxy        = new JCheckBox();
+	public final JCheckBox lenticular_galaxy       = new JCheckBox();
+	public final JCheckBox spiral_galaxy           = new JCheckBox();
+	public final JCheckBox starburst_galaxy        = new JCheckBox();
+	public final JCheckBox supergiant_elliptical_galaxy = new JCheckBox();
 
-	public final Checkbox unidentified            = new Checkbox();
+	public final JCheckBox unidentified            = new JCheckBox();
 
 	public final Button stars    = new Button("Stars     ");
 	public final Button nebulae  = new Button("Nebulae ");
@@ -157,74 +157,74 @@ public class FilterDialog extends Dialog implements WindowListener {
 			diameter_min_tf.setHorizontalAlignment(JTextField.RIGHT);
 			diameter_max_tf.setHorizontalAlignment(JTextField.RIGHT);
 
-			star                        .setState(false);
-			double_star                 .setState(false);
-			variable_star               .setState(false);
-			asterism                    .setState(false);
-			open_cluster                .setState(false);
+			star                        .setSelected(false);
+			double_star                 .setSelected(false);
+			variable_star               .setSelected(false);
+			asterism                    .setSelected(false);
+			open_cluster                .setSelected(false);
 
-			nebula                      .setState(false);
-			dark_nebula                 .setState(false);
-			diffuse_nebula              .setState(false);
-			emission_nebula             .setState(false);
-			gaseous_nebula              .setState(false);
-			planetary_nebula            .setState(false);
-			reflection_nebula           .setState(false);
-			supernova_remnant           .setState(false);
-			open_cluster_and_nebula     .setState(false);
+			nebula                      .setSelected(false);
+			dark_nebula                 .setSelected(false);
+			diffuse_nebula              .setSelected(false);
+			emission_nebula             .setSelected(false);
+			gaseous_nebula              .setSelected(false);
+			planetary_nebula            .setSelected(false);
+			reflection_nebula           .setSelected(false);
+			supernova_remnant           .setSelected(false);
+			open_cluster_and_nebula     .setSelected(false);
 
-			galaxy                      .setState(false);
-			barred_irregular_galaxy     .setState(false);
-			barred_spiral_galaxy        .setState(false);
-			dwarf_spheroidal_galaxy     .setState(false);
-			elliptical_galaxy           .setState(false);
-			galaxy_cluster              .setState(false);
-			globular_cluster            .setState(false);
-			interacting_galaxy          .setState(false);
-			irregular_galaxy            .setState(false);
-			lenticular_galaxy           .setState(false);
-			spiral_galaxy               .setState(false);
-			starburst_galaxy            .setState(false);
-			supergiant_elliptical_galaxy.setState(false);
+			galaxy                      .setSelected(false);
+			barred_irregular_galaxy     .setSelected(false);
+			barred_spiral_galaxy        .setSelected(false);
+			dwarf_spheroidal_galaxy     .setSelected(false);
+			elliptical_galaxy           .setSelected(false);
+			galaxy_cluster              .setSelected(false);
+			globular_cluster            .setSelected(false);
+			interacting_galaxy          .setSelected(false);
+			irregular_galaxy            .setSelected(false);
+			lenticular_galaxy           .setSelected(false);
+			spiral_galaxy               .setSelected(false);
+			starburst_galaxy            .setSelected(false);
+			supergiant_elliptical_galaxy.setSelected(false);
 
-			unidentified                .setState(false);
+			unidentified                .setSelected(false);
 		} else {
 			magnitude_min_tf.setText(String.format("%f", frame.filter.min_mag));
 			magnitude_max_tf.setText(String.format("%f", frame.filter.max_mag));
 			diameter_min_tf .setText(String.format("%f", frame.filter.min_dia));
 			diameter_max_tf .setText(String.format("%f", frame.filter.max_dia));
 
-			star                        .setState(frame.filter.type_list[DsoType.STAR]);
-			double_star                 .setState(frame.filter.type_list[DsoType.DOUBLE_STAR]);
-			variable_star               .setState(frame.filter.type_list[DsoType.VARIABLE_STAR]);
-			asterism                    .setState(frame.filter.type_list[DsoType.ASTERISM]);
-			open_cluster                .setState(frame.filter.type_list[DsoType.OPEN_CLUSTER]);
+			star                        .setSelected(frame.filter.type_list[DsoType.STAR]);
+			double_star                 .setSelected(frame.filter.type_list[DsoType.DOUBLE_STAR]);
+			variable_star               .setSelected(frame.filter.type_list[DsoType.VARIABLE_STAR]);
+			asterism                    .setSelected(frame.filter.type_list[DsoType.ASTERISM]);
+			open_cluster                .setSelected(frame.filter.type_list[DsoType.OPEN_CLUSTER]);
 
-			nebula                      .setState(frame.filter.type_list[DsoType.NEBULA]);
-			dark_nebula                 .setState(frame.filter.type_list[DsoType.DARK_NEBULA]);
-			diffuse_nebula              .setState(frame.filter.type_list[DsoType.DIFFUSE_NEBULA]);
-			emission_nebula             .setState(frame.filter.type_list[DsoType.EMISSION_NEBULA]);
-			gaseous_nebula              .setState(frame.filter.type_list[DsoType.GASEOUS_NEBULA]);
-			planetary_nebula            .setState(frame.filter.type_list[DsoType.PLANETARY_NEBULA]);
-			reflection_nebula           .setState(frame.filter.type_list[DsoType.REFLECTION_NEBULA]);
-			supernova_remnant           .setState(frame.filter.type_list[DsoType.SUPERNOVA_REMNANT]);
-			open_cluster_and_nebula     .setState(frame.filter.type_list[DsoType.OPEN_CLUSTER_AND_NEBULA]);
+			nebula                      .setSelected(frame.filter.type_list[DsoType.NEBULA]);
+			dark_nebula                 .setSelected(frame.filter.type_list[DsoType.DARK_NEBULA]);
+			diffuse_nebula              .setSelected(frame.filter.type_list[DsoType.DIFFUSE_NEBULA]);
+			emission_nebula             .setSelected(frame.filter.type_list[DsoType.EMISSION_NEBULA]);
+			gaseous_nebula              .setSelected(frame.filter.type_list[DsoType.GASEOUS_NEBULA]);
+			planetary_nebula            .setSelected(frame.filter.type_list[DsoType.PLANETARY_NEBULA]);
+			reflection_nebula           .setSelected(frame.filter.type_list[DsoType.REFLECTION_NEBULA]);
+			supernova_remnant           .setSelected(frame.filter.type_list[DsoType.SUPERNOVA_REMNANT]);
+			open_cluster_and_nebula     .setSelected(frame.filter.type_list[DsoType.OPEN_CLUSTER_AND_NEBULA]);
 
-			galaxy                      .setState(frame.filter.type_list[DsoType.GALAXY]);
-			barred_irregular_galaxy     .setState(frame.filter.type_list[DsoType.BARRED_IRREGULAR_GALAXY]);
-			barred_spiral_galaxy        .setState(frame.filter.type_list[DsoType.BARRED_SPIRAL_GALAXY]);
-			dwarf_spheroidal_galaxy     .setState(frame.filter.type_list[DsoType.DWARF_SPHEROIDAL_GALAXY]);
-			elliptical_galaxy           .setState(frame.filter.type_list[DsoType.ELLIPTICAL_GALAXY]);
-			galaxy_cluster              .setState(frame.filter.type_list[DsoType.GALAXY_CLUSTER]);
-			globular_cluster            .setState(frame.filter.type_list[DsoType.GLOBULAR_CLUSTER]);
-			interacting_galaxy          .setState(frame.filter.type_list[DsoType.INTERACTING_GALAXY]);
-			irregular_galaxy            .setState(frame.filter.type_list[DsoType.IRREGULAR_GALAXY]);
-			lenticular_galaxy           .setState(frame.filter.type_list[DsoType.LENTICULAR_GALAXY]);
-			spiral_galaxy               .setState(frame.filter.type_list[DsoType.SPIRAL_GALAXY]);
-			starburst_galaxy            .setState(frame.filter.type_list[DsoType.STARBURST_GALAXY]);
-			supergiant_elliptical_galaxy.setState(frame.filter.type_list[DsoType.SUPERGIANT_ELLIPTICAL_GALAXY]);
+			galaxy                      .setSelected(frame.filter.type_list[DsoType.GALAXY]);
+			barred_irregular_galaxy     .setSelected(frame.filter.type_list[DsoType.BARRED_IRREGULAR_GALAXY]);
+			barred_spiral_galaxy        .setSelected(frame.filter.type_list[DsoType.BARRED_SPIRAL_GALAXY]);
+			dwarf_spheroidal_galaxy     .setSelected(frame.filter.type_list[DsoType.DWARF_SPHEROIDAL_GALAXY]);
+			elliptical_galaxy           .setSelected(frame.filter.type_list[DsoType.ELLIPTICAL_GALAXY]);
+			galaxy_cluster              .setSelected(frame.filter.type_list[DsoType.GALAXY_CLUSTER]);
+			globular_cluster            .setSelected(frame.filter.type_list[DsoType.GLOBULAR_CLUSTER]);
+			interacting_galaxy          .setSelected(frame.filter.type_list[DsoType.INTERACTING_GALAXY]);
+			irregular_galaxy            .setSelected(frame.filter.type_list[DsoType.IRREGULAR_GALAXY]);
+			lenticular_galaxy           .setSelected(frame.filter.type_list[DsoType.LENTICULAR_GALAXY]);
+			spiral_galaxy               .setSelected(frame.filter.type_list[DsoType.SPIRAL_GALAXY]);
+			starburst_galaxy            .setSelected(frame.filter.type_list[DsoType.STARBURST_GALAXY]);
+			supergiant_elliptical_galaxy.setSelected(frame.filter.type_list[DsoType.SUPERGIANT_ELLIPTICAL_GALAXY]);
 
-			unidentified                .setState(frame.filter.type_list[DsoType.UNIDENTIFIED]);
+			unidentified                .setSelected(frame.filter.type_list[DsoType.UNIDENTIFIED]);
 		}
 		
 		JPanel panel = new JPanel(new GridBagLayout());
@@ -824,34 +824,34 @@ public class FilterDialog extends Dialog implements WindowListener {
 				double min_dia = Double.parseDouble(diameter_min_tf.getText());
 
 				boolean[] list = new boolean[DsoType.NUMBER_OF_DSO_TYPES];
-				list[DsoType.STAR]                         = star.getState();
-				list[DsoType.DOUBLE_STAR]                  = double_star.getState();
-				list[DsoType.VARIABLE_STAR]                = variable_star.getState();
-				list[DsoType.ASTERISM]                     = asterism.getState();
-				list[DsoType.OPEN_CLUSTER]                 = open_cluster.getState();
-				list[DsoType.NEBULA]                       = nebula.getState();
-				list[DsoType.DARK_NEBULA]                  = dark_nebula.getState();
-				list[DsoType.DIFFUSE_NEBULA]               = diffuse_nebula.getState();
-				list[DsoType.EMISSION_NEBULA]              = emission_nebula.getState();
-				list[DsoType.GASEOUS_NEBULA]               = gaseous_nebula.getState();
-				list[DsoType.PLANETARY_NEBULA]             = planetary_nebula.getState();
-				list[DsoType.REFLECTION_NEBULA]            = reflection_nebula.getState();
-				list[DsoType.SUPERNOVA_REMNANT]            = supernova_remnant.getState();
-				list[DsoType.OPEN_CLUSTER_AND_NEBULA]      = open_cluster_and_nebula.getState();
-				list[DsoType.GALAXY]                       = galaxy.getState();
-				list[DsoType.BARRED_IRREGULAR_GALAXY]      = barred_irregular_galaxy.getState();
-				list[DsoType.BARRED_SPIRAL_GALAXY]         = barred_spiral_galaxy.getState();
-				list[DsoType.DWARF_SPHEROIDAL_GALAXY]      = dwarf_spheroidal_galaxy.getState();
-				list[DsoType.ELLIPTICAL_GALAXY]            = elliptical_galaxy.getState();
-				list[DsoType.GALAXY_CLUSTER]               = galaxy_cluster.getState();
-				list[DsoType.GLOBULAR_CLUSTER]             = globular_cluster.getState();
-				list[DsoType.INTERACTING_GALAXY]           = interacting_galaxy.getState();
-				list[DsoType.IRREGULAR_GALAXY]             = irregular_galaxy.getState();
-				list[DsoType.LENTICULAR_GALAXY]            = lenticular_galaxy.getState();
-				list[DsoType.SPIRAL_GALAXY]                = spiral_galaxy.getState();
-				list[DsoType.STARBURST_GALAXY]             = starburst_galaxy.getState();
-				list[DsoType.SUPERGIANT_ELLIPTICAL_GALAXY] = supergiant_elliptical_galaxy.getState();
-				list[DsoType.UNIDENTIFIED]                 = unidentified.getState();
+				list[DsoType.STAR]                         = star.isSelected();
+				list[DsoType.DOUBLE_STAR]                  = double_star.isSelected();
+				list[DsoType.VARIABLE_STAR]                = variable_star.isSelected();
+				list[DsoType.ASTERISM]                     = asterism.isSelected();
+				list[DsoType.OPEN_CLUSTER]                 = open_cluster.isSelected();
+				list[DsoType.NEBULA]                       = nebula.isSelected();
+				list[DsoType.DARK_NEBULA]                  = dark_nebula.isSelected();
+				list[DsoType.DIFFUSE_NEBULA]               = diffuse_nebula.isSelected();
+				list[DsoType.EMISSION_NEBULA]              = emission_nebula.isSelected();
+				list[DsoType.GASEOUS_NEBULA]               = gaseous_nebula.isSelected();
+				list[DsoType.PLANETARY_NEBULA]             = planetary_nebula.isSelected();
+				list[DsoType.REFLECTION_NEBULA]            = reflection_nebula.isSelected();
+				list[DsoType.SUPERNOVA_REMNANT]            = supernova_remnant.isSelected();
+				list[DsoType.OPEN_CLUSTER_AND_NEBULA]      = open_cluster_and_nebula.isSelected();
+				list[DsoType.GALAXY]                       = galaxy.isSelected();
+				list[DsoType.BARRED_IRREGULAR_GALAXY]      = barred_irregular_galaxy.isSelected();
+				list[DsoType.BARRED_SPIRAL_GALAXY]         = barred_spiral_galaxy.isSelected();
+				list[DsoType.DWARF_SPHEROIDAL_GALAXY]      = dwarf_spheroidal_galaxy.isSelected();
+				list[DsoType.ELLIPTICAL_GALAXY]            = elliptical_galaxy.isSelected();
+				list[DsoType.GALAXY_CLUSTER]               = galaxy_cluster.isSelected();
+				list[DsoType.GLOBULAR_CLUSTER]             = globular_cluster.isSelected();
+				list[DsoType.INTERACTING_GALAXY]           = interacting_galaxy.isSelected();
+				list[DsoType.IRREGULAR_GALAXY]             = irregular_galaxy.isSelected();
+				list[DsoType.LENTICULAR_GALAXY]            = lenticular_galaxy.isSelected();
+				list[DsoType.SPIRAL_GALAXY]                = spiral_galaxy.isSelected();
+				list[DsoType.STARBURST_GALAXY]             = starburst_galaxy.isSelected();
+				list[DsoType.SUPERGIANT_ELLIPTICAL_GALAXY] = supergiant_elliptical_galaxy.isSelected();
+				list[DsoType.UNIDENTIFIED]                 = unidentified.isSelected();
 				
 				frame.filter = new DsoFilter(min_dia, max_dia, min_mag, max_mag, list);
 
@@ -862,11 +862,11 @@ public class FilterDialog extends Dialog implements WindowListener {
 		stars.addActionListener(new ActionListener() {
 			@Override public void actionPerformed(ActionEvent evt) 
 			{
-				star                        .setState(stars_b);
-				double_star                 .setState(stars_b);
-				variable_star               .setState(stars_b);
-				asterism                    .setState(stars_b);
-				open_cluster                .setState(stars_b);
+				star                        .setSelected(stars_b);
+				double_star                 .setSelected(stars_b);
+				variable_star               .setSelected(stars_b);
+				asterism                    .setSelected(stars_b);
+				open_cluster                .setSelected(stars_b);
 
 				stars_b = ! stars_b;
 			}
@@ -875,15 +875,15 @@ public class FilterDialog extends Dialog implements WindowListener {
 		nebulae.addActionListener(new ActionListener() {
 			@Override public void actionPerformed(ActionEvent evt) 
 			{
-				nebula                      .setState(nebulae_b);
-				dark_nebula                 .setState(nebulae_b);
-				diffuse_nebula              .setState(nebulae_b);
-				emission_nebula             .setState(nebulae_b);
-				gaseous_nebula              .setState(nebulae_b);
-				planetary_nebula            .setState(nebulae_b);
-				reflection_nebula           .setState(nebulae_b);
-				supernova_remnant           .setState(nebulae_b);
-				open_cluster_and_nebula     .setState(nebulae_b);
+				nebula                      .setSelected(nebulae_b);
+				dark_nebula                 .setSelected(nebulae_b);
+				diffuse_nebula              .setSelected(nebulae_b);
+				emission_nebula             .setSelected(nebulae_b);
+				gaseous_nebula              .setSelected(nebulae_b);
+				planetary_nebula            .setSelected(nebulae_b);
+				reflection_nebula           .setSelected(nebulae_b);
+				supernova_remnant           .setSelected(nebulae_b);
+				open_cluster_and_nebula     .setSelected(nebulae_b);
 
 				nebulae_b = ! nebulae_b;
 			}
@@ -892,19 +892,19 @@ public class FilterDialog extends Dialog implements WindowListener {
 		galaxies.addActionListener(new ActionListener() {
 			@Override public void actionPerformed(ActionEvent evt) 
 			{
-				galaxy                      .setState(galaxies_b);
-				barred_irregular_galaxy     .setState(galaxies_b);
-				barred_spiral_galaxy        .setState(galaxies_b);
-				dwarf_spheroidal_galaxy     .setState(galaxies_b);
-				elliptical_galaxy           .setState(galaxies_b);
-				galaxy_cluster              .setState(galaxies_b);
-				globular_cluster            .setState(galaxies_b);
-				interacting_galaxy          .setState(galaxies_b);
-				irregular_galaxy            .setState(galaxies_b);
-				lenticular_galaxy           .setState(galaxies_b);
-				spiral_galaxy               .setState(galaxies_b);
-				starburst_galaxy            .setState(galaxies_b);
-				supergiant_elliptical_galaxy.setState(galaxies_b);
+				galaxy                      .setSelected(galaxies_b);
+				barred_irregular_galaxy     .setSelected(galaxies_b);
+				barred_spiral_galaxy        .setSelected(galaxies_b);
+				dwarf_spheroidal_galaxy     .setSelected(galaxies_b);
+				elliptical_galaxy           .setSelected(galaxies_b);
+				galaxy_cluster              .setSelected(galaxies_b);
+				globular_cluster            .setSelected(galaxies_b);
+				interacting_galaxy          .setSelected(galaxies_b);
+				irregular_galaxy            .setSelected(galaxies_b);
+				lenticular_galaxy           .setSelected(galaxies_b);
+				spiral_galaxy               .setSelected(galaxies_b);
+				starburst_galaxy            .setSelected(galaxies_b);
+				supergiant_elliptical_galaxy.setSelected(galaxies_b);
 
 				galaxies_b = ! galaxies_b;
 			}
@@ -926,37 +926,37 @@ public class FilterDialog extends Dialog implements WindowListener {
 				diameter_min_tf .setText("0");
 				diameter_max_tf .setText("999999");
 
-				star                        .setState(false);
-				double_star                 .setState(false);
-				variable_star               .setState(false);
-				asterism                    .setState(false);
-				open_cluster                .setState(false);
+				star                        .setSelected(false);
+				double_star                 .setSelected(false);
+				variable_star               .setSelected(false);
+				asterism                    .setSelected(false);
+				open_cluster                .setSelected(false);
 
-				nebula                      .setState(false);
-				dark_nebula                 .setState(false);
-				diffuse_nebula              .setState(false);
-				emission_nebula             .setState(false);
-				gaseous_nebula              .setState(false);
-				planetary_nebula            .setState(false);
-				reflection_nebula           .setState(false);
-				supernova_remnant           .setState(false);
-				open_cluster_and_nebula     .setState(false);
+				nebula                      .setSelected(false);
+				dark_nebula                 .setSelected(false);
+				diffuse_nebula              .setSelected(false);
+				emission_nebula             .setSelected(false);
+				gaseous_nebula              .setSelected(false);
+				planetary_nebula            .setSelected(false);
+				reflection_nebula           .setSelected(false);
+				supernova_remnant           .setSelected(false);
+				open_cluster_and_nebula     .setSelected(false);
 
-				galaxy                      .setState(false);
-				barred_irregular_galaxy     .setState(false);
-				barred_spiral_galaxy        .setState(false);
-				dwarf_spheroidal_galaxy     .setState(false);
-				elliptical_galaxy           .setState(false);
-				galaxy_cluster              .setState(false);
-				globular_cluster            .setState(false);
-				interacting_galaxy          .setState(false);
-				irregular_galaxy            .setState(false);
-				lenticular_galaxy           .setState(false);
-				spiral_galaxy               .setState(false);
-				starburst_galaxy            .setState(false);
-				supergiant_elliptical_galaxy.setState(false);
+				galaxy                      .setSelected(false);
+				barred_irregular_galaxy     .setSelected(false);
+				barred_spiral_galaxy        .setSelected(false);
+				dwarf_spheroidal_galaxy     .setSelected(false);
+				elliptical_galaxy           .setSelected(false);
+				galaxy_cluster              .setSelected(false);
+				globular_cluster            .setSelected(false);
+				interacting_galaxy          .setSelected(false);
+				irregular_galaxy            .setSelected(false);
+				lenticular_galaxy           .setSelected(false);
+				spiral_galaxy               .setSelected(false);
+				starburst_galaxy            .setSelected(false);
+				supergiant_elliptical_galaxy.setSelected(false);
 
-				unidentified                .setState(false);
+				unidentified                .setSelected(false);
 			}
 		});
 

@@ -3824,7 +3824,7 @@ public class MainFrame extends Frame implements MouseListener, MouseMotionListen
     		try {
     			long ms = System.currentTimeMillis();
     			frame.double_stars = new WebbDoubleStars(path + frame.double_stars_path);
-				CatalogMenu.wsc.setEnabled(true);
+				CatalogMenu.wsc.setEnabled(CatalogMenu.aux_enabled);
 				// System.out.printf("%s: %d: Webb Double Stars done. (%.3f)%n", NightSkyAtAGlance.CLASS(), NightSkyAtAGlance.LINE(), (System.currentTimeMillis() - ms)/1000.0);
 			} catch (IOException e) {
 				e.printStackTrace();
@@ -3847,7 +3847,7 @@ public class MainFrame extends Frame implements MouseListener, MouseMotionListen
     		try {
     			long ms = System.currentTimeMillis();
     	    	frame.planetary_nebulae = new WebbPlanetaryNebulae(path + frame.planetary_nebulae_path);
-				CatalogMenu.wpn.setEnabled(true);
+				CatalogMenu.wpn.setEnabled(CatalogMenu.aux_enabled);
 				// System.out.printf("%s: %d: Webb Planetary Nebulae done. (%.3f)%n", NightSkyAtAGlance.CLASS(), NightSkyAtAGlance.LINE(), (System.currentTimeMillis() - ms)/1000.0);
 			} catch (IOException e) {
 				e.printStackTrace();
@@ -3870,7 +3870,7 @@ public class MainFrame extends Frame implements MouseListener, MouseMotionListen
     		try {
     			long ms = System.currentTimeMillis();
     	    	frame.gaseous_nebulae = new WebbGaseousNebulae(path + frame.gaseous_nebulae_path);
-				CatalogMenu.wgn.setEnabled(true);
+				CatalogMenu.wgn.setEnabled(CatalogMenu.aux_enabled);
 				// System.out.printf("%s: %d: Webb Gaseous Nebulae done. (%.3f)%n", NightSkyAtAGlance.CLASS(), NightSkyAtAGlance.LINE(), (System.currentTimeMillis() - ms)/1000.0);
 			} catch (IOException e) {
 				e.printStackTrace();
@@ -3893,7 +3893,7 @@ public class MainFrame extends Frame implements MouseListener, MouseMotionListen
     		try {
     			long ms = System.currentTimeMillis();
     	    	frame.open_clusters = new WebbOpenClusters(path + frame.open_clusters_path);
-				CatalogMenu.woc.setEnabled(true);
+				CatalogMenu.woc.setEnabled(CatalogMenu.aux_enabled);
 				// System.out.printf("%s: %d: Webb open Clusters done. (%.3f)%n", NightSkyAtAGlance.CLASS(), NightSkyAtAGlance.LINE(), (System.currentTimeMillis() - ms)/1000.0);
 			} catch (IOException e) {
 				e.printStackTrace();
@@ -3916,7 +3916,7 @@ public class MainFrame extends Frame implements MouseListener, MouseMotionListen
     		try {
     			long ms = System.currentTimeMillis();
     			frame.globular_clusters = new WebbGlobularClusters(path + frame.globular_clusters_path);
-				CatalogMenu.wgc.setEnabled(true);
+				CatalogMenu.wgc.setEnabled(CatalogMenu.aux_enabled);
 				// System.out.printf("%s: %d: Webb Globular Clusters done. (%.3f)%n", NightSkyAtAGlance.CLASS(), NightSkyAtAGlance.LINE(), (System.currentTimeMillis() - ms)/1000.0);
 			} catch (IOException e) {
 				e.printStackTrace();
@@ -3939,7 +3939,7 @@ public class MainFrame extends Frame implements MouseListener, MouseMotionListen
     		try {
     			long ms = System.currentTimeMillis();
     	    	frame.galaxies = new WebbGalaxies(path + frame.galaxies_path);
-				CatalogMenu.wsg.setEnabled(true);
+				CatalogMenu.wsg.setEnabled(CatalogMenu.aux_enabled);
 				// System.out.printf("%s: %d: Webb Galaxies done. (%.3f)%n", NightSkyAtAGlance.CLASS(), NightSkyAtAGlance.LINE(), (System.currentTimeMillis() - ms)/1000.0);
 			} catch (IOException e) {
 				e.printStackTrace();
@@ -3962,7 +3962,7 @@ public class MainFrame extends Frame implements MouseListener, MouseMotionListen
     		try {
     			long ms = System.currentTimeMillis();
     	    	frame.galaxy_clusters = new WebbClustersOfGalaxies(path + frame.galaxy_clusters_path);
-				CatalogMenu.wcg.setEnabled(true);
+				CatalogMenu.wcg.setEnabled(CatalogMenu.aux_enabled);
 				// System.out.printf("%s: %d: Webb Clusters of Galaxies done. (%.3f)%n", NightSkyAtAGlance.CLASS(), NightSkyAtAGlance.LINE(), (System.currentTimeMillis() - ms)/1000.0);
 			} catch (IOException e) {
 				e.printStackTrace();
@@ -3985,7 +3985,7 @@ public class MainFrame extends Frame implements MouseListener, MouseMotionListen
     		try {
     			long ms = System.currentTimeMillis();
     	    	frame.anonymous_galaxies = new WebbAnonymousGalaxies(path + frame.anonymous_galaxies_path);
-				CatalogMenu.wag.setEnabled(true);
+				CatalogMenu.wag.setEnabled(CatalogMenu.aux_enabled);
 				// System.out.printf("%s: %d: Webb Anonymous Galaxies done. (%.3f)%n", NightSkyAtAGlance.CLASS(), NightSkyAtAGlance.LINE(), (System.currentTimeMillis() - ms)/1000.0);
 			} catch (IOException e) {
 				e.printStackTrace();
@@ -4008,7 +4008,7 @@ public class MainFrame extends Frame implements MouseListener, MouseMotionListen
     		try {
     			long ms = System.currentTimeMillis();
     			frame.southern_sky = new WebbSouthernSky(path + frame.southern_sky_path);
-				CatalogMenu.wss.setEnabled(true);
+				CatalogMenu.wss.setEnabled(CatalogMenu.aux_enabled);
 				// System.out.printf("%s: %d: Webb Southern Sky done. (%.3f)%n", NightSkyAtAGlance.CLASS(), NightSkyAtAGlance.LINE(), (System.currentTimeMillis() - ms)/1000.0);
 			} catch (IOException e) {
 				e.printStackTrace();
@@ -4031,7 +4031,7 @@ public class MainFrame extends Frame implements MouseListener, MouseMotionListen
     		try {
     			long ms = System.currentTimeMillis();
     	    	frame.webb_variable_stars = new WebbVariableStars(path + frame.variable_stars_path);
-				CatalogMenu.wvs.setEnabled(true);
+				CatalogMenu.wvs.setEnabled(CatalogMenu.aux_enabled);
 				// System.out.printf("%s: %d: Webb Variable Stars done. (%.3f)%n", NightSkyAtAGlance.CLASS(), NightSkyAtAGlance.LINE(), (System.currentTimeMillis() - ms)/1000.0);
 			} catch (IOException e) {
 				e.printStackTrace();
@@ -4054,7 +4054,7 @@ public class MainFrame extends Frame implements MouseListener, MouseMotionListen
     		try {
     			long ms = System.currentTimeMillis();
     			frame.favorite_dsos = new FavoriteDsoCatalog(path + frame.favorite_dsos_path);
-				CatalogMenu.fav.setEnabled(true);
+				CatalogMenu.fav.setEnabled(CatalogMenu.aux_enabled);
 				// System.out.printf("%s: %d: Webb Favorite DSOs done. (%.3f)%n", NightSkyAtAGlance.CLASS(), NightSkyAtAGlance.LINE(), (System.currentTimeMillis() - ms)/1000.0);
 			} catch (IOException e) {
 				e.printStackTrace();

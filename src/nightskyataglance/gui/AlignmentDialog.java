@@ -37,7 +37,6 @@ package nightskyataglance.gui;
 
 
 import java.awt.Button;
-import java.awt.Checkbox;
 import java.awt.Dialog;
 import java.awt.Dimension;
 import java.awt.GraphicsConfiguration;
@@ -57,6 +56,7 @@ import java.awt.event.WindowListener;
 import java.util.Calendar;
 import java.util.TimeZone;
 
+import javax.swing.JCheckBox;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
 import javax.swing.JTextField;
@@ -66,7 +66,6 @@ import lib.astro.PracticalAstronomy;
 import lib.stars.catalog.DsoAlias;
 import lib.stars.catalog.DsoAlias.Element;
 import lib.time.TimeOfDay;
-import nightskyataglance.NightSkyAtAGlance;
 import nightskyataglance.util.PersistentState;
 
 public class AlignmentDialog extends Dialog implements WindowListener, KeyListener {
@@ -75,16 +74,16 @@ public class AlignmentDialog extends Dialog implements WindowListener, KeyListen
 	public final MainFrame main_frame;
 	public final AlignmentDialog dialog;
 
-	public static final Checkbox sun_cb     = new Checkbox();
-	public static final Checkbox moon_cb    = new Checkbox();
-	public static final Checkbox mercury_cb = new Checkbox();
-	public static final Checkbox venus_cb   = new Checkbox();
-	public static final Checkbox mars_cb    = new Checkbox();
-	public static final Checkbox jupiter_cb = new Checkbox();
-	public static final Checkbox saturn_cb  = new Checkbox();
-	public static final Checkbox uranus_cb  = new Checkbox();
-	public static final Checkbox neptune_cb = new Checkbox();
-	public static final Checkbox dso_cb     = new Checkbox();
+	public static final JCheckBox sun_cb     = new JCheckBox();
+	public static final JCheckBox moon_cb    = new JCheckBox();
+	public static final JCheckBox mercury_cb = new JCheckBox();
+	public static final JCheckBox venus_cb   = new JCheckBox();
+	public static final JCheckBox mars_cb    = new JCheckBox();
+	public static final JCheckBox jupiter_cb = new JCheckBox();
+	public static final JCheckBox saturn_cb  = new JCheckBox();
+	public static final JCheckBox uranus_cb  = new JCheckBox();
+	public static final JCheckBox neptune_cb = new JCheckBox();
+	public static final JCheckBox dso_cb     = new JCheckBox();
 
 	public static final JLabel sun_jl     = new JLabel("Sun");
 	public static final JLabel moon_jl    = new JLabel("Moon");
@@ -178,8 +177,8 @@ public class AlignmentDialog extends Dialog implements WindowListener, KeyListen
 
 
 	public static TimeZone timezone = PersistentState.timezone;
-	public static long     start_ms = System.currentTimeMillis();
-	public static long     end_ms   = System.currentTimeMillis();
+	public static long     start_ms = 0;
+	public static long     end_ms   = 0;
 	public static Element  dso      = null;
 
 	public static long     best_time_ms = 0;
@@ -195,11 +194,16 @@ public class AlignmentDialog extends Dialog implements WindowListener, KeyListen
 		compute_b.setEnabled(true);
 		goto_date_b.setEnabled(best_time_ms != 0);
 
-		Calendar cal = Calendar.getInstance(timezone);
-		start_ms = cal.getTimeInMillis();
+		if (start_ms == 0) {
+			Calendar cal = Calendar.getInstance(timezone);
+			start_ms = cal.getTimeInMillis();
+		}
 
-		cal.set(Calendar.YEAR, cal.get(Calendar.YEAR)+1);
-		end_ms = cal.getTimeInMillis();
+		if (end_ms == 0) {
+			Calendar cal = Calendar.getInstance(timezone);
+			cal.set(Calendar.YEAR, cal.get(Calendar.YEAR)+1);
+			end_ms = cal.getTimeInMillis();
+		}
 
 		addWindowListener(this);
 
@@ -1104,7 +1108,7 @@ public class AlignmentDialog extends Dialog implements WindowListener, KeyListen
 					double de = PracticalAstronomy.parse_declination(dec_tf.getText());
 					if (main_frame.dso_alias_table != null) {
 						dso = main_frame.dso_alias_table.find_nearest(ra, de);
-						search_tf.setText(dso.names()[0]);
+						if (dso != null) search_tf.setText(dso.names()[0]);
 						fill_in_search_fields_dso(dso);
 					}
 				}
@@ -1271,12 +1275,10 @@ public class AlignmentDialog extends Dialog implements WindowListener, KeyListen
 			    				PracticalAstronomy.decimal_degrees_to_str_dms(pa.best_elt[PlanetaryAlignment.NEPTUNE].de_deg()))
 				    		);
 
-			    		if (dso_e && dso != null) {
-			    			dso_ra_de_tf.setText(String.format("RA %s, DE %s", 
-				    				PracticalAstronomy.decimal_hours_to_str_hms(pa.best_elt[PlanetaryAlignment.DSO].ra_hrs()),
-				    				PracticalAstronomy.decimal_degrees_to_str_dms(pa.best_elt[PlanetaryAlignment.DSO].de_deg()))
-					    		);
-			    		}
+			    		if (dso != null) dso_ra_de_tf.setText(String.format("RA %s, DE %s", 
+			    				PracticalAstronomy.decimal_hours_to_str_hms(dso.ra_hrs()),
+			    				PracticalAstronomy.decimal_degrees_to_str_dms(dso.de_deg()))
+			    			);
 
 			    		// TODO fill in date, avg (degrees), sum, ssq
 			    		date_tf.setText(TimeOfDay.show_date_time(pa.best_cst, timezone));
@@ -1355,7 +1357,7 @@ public class AlignmentDialog extends Dialog implements WindowListener, KeyListen
 			}
 			size_tf.setText(String.format("%.1f", elt.size_min()));
 			
-			dso_cb.setState(true);
+			dso_cb.setSelected(true);
 		}
 	}
 	
