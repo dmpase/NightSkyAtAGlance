@@ -38,6 +38,7 @@ package nightskyataglance.gui;
 
 import java.awt.Dialog;
 import java.awt.Dimension;
+import java.awt.Font;
 import java.awt.GraphicsConfiguration;
 import java.awt.GridBagConstraints;
 import java.awt.GridBagLayout;
@@ -79,12 +80,51 @@ public class SetLocationDialog extends Dialog implements WindowListener {
 	private JButton save       = new JButton("Save");
 	private JButton cancel     = new JButton("Cancel");
 
+	private JLabel degrees_jl   = new JLabel("Degrees");
+	private JLabel minutes_jl   = new JLabel("Minutes");
+	private JLabel seconds_jl   = new JLabel("Seconds");
+	private JLabel latitude_jl  = new JLabel("Latitude");
+	private JLabel n_jl         = new JLabel("N");
+	private JLabel s_jl         = new JLabel("S");
+	private JLabel e_jl         = new JLabel("E");
+	private JLabel w_jl         = new JLabel("W");
+	private JLabel longitude_jl = new JLabel("Longtitude");
+
 	public final MainFrame frame;
+
+	private void set_font(Font font)
+	{
+		setFont(font);
+		north.setFont(getFont());
+		south.setFont(getFont());
+		lat_deg.setFont(getFont());
+		lat_min.setFont(getFont());
+		lat_sec.setFont(getFont());
+		east.setFont(getFont());
+		west.setFont(getFont());
+		lon_deg.setFont(getFont());
+		lon_min.setFont(getFont());
+		lon_sec.setFont(getFont());
+		save.setFont(getFont());
+		cancel.setFont(getFont());
+
+		degrees_jl.setFont(getFont());
+		minutes_jl.setFont(getFont());
+		seconds_jl.setFont(getFont());
+		latitude_jl.setFont(getFont());
+		n_jl.setFont(getFont());
+		s_jl.setFont(getFont());
+		e_jl.setFont(getFont());
+		w_jl.setFont(getFont());
+		longitude_jl.setFont(getFont());
+	}
 
 	public SetLocationDialog(MainFrame f, String name)
 	{
 		super(f, name, true);
-		
+
+		set_font(PersistentState.get_font());
+
 		frame = f;
 
 		addWindowListener(this);
@@ -119,7 +159,7 @@ public class SetLocationDialog extends Dialog implements WindowListener {
 		gbc.anchor    = GridBagConstraints.CENTER;
 		gbc.gridwidth = 1;
 		gbc.insets    = new Insets(1, 5, 1, 5);		// top, left, bottom, right
-		panel.add(new JLabel("Degrees"), gbc);
+		panel.add(degrees_jl, gbc);
 		
 		gbc = new GridBagConstraints();
 		gbc.gridx     = 3;
@@ -127,7 +167,7 @@ public class SetLocationDialog extends Dialog implements WindowListener {
 		gbc.anchor    = GridBagConstraints.CENTER;
 		gbc.gridwidth = 1;
 		gbc.insets    = new Insets(1, 5, 1, 5);		// top, left, bottom, right
-		panel.add(new JLabel("Minutes"), gbc);
+		panel.add(minutes_jl, gbc);
 		
 		gbc = new GridBagConstraints();
 		gbc.gridx     = 5;
@@ -135,7 +175,7 @@ public class SetLocationDialog extends Dialog implements WindowListener {
 		gbc.anchor    = GridBagConstraints.CENTER;
 		gbc.gridwidth = 1;
 		gbc.insets    = new Insets(1, 5, 1, 5);		// top, left, bottom, right
-		panel.add(new JLabel("Seconds"), gbc);
+		panel.add(seconds_jl, gbc);
 
 		
 		row += 1;
@@ -146,7 +186,7 @@ public class SetLocationDialog extends Dialog implements WindowListener {
 		gbc.anchor    = GridBagConstraints.WEST;
 		gbc.gridwidth = 1;
 		gbc.insets    = new Insets(1, 5, 1, 5);		// top, left, bottom, right
-		panel.add(new JLabel("Latitude"), gbc);
+		panel.add(latitude_jl, gbc);
 
 		lat_deg.requestFocus();
 		lat_deg.setHorizontalAlignment(JTextField.RIGHT);
@@ -219,7 +259,7 @@ public class SetLocationDialog extends Dialog implements WindowListener {
 		gbc.anchor    = GridBagConstraints.WEST;
 		gbc.gridwidth = 1;
 		gbc.insets    = new Insets(1, 0, 1, 0);		// top, left, bottom, right
-		panel.add(new JLabel("N"), gbc);
+		panel.add(n_jl, gbc);
 		
 		gbc = new GridBagConstraints();
 		gbc.gridx     = 9;
@@ -235,7 +275,7 @@ public class SetLocationDialog extends Dialog implements WindowListener {
 		gbc.anchor    = GridBagConstraints.WEST;
 		gbc.gridwidth = 1;
 		gbc.insets    = new Insets(1, 0, 1, 0);		// top, left, bottom, right
-		panel.add(new JLabel("S"), gbc);
+		panel.add(s_jl, gbc);
 
 		
 		row += 1;
@@ -246,7 +286,7 @@ public class SetLocationDialog extends Dialog implements WindowListener {
 		gbc.anchor    = GridBagConstraints.WEST;
 		gbc.gridwidth = 1;
 		gbc.insets    = new Insets(1, 5, 1, 5);		// top, left, bottom, right
-		panel.add(new JLabel("Longtitude"), gbc);
+		panel.add(longitude_jl, gbc);
 
 		lon_deg.setHorizontalAlignment(JTextField.RIGHT);
 		gbc = new GridBagConstraints();
@@ -318,7 +358,7 @@ public class SetLocationDialog extends Dialog implements WindowListener {
 		gbc.anchor    = GridBagConstraints.WEST;
 		gbc.gridwidth = 1;
 		gbc.insets    = new Insets(1, 0, 1, 0);		// top, left, bottom, right
-		panel.add(new JLabel("E"), gbc);
+		panel.add(e_jl, gbc);
 		
 		gbc = new GridBagConstraints();
 		gbc.gridx     = 9;
@@ -334,7 +374,7 @@ public class SetLocationDialog extends Dialog implements WindowListener {
 		gbc.anchor    = GridBagConstraints.WEST;
 		gbc.gridwidth = 1;
 		gbc.insets    = new Insets(1, 0, 1, 0);		// top, left, bottom, right
-		panel.add(new JLabel("W"), gbc);
+		panel.add(w_jl, gbc);
 
 		
 		row += 1;
@@ -360,7 +400,7 @@ public class SetLocationDialog extends Dialog implements WindowListener {
 		lat_deg.addActionListener(new ActionListener() {
 			@Override public void actionPerformed(ActionEvent evt) 
 			{
-		    	System.out.printf("%s: %3d: ENTER lat_deg->lat_min...\n", NightSkyAtAGlance.CLASS(), NightSkyAtAGlance.LINE());
+		    	// System.out.printf("%s: %3d: ENTER lat_deg->lat_min...\n", NightSkyAtAGlance.CLASS(), NightSkyAtAGlance.LINE());
 				lat_min.requestFocus();
 			}
 		});
@@ -369,7 +409,7 @@ public class SetLocationDialog extends Dialog implements WindowListener {
 			{
 		    	System.out.printf("%s: %3d: %x %x...\n", NightSkyAtAGlance.CLASS(), NightSkyAtAGlance.LINE(), (int) evt.getKeyChar(), (int) evt.getModifiersEx());
 		    	if (evt.getKeyChar() == KeyEvent.VK_TAB && (int) evt.getModifiersEx() != KeyEvent.SHIFT_DOWN_MASK) {
-			    	System.out.printf("%s: %3d: TAB %x %x lat_deg->lat_min...\n", NightSkyAtAGlance.CLASS(), NightSkyAtAGlance.LINE(), (int) evt.getKeyChar(), (int) evt.getModifiersEx());
+			    	// System.out.printf("%s: %3d: TAB %x %x lat_deg->lat_min...\n", NightSkyAtAGlance.CLASS(), NightSkyAtAGlance.LINE(), (int) evt.getKeyChar(), (int) evt.getModifiersEx());
 					lat_min.requestFocus();
 		    	}
 			}
@@ -381,7 +421,7 @@ public class SetLocationDialog extends Dialog implements WindowListener {
 		lat_min.addActionListener(new ActionListener() {
 			@Override public void actionPerformed(ActionEvent evt) 
 			{
-		    	System.out.printf("%s: %3d: ENTER lat_min->lat_sec...\n", NightSkyAtAGlance.CLASS(), NightSkyAtAGlance.LINE());
+		    	// System.out.printf("%s: %3d: ENTER lat_min->lat_sec...\n", NightSkyAtAGlance.CLASS(), NightSkyAtAGlance.LINE());
 				lat_sec.requestFocus();
 			}
 		});
@@ -390,10 +430,10 @@ public class SetLocationDialog extends Dialog implements WindowListener {
 			{
 		    	System.out.printf("%s: %3d: %x %x...\n", NightSkyAtAGlance.CLASS(), NightSkyAtAGlance.LINE(), (int) evt.getKeyChar(), (int) evt.getModifiersEx());
 		    	if (evt.getKeyChar() == KeyEvent.VK_TAB && (int) evt.getModifiersEx() != KeyEvent.SHIFT_DOWN_MASK) {
-			    	System.out.printf("%s: %3d: TAB %x %x lat_min->lat_sec...\n", NightSkyAtAGlance.CLASS(), NightSkyAtAGlance.LINE(), (int) evt.getKeyChar(), (int) evt.getModifiersEx());
+			    	// System.out.printf("%s: %3d: TAB %x %x lat_min->lat_sec...\n", NightSkyAtAGlance.CLASS(), NightSkyAtAGlance.LINE(), (int) evt.getKeyChar(), (int) evt.getModifiersEx());
 					lat_sec.requestFocus();
 		    	} else if (evt.getKeyChar() == KeyEvent.VK_TAB && (int) evt.getModifiersEx() == KeyEvent.SHIFT_DOWN_MASK) {
-			    	System.out.printf("%s: %3d: SHFT TAB %x %x lat_min->lat_deg...\n", NightSkyAtAGlance.CLASS(), NightSkyAtAGlance.LINE(), (int) evt.getKeyChar(), (int) evt.getModifiersEx());
+			    	// System.out.printf("%s: %3d: SHFT TAB %x %x lat_min->lat_deg...\n", NightSkyAtAGlance.CLASS(), NightSkyAtAGlance.LINE(), (int) evt.getKeyChar(), (int) evt.getModifiersEx());
 					lat_deg.requestFocus();
 		    	}
 			}
@@ -405,7 +445,7 @@ public class SetLocationDialog extends Dialog implements WindowListener {
 		lat_sec.addActionListener(new ActionListener() {
 			@Override public void actionPerformed(ActionEvent evt) 
 			{
-		    	System.out.printf("%s: %3d: ENTER lat_sec->north...\n", NightSkyAtAGlance.CLASS(), NightSkyAtAGlance.LINE());
+		    	// System.out.printf("%s: %3d: ENTER lat_sec->north...\n", NightSkyAtAGlance.CLASS(), NightSkyAtAGlance.LINE());
 				north.requestFocus();
 			}
 		});
@@ -414,10 +454,10 @@ public class SetLocationDialog extends Dialog implements WindowListener {
 			{
 		    	System.out.printf("%s: %3d: %x %x...\n", NightSkyAtAGlance.CLASS(), NightSkyAtAGlance.LINE(), (int) evt.getKeyChar(), (int) evt.getModifiersEx());
 		    	if (evt.getKeyChar() == KeyEvent.VK_TAB && (int) evt.getModifiersEx() != KeyEvent.SHIFT_DOWN_MASK) {
-			    	System.out.printf("%s: %3d: TAB %x %x lat_sec->north...\n", NightSkyAtAGlance.CLASS(), NightSkyAtAGlance.LINE(), (int) evt.getKeyChar(), (int) evt.getModifiersEx());
+			    	// System.out.printf("%s: %3d: TAB %x %x lat_sec->north...\n", NightSkyAtAGlance.CLASS(), NightSkyAtAGlance.LINE(), (int) evt.getKeyChar(), (int) evt.getModifiersEx());
 					north.requestFocus();
 		    	} else if (evt.getKeyChar() == KeyEvent.VK_TAB && (int) evt.getModifiersEx() == KeyEvent.SHIFT_DOWN_MASK) {
-			    	System.out.printf("%s: %3d: SHFT TAB %x %x lat_sec->lat_min...\n", NightSkyAtAGlance.CLASS(), NightSkyAtAGlance.LINE(), (int) evt.getKeyChar(), (int) evt.getModifiersEx());
+			    	// System.out.printf("%s: %3d: SHFT TAB %x %x lat_sec->lat_min...\n", NightSkyAtAGlance.CLASS(), NightSkyAtAGlance.LINE(), (int) evt.getKeyChar(), (int) evt.getModifiersEx());
 					lat_min.requestFocus();
 		    	}
 			}
@@ -430,7 +470,7 @@ public class SetLocationDialog extends Dialog implements WindowListener {
 		north.addActionListener(new ActionListener() {
 			@Override public void actionPerformed(ActionEvent e) 
 			{
-		    	System.out.printf("%s: %3d: ENTER north->south...\n", NightSkyAtAGlance.CLASS(), NightSkyAtAGlance.LINE());
+		    	// System.out.printf("%s: %3d: ENTER north->south...\n", NightSkyAtAGlance.CLASS(), NightSkyAtAGlance.LINE());
 				south.requestFocus();
 			}
 		});
@@ -439,10 +479,10 @@ public class SetLocationDialog extends Dialog implements WindowListener {
 			{
 		    	System.out.printf("%s: %3d: %x %x...\n", NightSkyAtAGlance.CLASS(), NightSkyAtAGlance.LINE(), (int) evt.getKeyChar(), (int) evt.getModifiersEx());
 		    	if (evt.getKeyChar() == KeyEvent.VK_TAB && (int) evt.getModifiersEx() != KeyEvent.SHIFT_DOWN_MASK) {
-			    	System.out.printf("%s: %3d: TAB %x %x north->south...\n", NightSkyAtAGlance.CLASS(), NightSkyAtAGlance.LINE(), (int) evt.getKeyChar(), (int) evt.getModifiersEx());
+			    	// System.out.printf("%s: %3d: TAB %x %x north->south...\n", NightSkyAtAGlance.CLASS(), NightSkyAtAGlance.LINE(), (int) evt.getKeyChar(), (int) evt.getModifiersEx());
 					south.requestFocus();
 		    	} else if (evt.getKeyChar() == KeyEvent.VK_TAB && (int) evt.getModifiersEx() == KeyEvent.SHIFT_DOWN_MASK) {
-			    	System.out.printf("%s: %3d: SHFT TAB %x %x north->lat_sec...\n", NightSkyAtAGlance.CLASS(), NightSkyAtAGlance.LINE(), (int) evt.getKeyChar(), (int) evt.getModifiersEx());
+			    	// System.out.printf("%s: %3d: SHFT TAB %x %x north->lat_sec...\n", NightSkyAtAGlance.CLASS(), NightSkyAtAGlance.LINE(), (int) evt.getKeyChar(), (int) evt.getModifiersEx());
 					lat_sec.requestFocus();
 		    	}
 			}
@@ -454,7 +494,7 @@ public class SetLocationDialog extends Dialog implements WindowListener {
 		south.addActionListener(new ActionListener() {
 			@Override public void actionPerformed(ActionEvent e) 
 			{
-		    	System.out.printf("%s: %3d: ENTER south->lon_deg...\n", NightSkyAtAGlance.CLASS(), NightSkyAtAGlance.LINE());
+		    	// System.out.printf("%s: %3d: ENTER south->lon_deg...\n", NightSkyAtAGlance.CLASS(), NightSkyAtAGlance.LINE());
 				lon_deg.requestFocus();
 			}
 		});
@@ -463,10 +503,10 @@ public class SetLocationDialog extends Dialog implements WindowListener {
 			{
 		    	System.out.printf("%s: %3d: %x %x...\n", NightSkyAtAGlance.CLASS(), NightSkyAtAGlance.LINE(), (int) evt.getKeyChar(), (int) evt.getModifiersEx());
 		    	if (evt.getKeyChar() == KeyEvent.VK_TAB && (int) evt.getModifiersEx() != KeyEvent.SHIFT_DOWN_MASK) {
-			    	System.out.printf("%s: %3d: TAB %x %x south->lon_deg...\n", NightSkyAtAGlance.CLASS(), NightSkyAtAGlance.LINE(), (int) evt.getKeyChar(), (int) evt.getModifiersEx());
+			    	// System.out.printf("%s: %3d: TAB %x %x south->lon_deg...\n", NightSkyAtAGlance.CLASS(), NightSkyAtAGlance.LINE(), (int) evt.getKeyChar(), (int) evt.getModifiersEx());
 					lon_deg.requestFocus();
 		    	} else if (evt.getKeyChar() == KeyEvent.VK_TAB && (int) evt.getModifiersEx() == KeyEvent.SHIFT_DOWN_MASK) {
-			    	System.out.printf("%s: %3d: SHFT TAB %x %x south->north...\n", NightSkyAtAGlance.CLASS(), NightSkyAtAGlance.LINE(), (int) evt.getKeyChar(), (int) evt.getModifiersEx());
+			    	// System.out.printf("%s: %3d: SHFT TAB %x %x south->north...\n", NightSkyAtAGlance.CLASS(), NightSkyAtAGlance.LINE(), (int) evt.getKeyChar(), (int) evt.getModifiersEx());
 					north.requestFocus();
 		    	}
 			}
@@ -479,7 +519,7 @@ public class SetLocationDialog extends Dialog implements WindowListener {
 		lon_deg.addActionListener(new ActionListener() {
 			@Override public void actionPerformed(ActionEvent e) 
 			{
-		    	System.out.printf("%s: %3d: ENTER lon_deg->lon_min...\n", NightSkyAtAGlance.CLASS(), NightSkyAtAGlance.LINE());
+		    	// System.out.printf("%s: %3d: ENTER lon_deg->lon_min...\n", NightSkyAtAGlance.CLASS(), NightSkyAtAGlance.LINE());
 				lon_min.requestFocus();
 			}
 		});
@@ -488,10 +528,10 @@ public class SetLocationDialog extends Dialog implements WindowListener {
 			{
 		    	System.out.printf("%s: %3d: %x %x...\n", NightSkyAtAGlance.CLASS(), NightSkyAtAGlance.LINE(), (int) evt.getKeyChar(), (int) evt.getModifiersEx());
 		    	if (evt.getKeyChar() == KeyEvent.VK_TAB && (int) evt.getModifiersEx() != KeyEvent.SHIFT_DOWN_MASK) {
-			    	System.out.printf("%s: %3d: TAB %x %x lon_deg->lon_min...\n", NightSkyAtAGlance.CLASS(), NightSkyAtAGlance.LINE(), (int) evt.getKeyChar(), (int) evt.getModifiersEx());
+			    	// System.out.printf("%s: %3d: TAB %x %x lon_deg->lon_min...\n", NightSkyAtAGlance.CLASS(), NightSkyAtAGlance.LINE(), (int) evt.getKeyChar(), (int) evt.getModifiersEx());
 					lon_min.requestFocus();
 		    	} else if (evt.getKeyChar() == KeyEvent.VK_TAB && (int) evt.getModifiersEx() == KeyEvent.SHIFT_DOWN_MASK) {
-			    	System.out.printf("%s: %3d: SHFT TAB %x %x lat_deg->south...\n", NightSkyAtAGlance.CLASS(), NightSkyAtAGlance.LINE(), (int) evt.getKeyChar(), (int) evt.getModifiersEx());
+			    	// System.out.printf("%s: %3d: SHFT TAB %x %x lat_deg->south...\n", NightSkyAtAGlance.CLASS(), NightSkyAtAGlance.LINE(), (int) evt.getKeyChar(), (int) evt.getModifiersEx());
 					south.requestFocus();
 		    	}
 			}
@@ -503,19 +543,19 @@ public class SetLocationDialog extends Dialog implements WindowListener {
 		lon_min.addActionListener(new ActionListener() {
 			@Override public void actionPerformed(ActionEvent e) 
 			{
-		    	System.out.printf("%s: %3d: ENTER lon_min->lon_sec...\n", NightSkyAtAGlance.CLASS(), NightSkyAtAGlance.LINE());
+		    	// System.out.printf("%s: %3d: ENTER lon_min->lon_sec...\n", NightSkyAtAGlance.CLASS(), NightSkyAtAGlance.LINE());
 				lon_sec.requestFocus();
 			}
 		});
 		lon_min.addKeyListener(new KeyListener() {
 			@Override public void keyTyped(KeyEvent evt) 
 			{
-		    	System.out.printf("%s: %3d: %x %x...\n", NightSkyAtAGlance.CLASS(), NightSkyAtAGlance.LINE(), (int) evt.getKeyChar(), (int) evt.getModifiersEx());
+		    	// System.out.printf("%s: %3d: %x %x...\n", NightSkyAtAGlance.CLASS(), NightSkyAtAGlance.LINE(), (int) evt.getKeyChar(), (int) evt.getModifiersEx());
 		    	if (evt.getKeyChar() == KeyEvent.VK_TAB && (int) evt.getModifiersEx() != KeyEvent.SHIFT_DOWN_MASK) {
-			    	System.out.printf("%s: %3d: TAB %x %x lon_min->lon_sec...\n", NightSkyAtAGlance.CLASS(), NightSkyAtAGlance.LINE(), (int) evt.getKeyChar(), (int) evt.getModifiersEx());
+			    	// System.out.printf("%s: %3d: TAB %x %x lon_min->lon_sec...\n", NightSkyAtAGlance.CLASS(), NightSkyAtAGlance.LINE(), (int) evt.getKeyChar(), (int) evt.getModifiersEx());
 					lon_sec.requestFocus();
 		    	} else if (evt.getKeyChar() == KeyEvent.VK_TAB && (int) evt.getModifiersEx() == KeyEvent.SHIFT_DOWN_MASK) {
-			    	System.out.printf("%s: %3d: SHFT TAB %x %x lon_min->lon_deg...\n", NightSkyAtAGlance.CLASS(), NightSkyAtAGlance.LINE(), (int) evt.getKeyChar(), (int) evt.getModifiersEx());
+			    	// System.out.printf("%s: %3d: SHFT TAB %x %x lon_min->lon_deg...\n", NightSkyAtAGlance.CLASS(), NightSkyAtAGlance.LINE(), (int) evt.getKeyChar(), (int) evt.getModifiersEx());
 					lon_deg.requestFocus();
 		    	}
 			}
@@ -527,19 +567,19 @@ public class SetLocationDialog extends Dialog implements WindowListener {
 		lon_sec.addActionListener(new ActionListener() {
 			@Override public void actionPerformed(ActionEvent e) 
 			{
-		    	System.out.printf("%s: %3d: ENTER lon_sec->east...\n", NightSkyAtAGlance.CLASS(), NightSkyAtAGlance.LINE());
+		    	// System.out.printf("%s: %3d: ENTER lon_sec->east...\n", NightSkyAtAGlance.CLASS(), NightSkyAtAGlance.LINE());
 		    	east.requestFocus();
 			}
 		});
 		lon_sec.addKeyListener(new KeyListener() {
 			@Override public void keyTyped(KeyEvent evt) 
 			{
-		    	System.out.printf("%s: %3d: %x %x...\n", NightSkyAtAGlance.CLASS(), NightSkyAtAGlance.LINE(), (int) evt.getKeyChar(), (int) evt.getModifiersEx());
+		    	// System.out.printf("%s: %3d: %x %x...\n", NightSkyAtAGlance.CLASS(), NightSkyAtAGlance.LINE(), (int) evt.getKeyChar(), (int) evt.getModifiersEx());
 		    	if (evt.getKeyChar() == KeyEvent.VK_TAB && (int) evt.getModifiersEx() != KeyEvent.SHIFT_DOWN_MASK) {
-			    	System.out.printf("%s: %3d: TAB %x %x lon_sec->east...\n", NightSkyAtAGlance.CLASS(), NightSkyAtAGlance.LINE(), (int) evt.getKeyChar(), (int) evt.getModifiersEx());
+			    	// System.out.printf("%s: %3d: TAB %x %x lon_sec->east...\n", NightSkyAtAGlance.CLASS(), NightSkyAtAGlance.LINE(), (int) evt.getKeyChar(), (int) evt.getModifiersEx());
 					east.requestFocus();
 		    	} else if (evt.getKeyChar() == KeyEvent.VK_TAB && (int) evt.getModifiersEx() == KeyEvent.SHIFT_DOWN_MASK) {
-			    	System.out.printf("%s: %3d: SHFT TAB %x %x lon_sec->lon_min...\n", NightSkyAtAGlance.CLASS(), NightSkyAtAGlance.LINE(), (int) evt.getKeyChar(), (int) evt.getModifiersEx());
+			    	// System.out.printf("%s: %3d: SHFT TAB %x %x lon_sec->lon_min...\n", NightSkyAtAGlance.CLASS(), NightSkyAtAGlance.LINE(), (int) evt.getKeyChar(), (int) evt.getModifiersEx());
 					lon_min.requestFocus();
 		    	}
 			}
@@ -552,19 +592,19 @@ public class SetLocationDialog extends Dialog implements WindowListener {
 		east.addActionListener(new ActionListener() {
 			@Override public void actionPerformed(ActionEvent evt) 
 			{
-		    	System.out.printf("%s: %3d: ENTER east->west...\n", NightSkyAtAGlance.CLASS(), NightSkyAtAGlance.LINE());
+		    	// System.out.printf("%s: %3d: ENTER east->west...\n", NightSkyAtAGlance.CLASS(), NightSkyAtAGlance.LINE());
 				west.requestFocus();
 			}
 		});
 		east.addKeyListener(new KeyListener() {
 			@Override public void keyTyped(KeyEvent evt) 
 			{
-		    	System.out.printf("%s: %3d: %x %x...\n", NightSkyAtAGlance.CLASS(), NightSkyAtAGlance.LINE(), (int) evt.getKeyChar(), (int) evt.getModifiersEx());
+		    	// System.out.printf("%s: %3d: %x %x...\n", NightSkyAtAGlance.CLASS(), NightSkyAtAGlance.LINE(), (int) evt.getKeyChar(), (int) evt.getModifiersEx());
 		    	if (evt.getKeyChar() == KeyEvent.VK_TAB && (int) evt.getModifiersEx() != KeyEvent.SHIFT_DOWN_MASK) {
-			    	System.out.printf("%s: %3d: TAB %x %x east->west...\n", NightSkyAtAGlance.CLASS(), NightSkyAtAGlance.LINE(), (int) evt.getKeyChar(), (int) evt.getModifiersEx());
+			    	// System.out.printf("%s: %3d: TAB %x %x east->west...\n", NightSkyAtAGlance.CLASS(), NightSkyAtAGlance.LINE(), (int) evt.getKeyChar(), (int) evt.getModifiersEx());
 					west.requestFocus();
 		    	} else if (evt.getKeyChar() == KeyEvent.VK_TAB && (int) evt.getModifiersEx() == KeyEvent.SHIFT_DOWN_MASK) {
-			    	System.out.printf("%s: %3d: SHFT TAB %x %x east->lon_sec...\n", NightSkyAtAGlance.CLASS(), NightSkyAtAGlance.LINE(), (int) evt.getKeyChar(), (int) evt.getModifiersEx());
+			    	// System.out.printf("%s: %3d: SHFT TAB %x %x east->lon_sec...\n", NightSkyAtAGlance.CLASS(), NightSkyAtAGlance.LINE(), (int) evt.getKeyChar(), (int) evt.getModifiersEx());
 					lon_sec.requestFocus();
 		    	}
 			}
@@ -576,7 +616,7 @@ public class SetLocationDialog extends Dialog implements WindowListener {
 		west.addActionListener(new ActionListener() {
 			@Override public void actionPerformed(ActionEvent evt) 
 			{
-		    	System.out.printf("%s: %3d: ENTER west->save...\n", NightSkyAtAGlance.CLASS(), NightSkyAtAGlance.LINE());
+		    	// System.out.printf("%s: %3d: ENTER west->save...\n", NightSkyAtAGlance.CLASS(), NightSkyAtAGlance.LINE());
 				save.requestFocus();
 			}
 		});
@@ -584,10 +624,10 @@ public class SetLocationDialog extends Dialog implements WindowListener {
 			@Override public void keyTyped(KeyEvent evt) 
 			{
 		    	if (evt.getKeyChar() == KeyEvent.VK_TAB && (int) evt.getModifiersEx() != KeyEvent.SHIFT_DOWN_MASK) {
-			    	System.out.printf("%s: %3d: TAB %x %x west->save...\n", NightSkyAtAGlance.CLASS(), NightSkyAtAGlance.LINE(), (int) evt.getKeyChar(), (int) evt.getModifiersEx());
+			    	// System.out.printf("%s: %3d: TAB %x %x west->save...\n", NightSkyAtAGlance.CLASS(), NightSkyAtAGlance.LINE(), (int) evt.getKeyChar(), (int) evt.getModifiersEx());
 					save.requestFocus();
 		    	} else if (evt.getKeyChar() == KeyEvent.VK_TAB && (int) evt.getModifiersEx() == KeyEvent.SHIFT_DOWN_MASK) {
-			    	System.out.printf("%s: %3d: SHFT TAB %x %x west->east...\n", NightSkyAtAGlance.CLASS(), NightSkyAtAGlance.LINE(), (int) evt.getKeyChar(), (int) evt.getModifiersEx());
+			    	// System.out.printf("%s: %3d: SHFT TAB %x %x west->east...\n", NightSkyAtAGlance.CLASS(), NightSkyAtAGlance.LINE(), (int) evt.getKeyChar(), (int) evt.getModifiersEx());
 					east.requestFocus();
 		    	}
 			}
@@ -600,7 +640,7 @@ public class SetLocationDialog extends Dialog implements WindowListener {
 		save.addActionListener(new ActionListener() {
 			@Override public void actionPerformed(ActionEvent evt) 
 			{
-		    	System.out.printf("%s: %3d: ENTER...\n", NightSkyAtAGlance.CLASS(), NightSkyAtAGlance.LINE());
+		    	// System.out.printf("%s: %3d: ENTER...\n", NightSkyAtAGlance.CLASS(), NightSkyAtAGlance.LINE());
 		    	// TODO 
 		    	try {
 			    	double latd = (lat_deg.getText() == null || lat_deg.getText().trim().equals("")) ? 0 : Double.parseDouble(lat_deg.getText().trim());
@@ -627,10 +667,10 @@ public class SetLocationDialog extends Dialog implements WindowListener {
 			@Override public void keyTyped(KeyEvent evt) 
 			{
 		    	if (evt.getKeyChar() == KeyEvent.VK_TAB && (int) evt.getModifiersEx() != KeyEvent.SHIFT_DOWN_MASK) {
-			    	System.out.printf("%s: %3d: TAB %x %x save->cancel...\n", NightSkyAtAGlance.CLASS(), NightSkyAtAGlance.LINE(), (int) evt.getKeyChar(), (int) evt.getModifiersEx());
+			    	// System.out.printf("%s: %3d: TAB %x %x save->cancel...\n", NightSkyAtAGlance.CLASS(), NightSkyAtAGlance.LINE(), (int) evt.getKeyChar(), (int) evt.getModifiersEx());
 					cancel.requestFocus();
 		    	} else if (evt.getKeyChar() == KeyEvent.VK_TAB && (int) evt.getModifiersEx() == KeyEvent.SHIFT_DOWN_MASK) {
-			    	System.out.printf("%s: %3d: SHFT TAB %x %x save->west...\n", NightSkyAtAGlance.CLASS(), NightSkyAtAGlance.LINE(), (int) evt.getKeyChar(), (int) evt.getModifiersEx());
+			    	// System.out.printf("%s: %3d: SHFT TAB %x %x save->west...\n", NightSkyAtAGlance.CLASS(), NightSkyAtAGlance.LINE(), (int) evt.getKeyChar(), (int) evt.getModifiersEx());
 					west.requestFocus();
 		    	}
 			}
@@ -642,7 +682,7 @@ public class SetLocationDialog extends Dialog implements WindowListener {
 		cancel.addActionListener(new ActionListener() {
 			@Override public void actionPerformed(ActionEvent evt) 
 			{
-		    	System.out.printf("%s: %3d: ENTER...\n", NightSkyAtAGlance.CLASS(), NightSkyAtAGlance.LINE());
+		    	// System.out.printf("%s: %3d: ENTER...\n", NightSkyAtAGlance.CLASS(), NightSkyAtAGlance.LINE());
 		    	// TODO 
 		    	dispose();
 			}
@@ -651,10 +691,10 @@ public class SetLocationDialog extends Dialog implements WindowListener {
 			@Override public void keyTyped(KeyEvent evt) 
 			{
 		    	if (evt.getKeyChar() == KeyEvent.VK_TAB && (int) evt.getModifiersEx() != KeyEvent.SHIFT_DOWN_MASK) {
-		    		System.out.printf("%s: %3d: TAB %x %x cancel->lat_deg...\n", NightSkyAtAGlance.CLASS(), NightSkyAtAGlance.LINE(), (int) evt.getKeyChar(), (int) evt.getModifiersEx());
+		    		// System.out.printf("%s: %3d: TAB %x %x cancel->lat_deg...\n", NightSkyAtAGlance.CLASS(), NightSkyAtAGlance.LINE(), (int) evt.getKeyChar(), (int) evt.getModifiersEx());
 					lat_deg.requestFocus();
 		    	} else if (evt.getKeyChar() == KeyEvent.VK_TAB && (int) evt.getModifiersEx() == KeyEvent.SHIFT_DOWN_MASK) {
-			    	System.out.printf("%s: %3d: SHFT TAB %x %x cancel->save...\n", NightSkyAtAGlance.CLASS(), NightSkyAtAGlance.LINE(), (int) evt.getKeyChar(), (int) evt.getModifiersEx());
+			    	// System.out.printf("%s: %3d: SHFT TAB %x %x cancel->save...\n", NightSkyAtAGlance.CLASS(), NightSkyAtAGlance.LINE(), (int) evt.getKeyChar(), (int) evt.getModifiersEx());
 					save.requestFocus();
 		    	}
 			}

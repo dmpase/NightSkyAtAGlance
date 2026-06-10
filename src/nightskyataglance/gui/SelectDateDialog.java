@@ -98,7 +98,9 @@ public class SelectDateDialog extends Dialog implements WindowListener {
 	public SelectDateDialog(MainFrame f, String name, boolean modality, long ms, TimeZone tz) 
 	{
 		super(f, name, modality);
-		
+
+		setFont(PersistentState.get_font());
+
 		initial_ms = selected_ms = ms;
 		cal.setTimeInMillis(initial_ms);
 		year           = cal.get(Calendar.YEAR);

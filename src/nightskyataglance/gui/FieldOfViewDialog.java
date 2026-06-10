@@ -40,6 +40,7 @@ import java.awt.Button;
 import java.awt.Desktop;
 import java.awt.Dialog;
 import java.awt.Dimension;
+import java.awt.Font;
 import java.awt.GraphicsConfiguration;
 import java.awt.GridBagConstraints;
 import java.awt.GridBagLayout;
@@ -60,6 +61,7 @@ import java.net.URISyntaxException;
 import java.net.URL;
 
 import javax.swing.ImageIcon;
+import javax.swing.JButton;
 import javax.swing.JComboBox;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
@@ -70,6 +72,7 @@ import javax.swing.JTextField;
 import lib.astro.PracticalAstronomy;
 import lib.stars.catalog.DsoAlias.Element;
 import nightskyataglance.NightSkyAtAGlance;
+import nightskyataglance.util.PersistentState;
 
 @SuppressWarnings("unused")
 public class FieldOfViewDialog extends Dialog implements WindowListener {
@@ -77,6 +80,54 @@ public class FieldOfViewDialog extends Dialog implements WindowListener {
 
 	public final MainFrame main_frame;
 	public final FieldOfViewDialog dialog;
+	
+	public static final JLabel search_jl           = new JLabel("Search");
+	public static final JLabel type_jl             = new JLabel("Type");
+	public static final JLabel found_jl            = new JLabel("Found");
+	public static final JLabel ra_jl               = new JLabel("RA");
+	public static final JLabel dec_jl              = new JLabel("DEC");
+	public static final JLabel mag_jl              = new JLabel("Mag.");
+	public static final JLabel dia_jl              = new JLabel("Dia. (')");
+	public static final JLabel dso_jl              = new JLabel("Deep Space Object");
+	public static final JLabel aperture_jl         = new JLabel("Aperture (mm)");
+	public static final JLabel focal_len_jl        = new JLabel("Focal Length (mm)");
+	public static final JLabel fratio_jl           = new JLabel("F-Ratio");
+	public static final JLabel reducer_jl          = new JLabel("Reducer");
+	public static final JLabel native_jl           = new JLabel("Native");
+	public static final JLabel effective_jl        = new JLabel("Effective");
+	public static final JLabel ota_jl              = new JLabel("Optical Tube Assembly");
+	public static final JLabel focal_len2_jl       = new JLabel("Focal Length (mm)");
+	public static final JLabel app_fov_jl          = new JLabel("Apparent Field of View (" + new String(Character.toChars(0x00B0)) + ")");
+	public static final JLabel mag2_jl             = new JLabel("Magnification");
+	public static final JLabel fov_deg_jl          = new JLabel("Field of View (" + new String(Character.toChars(0x00B0)) + ")");
+	public static final JLabel fov_min_jl          = new JLabel("Field of View (')");
+	public static final JLabel eyepiece_jl         = new JLabel("Eyepiece");
+	public static final JLabel sensor_width_mm_jl  = new JLabel("Sensor Width (mm)");
+	public static final JLabel sensor_height_mm_jl = new JLabel("Sensor Height (mm)");
+	public static final JLabel sensor_width_px_jl  = new JLabel("Sensor Width (px)");
+	public static final JLabel sensor_height_px_jl = new JLabel("Sensor Height (px)");
+	public static final JLabel min_expo_sec_jl     = new JLabel("Min Exposure (sec)");
+	public static final JLabel pixel_size_jl       = new JLabel("Pixel Size (" + new String(Character.toChars(0x03BC)) + "m)");
+	public static final JLabel sensor_bit_depth_jl = new JLabel("Sensor Bit Depth");
+	public static final JLabel lens_interface_jl   = new JLabel("Lens Interface");
+	public static final JLabel color_jl            = new JLabel("Color");
+	public static final JLabel max_expo_sec_jl     = new JLabel("Max Exposure (sec)");
+	public static final JLabel e_well_depth_jl     = new JLabel("Electron Well Depth (ke)");
+	public static final JLabel read_noise_jl       = new JLabel("Read Noise (e)");
+	public static final JLabel sensor_area_jl      = new JLabel("Sensor Area (Mpx)");
+	public static final JLabel width_fov_deg_jl    = new JLabel("Width FoV (" + new String(Character.toChars(0x00B0)) + ")");
+	public static final JLabel width_fov_min_jl    = new JLabel("Width FoV (')");
+	public static final JLabel height_fov_deg_jl   = new JLabel("Height FoV (" + new String(Character.toChars(0x00B0)) + ")");
+	public static final JLabel height_fov_min_jl   = new JLabel("Height FoV (')");
+	public static final JLabel arcsec_per_px_jl    = new JLabel("Arcsec (\") per Pixel");
+	public static final JLabel camera_jl           = new JLabel("Camera");
+	public static final JLabel ra2_jl              = new JLabel("RA");
+	public static final JLabel dec2_jl             = new JLabel("DEC");
+	public static final JLabel width_min_jl        = new JLabel("Width (')");
+	public static final JLabel height_min_jl       = new JLabel("Height (')");
+	public static final JLabel image_jl            = new JLabel("Image");
+	public static final JLabel url_jl              = new JLabel("URL");
+	public static final JLabel web_jl              = new JLabel("Web");
 
 	int spc = 50;
 	public static final JTextField search_tf = new JTextField("", 25);
@@ -150,10 +201,10 @@ public class FieldOfViewDialog extends Dialog implements WindowListener {
 
 	private static final String underscore = "________________________";
 
-	public final Button close    = new Button("Close");
-	public final Button nearest  = new Button("Nearest DSO");
-	public final Button image    = new Button("Image");
-	public final Button web      = new Button("Web");
+	public final JButton close    = new JButton("Close");
+	public final JButton nearest  = new JButton("Nearest DSO");
+	public final JButton image    = new JButton("Image");
+	public final JButton web      = new JButton("Web");
 
 	private static int ota_state = -1;
 	private static int eye_state = -1;
@@ -167,6 +218,102 @@ public class FieldOfViewDialog extends Dialog implements WindowListener {
 
 		main_frame    = f;
 		dialog   = this;
+
+		Font font = PersistentState.get_font();
+
+		setFont(font);
+		search_jl.setFont(font);
+		type_jl.setFont(font);
+		found_jl.setFont(font);
+		ra_jl.setFont(font);
+		dec_jl.setFont(font);
+		mag_jl.setFont(font);
+		dia_jl.setFont(font);
+		dso_jl.setFont(font);
+		aperture_jl.setFont(font);
+		focal_len_jl.setFont(font);
+		fratio_jl.setFont(font);
+		reducer_jl.setFont(font);
+		native_jl.setFont(font);
+		effective_jl.setFont(font);
+		ota_jl.setFont(font);
+		focal_len2_jl.setFont(font);
+		app_fov_jl.setFont(font);
+		mag2_jl.setFont(font);
+		fov_deg_jl.setFont(font);
+		fov_min_jl.setFont(font);
+		eyepiece_jl.setFont(font);
+		sensor_width_mm_jl.setFont(font);
+		sensor_height_mm_jl.setFont(font);
+		sensor_width_px_jl.setFont(font);
+		sensor_height_px_jl.setFont(font);
+		min_expo_sec_jl.setFont(font);
+		pixel_size_jl.setFont(font);
+		sensor_bit_depth_jl.setFont(font);
+		lens_interface_jl.setFont(font);
+		color_jl.setFont(font);
+		max_expo_sec_jl.setFont(font);
+		e_well_depth_jl.setFont(font);
+		read_noise_jl.setFont(font);
+		sensor_area_jl.setFont(font);
+		width_fov_deg_jl.setFont(font);
+		width_fov_min_jl.setFont(font);
+		height_fov_deg_jl.setFont(font);
+		height_fov_min_jl.setFont(font);
+		arcsec_per_px_jl.setFont(font);
+		camera_jl.setFont(font);
+		ra2_jl.setFont(font);
+		dec2_jl.setFont(font);
+		width_min_jl.setFont(font);
+		height_min_jl.setFont(font);
+		image_jl.setFont(font);
+		url_jl.setFont(font);
+		web_jl.setFont(font);
+		
+		close.setFont(font);
+		nearest.setFont(font);
+		image.setFont(font);
+		web.setFont(font);
+
+		eff_aperture_mm          .setFont(font);
+		eff_focal_length_mm      .setFont(font);
+		eff_f_ratio              .setFont(font);
+		eye_magnification        .setFont(font);
+		eye_field_of_view_deg    .setFont(font);
+		eye_field_of_view_min    .setFont(font);
+		camera_width_fov_deg     .setFont(font);
+		camera_width_fov_min     .setFont(font);
+		camera_height_fov_deg    .setFont(font);
+		camera_height_fov_min    .setFont(font);
+		camera_pixel_fov_sec     .setFont(font);
+		camera_sensor_area_mpx   .setFont(font);
+		ota_aperture_mm          .setFont(font);
+		ota_focal_length_mm      .setFont(font);
+		ota_f_ratio              .setFont(font);
+
+		reducer_magnification    .setFont(font);
+
+		eye_focal_length_mm      .setFont(font);
+		eye_app_field_of_view_deg.setFont(font);
+
+		camera_sensor_width_mm   .setFont(font);
+		camera_sensor_height_mm  .setFont(font);
+		camera_sensor_width_px   .setFont(font);
+		camera_sensor_height_px  .setFont(font);
+		camera_pixel_size_um     .setFont(font);
+		camera_lens_interface    .setFont(font);
+		camera_color             .setFont(font);
+		camera_max_exposure_sec  .setFont(font);
+		camera_min_exposure_sec  .setFont(font);
+		camera_bit_depth         .setFont(font);
+		camera_well_depth        .setFont(font);
+		camera_noise             .setFont(font);
+
+		img_ra_tf                .setFont(font);
+		img_de_tf                .setFont(font);
+		img_wid_tf               .setFont(font);
+		img_ht_tf                .setFont(font);
+
 
 		eff_aperture_mm          .setEditable(false);
 		eff_focal_length_mm      .setEditable(false);
@@ -237,6 +384,7 @@ public class FieldOfViewDialog extends Dialog implements WindowListener {
 		}
 		ota_cb = new JComboBox<String>(ota_list);
 		ota_cb.setSelectedIndex(ota_state);
+		ota_cb.setFont(font);
 
 		eyepiece_list = new String[main_frame.eyepieces.elts.length];
 		for (int i=0; i < main_frame.eyepieces.elts.length; i++) {
@@ -249,6 +397,7 @@ public class FieldOfViewDialog extends Dialog implements WindowListener {
 		}
 		eyepiece_cb = new JComboBox<String>(eyepiece_list);
 		eyepiece_cb.setSelectedIndex(eye_state);
+		eyepiece_cb.setFont(font);
 
 		camera_list   = new String[main_frame.cameras.elts.length];
 		for (int i=0; i < main_frame.cameras.elts.length; i++) {
@@ -261,6 +410,7 @@ public class FieldOfViewDialog extends Dialog implements WindowListener {
 		}
 		camera_cb = new JComboBox<String>(camera_list);
 		camera_cb.setSelectedIndex(cam_state);
+		camera_cb.setFont(font);
 		
 		for (int i=0; i < img_list.length; i++) {
 			if (img_state < 0) {
@@ -270,8 +420,10 @@ public class FieldOfViewDialog extends Dialog implements WindowListener {
 			}
 		}
 		img_cb.setSelectedIndex(img_state);
+		img_cb.setFont(font);
 
 		web_cb.setSelectedIndex(web_state);
+		web_cb.setFont(font);
 
 		ota_aperture_mm    .setText(String.format("%.0f", main_frame.otas.elts[ota_state].aperture));
 		ota_focal_length_mm.setText(String.format("%.0f", main_frame.otas.elts[ota_state].focal_length));
@@ -375,7 +527,7 @@ public class FieldOfViewDialog extends Dialog implements WindowListener {
 		gbc.anchor    = GridBagConstraints.WEST;
 		gbc.gridwidth = 1;
 		gbc.insets    = new Insets(1, 0, 1, 5);		// top, left, bottom, right
-		search_panel.add(new Label("Search"), gbc);
+		search_panel.add(search_jl, gbc);
 
 		gbc = new GridBagConstraints();
 		gbc.gridx     = 2;
@@ -391,7 +543,7 @@ public class FieldOfViewDialog extends Dialog implements WindowListener {
 		gbc.anchor    = GridBagConstraints.WEST;
 		gbc.gridwidth = 1;
 		gbc.insets    = new Insets(1, 5, 1, 0);		// top, left, bottom, right
-		search_panel.add(new Label("Type"), gbc);
+		search_panel.add(type_jl, gbc);
 
 		gbc = new GridBagConstraints();
 		gbc.gridx     = 6;
@@ -410,7 +562,7 @@ public class FieldOfViewDialog extends Dialog implements WindowListener {
 		gbc.anchor    = GridBagConstraints.WEST;
 		gbc.gridwidth = 1;
 		gbc.insets    = new Insets(1, 0, 1, 5);		// top, left, bottom, right
-		search_panel.add(new Label("Found"), gbc);
+		search_panel.add(found_jl, gbc);
 
 		gbc = new GridBagConstraints();
 		gbc.gridx     = 2;
@@ -429,7 +581,7 @@ public class FieldOfViewDialog extends Dialog implements WindowListener {
 		gbc.anchor    = GridBagConstraints.WEST;
 		gbc.gridwidth = 1;
 		gbc.insets    = new Insets(1, 0, 1, 5);		// top, left, bottom, right
-		search_panel.add(new Label("RA"), gbc);
+		search_panel.add(ra_jl, gbc);
 
 		gbc = new GridBagConstraints();
 		gbc.gridx     = 2;
@@ -445,7 +597,7 @@ public class FieldOfViewDialog extends Dialog implements WindowListener {
 		gbc.anchor    = GridBagConstraints.EAST;
 		gbc.gridwidth = 1;
 		gbc.insets    = new Insets(1, 10, 1, 1);		// top, left, bottom, right
-		search_panel.add(new Label("DEC"), gbc);
+		search_panel.add(dec_jl, gbc);
 
 		gbc = new GridBagConstraints();
 		gbc.gridx     = 4;
@@ -461,7 +613,7 @@ public class FieldOfViewDialog extends Dialog implements WindowListener {
 		gbc.anchor    = GridBagConstraints.WEST;
 		gbc.gridwidth = 1;
 		gbc.insets    = new Insets(1, 10, 1, 1);		// top, left, bottom, right
-		search_panel.add(new Label("Mag."), gbc);
+		search_panel.add(mag_jl, gbc);
 
 		gbc = new GridBagConstraints();
 		gbc.gridx     = 6;
@@ -477,7 +629,7 @@ public class FieldOfViewDialog extends Dialog implements WindowListener {
 		gbc.anchor    = GridBagConstraints.WEST;
 		gbc.gridwidth = 1;
 		gbc.insets    = new Insets(1, 10, 1, 1);		// top, left, bottom, right
-		search_panel.add(new Label("Dia. (')"), gbc);
+		search_panel.add(dia_jl, gbc);
 
 		gbc = new GridBagConstraints();
 		gbc.gridx     = 8;
@@ -494,7 +646,7 @@ public class FieldOfViewDialog extends Dialog implements WindowListener {
 		gbc.anchor    = GridBagConstraints.WEST;
 		gbc.gridwidth = 1;
 		gbc.insets    = new Insets(1, 0, 1, 5);		// top, left, bottom, right
-		panel.add(new Label("Deep Space Object"), gbc);
+		panel.add(dso_jl, gbc);
 
 		gbc = new GridBagConstraints();
 		gbc.gridx     = 1;
@@ -544,7 +696,7 @@ public class FieldOfViewDialog extends Dialog implements WindowListener {
 		gbc.anchor    = GridBagConstraints.WEST;
 		gbc.gridwidth = 1;
 		gbc.insets    = new Insets(1, 0, 1, 5);		// top, left, bottom, right
-		ota_panel.add(new Label("Aperture (mm)"), gbc);
+		ota_panel.add(aperture_jl, gbc);
 
 		gbc = new GridBagConstraints();
 		gbc.gridx     = 2;
@@ -552,7 +704,7 @@ public class FieldOfViewDialog extends Dialog implements WindowListener {
 		gbc.anchor    = GridBagConstraints.WEST;
 		gbc.gridwidth = 1;
 		gbc.insets    = new Insets(1, 0, 1, 5);		// top, left, bottom, right
-		ota_panel.add(new Label("Focal Length (mm)"), gbc);
+		ota_panel.add(focal_len_jl, gbc);
 
 		gbc = new GridBagConstraints();
 		gbc.gridx     = 3;
@@ -560,7 +712,7 @@ public class FieldOfViewDialog extends Dialog implements WindowListener {
 		gbc.anchor    = GridBagConstraints.WEST;
 		gbc.gridwidth = 1;
 		gbc.insets    = new Insets(1, 0, 1, 5);		// top, left, bottom, right
-		ota_panel.add(new Label("F-Ratio"), gbc);
+		ota_panel.add(fratio_jl, gbc);
 
 		gbc = new GridBagConstraints();
 		gbc.gridx     = 4;
@@ -568,7 +720,7 @@ public class FieldOfViewDialog extends Dialog implements WindowListener {
 		gbc.anchor    = GridBagConstraints.WEST;
 		gbc.gridwidth = 1;
 		gbc.insets    = new Insets(1, 0, 1, 5);		// top, left, bottom, right
-		ota_panel.add(new Label("Reducer"), gbc);
+		ota_panel.add(reducer_jl, gbc);
 
 
 		ota_row += 1;
@@ -579,7 +731,7 @@ public class FieldOfViewDialog extends Dialog implements WindowListener {
 		gbc.anchor    = GridBagConstraints.WEST;
 		gbc.gridwidth = 1;
 		gbc.insets    = new Insets(1, 0, 1, 5);		// top, left, bottom, right
-		ota_panel.add(new Label("Native"), gbc);
+		ota_panel.add(native_jl, gbc);
 
 		gbc = new GridBagConstraints();
 		gbc.gridx     = 1;
@@ -622,7 +774,7 @@ public class FieldOfViewDialog extends Dialog implements WindowListener {
 		gbc.anchor    = GridBagConstraints.WEST;
 		gbc.gridwidth = 1;
 		gbc.insets    = new Insets(1, 0, 1, 5);		// top, left, bottom, right
-		ota_panel.add(new Label("Effective"), gbc);
+		ota_panel.add(effective_jl, gbc);
 
 		gbc = new GridBagConstraints();
 		gbc.gridx     = 1;
@@ -655,7 +807,7 @@ public class FieldOfViewDialog extends Dialog implements WindowListener {
 		gbc.anchor    = GridBagConstraints.WEST;
 		gbc.gridwidth = 1;
 		gbc.insets    = new Insets(1, 0, 1, 5);		// top, left, bottom, right
-		panel.add(new Label("Optical Tube Assembly"), gbc);
+		panel.add(ota_jl, gbc);
 
 		gbc = new GridBagConstraints();
 		gbc.gridx     = 1;
@@ -705,7 +857,7 @@ public class FieldOfViewDialog extends Dialog implements WindowListener {
 		gbc.anchor    = GridBagConstraints.WEST;
 		gbc.gridwidth = 1;
 		gbc.insets    = new Insets(1, 0, 1, 5);		// top, left, bottom, right
-		eye_panel.add(new Label("Focal Length (mm)"), gbc);
+		eye_panel.add(focal_len2_jl, gbc);
 
 		gbc = new GridBagConstraints();
 		gbc.gridx     = 2;
@@ -713,7 +865,7 @@ public class FieldOfViewDialog extends Dialog implements WindowListener {
 		gbc.anchor    = GridBagConstraints.WEST;
 		gbc.gridwidth = 1;
 		gbc.insets    = new Insets(1, 0, 1, 5);		// top, left, bottom, right
-		eye_panel.add(new Label("Apparent Field of View (" + new String(Character.toChars(0x00B0)) + ")"), gbc);
+		eye_panel.add(app_fov_jl, gbc);
 
 		gbc = new GridBagConstraints();
 		gbc.gridx     = 3;
@@ -721,7 +873,7 @@ public class FieldOfViewDialog extends Dialog implements WindowListener {
 		gbc.anchor    = GridBagConstraints.WEST;
 		gbc.gridwidth = 1;
 		gbc.insets    = new Insets(1, 0, 1, 5);		// top, left, bottom, right
-		eye_panel.add(new Label("Magnification"), gbc);
+		eye_panel.add(mag2_jl, gbc);
 
 		gbc = new GridBagConstraints();
 		gbc.gridx     = 4;
@@ -729,7 +881,7 @@ public class FieldOfViewDialog extends Dialog implements WindowListener {
 		gbc.anchor    = GridBagConstraints.WEST;
 		gbc.gridwidth = 1;
 		gbc.insets    = new Insets(1, 0, 1, 5);		// top, left, bottom, right
-		eye_panel.add(new Label("Field of View (" + new String(Character.toChars(0x00B0)) + ")"), gbc);
+		eye_panel.add(fov_deg_jl, gbc);
 
 		gbc = new GridBagConstraints();
 		gbc.gridx     = 5;
@@ -737,7 +889,7 @@ public class FieldOfViewDialog extends Dialog implements WindowListener {
 		gbc.anchor    = GridBagConstraints.WEST;
 		gbc.gridwidth = 1;
 		gbc.insets    = new Insets(1, 0, 1, 5);		// top, left, bottom, right
-		eye_panel.add(new Label("Field of View (')"), gbc);
+		eye_panel.add(fov_min_jl, gbc);
 
 
 		eye_row += 1;
@@ -789,7 +941,7 @@ public class FieldOfViewDialog extends Dialog implements WindowListener {
 		gbc.anchor    = GridBagConstraints.WEST;
 		gbc.gridwidth = 1;
 		gbc.insets    = new Insets(1, 0, 1, 5);		// top, left, bottom, right
-		panel.add(new Label("Eyepiece"), gbc);
+		panel.add(eyepiece_jl, gbc);
 
 		gbc = new GridBagConstraints();
 		gbc.gridx     = 1;
@@ -840,7 +992,7 @@ public class FieldOfViewDialog extends Dialog implements WindowListener {
 		gbc.anchor    = GridBagConstraints.WEST;
 		gbc.gridwidth = 1;
 		gbc.insets    = new Insets(1, 0, 1, 5);		// top, left, bottom, right
-		cam_panel.add(new Label("Sensor Width (mm)"), gbc);
+		cam_panel.add(sensor_width_mm_jl, gbc);
 
 		gbc = new GridBagConstraints();
 		gbc.gridx     = 2;
@@ -848,7 +1000,7 @@ public class FieldOfViewDialog extends Dialog implements WindowListener {
 		gbc.anchor    = GridBagConstraints.WEST;
 		gbc.gridwidth = 1;
 		gbc.insets    = new Insets(1, 0, 1, 5);		// top, left, bottom, right
-		cam_panel.add(new Label("Sensor Height (mm)"), gbc);
+		cam_panel.add(sensor_height_mm_jl, gbc);
 
 		gbc = new GridBagConstraints();
 		gbc.gridx     = 3;
@@ -856,7 +1008,7 @@ public class FieldOfViewDialog extends Dialog implements WindowListener {
 		gbc.anchor    = GridBagConstraints.WEST;
 		gbc.gridwidth = 1;
 		gbc.insets    = new Insets(1, 0, 1, 5);		// top, left, bottom, right
-		cam_panel.add(new Label("Sensor Width (px)"), gbc);
+		cam_panel.add(sensor_width_px_jl, gbc);
 
 		gbc = new GridBagConstraints();
 		gbc.gridx     = 4;
@@ -864,7 +1016,7 @@ public class FieldOfViewDialog extends Dialog implements WindowListener {
 		gbc.anchor    = GridBagConstraints.WEST;
 		gbc.gridwidth = 1;
 		gbc.insets    = new Insets(1, 0, 1, 5);		// top, left, bottom, right
-		cam_panel.add(new Label("Sensor Height (px)"), gbc);
+		cam_panel.add(sensor_height_px_jl, gbc);
 
 		gbc = new GridBagConstraints();
 		gbc.gridx     = 5;
@@ -872,7 +1024,7 @@ public class FieldOfViewDialog extends Dialog implements WindowListener {
 		gbc.anchor    = GridBagConstraints.WEST;
 		gbc.gridwidth = 1;
 		gbc.insets    = new Insets(1, 0, 1, 5);		// top, left, bottom, right
-		cam_panel.add(new Label("Min Exposure (sec)"), gbc);
+		cam_panel.add(min_expo_sec_jl, gbc);
 
 
 		cam_row += 1;
@@ -926,7 +1078,7 @@ public class FieldOfViewDialog extends Dialog implements WindowListener {
 		gbc.anchor    = GridBagConstraints.WEST;
 		gbc.gridwidth = 1;
 		gbc.insets    = new Insets(1, 0, 1, 5);		// top, left, bottom, right
-		cam_panel.add(new Label("Pixel Size (" + new String(Character.toChars(0x03BC)) + "m)"), gbc);
+		cam_panel.add(pixel_size_jl, gbc);
 
 		gbc = new GridBagConstraints();
 		gbc.gridx     = 2;
@@ -934,7 +1086,7 @@ public class FieldOfViewDialog extends Dialog implements WindowListener {
 		gbc.anchor    = GridBagConstraints.WEST;
 		gbc.gridwidth = 1;
 		gbc.insets    = new Insets(1, 0, 1, 5);		// top, left, bottom, right
-		cam_panel.add(new Label("Sensor Bit Depth"), gbc);
+		cam_panel.add(sensor_bit_depth_jl, gbc);
 
 		gbc = new GridBagConstraints();
 		gbc.gridx     = 3;
@@ -942,7 +1094,7 @@ public class FieldOfViewDialog extends Dialog implements WindowListener {
 		gbc.anchor    = GridBagConstraints.WEST;
 		gbc.gridwidth = 1;
 		gbc.insets    = new Insets(1, 0, 1, 5);		// top, left, bottom, right
-		cam_panel.add(new Label("Lens Interface"), gbc);
+		cam_panel.add(lens_interface_jl, gbc);
 
 		gbc = new GridBagConstraints();
 		gbc.gridx     = 4;
@@ -950,7 +1102,7 @@ public class FieldOfViewDialog extends Dialog implements WindowListener {
 		gbc.anchor    = GridBagConstraints.WEST;
 		gbc.gridwidth = 1;
 		gbc.insets    = new Insets(1, 0, 1, 5);		// top, left, bottom, right
-		cam_panel.add(new Label("Color"), gbc);
+		cam_panel.add(color_jl, gbc);
 
 		gbc = new GridBagConstraints();
 		gbc.gridx     = 5;
@@ -958,7 +1110,7 @@ public class FieldOfViewDialog extends Dialog implements WindowListener {
 		gbc.anchor    = GridBagConstraints.WEST;
 		gbc.gridwidth = 1;
 		gbc.insets    = new Insets(1, 0, 1, 5);		// top, left, bottom, right
-		cam_panel.add(new Label("Max Exposure (sec)"), gbc);
+		cam_panel.add(max_expo_sec_jl, gbc);
 
 
 		cam_row += 1;
@@ -1012,7 +1164,7 @@ public class FieldOfViewDialog extends Dialog implements WindowListener {
 		gbc.anchor    = GridBagConstraints.WEST;
 		gbc.gridwidth = 1;
 		gbc.insets    = new Insets(1, 0, 1, 5);		// top, left, bottom, right
-		cam_panel.add(new Label("Electron Well Depth (ke)"), gbc);
+		cam_panel.add(e_well_depth_jl, gbc);
 
 		gbc = new GridBagConstraints();
 		gbc.gridx     = 2;
@@ -1020,7 +1172,7 @@ public class FieldOfViewDialog extends Dialog implements WindowListener {
 		gbc.anchor    = GridBagConstraints.WEST;
 		gbc.gridwidth = 1;
 		gbc.insets    = new Insets(1, 0, 1, 5);		// top, left, bottom, right
-		cam_panel.add(new Label("Read Noise (e)"), gbc);
+		cam_panel.add(read_noise_jl, gbc);
 
 		gbc = new GridBagConstraints();
 		gbc.gridx     = 3;
@@ -1028,7 +1180,7 @@ public class FieldOfViewDialog extends Dialog implements WindowListener {
 		gbc.anchor    = GridBagConstraints.WEST;
 		gbc.gridwidth = 1;
 		gbc.insets    = new Insets(1, 0, 1, 5);		// top, left, bottom, right
-		cam_panel.add(new Label("Sensor Area (Mpx)"), gbc);
+		cam_panel.add(sensor_area_jl, gbc);
 
 
 		cam_row += 1;
@@ -1066,7 +1218,7 @@ public class FieldOfViewDialog extends Dialog implements WindowListener {
 		gbc.anchor    = GridBagConstraints.WEST;
 		gbc.gridwidth = 1;
 		gbc.insets    = new Insets(1, 0, 1, 5);		// top, left, bottom, right
-		cam_panel.add(new Label("Width FoV (" + new String(Character.toChars(0x00B0)) + ")"), gbc);
+		cam_panel.add(width_fov_deg_jl, gbc);
 
 		gbc = new GridBagConstraints();
 		gbc.gridx     = 2;
@@ -1074,7 +1226,7 @@ public class FieldOfViewDialog extends Dialog implements WindowListener {
 		gbc.anchor    = GridBagConstraints.WEST;
 		gbc.gridwidth = 1;
 		gbc.insets    = new Insets(1, 0, 1, 5);		// top, left, bottom, right
-		cam_panel.add(new Label("Width FoV (')"), gbc);
+		cam_panel.add(width_fov_min_jl, gbc);
 
 		gbc = new GridBagConstraints();
 		gbc.gridx     = 3;
@@ -1082,7 +1234,7 @@ public class FieldOfViewDialog extends Dialog implements WindowListener {
 		gbc.anchor    = GridBagConstraints.WEST;
 		gbc.gridwidth = 1;
 		gbc.insets    = new Insets(1, 0, 1, 5);		// top, left, bottom, right
-		cam_panel.add(new Label("Height FoV (" + new String(Character.toChars(0x00B0)) + ")"), gbc);
+		cam_panel.add(height_fov_deg_jl, gbc);
 
 		gbc = new GridBagConstraints();
 		gbc.gridx     = 4;
@@ -1090,7 +1242,7 @@ public class FieldOfViewDialog extends Dialog implements WindowListener {
 		gbc.anchor    = GridBagConstraints.WEST;
 		gbc.gridwidth = 1;
 		gbc.insets    = new Insets(1, 0, 1, 5);		// top, left, bottom, right
-		cam_panel.add(new Label("Height FoV (')"), gbc);
+		cam_panel.add(height_fov_min_jl, gbc);
 
 		gbc = new GridBagConstraints();
 		gbc.gridx     = 5;
@@ -1098,7 +1250,7 @@ public class FieldOfViewDialog extends Dialog implements WindowListener {
 		gbc.anchor    = GridBagConstraints.WEST;
 		gbc.gridwidth = 1;
 		gbc.insets    = new Insets(1, 0, 1, 5);		// top, left, bottom, right
-		cam_panel.add(new Label("Arcsec (\") per Pixel"), gbc);
+		cam_panel.add(arcsec_per_px_jl, gbc);
 
 
 		cam_row += 1;
@@ -1150,7 +1302,7 @@ public class FieldOfViewDialog extends Dialog implements WindowListener {
 		gbc.anchor    = GridBagConstraints.WEST;
 		gbc.gridwidth = 1;
 		gbc.insets    = new Insets(1, 0, 1, 5);		// top, left, bottom, right
-		panel.add(new Label("Camera"), gbc);
+		panel.add(camera_jl, gbc);
 
 		gbc = new GridBagConstraints();
 		gbc.gridx     = 1;
@@ -1200,7 +1352,7 @@ public class FieldOfViewDialog extends Dialog implements WindowListener {
 		gbc.anchor    = GridBagConstraints.WEST;
 		gbc.gridwidth = 1;
 		gbc.insets    = new Insets(1, 0, 1, 5);		// top, left, bottom, right
-		img_panel.add(new Label("RA"), gbc);
+		img_panel.add(ra2_jl, gbc);
 
 		gbc = new GridBagConstraints();
 		gbc.gridx     = 2;
@@ -1216,7 +1368,7 @@ public class FieldOfViewDialog extends Dialog implements WindowListener {
 		gbc.anchor    = GridBagConstraints.EAST;
 		gbc.gridwidth = 1;
 		gbc.insets    = new Insets(1, 10, 1, 1);		// top, left, bottom, right
-		img_panel.add(new Label("DEC"), gbc);
+		img_panel.add(dec2_jl, gbc);
 
 		gbc = new GridBagConstraints();
 		gbc.gridx     = 4;
@@ -1232,7 +1384,7 @@ public class FieldOfViewDialog extends Dialog implements WindowListener {
 		gbc.anchor    = GridBagConstraints.WEST;
 		gbc.gridwidth = 1;
 		gbc.insets    = new Insets(1, 10, 1, 1);		// top, left, bottom, right
-		img_panel.add(new Label("Width (')"), gbc);
+		img_panel.add(width_min_jl, gbc);
 
 		gbc = new GridBagConstraints();
 		gbc.gridx     = 6;
@@ -1248,7 +1400,7 @@ public class FieldOfViewDialog extends Dialog implements WindowListener {
 		gbc.anchor    = GridBagConstraints.WEST;
 		gbc.gridwidth = 1;
 		gbc.insets    = new Insets(1, 10, 1, 1);		// top, left, bottom, right
-		img_panel.add(new Label("Height (')"), gbc);
+		img_panel.add(height_min_jl, gbc);
 
 		gbc = new GridBagConstraints();
 		gbc.gridx     = 8;
@@ -1266,7 +1418,7 @@ public class FieldOfViewDialog extends Dialog implements WindowListener {
 		gbc.anchor    = GridBagConstraints.WEST;
 		gbc.gridwidth = 1;
 		gbc.insets    = new Insets(1, 0, 1, 5);		// top, left, bottom, right
-		panel.add(new Label("Image"), gbc);
+		panel.add(image_jl, gbc);
 
 		gbc = new GridBagConstraints();
 		gbc.gridx     = 1;
@@ -1315,7 +1467,7 @@ public class FieldOfViewDialog extends Dialog implements WindowListener {
 		gbc.anchor    = GridBagConstraints.WEST;
 		gbc.gridwidth = 1;
 		gbc.insets    = new Insets(1, 0, 1, 5);		// top, left, bottom, right
-		web_panel.add(new Label("URL"), gbc);
+		web_panel.add(url_jl, gbc);
 
 		gbc = new GridBagConstraints();
 		gbc.gridx     = 2;
@@ -1333,7 +1485,7 @@ public class FieldOfViewDialog extends Dialog implements WindowListener {
 		gbc.anchor    = GridBagConstraints.WEST;
 		gbc.gridwidth = 1;
 		gbc.insets    = new Insets(1, 0, 1, 5);		// top, left, bottom, right
-		panel.add(new Label("Web"), gbc);
+		panel.add(web_jl, gbc);
 
 		gbc = new GridBagConstraints();
 		gbc.gridx     = 1;

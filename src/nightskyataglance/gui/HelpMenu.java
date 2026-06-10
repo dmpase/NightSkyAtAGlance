@@ -44,6 +44,7 @@ import java.awt.event.ActionListener;
 import javax.swing.JOptionPane;
 
 import nightskyataglance.NightSkyAtAGlance;
+import nightskyataglance.util.PersistentState;
 
 public class HelpMenu extends Menu {
 	private static final long serialVersionUID = 7693871871934518L;
@@ -64,6 +65,8 @@ public class HelpMenu extends Menu {
 	{
 		super(name);
 		frame = f;
+
+		setFont(PersistentState.get_font());
 
     	MenuItem lic = new MenuItem(LICENSE);
     	lic.setEnabled(true);
@@ -177,20 +180,20 @@ public class HelpMenu extends Menu {
 				+ "stars. Galaxies and nebulae are diffuse, so subtract an integer.\n"
 				+ "(https://www.cruxis.com/scope/limitingmagnitude.htm)\n"
 				+ "\n"
-				+ "OTA                               Magnitude Limit\n"
-				+ "Naked-eye (city)                                 4\n"
-				+ "Naked-eye (suburbs)                        5\n"
-				+ "Naked-eye (dark sky)                        6\n"
-				+ "Binoculars                                          10\n"
-				+ "  4\" (100mm) telescope                   13.5\n"
-				+ "  6\" (150mm) telescope                   14.3\n"
-				+ "  8\" (200mm) telescope                   14.8\n"
-				+ "10\" (250mm) telescope                   15.2\n"
-				+ "12\" (300mm) telescope                   15.5\n"
-				+ "14\" (350mm) telescope                   15.8\n"
-				+ "16\" (400mm) telescope                   16\n"
-				+ "Hubble Space Telescope                 30\n"
-				+ "James Webb Space Telescope     35\n"
+				+ "OTA.................................Magnitude Limit\n"
+				+ "Naked-eye (city)....................................4\n"
+				+ "Naked-eye (suburbs)............................5\n"
+				+ "Naked-eye (dark sky)............................6\n"
+				+ "Binoculars..........................................10\n"
+				+ "  4\" (100mm) telescope.......................13.5\n"
+				+ "  6\" (150mm) telescope.......................14.3\n"
+				+ "  8\" (200mm) telescope.......................14.8\n"
+				+ "10\" (250mm) telescope.......................15.2\n"
+				+ "12\" (300mm) telescope.......................15.5\n"
+				+ "14\" (350mm) telescope.......................15.8\n"
+				+ "16\" (400mm) telescope.......................16\n"
+				+ "Hubble Space Telescope...................30\n"
+				+ "James Webb Space Telescope..........35\n"
 				;
 
 		public static final String license = ""

@@ -36,9 +36,9 @@ package nightskyataglance.gui;
  *******************************************************************************/
 
 
-import java.awt.Button;
 import java.awt.Dialog;
 import java.awt.Dimension;
+import java.awt.Font;
 import java.awt.GraphicsConfiguration;
 import java.awt.GridBagConstraints;
 import java.awt.GridBagLayout;
@@ -53,6 +53,7 @@ import java.awt.event.WindowEvent;
 import java.awt.event.WindowListener;
 import java.util.TimeZone;
 
+import javax.swing.JButton;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
 import javax.swing.JTextField;
@@ -74,7 +75,7 @@ public class SeparationDialog extends Dialog implements WindowListener {
 	public static final JLabel ra0_jl      = new JLabel("RA");
 	public static final JLabel dec0_jl     = new JLabel("DEC");
 	public static final JLabel mag0_jl     = new JLabel("Mag.");
-	public static final JLabel size0_jl     = new JLabel("Dia. (')");
+	public static final JLabel dia0_jl     = new JLabel("Dia. (')");
 	public static final JLabel deep0_jl    = new JLabel("Deep Space Object (from)");
 
 	public static final JLabel search1_jl  = new JLabel("Search");
@@ -96,7 +97,7 @@ public class SeparationDialog extends Dialog implements WindowListener {
 	public static final JTextField ra0_tf     = new JTextField("",  9);
 	public static final JTextField dec0_tf    = new JTextField("",  9);
 	public static final JTextField mag0_tf    = new JTextField("",  9);
-	public static final JTextField size0_tf   = new JTextField("",  9);
+	public static final JTextField dia0_tf    = new JTextField("",  9);
 
 	public static final JTextField search1_tf = new JTextField("", 25);
 	public static final JTextField found1_tf  = new JTextField("", 56);
@@ -104,16 +105,16 @@ public class SeparationDialog extends Dialog implements WindowListener {
 	public static final JTextField ra1_tf     = new JTextField("",  9);
 	public static final JTextField dec1_tf    = new JTextField("",  9);
 	public static final JTextField mag1_tf    = new JTextField("",  9);
-	public static final JTextField size1_tf   = new JTextField("",  9);
+	public static final JTextField dia1_tf    = new JTextField("",  9);
 
 	public static final JTextField angle_tf     = new JTextField("", 25);
 	public static final JTextField direction_tf = new JTextField("", 20);
 
-	public static final Button nearest0_b = new Button("Nearest DSO");
-	public static final Button nearest1_b = new Button("Nearest DSO");
-	public static final Button compute_b  = new Button("Calculate");
-	public static final Button clear_b    = new Button("Clear");
-	public static final Button close_b    = new Button("Close");
+	public static final JButton nearest0_b = new JButton("Nearest DSO");
+	public static final JButton nearest1_b = new JButton("Nearest DSO");
+	public static final JButton compute_b  = new JButton("Calculate");
+	public static final JButton clear_b    = new JButton("Clear");
+	public static final JButton close_b    = new JButton("Close");
 	
 	public static boolean listeners_are_loaded = false;
 
@@ -125,10 +126,60 @@ public class SeparationDialog extends Dialog implements WindowListener {
 	public SeparationDialog(MainFrame f, String name)
 	{
 		super(f, name, true);
-		
+
 		main_frame = f;
 		dialog     = this;
 		timezone   = PersistentState.timezone;
+
+		Font font = PersistentState.get_font();
+
+		setFont(font);
+		search0_jl.setFont(font);
+		type0_jl.setFont(font);
+		found0_jl.setFont(font);
+		ra0_jl.setFont(font);
+		dec0_jl.setFont(font);
+		mag0_jl.setFont(font);
+		dia0_jl.setFont(font);
+		deep0_jl.setFont(font);
+
+		search1_jl.setFont(font);
+		type1_jl.setFont(font);
+		found1_jl.setFont(font);
+		ra1_jl.setFont(font);
+		dec1_jl.setFont(font);
+		mag1_jl.setFont(font);
+		dia1_jl.setFont(font);
+		deep1_jl.setFont(font);
+
+		search0_tf.setFont(font);
+		type0_tf.setFont(font);
+		found0_tf.setFont(font);
+		ra0_tf.setFont(font);
+		dec0_tf.setFont(font);
+		mag0_tf.setFont(font);
+		dia0_tf.setFont(font);
+
+		search1_tf.setFont(font);
+		type1_tf.setFont(font);
+		found1_tf.setFont(font);
+		ra1_tf.setFont(font);
+		dec1_tf.setFont(font);
+		mag1_tf.setFont(font);
+		dia1_tf.setFont(font);
+
+		angle_jl.setFont(font);
+		direction_jl.setFont(font);
+		separation_jl.setFont(font);
+
+		angle_tf.setFont(font);
+		direction_tf.setFont(font);
+		
+		nearest0_b.setFont(font);
+		nearest1_b.setFont(font);
+		compute_b .setFont(font);
+		clear_b   .setFont(font);
+		close_b   .setFont(font);
 
 		addWindowListener(this);
 
@@ -155,14 +206,14 @@ public class SeparationDialog extends Dialog implements WindowListener {
 		ra0_tf   .setEditable(true);
 		dec0_tf  .setEditable(true);
 		mag0_tf  .setEditable(false);
-		size0_tf .setEditable(false);
+		dia0_tf .setEditable(false);
 
 		found1_tf.setEditable(false);
 		type1_tf .setEditable(false);
 		ra1_tf   .setEditable(true);
 		dec1_tf  .setEditable(true);
 		mag1_tf  .setEditable(false);
-		size1_tf .setEditable(false);
+		dia1_tf .setEditable(false);
 
 		angle_tf    .setEditable(false);
 		direction_tf.setEditable(false);
@@ -173,7 +224,7 @@ public class SeparationDialog extends Dialog implements WindowListener {
 			ra0_tf   .setText(PracticalAstronomy.decimal_hours_to_str_hms(main_frame.angle_of_separation_dso_0.ra_hrs()));
 			dec0_tf  .setText(PracticalAstronomy.decimal_degrees_to_str_dms(main_frame.angle_of_separation_dso_0.ra_hrs()));
 			mag0_tf  .setText(String.format("%.1f", main_frame.angle_of_separation_dso_0.min_mag()));
-			size0_tf .setText(String.format("%.0f", main_frame.angle_of_separation_dso_0.min_mag()));
+			dia0_tf .setText(String.format("%.0f", main_frame.angle_of_separation_dso_0.min_mag()));
 		}
 
 		if (main_frame.angle_of_separation_dso_1 != null) {
@@ -182,7 +233,7 @@ public class SeparationDialog extends Dialog implements WindowListener {
 			ra1_tf   .setText(PracticalAstronomy.decimal_hours_to_str_hms(main_frame.angle_of_separation_dso_1.ra_hrs()));
 			dec1_tf  .setText(PracticalAstronomy.decimal_degrees_to_str_dms(main_frame.angle_of_separation_dso_1.ra_hrs()));
 			mag1_tf  .setText(String.format("%.1f", main_frame.angle_of_separation_dso_1.min_mag()));
-			size1_tf .setText(String.format("%.0f", main_frame.angle_of_separation_dso_1.min_mag()));
+			dia1_tf .setText(String.format("%.0f", main_frame.angle_of_separation_dso_1.min_mag()));
 		}
 
 		if (main_frame.angle_of_separation_dso_0 != null && main_frame.angle_of_separation_dso_1 != null) {
@@ -333,7 +384,7 @@ public class SeparationDialog extends Dialog implements WindowListener {
 		gbc.anchor    = GridBagConstraints.WEST;
 		gbc.gridwidth = 1;
 		gbc.insets    = new Insets(1, 20, 1, 10);		// top, left, bottom, right
-		search_panel0.add(size0_jl, gbc);
+		search_panel0.add(dia0_jl, gbc);
 
 		gbc = new GridBagConstraints();
 		gbc.gridx     = 7;
@@ -341,7 +392,7 @@ public class SeparationDialog extends Dialog implements WindowListener {
 		gbc.anchor    = GridBagConstraints.WEST;
 		gbc.gridwidth = 1;
 		gbc.insets    = new Insets(1, 0, 1, 2);		// top, left, bottom, right
-		search_panel0.add(size0_tf, gbc);
+		search_panel0.add(dia0_tf, gbc);
 
 
 		JPanel search_label0_panel = new JPanel(new GridBagLayout());
@@ -517,7 +568,7 @@ public class SeparationDialog extends Dialog implements WindowListener {
 		gbc.anchor    = GridBagConstraints.WEST;
 		gbc.gridwidth = 1;
 		gbc.insets    = new Insets(1, 0, 1, 2);		// top, left, bottom, right
-		search1_panel.add(size1_tf, gbc);
+		search1_panel.add(dia1_tf, gbc);
 
 
 		JPanel search_label1_panel = new JPanel(new GridBagLayout());
@@ -894,7 +945,7 @@ public class SeparationDialog extends Dialog implements WindowListener {
 			ra0_tf   .setText("");
 			dec0_tf  .setText("");
 			mag0_tf  .setText("");
-			size0_tf .setText("");
+			dia0_tf .setText("");
 		} else {
 			// System.out.printf("%s: %d: elt='%s'%n", NightSkyAtAGlance.CLASS(), NightSkyAtAGlance.LINE(3), frame.dso_alias_table.name(elt));
 			found0_tf.setText(main_frame.dso_alias_table.name(elt));
@@ -910,7 +961,7 @@ public class SeparationDialog extends Dialog implements WindowListener {
 			} else {
 				mag0_tf  .setText("");
 			}
-			size0_tf .setText(String.format("%.1f", elt.size_min()));
+			dia0_tf .setText(String.format("%.1f", elt.size_min()));
 		}
 	}
 
@@ -926,7 +977,7 @@ public class SeparationDialog extends Dialog implements WindowListener {
 			ra1_tf   .setText("");
 			dec1_tf  .setText("");
 			mag1_tf  .setText("");
-			size1_tf .setText("");
+			dia1_tf .setText("");
 		} else {
 			// System.out.printf("%s: %d: elt='%s'%n", NightSkyAtAGlance.CLASS(), NightSkyAtAGlance.LINE(3), frame.dso_alias_table.name(elt));
 			found1_tf.setText(main_frame.dso_alias_table.name(elt));
@@ -942,7 +993,7 @@ public class SeparationDialog extends Dialog implements WindowListener {
 			} else {
 				mag1_tf  .setText("");
 			}
-			size1_tf .setText(String.format("%.1f", elt.size_min()));
+			dia1_tf .setText(String.format("%.1f", elt.size_min()));
 		}
 	}
 

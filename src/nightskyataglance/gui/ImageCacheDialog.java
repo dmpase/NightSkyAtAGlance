@@ -36,9 +36,9 @@ package nightskyataglance.gui;
  *******************************************************************************/
 
 
-import java.awt.Button;
 import java.awt.Dialog;
 import java.awt.Dimension;
+import java.awt.Font;
 import java.awt.GraphicsConfiguration;
 import java.awt.GridBagConstraints;
 import java.awt.GridBagLayout;
@@ -55,6 +55,7 @@ import java.awt.event.WindowListener;
 import java.io.File;
 import java.io.IOException;
 
+import javax.swing.JButton;
 import javax.swing.JCheckBox;
 import javax.swing.JFileChooser;
 import javax.swing.JLabel;
@@ -73,13 +74,24 @@ public class ImageCacheDialog extends Dialog implements WindowListener, KeyListe
 	public static final JLabel     cache_jl      = new JLabel("Cache Images Locally");
 	public static final JLabel     cache_path_jl = new JLabel("Cache Path");
 	public static final JTextField cache_path_tf = new JTextField("", 56);
-	public static final Button     browse_b      = new Button("Browse");
-	public static final Button     save_b        = new Button("  Save  ");
-	public static final Button     cancel_b      = new Button("Cancel");
+	public static final JButton    browse_b      = new JButton("Browse");
+	public static final JButton    save_b        = new JButton("  Save  ");
+	public static final JButton    cancel_b      = new JButton("Cancel");
 
 	public ImageCacheDialog(MainFrame f, String name)
 	{
 		super(f, name, true);
+
+		Font font = PersistentState.get_font();
+
+		setFont(font);
+		cache_cb.setFont(font);
+		cache_jl.setFont(font);
+		cache_path_jl.setFont(font);
+		cache_path_tf.setFont(font);
+		browse_b.setFont(font);
+		save_b.setFont(font);
+		cancel_b.setFont(font);
 
 		frame    = f;
 		dialog   = this;

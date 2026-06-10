@@ -37,7 +37,6 @@ date +"%Y.%m.%d" > data/nightsky/version.txt
 nightsky_version=`cat data/nightsky/version.txt`
 jar_version=$nightsky_version
 
-
 nightsky_jar=nightsky-${jar_version}.jar
 cat << EOF > nightsky.sh
 #!/bin/bash 
@@ -49,6 +48,14 @@ pushd $bin
 # time jar cfm ../$nightsky_jar ../nightsky-manifest.txt nightskyataglance lib ../nightsky.sh ../data/nightsky/version.txt ../data/nightsky/catalogs
 time jar cfm ../$nightsky_jar ../nightsky-manifest.txt nightskyataglance lib ../src/nightskyataglance ../src/lib ../nightsky.sh ../data/nightsky/version.txt ../data/nightsky/catalogs
 popd
+
+nightsky_hash=data/nightsky/hash.txt
+
+echo                                     |& tee    $nightsky_hash
+certutil -hashfile $nightsky_jar MD5     |& tee -a $nightsky_hash
+echo                                     |& tee -a $nightsky_hash
+certutil -hashfile $nightsky_jar SHA256  |& tee -a $nightsky_hash
+echo                                     |& tee -a $nightsky_hash
 
 if [[ $COPY = true ]] ; then
     cp -f $nightsky_jar ~/Desktop

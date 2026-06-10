@@ -41,6 +41,7 @@ import java.awt.Color;
 import java.awt.Cursor;
 import java.awt.Dimension;
 import java.awt.Font;
+import java.awt.FontMetrics;
 import java.awt.Frame;
 import java.awt.Graphics;
 import java.awt.GraphicsConfiguration;
@@ -147,6 +148,8 @@ public class MainFrame extends Frame implements MouseListener, MouseMotionListen
 	private static final long serialVersionUID = 8844285282912490565L;
 
 	private JPanel main_panel = new JPanel();
+	
+	public Graphics graphics = null;
 
 	public boolean    use_current_time = true;
 	public TimeKeeper time_keeper      = new TimeKeeper(1);
@@ -298,7 +301,7 @@ public class MainFrame extends Frame implements MouseListener, MouseMotionListen
 	public Rectangle       chart_area     = null;	// chart area in pixels
 	public Insets          chart_insets   = new Insets(100,100,100,100);	// insets ... (top, left, bottom, right)
 
-	public final int       menu_height = 50;
+	public static int      menu_height = 50;
 
 	public Paint paint = new Paint_NWSE();
 
@@ -320,9 +323,14 @@ public class MainFrame extends Frame implements MouseListener, MouseMotionListen
 	public DsoAlias.Element[][] dso_alias = null;
 
 	public String[] data_dir = {
+			System.getProperty("java.class.path") + "/data/nightsky/catalogs/",
+			System.getProperty("user.dir") + "/data/nightsky/catalogs/",
+			System.getProperty("user.home") + "/data/nightsky/catalogs/",
+
 			System.getProperty("java.class.path") + "/data/night sky/catalogs/",
 			System.getProperty("user.dir") + "/data/night sky/catalogs/",
 			System.getProperty("user.home") + "/data/night sky/catalogs/",
+
 			"C:/Users/Doug/Desktop/home/projects/org.hypercomputing/data/nightsky/catalogs/",
 			"D:/dmpase/home/projects/org.hypercomputing/data/nightsky/catalogs/",
 			"//magrathea/dsk/dmpase/home/projects/org.hypercomputing/data/nightsky/catalogs/",
@@ -434,8 +442,17 @@ public class MainFrame extends Frame implements MouseListener, MouseMotionListen
 
     	String path = null;
     	String[] alternate_paths = { 
+			System.getProperty("java.class.path") + "/data/nightsky/catalogs/",
+			System.getProperty("user.dir") + "/data/nightsky/catalogs/",
+			System.getProperty("user.home") + "/data/nightsky/catalogs/",
+
+			System.getProperty("java.class.path") + "/data/night sky/catalogs/",
+			System.getProperty("user.dir") + "/data/night sky/catalogs/",
+			System.getProperty("user.home") + "/data/night sky/catalogs/",
+
     		"/data/nightsky/catalogs/",
     		"D:/home/projects/org.hypercomputing/data/nightsky/catalogs/",
+			"D:/dmpase/home/projects/org.hypercomputing/data/nightsky/catalogs/",
     		"E:/home/projects/org.hypercomputing/data/nightsky/catalogs/",
     		"C:/Users/Doug/Desktop/home/projects/org.hypercomputing/data/nightsky/catalogs/",
     		"//magrathea/dsk/dmpase/home/projects/org.hypercomputing/data/nightsky/catalogs/",
@@ -454,9 +471,8 @@ public class MainFrame extends Frame implements MouseListener, MouseMotionListen
     	LoadDatabases db = LoadDatabases.load(this, path);
 
     	// System.out.printf("%s: %d: path='%s'%n", NightSkyAtAGlance.CLASS(), NightSkyAtAGlance.LINE(), path);
-    	PersistentState.load_state();
 
-    	long start = System.currentTimeMillis();
+    	// long start = System.currentTimeMillis();
 
     	otas               = new OpticalTubeAssemblyCatalog(path + ota_path);
     	reducers           = new ReducerCatalog            (path + reducer_path);
@@ -510,6 +526,24 @@ public class MainFrame extends Frame implements MouseListener, MouseMotionListen
 		display_size = getSize();
 		
 		time_keeper.start();
+
+		// PersistentState.load_state();
+		Font font = PersistentState.get_font();
+		setFont(font);
+		// FontMetrics fm = graphics.getFontMetrics(font);
+		// PersistentState.menu_height = get_menu_height(fm);
+
+		// System.out.printf("%s: %3d: screen  size  : %s%n", NightSkyAtAGlance.CLASS(), NightSkyAtAGlance.LINE(), screen_size);
+		// System.out.printf("%s: %3d: screen  insets: %s%n", NightSkyAtAGlance.CLASS(), NightSkyAtAGlance.LINE(), screen_insets);
+		// System.out.printf("%s: %3d: usable  size  : %s%n", NightSkyAtAGlance.CLASS(), NightSkyAtAGlance.LINE(), usable_size);
+		// System.out.printf("%s: %3d: usable  area  : %s%n", NightSkyAtAGlance.CLASS(), NightSkyAtAGlance.LINE(), usable_area);
+		// System.out.printf("%s: %3d: display area  : %s%n", NightSkyAtAGlance.CLASS(), NightSkyAtAGlance.LINE(), display_area);
+		// System.out.printf("%s: %3d: chart   area  : %s%n", NightSkyAtAGlance.CLASS(), NightSkyAtAGlance.LINE(), chart_area);
+	}
+
+	public static int get_menu_height(FontMetrics fm)
+	{
+		return 30 + fm.getHeight();
 	}
 
 	public void paint(Graphics g)
@@ -569,6 +603,8 @@ public class MainFrame extends Frame implements MouseListener, MouseMotionListen
 
 		public void paint(Graphics g) 
 		{
+			graphics = g;
+
 			{	// keep the screen alive
 				Point mouse_pointer = MouseInfo.getPointerInfo().getLocation();
 				Robot robot;
@@ -580,8 +616,37 @@ public class MainFrame extends Frame implements MouseListener, MouseMotionListen
 					;
 				}
 			}
-			
+
 			current_solar_time_ms = system_solar_time_ms + solar_time_offset_ms;
+
+			menu_height = PersistentState.menu_height;
+
+			FontMetrics font_metrics = g.getFontMetrics();
+			int font_height   = font_metrics.getHeight();
+			int top_border    = 0;
+			int top_margin    = (int) (top_border + PersistentState.chart_margin);	// TODO TOP MARGIN
+			int top           = top_margin + menu_height + 4 * font_height;
+
+			int bottom_border = 20;
+			int bottom_margin = (int) (bottom_border + 1.5 * font_height);
+			int bottom        = bottom_margin + 3 * font_height;
+
+			int sidereal_width = font_metrics.stringWidth("Sidereal");
+			int east_width     = font_metrics.stringWidth("East");
+			int solar_width    = font_metrics.stringWidth("Solar");
+			int west_width     = font_metrics.stringWidth("West");
+			int north_width    = font_metrics.stringWidth("North");
+			int south_width    = font_metrics.stringWidth("South");
+			int text_width     = Math.max(Math.max(sidereal_width, solar_width), Math.max(Math.max(east_width, west_width), Math.max(north_width, south_width)));
+
+			int dec_width      = font_metrics.stringWidth("+000");
+			int left_border    = 20;
+			int left           = left_border + dec_width + text_width;
+			int right_border   = 20;
+			int right          = right_border + dec_width + text_width;
+
+			chart_insets = new Insets(top, left, bottom, right);
+			// System.out.printf("%s: %3d: chart insets: %s%n", NightSkyAtAGlance.CLASS(), NightSkyAtAGlance.LINE(), chart_insets);
 
 			display_size = getSize();
 			display_area = new Rectangle(0, menu_height, display_size.width, display_size.height - menu_height);
@@ -595,12 +660,11 @@ public class MainFrame extends Frame implements MouseListener, MouseMotionListen
 			Image img  = createImage(display_size.width, display_size.height);
 			if (img == null) System.exit(0);
 			Graphics h = img.getGraphics();
-			
+
 			// color the entire window background
 			h.setColor(background);
 			h.fillRect(display_area.x, display_area.y, display_area.width, display_area.height);
 
-			DsoInfo[][] dso_info_buf = new DsoInfo[chart_area.width][chart_area.height];
 			DsoAlias.Element[][] dso_alias_buf = new DsoAlias.Element[chart_area.width][chart_area.height];
 
 			Angle longitude = new Angle(PersistentState.true_longitude_deg, Angle.Scale.DEGREES);
@@ -794,7 +858,7 @@ public class MainFrame extends Frame implements MouseListener, MouseMotionListen
 	    	moonset_hrs += (moonset_hrs < min_sol_hrs) ? 24 : 0;
 	    	moonset_hrs -= (max_sol_hrs < moonset_hrs) ? 24 : 0;
 	    	
-	    	
+	    	// TODO
 			h.setColor(text_color);
 	    	Rectangle top_box      = h.getFontMetrics().getStringBounds(top_label,      h).getBounds();
 	    	Rectangle right_box    = h.getFontMetrics().getStringBounds(right_label,    h).getBounds();
@@ -1231,8 +1295,6 @@ public class MainFrame extends Frame implements MouseListener, MouseMotionListen
 
 			// legend
 			show_legend(h, show_legend);
-
-			// TODO
 
 			dso_alias = dso_alias_buf;
 			g.drawImage(img, used_area.x, used_area.y, null);
@@ -1799,6 +1861,7 @@ public class MainFrame extends Frame implements MouseListener, MouseMotionListen
 			drawPlus(h, eq.right_ascension, eq.declination, 5, galactic_plane_color);
 		}
 
+		// TODO draw selected DSO
 		private final void show_selected_dso(Graphics h, Element elt)
 		{
 			if (elt != null) {
@@ -1825,7 +1888,8 @@ public class MainFrame extends Frame implements MouseListener, MouseMotionListen
 				}
 			}
 		}
-		
+
+		// TODO draw legend
 		private final void show_legend(Graphics h, boolean show)
 		{
 			if (show) {
@@ -1939,6 +2003,15 @@ public class MainFrame extends Frame implements MouseListener, MouseMotionListen
 				drawString(h, display_area, "7",    legend_origin.x + offset + 2 * solar_width, legend_origin.y + 2 * height + height/4, Color.WHITE);
 			}
 		}
+		
+		private int rescale_pixel_size(int px)
+		{
+			int rescaled_size = (int) (PersistentState.dso_icon_scale_factor * px);
+			// rescaled_size = px;
+			// System.out.printf("%s: %4d: rescale_pixel_size : px=%d disf=%3.1f rescaled size=%d%n", NightSkyAtAGlance.CLASS(), NightSkyAtAGlance.LINE(), px, PersistentState.dso_icon_scale_factor, rescaled_size);
+
+			return rescaled_size;
+		}
 
 		private final void drawLine(Graphics g, Rectangle chart, int x0, int y0, int x1, int y1)
 		{
@@ -1950,33 +2023,41 @@ public class MainFrame extends Frame implements MouseListener, MouseMotionListen
 
 		private final void drawOval(Graphics g, Rectangle chart, int x, int y, int width, int height, Color color)
 		{
+			width  = rescale_pixel_size(width);
+			height = rescale_pixel_size(height);
 			if (chart.x <= x && x + width <= chart.x + chart.width && chart.y <= y && y + height <= chart.y + chart.height) {
 				g.setColor(color);
-				g.drawOval(x, y, width, height);
+				g.drawOval(x, y, rescale_pixel_size(width), rescale_pixel_size(height));
 			}
 		}
 
 		private final void fillOval(Graphics g, Rectangle chart, int x, int y, int width, int height, Color color)
 		{
+			width  = rescale_pixel_size(width);
+			height = rescale_pixel_size(height);
 			if (chart.x <= x && x + width <= chart.x + chart.width && chart.y <= y && y + height <= chart.y + chart.height) {
 				g.setColor(color);
-				g.fillOval(x, y, width, height);
+				g.fillOval(x, y, rescale_pixel_size(width), rescale_pixel_size(height));
 			}
 		}
 
 		private final void drawRect(Graphics g, Rectangle chart, int x, int y, int width, int height, Color color)
 		{
+			width  = rescale_pixel_size(width);
+			height = rescale_pixel_size(height);
 			if (chart.x <= x && x + width <= chart.x + chart.width && chart.y <= y && y + height <= chart.y + chart.height) {
 				g.setColor(color);
-				g.drawRect(x, y, width, height);
+				g.drawRect(x, y, rescale_pixel_size(width), rescale_pixel_size(height));
 			}
 		}
 
 		private final void fillRect(Graphics g, Rectangle chart, int x, int y, int width, int height, Color color)
 		{
+			width  = rescale_pixel_size(width);
+			height = rescale_pixel_size(height);
 			if (chart.x <= x && x + width <= chart.x + chart.width && chart.y <= y && y + height <= chart.y + chart.height) {
 				g.setColor(color);
-				g.fillRect(x, y, width, height);
+				g.fillRect(x, y, rescale_pixel_size(width), rescale_pixel_size(height));
 			}
 		}
 
@@ -1990,6 +2071,7 @@ public class MainFrame extends Frame implements MouseListener, MouseMotionListen
 
 		private final void drawCircle(Graphics g, double ra, double dec, int diam_px, Color color)
 		{
+			diam_px = rescale_pixel_size(diam_px);
 			ra += (ra <  min_ra_hrs) ? 24 : 0;
 			ra -= (max_ra_hrs <= ra) ? 24 : 0;
 			if (min_ra_hrs <= ra && ra <= max_ra_hrs && min_dec_deg <= dec && dec <= max_dec_deg) {
@@ -2001,6 +2083,7 @@ public class MainFrame extends Frame implements MouseListener, MouseMotionListen
 
 		private final void fillCircle(Graphics g, double ra, double dec, int diam_px, Color color)
 		{
+			diam_px = rescale_pixel_size(diam_px);
 			ra += (ra <  min_ra_hrs) ? 24 : 0;
 			ra -= (max_ra_hrs <= ra) ? 24 : 0;
 			if (min_ra_hrs <= ra && ra <= max_ra_hrs && min_dec_deg <= dec && dec <= max_dec_deg) {
@@ -2012,6 +2095,8 @@ public class MainFrame extends Frame implements MouseListener, MouseMotionListen
 
 		private final void drawOval(Graphics g, double ra, double dec, int ra_px, int de_px, Color color)
 		{
+			ra_px = rescale_pixel_size(ra_px);
+			de_px = rescale_pixel_size(de_px);
 			ra += (ra <  min_ra_hrs) ? 24 : 0;
 			ra -= (max_ra_hrs <= ra) ? 24 : 0;
 			if (min_ra_hrs <= ra && ra <= max_ra_hrs && min_dec_deg <= dec && dec <= max_dec_deg) {
@@ -2023,6 +2108,8 @@ public class MainFrame extends Frame implements MouseListener, MouseMotionListen
 
 		private final void fillOval(Graphics g, double ra, double dec, int ra_px, int de_px, Color color)
 		{
+			ra_px = rescale_pixel_size(ra_px);
+			de_px = rescale_pixel_size(de_px);
 			ra += (ra <  min_ra_hrs) ? 24 : 0;
 			ra -= (max_ra_hrs <= ra) ? 24 : 0;
 			if (min_ra_hrs <= ra && ra <= max_ra_hrs && min_dec_deg <= dec && dec <= max_dec_deg) {
@@ -2070,6 +2157,7 @@ public class MainFrame extends Frame implements MouseListener, MouseMotionListen
 
 		private final void drawPlanet(Graphics g, double ra, double dec, int diam_px, Color color, DsoAlias.Element[][] dso_alias_buf, Element elt)
 		{
+			diam_px = rescale_pixel_size(diam_px);
 			ra += (ra <  min_ra_hrs) ? 24 : 0;
 			ra -= (max_ra_hrs <= ra) ? 24 : 0;
 			if (min_ra_hrs <= ra && ra <= max_ra_hrs && min_dec_deg <= dec && dec <= max_dec_deg) {
@@ -2082,6 +2170,7 @@ public class MainFrame extends Frame implements MouseListener, MouseMotionListen
 
 		private final void drawPlanet(Graphics g, int x, int y, int diam_px, Color color)
 		{
+			diam_px = rescale_pixel_size(diam_px);
 			g.setColor(color);
 			g.fillOval(x - diam_px/2, y - diam_px/2, diam_px, diam_px);
 		}
@@ -2099,6 +2188,7 @@ public class MainFrame extends Frame implements MouseListener, MouseMotionListen
 
 		private final void drawMoon(Graphics g, int x, int y, int diam_px, Color color)
 		{
+			diam_px = rescale_pixel_size(diam_px);
 			g.setColor(color);
 			g.fillOval(x - diam_px/2, y - diam_px/2, diam_px, diam_px);
 			g.setColor(shade(blue_table, 0.5));
@@ -2118,6 +2208,7 @@ public class MainFrame extends Frame implements MouseListener, MouseMotionListen
 
 		private final void drawSun(Graphics g, int x, int y, int diam_px, Color color)
 		{
+			diam_px = rescale_pixel_size(diam_px);
 			g.setColor(color);
 			g.fillOval(x - diam_px/2, y - diam_px/2, diam_px, diam_px);
 			double root_two_over_two = Math.sqrt(2) / 2;
@@ -2142,12 +2233,14 @@ public class MainFrame extends Frame implements MouseListener, MouseMotionListen
 
 		private final void drawStar(Graphics g, int x, int y, Mag cw)
 		{
+			int width = rescale_pixel_size(cw.width);
 			g.setColor(cw.color);
-			g.fillOval(x - cw.width/2, y - cw.width/2, cw.width, cw.width);
+			g.fillOval(x - width/2, y - width/2, width, width);
 		}
 
 		private final void drawTarget(Graphics g, double ra, double dec, int len_px, Color color)
 		{
+			len_px = rescale_pixel_size(len_px);
 			ra += (ra <  min_ra_hrs) ? 24 : 0;
 			ra -= (max_ra_hrs <= ra) ? 24 : 0;
 			if (min_ra_hrs <= ra && ra <= max_ra_hrs && min_dec_deg <= dec && dec <= max_dec_deg) {
@@ -2181,6 +2274,7 @@ public class MainFrame extends Frame implements MouseListener, MouseMotionListen
 
 		private final void drawZenith(Graphics g, int x, int y, int len_px, Color color)
 		{
+			len_px = rescale_pixel_size(len_px);
 			g.setColor(color);
 			g.drawLine(x - len_px, y,          x + len_px, y);
 			g.drawLine(x,          y - len_px, x,          y + len_px);
@@ -2307,93 +2401,6 @@ public class MainFrame extends Frame implements MouseListener, MouseMotionListen
 			new Color(0xfcfcFF), new Color(0xfdfdFF), new Color(0xfefeFF), new Color(0xffffFF),
 	};
 
-	private static final Color[] gray_table = {
-			new Color(0x000000), new Color(0x010101), new Color(0x020202), new Color(0x030303),
-			new Color(0x040404), new Color(0x050505), new Color(0x060606), new Color(0x070707),
-			new Color(0x080808), new Color(0x090909), new Color(0x0a0a0a), new Color(0x0b0b0b),
-			new Color(0x0c0c0c), new Color(0x0d0d0d), new Color(0x0e0e0e), new Color(0x0f0f0f),
-
-			new Color(0x101010), new Color(0x111111), new Color(0x121212), new Color(0x131313), 
-			new Color(0x141414), new Color(0x151515), new Color(0x161616), new Color(0x171717), 
-			new Color(0x181818), new Color(0x191919), new Color(0x1a1a1a), new Color(0x1b1b1b), 
-			new Color(0x1c1c1c), new Color(0x1d1d1d), new Color(0x1e1e1e), new Color(0x1f1f1f), 
-
-			new Color(0x202020), new Color(0x212121), new Color(0x222222), new Color(0x232323),
-			new Color(0x242424), new Color(0x252525), new Color(0x262626), new Color(0x272727),
-			new Color(0x282828), new Color(0x292929), new Color(0x2a2a2a), new Color(0x2b2b2b),
-			new Color(0x2c2c2c), new Color(0x2d2d2d), new Color(0x2e2e2e), new Color(0x2f2f2f),
-
-			new Color(0x303030), new Color(0x313131), new Color(0x323232), new Color(0x333333), 
-			new Color(0x343434), new Color(0x353535), new Color(0x363636), new Color(0x373737), 
-			new Color(0x383838), new Color(0x393939), new Color(0x3a3a3a), new Color(0x3b3b3b), 
-			new Color(0x3c3c3c), new Color(0x3d3d3d), new Color(0x3e3e3e), new Color(0x3f3f3f), 
-
-			new Color(0x404040), new Color(0x414141), new Color(0x424242), new Color(0x434343), 
-			new Color(0x444444), new Color(0x454545), new Color(0x464646), new Color(0x474747), 
-			new Color(0x484848), new Color(0x494949), new Color(0x4a4a4a), new Color(0x4b4b4b), 
-			new Color(0x4c4c4c), new Color(0x4d4d4d), new Color(0x4e4e4e), new Color(0x4f4f4f), 
-
-			new Color(0x505050), new Color(0x515151), new Color(0x525252), new Color(0x535353), 
-			new Color(0x545454), new Color(0x555555), new Color(0x565656), new Color(0x575757), 
-			new Color(0x585858), new Color(0x595959), new Color(0x5a5a5a), new Color(0x5b5b5b), 
-			new Color(0x5c5c5c), new Color(0x5d5d5d), new Color(0x5e5e5e), new Color(0x5f5f5f), 
-
-			new Color(0x606060), new Color(0x616161), new Color(0x626262), new Color(0x636363), 
-			new Color(0x646464), new Color(0x656565), new Color(0x666666), new Color(0x676767), 
-			new Color(0x686868), new Color(0x696969), new Color(0x6a6a6a), new Color(0x6b6b6b), 
-			new Color(0x6c6c6c), new Color(0x6d6d6d), new Color(0x6e6e6e), new Color(0x6f6f6f), 
-
-			new Color(0x707070), new Color(0x717171), new Color(0x727272), new Color(0x737373), 
-			new Color(0x747474), new Color(0x757575), new Color(0x767676), new Color(0x777777), 
-			new Color(0x787878), new Color(0x797979), new Color(0x7a7a7a), new Color(0x7b7b7b), 
-			new Color(0x7c7c7c), new Color(0x7d7d7d), new Color(0x7e7e7e), new Color(0x7f7f7f), 
-
-			new Color(0x808080), new Color(0x818181), new Color(0x828282), new Color(0x838383), 
-			new Color(0x848484), new Color(0x858585), new Color(0x868686), new Color(0x878787), 
-			new Color(0x888888), new Color(0x898989), new Color(0x8a8a8a), new Color(0x8b8b8b), 
-			new Color(0x8c8c8c), new Color(0x8d8d8d), new Color(0x8e8e8e), new Color(0x8f8f8f), 
-
-			new Color(0x909090), new Color(0x919191), new Color(0x929292), new Color(0x939393), 
-			new Color(0x949494), new Color(0x959595), new Color(0x969696), new Color(0x979797), 
-			new Color(0x989898), new Color(0x999999), new Color(0x9a9a9a), new Color(0x9b9b9b), 
-			new Color(0x9c9c9c), new Color(0x9d9d9d), new Color(0x9e9e9e), new Color(0x9f9f9f), 
-
-			new Color(0xa0a0a0), new Color(0xa1a1a1), new Color(0xa2a2a2), new Color(0xa3a3a3), 
-			new Color(0xa4a4a4), new Color(0xa5a5a5), new Color(0xa6a6a6), new Color(0xa7a7a7), 
-			new Color(0xa8a8a8), new Color(0xa9a9a9), new Color(0xaaaaaa), new Color(0xababab), 
-			new Color(0xacacac), new Color(0xadadad), new Color(0xaeaeae), new Color(0xafafaf), 
-
-			new Color(0xb0b0b0), new Color(0xb1b1b1), new Color(0xb2b2b2), new Color(0xb3b3b3), 
-			new Color(0xb4b4b4), new Color(0xb5b5b5), new Color(0xb6b6b6), new Color(0xb7b7b7), 
-			new Color(0xb8b8b8), new Color(0xb9b9b9), new Color(0xbababa), new Color(0xbbbbbb), 
-			new Color(0xbcbcbc), new Color(0xbdbdbd), new Color(0xbebebe), new Color(0xbfbfbf), 
-
-			new Color(0xc0c0c0), new Color(0xc1c1c1), new Color(0xc2c2c2), new Color(0xc3c3c3), 
-			new Color(0xc4c4c4), new Color(0xc5c5c5), new Color(0xc6c6c6), new Color(0xc7c7c7), 
-			new Color(0xc8c8c8), new Color(0xc9c9c9), new Color(0xcacaca), new Color(0xcbcbcb), 
-			new Color(0xcccccc), new Color(0xcdcdcd), new Color(0xcecece), new Color(0xcfcfcf), 
-
-			new Color(0xd0d0d0), new Color(0xd1d1d1), new Color(0xd2d2d2), new Color(0xd3d3d3), 
-			new Color(0xd4d4d4), new Color(0xd5d5d5), new Color(0xd6d6d6), new Color(0xd7d7d7), 
-			new Color(0xd8d8d8), new Color(0xd9d9d9), new Color(0xdadada), new Color(0xdbdbdb), 
-			new Color(0xdcdcdc), new Color(0xdddddd), new Color(0xdedede), new Color(0xdfdfdf), 
-
-			new Color(0xe0e0e0), new Color(0xe1e1e1), new Color(0xe2e2e2), new Color(0xe3e3e3), 
-			new Color(0xe4e4e4), new Color(0xe5e5e5), new Color(0xe6e6e6), new Color(0xe7e7e7), 
-			new Color(0xe8e8e8), new Color(0xe9e9e9), new Color(0xeaeaea), new Color(0xebebeb), 
-			new Color(0xececec), new Color(0xededed), new Color(0xeeeeee), new Color(0xefefef), 
-
-			new Color(0xf0f0f0), new Color(0xf1f1f1), new Color(0xf2f2f2), new Color(0xf3f3f3), 
-			new Color(0xf4f4f4), new Color(0xf5f5f5), new Color(0xf6f6f6), new Color(0xf7f7f7), 
-			new Color(0xf8f8f8), new Color(0xf9f9f9), new Color(0xfafafa), new Color(0xfbfbfb), 
-			new Color(0xfcfcfc), new Color(0xfdfdfd), new Color(0xfefefe), new Color(0xffffff), 
-	};
-
-	public static final Color gray(double b)
-	{
-		return shade(gray_table, b);
-	}
-
 	public static final Color shade(Color[] table, double b)
 	{
 		Color c = null;
@@ -2408,7 +2415,7 @@ public class MainFrame extends Frame implements MouseListener, MouseMotionListen
 		return c;
 	}
 
-	// TODO
+	// TODO class Mag
 	public static class Mag {
 		private static final double max_v =  8.0;
 		private static final double min_v = -1.5;
@@ -2435,49 +2442,12 @@ public class MainFrame extends Frame implements MouseListener, MouseMotionListen
 				new Mag(2, new Color(0x020202)),		// +7.5 to +8.0
 			};
 
-		private static final Mag[] mag0 = {
-				new Mag(6, Color.WHITE),															// -1.5 to -1.0
-				new Mag(6, Color.WHITE),															// -1.0 to -0.5
-				new Mag(5, Color.WHITE),															// -0.5 to +0.0
-				new Mag(5, Color.WHITE),															// +0.0 to +0.5
-				new Mag(5, Color.WHITE),															// +0.5 to +1.0
-				new Mag(4, Color.WHITE),															// +1.0 to +1.5
-				new Mag(4, Color.WHITE.darker()),													// +1.5 to +2.0
-				new Mag(4, Color.WHITE.darker().darker()),											// +2.0 to +2.5
-				new Mag(3, Color.WHITE.darker().darker()),											// +2.5 to +3.0
-				new Mag(3, Color.WHITE.darker().darker().darker()),									// +3.0 to +3.5
-				new Mag(3, Color.WHITE.darker().darker().darker()),									// +3.5 to +4.0
-				new Mag(3, Color.WHITE.darker().darker().darker()),									// +4.0 to +4.5
-				new Mag(3, Color.WHITE.darker().darker().darker().darker()),						// +4.5 to +5.0
-				new Mag(2, Color.WHITE.darker().darker().darker().darker().darker()),				// +5.0 to +5.5
-				new Mag(2, Color.WHITE.darker().darker().darker().darker().darker()),				// +5.5 to +6.0
-				new Mag(2, Color.WHITE.darker().darker().darker().darker().darker().darker()),		// +6.0 to +6.5
-				new Mag(2, Color.WHITE.darker().darker().darker().darker().darker().darker()),		// +6.5 to +7.0
-				new Mag(2, Color.WHITE.darker().darker().darker().darker().darker().darker()),		// +7.0 to +7.5
-				new Mag(2, Color.WHITE.darker().darker().darker().darker().darker().darker()),		// +7.5 to +8.0
-			};
 		public final int   width;
 		public final Color color;
 		public  Mag(int w, Color c)
 		{
 			width = w;
 			color = c;
-		}
-
-		public static final Color mag_to_color(double ma)
-		{
-			int idx = (int)(mag.length * ((ma - min_v)/span));
-			idx = (idx < 0) ? 0 : ((idx < mag.length) ? idx : mag.length - 1);
-
-			return mag[idx].color;
-		}
-
-		public static final int mag_to_width(double ma)
-		{
-			int idx = (int)(mag.length * ((ma - min_v)/span));
-			idx = (idx < 0) ? 0 : ((idx < mag.length) ? idx : mag.length - 1);
-
-			return mag[idx].width;
 		}
 
 		public static final Mag mag_to_cw(double ma)
@@ -2505,143 +2475,6 @@ public class MainFrame extends Frame implements MouseListener, MouseMotionListen
 	{
 		h = Math.abs(h);
 		return (int) ((h - (int) h) * 60);
-	}
-
-	public class Paint_NESW extends Paint {
-		public Paint_NESW()
-		{
-			top_label           = "North";
-			right_label         = "East";
-			bottom_label        = "South";
-			left_label          = "West";
-		}
-		
-		@Override public Point ra_dec_to_xy(double ra, double dec)
-		{
-			return null;
-		}
-		
-		@Override public Point solar_dec_to_xy(double hrs, double dec)
-		{
-			return null;
-		}
-		
-		@Override public double x_to_ra(int x)
-		{
-			return 0;
-		}
-
-		@Override public double y_to_dec(int y)
-		{
-			return 0;
-		}
-
-		@Override public double x_to_solar_hrs(int x)
-		{
-			return 0;
-		}
-
-		@Override public int hrs_to_width(double hrs)
-		{
-			return 0;
-		}
-
-		@Override public int deg_to_width(double deg)
-		{
-			return 0;
-		}
-	}
-
-
-	public class Paint_SWNE extends Paint {
-		public Paint_SWNE()
-		{
-			top_label           = "South";
-			right_label         = "West";
-			bottom_label        = "North";
-			left_label          = "East";
-		}
-		
-		@Override public Point ra_dec_to_xy(double ra, double dec)
-		{
-			return null;
-		}
-		
-		@Override public Point solar_dec_to_xy(double hrs, double dec)
-		{
-			return null;
-		}
-		
-		@Override public double x_to_ra(int x)
-		{
-			return 0;
-		}
-
-		@Override public double y_to_dec(int y)
-		{
-			return 0;
-		}
-
-		@Override public double x_to_solar_hrs(int x)
-		{
-			return 0;
-		}
-
-		@Override public int hrs_to_width(double hrs)
-		{
-			return 0;
-		}
-
-		@Override public int deg_to_width(double deg)
-		{
-			return 0;
-		}
-	}
-
-
-	public class Paint_SENW extends Paint {
-		public Paint_SENW()
-		{
-			top_label           = "South";
-			right_label         = "East";
-			bottom_label        = "North";
-			left_label          = "West";
-		}
-		
-		@Override public Point ra_dec_to_xy(double ra, double dec)
-		{
-			return null;
-		}
-		
-		@Override public Point solar_dec_to_xy(double hrs, double dec)
-		{
-			return null;
-		}
-		
-		@Override public double x_to_ra(int x)
-		{
-			return 0;
-		}
-
-		@Override public double y_to_dec(int y)
-		{
-			return 0;
-		}
-
-		@Override public double x_to_solar_hrs(int x)
-		{
-			return 0;
-		}
-
-		@Override public int hrs_to_width(double hrs)
-		{
-			return 0;
-		}
-
-		@Override public int deg_to_width(double deg)
-		{
-			return 0;
-		}
 	}
 
 
@@ -2757,46 +2590,26 @@ public class MainFrame extends Frame implements MouseListener, MouseMotionListen
 			return (int) (deg * chart_area.width / (max_dec_deg - min_dec_deg));
 		}
 	}
-	
-	public void set_NESW()
-	{
-		paint = new MainFrame.Paint_NESW();
-	}
-	
-	public void set_NWSE()
-	{
-		paint = new MainFrame.Paint_NWSE();
-	}
-	
-	public void set_SENW()
-	{
-		paint = new MainFrame.Paint_SENW();
-	}
-	
-	public void set_SWNE()
-	{
-		paint = new MainFrame.Paint_SWNE();
-	}
 
 	
     public static final String FILE        = "File";
     public static final String LOCATION    = "Time & Location";
     public static final String APPEARANCE  = "Appearance";
-    public static final String ORIENTATION = "Orientation";
     public static final String CATALOGS    = "Catalogs";
     public static final String EQUIPMENT   = "Equipment";
     public static final String HELP        = "Help";
 
+    public static final MenuBar mbar = new MenuBar();
+
+    public final Menu file        = new FileMenu        (this, FILE);
+    public final Menu location    = new TimeLocationMenu(this, LOCATION);
+    public final Menu appearance  = new AppearanceMenu  (this, APPEARANCE);
+    public final Menu catalogs    = new CatalogMenu     (this, CATALOGS);
+    public final Menu help        = new HelpMenu        (this, HELP);
+
     public void make_menu_bar()
     {
-    	MenuBar mbar = new MenuBar();
-    	
-    	Menu file        = new FileMenu        (this, FILE);
-    	Menu location    = new TimeLocationMenu(this, LOCATION);
-    	Menu appearance  = new AppearanceMenu  (this, APPEARANCE);
-    	Menu orientation = new OrientationMenu (this, ORIENTATION);
-    	Menu catalogs    = new CatalogMenu     (this, CATALOGS);
-    	Menu help        = new HelpMenu        (this, HELP);
+		setFont(PersistentState.get_font());
 
     	mbar.add(file);
     	mbar.add(location);
@@ -2806,26 +2619,25 @@ public class MainFrame extends Frame implements MouseListener, MouseMotionListen
 
     	setMenuBar(mbar);
     }
-    
+
+    public void set_menu_font(Font font)
+    {
+    	if (font != null) {
+    		mbar.setFont(font);
+    		file.setFont(font);
+    		location.setFont(font);
+    		appearance.setFont(font);
+    		catalogs.setFont(font);
+    		help.setFont(font);
+    	}
+    }
+
     public void exit()
     {
     	// System.out.printf("%s: %d: exiting...\n", NightSkyAtAGlance.CLASS(), NightSkyAtAGlance.LINE());
     	dispose();
     	PersistentState.save_state();
 		System.exit(0);
-    }
-
-    public static class DsoInfo {
-    	public final String   name;
-    	public final Catalogs catalog;
-    	public final int      index;
- 
-    	public DsoInfo(String n, Catalogs c, int i)
-    	{
-    		name    = n;
-    		catalog = c;
-    		index   = i;
-    	}
     }
 
     public static class NameRaDec {
@@ -2842,56 +2654,8 @@ public class MainFrame extends Frame implements MouseListener, MouseMotionListen
     }
 
     // TODO
-	public double custom_right_ascension;
+    public double custom_right_ascension;
 	public double custom_declination;
-
-	/**
-	 * add_to_dso_info records the DSO characteristics for display on the screen during mouseover.
-	 * 
-	 * @param buf
-	 * @param chart
-	 * @param p
-	 * @param width
-	 * @param height
-	 * @param name
-	 * @param catalog
-	 * @param idx
-	 */
-    private void add_to_dso_info(DsoInfo[][] buf, Rectangle chart, Point p, int width, int height, String name, Catalogs catalog, int idx)
-    {
-        // TODO remove this function as redundant
-    	if (name != null && ! name.matches("")) {
-			for (int i=0; i < width; i++) {
-				int x = p.x - chart.x - width/2 + i;
-				if (0 <= x && x < buf.length) {
-					for (int j=0; j < height; j++) {
-						int y = p.y - chart.y - width/2 + j;
-						if (0 <= y && y < buf[x].length) {
-							buf[x][y] = new DsoInfo(name, catalog, idx);
-						}
-					}
-				}
-			}
-    	}
-    }
-
-    // TODO remove this function as redundant
-    private void add_to_dso_alias_obsolete(Element[][] buf, Rectangle chart, Point p, int width, int height, String name)
-    {
-    	if (name != null && ! name.matches("")) {
-			for (int i=0; i < width; i++) {
-				int x = p.x - chart.x - width/2 + i;
-				if (0 <= x && x < buf.length) {
-					for (int j=0; j < height; j++) {
-						int y = p.y - chart.y - width/2 + j;
-						if (0 <= y && y < buf[x].length) {
-							buf[x][y] = dso_alias_table.find(name);
-						}
-					}
-				}
-			}
-    	}
-    }
 
     private void add_to_dso_alias(Element[][] buf, Rectangle chart, Point p, int width, int height, Element elt)
     {
@@ -3824,7 +3588,7 @@ public class MainFrame extends Frame implements MouseListener, MouseMotionListen
     		try {
     			long ms = System.currentTimeMillis();
     			frame.double_stars = new WebbDoubleStars(path + frame.double_stars_path);
-				CatalogMenu.wsc.setEnabled(CatalogMenu.aux_enabled);
+				CatalogMenu.wsc.setEnabled(true);
 				// System.out.printf("%s: %d: Webb Double Stars done. (%.3f)%n", NightSkyAtAGlance.CLASS(), NightSkyAtAGlance.LINE(), (System.currentTimeMillis() - ms)/1000.0);
 			} catch (IOException e) {
 				e.printStackTrace();
@@ -3847,7 +3611,7 @@ public class MainFrame extends Frame implements MouseListener, MouseMotionListen
     		try {
     			long ms = System.currentTimeMillis();
     	    	frame.planetary_nebulae = new WebbPlanetaryNebulae(path + frame.planetary_nebulae_path);
-				CatalogMenu.wpn.setEnabled(CatalogMenu.aux_enabled);
+				CatalogMenu.wpn.setEnabled(true);
 				// System.out.printf("%s: %d: Webb Planetary Nebulae done. (%.3f)%n", NightSkyAtAGlance.CLASS(), NightSkyAtAGlance.LINE(), (System.currentTimeMillis() - ms)/1000.0);
 			} catch (IOException e) {
 				e.printStackTrace();
@@ -3870,7 +3634,7 @@ public class MainFrame extends Frame implements MouseListener, MouseMotionListen
     		try {
     			long ms = System.currentTimeMillis();
     	    	frame.gaseous_nebulae = new WebbGaseousNebulae(path + frame.gaseous_nebulae_path);
-				CatalogMenu.wgn.setEnabled(CatalogMenu.aux_enabled);
+				CatalogMenu.wgn.setEnabled(true);
 				// System.out.printf("%s: %d: Webb Gaseous Nebulae done. (%.3f)%n", NightSkyAtAGlance.CLASS(), NightSkyAtAGlance.LINE(), (System.currentTimeMillis() - ms)/1000.0);
 			} catch (IOException e) {
 				e.printStackTrace();
@@ -3893,7 +3657,7 @@ public class MainFrame extends Frame implements MouseListener, MouseMotionListen
     		try {
     			long ms = System.currentTimeMillis();
     	    	frame.open_clusters = new WebbOpenClusters(path + frame.open_clusters_path);
-				CatalogMenu.woc.setEnabled(CatalogMenu.aux_enabled);
+				CatalogMenu.woc.setEnabled(true);
 				// System.out.printf("%s: %d: Webb open Clusters done. (%.3f)%n", NightSkyAtAGlance.CLASS(), NightSkyAtAGlance.LINE(), (System.currentTimeMillis() - ms)/1000.0);
 			} catch (IOException e) {
 				e.printStackTrace();
@@ -3916,7 +3680,7 @@ public class MainFrame extends Frame implements MouseListener, MouseMotionListen
     		try {
     			long ms = System.currentTimeMillis();
     			frame.globular_clusters = new WebbGlobularClusters(path + frame.globular_clusters_path);
-				CatalogMenu.wgc.setEnabled(CatalogMenu.aux_enabled);
+				CatalogMenu.wgc.setEnabled(true);
 				// System.out.printf("%s: %d: Webb Globular Clusters done. (%.3f)%n", NightSkyAtAGlance.CLASS(), NightSkyAtAGlance.LINE(), (System.currentTimeMillis() - ms)/1000.0);
 			} catch (IOException e) {
 				e.printStackTrace();
@@ -3939,7 +3703,7 @@ public class MainFrame extends Frame implements MouseListener, MouseMotionListen
     		try {
     			long ms = System.currentTimeMillis();
     	    	frame.galaxies = new WebbGalaxies(path + frame.galaxies_path);
-				CatalogMenu.wsg.setEnabled(CatalogMenu.aux_enabled);
+				CatalogMenu.wsg.setEnabled(true);
 				// System.out.printf("%s: %d: Webb Galaxies done. (%.3f)%n", NightSkyAtAGlance.CLASS(), NightSkyAtAGlance.LINE(), (System.currentTimeMillis() - ms)/1000.0);
 			} catch (IOException e) {
 				e.printStackTrace();
@@ -3962,7 +3726,7 @@ public class MainFrame extends Frame implements MouseListener, MouseMotionListen
     		try {
     			long ms = System.currentTimeMillis();
     	    	frame.galaxy_clusters = new WebbClustersOfGalaxies(path + frame.galaxy_clusters_path);
-				CatalogMenu.wcg.setEnabled(CatalogMenu.aux_enabled);
+				CatalogMenu.wcg.setEnabled(true);
 				// System.out.printf("%s: %d: Webb Clusters of Galaxies done. (%.3f)%n", NightSkyAtAGlance.CLASS(), NightSkyAtAGlance.LINE(), (System.currentTimeMillis() - ms)/1000.0);
 			} catch (IOException e) {
 				e.printStackTrace();
@@ -3985,7 +3749,7 @@ public class MainFrame extends Frame implements MouseListener, MouseMotionListen
     		try {
     			long ms = System.currentTimeMillis();
     	    	frame.anonymous_galaxies = new WebbAnonymousGalaxies(path + frame.anonymous_galaxies_path);
-				CatalogMenu.wag.setEnabled(CatalogMenu.aux_enabled);
+				CatalogMenu.wag.setEnabled(true);
 				// System.out.printf("%s: %d: Webb Anonymous Galaxies done. (%.3f)%n", NightSkyAtAGlance.CLASS(), NightSkyAtAGlance.LINE(), (System.currentTimeMillis() - ms)/1000.0);
 			} catch (IOException e) {
 				e.printStackTrace();
@@ -4008,7 +3772,7 @@ public class MainFrame extends Frame implements MouseListener, MouseMotionListen
     		try {
     			long ms = System.currentTimeMillis();
     			frame.southern_sky = new WebbSouthernSky(path + frame.southern_sky_path);
-				CatalogMenu.wss.setEnabled(CatalogMenu.aux_enabled);
+				CatalogMenu.wss.setEnabled(true);
 				// System.out.printf("%s: %d: Webb Southern Sky done. (%.3f)%n", NightSkyAtAGlance.CLASS(), NightSkyAtAGlance.LINE(), (System.currentTimeMillis() - ms)/1000.0);
 			} catch (IOException e) {
 				e.printStackTrace();
@@ -4031,7 +3795,7 @@ public class MainFrame extends Frame implements MouseListener, MouseMotionListen
     		try {
     			long ms = System.currentTimeMillis();
     	    	frame.webb_variable_stars = new WebbVariableStars(path + frame.variable_stars_path);
-				CatalogMenu.wvs.setEnabled(CatalogMenu.aux_enabled);
+				CatalogMenu.wvs.setEnabled(true);
 				// System.out.printf("%s: %d: Webb Variable Stars done. (%.3f)%n", NightSkyAtAGlance.CLASS(), NightSkyAtAGlance.LINE(), (System.currentTimeMillis() - ms)/1000.0);
 			} catch (IOException e) {
 				e.printStackTrace();
@@ -4054,7 +3818,7 @@ public class MainFrame extends Frame implements MouseListener, MouseMotionListen
     		try {
     			long ms = System.currentTimeMillis();
     			frame.favorite_dsos = new FavoriteDsoCatalog(path + frame.favorite_dsos_path);
-				CatalogMenu.fav.setEnabled(CatalogMenu.aux_enabled);
+				CatalogMenu.fav.setEnabled(true);
 				// System.out.printf("%s: %d: Webb Favorite DSOs done. (%.3f)%n", NightSkyAtAGlance.CLASS(), NightSkyAtAGlance.LINE(), (System.currentTimeMillis() - ms)/1000.0);
 			} catch (IOException e) {
 				e.printStackTrace();
@@ -4088,7 +3852,7 @@ public class MainFrame extends Frame implements MouseListener, MouseMotionListen
 				} catch (InterruptedException e) {
 					;
 				}
-    			if (! pause) {
+    			if (! pause && mainframe.getGraphics() != null) {
     				mainframe.paint(mainframe.getGraphics());
     			}
     		}

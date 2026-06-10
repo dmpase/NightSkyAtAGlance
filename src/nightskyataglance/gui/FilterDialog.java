@@ -36,14 +36,13 @@ package nightskyataglance.gui;
  *******************************************************************************/
 
 
-import java.awt.Button;
 import java.awt.Dialog;
 import java.awt.Dimension;
+import java.awt.Font;
 import java.awt.GraphicsConfiguration;
 import java.awt.GridBagConstraints;
 import java.awt.GridBagLayout;
 import java.awt.Insets;
-import java.awt.Label;
 import java.awt.Toolkit;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -51,7 +50,9 @@ import java.awt.event.WindowEvent;
 import java.awt.event.WindowListener;
 import java.util.TimeZone;
 
+import javax.swing.JButton;
 import javax.swing.JCheckBox;
+import javax.swing.JLabel;
 import javax.swing.JPanel;
 import javax.swing.JTextField;
 
@@ -103,25 +104,153 @@ public class FilterDialog extends Dialog implements WindowListener {
 
 	public final JCheckBox unidentified            = new JCheckBox();
 
-	public final Button stars    = new Button("Stars     ");
-	public final Button nebulae  = new Button("Nebulae ");
-	public final Button galaxies = new Button("Galaxies");
+	public final JButton stars    = new JButton("Stars     ");
+	public final JButton nebulae  = new JButton("Nebulae ");
+	public final JButton galaxies = new JButton("Galaxies");
 	
 	public boolean stars_b    = true;
 	public boolean nebulae_b  = true;
 	public boolean galaxies_b = true;
 
-	public final Button cancel = new Button("Cancel");
-	public final Button clear  = new Button("Clear");
-	public final Button remove = new Button("Remove");
-	public final Button save   = new Button("Save");
+	public final JButton cancel = new JButton("Cancel");
+	public final JButton clear  = new JButton("Clear");
+	public final JButton remove = new JButton("Remove");
+	public final JButton save   = new JButton("Save");
+	
+	public final JLabel magnitude_jl                    = new JLabel("Magnitude");
+	public final JLabel max_mag_jl                      = new JLabel("Max (Least Bright)");
+	public final JLabel min_mag_jl                      = new JLabel("Min (Brightest)");
+	public final JLabel diameter_jl                     = new JLabel("Diameter (')");
+	public final JLabel min_dia_jl                      = new JLabel("Min (Smallest)");
+	public final JLabel max_dia_jl                      = new JLabel("Max (Largest)");
+	public final JLabel star_jl                         = new JLabel(DsoType.star[0]);
+	public final JLabel double_star_jl                  = new JLabel(DsoType.double_star[0]);
+	public final JLabel variable_star_jl                = new JLabel(DsoType.variable_star[0]);
+	public final JLabel asterism_jl                     = new JLabel(DsoType.asterism[0]);
+	public final JLabel open_cluster_jl                 = new JLabel(DsoType.open_cluster[0]);
+	public final JLabel nebula_jl                       = new JLabel(DsoType.nebula[0]);
+	public final JLabel dark_nebula_jl                  = new JLabel(DsoType.dark_nebula[0]);
+	public final JLabel diffuse_nebula_jl               = new JLabel(DsoType.diffuse_nebula[0]);
+	public final JLabel emission_nebula_jl              = new JLabel(DsoType.emission_nebula[0]);
+	public final JLabel gaseous_nebula_jl               = new JLabel(DsoType.gaseous_nebula[0]);
+	public final JLabel planetary_nebula_jl             = new JLabel(DsoType.planetary_nebula[0]);
+	public final JLabel reflection_nebula_jl            = new JLabel(DsoType.reflection_nebula[0]);
+	public final JLabel supernova_remnant_jl            = new JLabel(DsoType.supernova_remnant[0]);
+	public final JLabel open_cluster_and_nebula_jl      = new JLabel(DsoType.open_cluster_and_nebula[0]);
+	public final JLabel galaxy_jl                       = new JLabel(DsoType.galaxy[0]);
+	public final JLabel barred_irregular_galaxy_jl      = new JLabel(DsoType.barred_irregular_galaxy[0]);
+	public final JLabel barred_spiral_galaxy_jl         = new JLabel(DsoType.barred_spiral_galaxy[0]);
+	public final JLabel dwarf_spheroidal_galaxy_jl      = new JLabel(DsoType.dwarf_spheroidal_galaxy[0]);
+	public final JLabel elliptical_galaxy_jl            = new JLabel(DsoType.elliptical_galaxy[0]);
+	public final JLabel galaxy_cluster_jl               = new JLabel(DsoType.galaxy_cluster[0]);
+	public final JLabel globular_cluster_jl             = new JLabel(DsoType.globular_cluster[0]);
+	public final JLabel interacting_galaxy_jl           = new JLabel(DsoType.interacting_galaxy[0]);
+	public final JLabel irregular_galaxy_jl             = new JLabel(DsoType.irregular_galaxy[0]);
+	public final JLabel lenticular_galaxy_jl            = new JLabel(DsoType.lenticular_galaxy[0]);
+	public final JLabel spiral_galaxy_jl                = new JLabel(DsoType.spiral_galaxy[0]);
+	public final JLabel starburst_galaxy_jl             = new JLabel(DsoType.starburst_galaxy[0]);
+	public final JLabel supergiant_elliptical_galaxy_jl = new JLabel(DsoType.supergiant_elliptical_galaxy[0]);
+	public final JLabel unidentified_jl                 = new JLabel(DsoType.unidentified[0]);
 
 	public TimeZone timezone = null;
+	
+	private void set_font(Font font)
+	{
+		setFont(font);
+		magnitude_min_tf.setFont(font);
+		magnitude_max_tf.setFont(font);
+		diameter_min_tf .setFont(font);
+		diameter_max_tf .setFont(font);
+
+		magnitude_min_tf.setFont(font);
+		magnitude_max_tf.setFont(font);
+		diameter_min_tf .setFont(font);
+		diameter_max_tf .setFont(font);
+
+		star                        .setFont(font);
+		double_star                 .setFont(font);
+		variable_star               .setFont(font);
+		asterism                    .setFont(font);
+		open_cluster                .setFont(font);
+
+		nebula                      .setFont(font);
+		dark_nebula                 .setFont(font);
+		diffuse_nebula              .setFont(font);
+		emission_nebula             .setFont(font);
+		gaseous_nebula              .setFont(font);
+		planetary_nebula            .setFont(font);
+		reflection_nebula           .setFont(font);
+		supernova_remnant           .setFont(font);
+		open_cluster_and_nebula     .setFont(font);
+
+		galaxy                      .setFont(font);
+		barred_irregular_galaxy     .setFont(font);
+		barred_spiral_galaxy        .setFont(font);
+		dwarf_spheroidal_galaxy     .setFont(font);
+		elliptical_galaxy           .setFont(font);
+		galaxy_cluster              .setFont(font);
+		globular_cluster            .setFont(font);
+		interacting_galaxy          .setFont(font);
+		irregular_galaxy            .setFont(font);
+		lenticular_galaxy           .setFont(font);
+		spiral_galaxy               .setFont(font);
+		starburst_galaxy            .setFont(font);
+		supergiant_elliptical_galaxy.setFont(font);
+
+		unidentified                .setFont(font);
+
+		stars   .setFont(font);
+		nebulae .setFont(font);
+		galaxies.setFont(font);
+		cancel  .setFont(font);
+		clear   .setFont(font);
+		remove  .setFont(font);
+		save    .setFont(font);
+
+		// TODO
+		magnitude_jl.setFont(font);
+		max_mag_jl.setFont(font);
+		min_mag_jl.setFont(font);
+		diameter_jl.setFont(font);
+		min_dia_jl.setFont(font);
+		max_dia_jl.setFont(font);
+		star_jl.setFont(font);
+		double_star_jl.setFont(font);
+		variable_star_jl.setFont(font);
+		asterism_jl.setFont(font);
+		open_cluster_jl.setFont(font);
+		nebula_jl.setFont(font);
+		dark_nebula_jl.setFont(font);
+		diffuse_nebula_jl.setFont(font);
+		emission_nebula_jl.setFont(font);
+		gaseous_nebula_jl.setFont(font);
+		planetary_nebula_jl.setFont(font);
+		reflection_nebula_jl.setFont(font);
+		supernova_remnant_jl.setFont(font);
+		open_cluster_and_nebula_jl.setFont(font);
+		galaxy_jl.setFont(font);
+		barred_irregular_galaxy_jl.setFont(font);
+		barred_spiral_galaxy_jl.setFont(font);
+		dwarf_spheroidal_galaxy_jl.setFont(font);
+		elliptical_galaxy_jl.setFont(font);
+		galaxy_cluster_jl.setFont(font);
+		globular_cluster_jl.setFont(font);
+		interacting_galaxy_jl.setFont(font);
+		irregular_galaxy_jl.setFont(font);
+		lenticular_galaxy_jl.setFont(font);
+		spiral_galaxy_jl.setFont(font);
+		starburst_galaxy_jl.setFont(font);
+		supergiant_elliptical_galaxy_jl.setFont(font);
+		unidentified_jl.setFont(font);
+	}
 
 	public FilterDialog(MainFrame f, String name)
 	{
 		super(f, name, true);
-		
+
+		Font font = PersistentState.get_font();
+		set_font(font);
+
 		frame    = f;
 		dialog   = this;
 		timezone = PersistentState.timezone;
@@ -238,7 +367,7 @@ public class FilterDialog extends Dialog implements WindowListener {
 		gbc.anchor    = GridBagConstraints.WEST;
 		gbc.gridwidth = 1;
 		gbc.insets    = new Insets(1, 0, 1, 5);		// top, left, bottom, right
-		panel.add(new Label("Magnitude"), gbc);
+		panel.add(magnitude_jl, gbc);
 
 		gbc = new GridBagConstraints();
 		gbc.gridx     = 1;
@@ -246,7 +375,7 @@ public class FilterDialog extends Dialog implements WindowListener {
 		gbc.anchor    = GridBagConstraints.WEST;
 		gbc.gridwidth = 1;
 		gbc.insets    = new Insets(1, 5, 1, 0);		// top, left, bottom, right
-		panel.add(new Label("Max (Least Bright)"), gbc);
+		panel.add(max_mag_jl, gbc);
 
 		gbc = new GridBagConstraints();
 		gbc.gridx     = 2;
@@ -262,7 +391,7 @@ public class FilterDialog extends Dialog implements WindowListener {
 		gbc.anchor    = GridBagConstraints.WEST;
 		gbc.gridwidth = 1;
 		gbc.insets    = new Insets(1, 5, 1, 0);		// top, left, bottom, right
-		panel.add(new Label("Min (Brightest)"), gbc);
+		panel.add(min_mag_jl, gbc);
 
 		gbc = new GridBagConstraints();
 		gbc.gridx     = 4;
@@ -281,7 +410,7 @@ public class FilterDialog extends Dialog implements WindowListener {
 		gbc.anchor    = GridBagConstraints.WEST;
 		gbc.gridwidth = 1;
 		gbc.insets    = new Insets(1, 0, 1, 5);		// top, left, bottom, right
-		panel.add(new Label("Diameter (')"), gbc);
+		panel.add(diameter_jl, gbc);
 
 		gbc = new GridBagConstraints();
 		gbc.gridx     = 1;
@@ -289,7 +418,7 @@ public class FilterDialog extends Dialog implements WindowListener {
 		gbc.anchor    = GridBagConstraints.WEST;
 		gbc.gridwidth = 1;
 		gbc.insets    = new Insets(1, 5, 1, 0);		// top, left, bottom, right
-		panel.add(new Label("Min (Smallest)"), gbc);
+		panel.add(min_dia_jl, gbc);
 
 		gbc = new GridBagConstraints();
 		gbc.gridx     = 2;
@@ -305,7 +434,7 @@ public class FilterDialog extends Dialog implements WindowListener {
 		gbc.anchor    = GridBagConstraints.WEST;
 		gbc.gridwidth = 1;
 		gbc.insets    = new Insets(1, 5, 1, 0);		// top, left, bottom, right
-		panel.add(new Label("Max (Largest)"), gbc);
+		panel.add(max_dia_jl, gbc);
 
 		gbc = new GridBagConstraints();
 		gbc.gridx     = 4;
@@ -342,7 +471,7 @@ public class FilterDialog extends Dialog implements WindowListener {
 		gbc.gridy     = rt;
 		gbc.anchor    = GridBagConstraints.WEST;
 		gbc.gridwidth = 1;
-		dso_panel.add(new Label(DsoType.star[0]), gbc);
+		dso_panel.add(star_jl, gbc);
 
 		gbc = new GridBagConstraints();
 		gbc.gridx     = 3;
@@ -356,7 +485,7 @@ public class FilterDialog extends Dialog implements WindowListener {
 		gbc.gridy     = rt;
 		gbc.anchor    = GridBagConstraints.WEST;
 		gbc.gridwidth = 1;
-		dso_panel.add(new Label(DsoType.double_star[0]), gbc);
+		dso_panel.add(double_star_jl, gbc);
 
 		gbc = new GridBagConstraints();
 		gbc.gridx     = 5;
@@ -370,7 +499,7 @@ public class FilterDialog extends Dialog implements WindowListener {
 		gbc.gridy     = rt;
 		gbc.anchor    = GridBagConstraints.WEST;
 		gbc.gridwidth = 1;
-		dso_panel.add(new Label(DsoType.variable_star[0]), gbc);
+		dso_panel.add(variable_star_jl, gbc);
 
 		gbc = new GridBagConstraints();
 		gbc.gridx     = 7;
@@ -384,7 +513,7 @@ public class FilterDialog extends Dialog implements WindowListener {
 		gbc.gridy     = rt;
 		gbc.anchor    = GridBagConstraints.WEST;
 		gbc.gridwidth = 1;
-		dso_panel.add(new Label(DsoType.asterism[0]), gbc);
+		dso_panel.add(asterism_jl, gbc);
 
 		gbc = new GridBagConstraints();
 		gbc.gridx     = 9;
@@ -398,7 +527,7 @@ public class FilterDialog extends Dialog implements WindowListener {
 		gbc.gridy     = rt;
 		gbc.anchor    = GridBagConstraints.WEST;
 		gbc.gridwidth = 1;
-		dso_panel.add(new Label(DsoType.open_cluster[0]), gbc);
+		dso_panel.add(open_cluster_jl, gbc);
 
 
 		rt += 1;
@@ -423,7 +552,7 @@ public class FilterDialog extends Dialog implements WindowListener {
 		gbc.gridy     = rt;
 		gbc.anchor    = GridBagConstraints.WEST;
 		gbc.gridwidth = 1;
-		dso_panel.add(new Label(DsoType.nebula[0]), gbc);
+		dso_panel.add(nebula_jl, gbc);
 
 		gbc = new GridBagConstraints();
 		gbc.gridx     = 3;
@@ -437,7 +566,7 @@ public class FilterDialog extends Dialog implements WindowListener {
 		gbc.gridy     = rt;
 		gbc.anchor    = GridBagConstraints.WEST;
 		gbc.gridwidth = 1;
-		dso_panel.add(new Label(DsoType.dark_nebula[0]), gbc);
+		dso_panel.add(dark_nebula_jl, gbc);
 
 		gbc = new GridBagConstraints();
 		gbc.gridx     = 5;
@@ -451,7 +580,7 @@ public class FilterDialog extends Dialog implements WindowListener {
 		gbc.gridy     = rt;
 		gbc.anchor    = GridBagConstraints.WEST;
 		gbc.gridwidth = 1;
-		dso_panel.add(new Label(DsoType.diffuse_nebula[0]), gbc);
+		dso_panel.add(diffuse_nebula_jl, gbc);
 
 		gbc = new GridBagConstraints();
 		gbc.gridx     = 7;
@@ -465,7 +594,7 @@ public class FilterDialog extends Dialog implements WindowListener {
 		gbc.gridy     = rt;
 		gbc.anchor    = GridBagConstraints.WEST;
 		gbc.gridwidth = 1;
-		dso_panel.add(new Label(DsoType.emission_nebula[0]), gbc);
+		dso_panel.add(emission_nebula_jl, gbc);
 
 		gbc = new GridBagConstraints();
 		gbc.gridx     = 9;
@@ -479,7 +608,7 @@ public class FilterDialog extends Dialog implements WindowListener {
 		gbc.gridy     = rt;
 		gbc.anchor    = GridBagConstraints.WEST;
 		gbc.gridwidth = 1;
-		dso_panel.add(new Label(DsoType.gaseous_nebula[0]), gbc);
+		dso_panel.add(gaseous_nebula_jl, gbc);
 
 
 		rt += 1;
@@ -496,7 +625,7 @@ public class FilterDialog extends Dialog implements WindowListener {
 		gbc.gridy     = rt;
 		gbc.anchor    = GridBagConstraints.WEST;
 		gbc.gridwidth = 1;
-		dso_panel.add(new Label(DsoType.planetary_nebula[0]), gbc);
+		dso_panel.add(planetary_nebula_jl, gbc);
 
 		gbc = new GridBagConstraints();
 		gbc.gridx     = 3;
@@ -510,7 +639,7 @@ public class FilterDialog extends Dialog implements WindowListener {
 		gbc.gridy     = rt;
 		gbc.anchor    = GridBagConstraints.WEST;
 		gbc.gridwidth = 1;
-		dso_panel.add(new Label(DsoType.reflection_nebula[0]), gbc);
+		dso_panel.add(reflection_nebula_jl, gbc);
 
 		gbc = new GridBagConstraints();
 		gbc.gridx     = 5;
@@ -524,7 +653,7 @@ public class FilterDialog extends Dialog implements WindowListener {
 		gbc.gridy     = rt;
 		gbc.anchor    = GridBagConstraints.WEST;
 		gbc.gridwidth = 1;
-		dso_panel.add(new Label(DsoType.supernova_remnant[0]), gbc);
+		dso_panel.add(supernova_remnant_jl, gbc);
 
 		gbc = new GridBagConstraints();
 		gbc.gridx     = 7;
@@ -538,7 +667,7 @@ public class FilterDialog extends Dialog implements WindowListener {
 		gbc.gridy     = rt;
 		gbc.anchor    = GridBagConstraints.WEST;
 		gbc.gridwidth = 1;
-		dso_panel.add(new Label(DsoType.open_cluster_and_nebula[0]), gbc);
+		dso_panel.add(open_cluster_and_nebula_jl, gbc);
 
 
 		rt += 1;
@@ -563,7 +692,7 @@ public class FilterDialog extends Dialog implements WindowListener {
 		gbc.gridy     = rt;
 		gbc.anchor    = GridBagConstraints.WEST;
 		gbc.gridwidth = 1;
-		dso_panel.add(new Label(DsoType.galaxy[0]), gbc);
+		dso_panel.add(galaxy_jl, gbc);
 
 		gbc = new GridBagConstraints();
 		gbc.gridx     = 3;
@@ -577,7 +706,7 @@ public class FilterDialog extends Dialog implements WindowListener {
 		gbc.gridy     = rt;
 		gbc.anchor    = GridBagConstraints.WEST;
 		gbc.gridwidth = 1;
-		dso_panel.add(new Label(DsoType.barred_irregular_galaxy[0]), gbc);
+		dso_panel.add(barred_irregular_galaxy_jl, gbc);
 
 		gbc = new GridBagConstraints();
 		gbc.gridx     = 5;
@@ -591,7 +720,7 @@ public class FilterDialog extends Dialog implements WindowListener {
 		gbc.gridy     = rt;
 		gbc.anchor    = GridBagConstraints.WEST;
 		gbc.gridwidth = 1;
-		dso_panel.add(new Label(DsoType.barred_spiral_galaxy[0]), gbc);
+		dso_panel.add(barred_spiral_galaxy_jl, gbc);
 
 		gbc = new GridBagConstraints();
 		gbc.gridx     = 7;
@@ -605,7 +734,7 @@ public class FilterDialog extends Dialog implements WindowListener {
 		gbc.gridy     = rt;
 		gbc.anchor    = GridBagConstraints.WEST;
 		gbc.gridwidth = 1;
-		dso_panel.add(new Label(DsoType.dwarf_spheroidal_galaxy[0]), gbc);
+		dso_panel.add(dwarf_spheroidal_galaxy_jl, gbc);
 
 		gbc = new GridBagConstraints();
 		gbc.gridx     = 9;
@@ -619,7 +748,7 @@ public class FilterDialog extends Dialog implements WindowListener {
 		gbc.gridy     = rt;
 		gbc.anchor    = GridBagConstraints.WEST;
 		gbc.gridwidth = 1;
-		dso_panel.add(new Label(DsoType.elliptical_galaxy[0]), gbc);
+		dso_panel.add(elliptical_galaxy_jl, gbc);
 
 
 		rt += 1;
@@ -636,7 +765,7 @@ public class FilterDialog extends Dialog implements WindowListener {
 		gbc.gridy     = rt;
 		gbc.anchor    = GridBagConstraints.WEST;
 		gbc.gridwidth = 1;
-		dso_panel.add(new Label(DsoType.galaxy_cluster[0]), gbc);
+		dso_panel.add(galaxy_cluster_jl, gbc);
 
 		gbc = new GridBagConstraints();
 		gbc.gridx     = 3;
@@ -650,7 +779,7 @@ public class FilterDialog extends Dialog implements WindowListener {
 		gbc.gridy     = rt;
 		gbc.anchor    = GridBagConstraints.WEST;
 		gbc.gridwidth = 1;
-		dso_panel.add(new Label(DsoType.globular_cluster[0]), gbc);
+		dso_panel.add(globular_cluster_jl, gbc);
 
 		gbc = new GridBagConstraints();
 		gbc.gridx     = 5;
@@ -664,7 +793,7 @@ public class FilterDialog extends Dialog implements WindowListener {
 		gbc.gridy     = rt;
 		gbc.anchor    = GridBagConstraints.WEST;
 		gbc.gridwidth = 1;
-		dso_panel.add(new Label(DsoType.interacting_galaxy[0]), gbc);
+		dso_panel.add(interacting_galaxy_jl, gbc);
 
 		gbc = new GridBagConstraints();
 		gbc.gridx     = 7;
@@ -678,7 +807,7 @@ public class FilterDialog extends Dialog implements WindowListener {
 		gbc.gridy     = rt;
 		gbc.anchor    = GridBagConstraints.WEST;
 		gbc.gridwidth = 1;
-		dso_panel.add(new Label(DsoType.irregular_galaxy[0]), gbc);
+		dso_panel.add(irregular_galaxy_jl, gbc);
 
 		gbc = new GridBagConstraints();
 		gbc.gridx     = 9;
@@ -692,7 +821,7 @@ public class FilterDialog extends Dialog implements WindowListener {
 		gbc.gridy     = rt;
 		gbc.anchor    = GridBagConstraints.WEST;
 		gbc.gridwidth = 1;
-		dso_panel.add(new Label(DsoType.lenticular_galaxy[0]), gbc);
+		dso_panel.add(lenticular_galaxy_jl, gbc);
 
 
 		rt += 1;
@@ -709,7 +838,7 @@ public class FilterDialog extends Dialog implements WindowListener {
 		gbc.gridy     = rt;
 		gbc.anchor    = GridBagConstraints.WEST;
 		gbc.gridwidth = 1;
-		dso_panel.add(new Label(DsoType.spiral_galaxy[0]), gbc);
+		dso_panel.add(spiral_galaxy_jl, gbc);
 
 		gbc = new GridBagConstraints();
 		gbc.gridx     = 3;
@@ -723,7 +852,7 @@ public class FilterDialog extends Dialog implements WindowListener {
 		gbc.gridy     = rt;
 		gbc.anchor    = GridBagConstraints.WEST;
 		gbc.gridwidth = 1;
-		dso_panel.add(new Label(DsoType.starburst_galaxy[0]), gbc);
+		dso_panel.add(starburst_galaxy_jl, gbc);
 
 		gbc = new GridBagConstraints();
 		gbc.gridx     = 5;
@@ -737,7 +866,7 @@ public class FilterDialog extends Dialog implements WindowListener {
 		gbc.gridy     = rt;
 		gbc.anchor    = GridBagConstraints.WEST;
 		gbc.gridwidth = 1;
-		dso_panel.add(new Label(DsoType.supergiant_elliptical_galaxy[0]), gbc);
+		dso_panel.add(supergiant_elliptical_galaxy_jl, gbc);
 		
 		
 		rt += 1;
@@ -754,7 +883,7 @@ public class FilterDialog extends Dialog implements WindowListener {
 		gbc.gridy     = rt;
 		gbc.anchor    = GridBagConstraints.WEST;
 		gbc.gridwidth = 1;
-		dso_panel.add(new Label(DsoType.unidentified[0]), gbc);
+		dso_panel.add(unidentified_jl, gbc);
 
 
 		rt += 1;

@@ -72,6 +72,8 @@ public class TimeLocationMenu extends Menu {
 		super(name);
 		frame = f;
 
+		setFont(PersistentState.get_font());
+
     	add(us);    us   .setEnabled(frame.us_cities    != null);
     	add(world); world.setEnabled(frame.world_cities != null);
     	add(loc);

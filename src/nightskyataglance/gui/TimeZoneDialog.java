@@ -89,7 +89,9 @@ public class TimeZoneDialog extends Dialog {
 	{
 		super(f, true);
 		setTitle(title);
-		
+
+		setFont(PersistentState.get_font());
+
 		frame = f;
 
 		timezone_list = TimeZone.getAvailableIDs();

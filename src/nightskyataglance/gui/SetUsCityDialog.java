@@ -38,6 +38,7 @@ package nightskyataglance.gui;
 
 import java.awt.Dialog;
 import java.awt.Dimension;
+import java.awt.Font;
 import java.awt.GraphicsConfiguration;
 import java.awt.GridBagConstraints;
 import java.awt.GridBagLayout;
@@ -75,11 +76,33 @@ public class SetUsCityDialog extends Dialog implements WindowListener {
 	private JButton    save       = new JButton("Save");
 
 	UsCitiesEntry      city       = null;
+	
+	private JLabel search_jl      = new JLabel("\"City, State\" or Zip Code");
+	private JLabel city_name_jl   = new JLabel("City");
+	private JLabel state_name_jl  = new JLabel("State");
+	private JLabel zone_name_jl   = new JLabel("Time Zone");
+	
+	private void set_font(Font font)
+	{
+		setFont(font);
+		search.setFont(font);
+		city_name.setFont(font);
+		state_name.setFont(font);
+		zone_name.setFont(font);
+		cancel.setFont(font);
+		save.setFont(font);
+		search_jl.setFont(font);
+		city_name_jl.setFont(font);
+		state_name_jl.setFont(font);
+		zone_name_jl.setFont(font);
+	}
 
 	public SetUsCityDialog(MainFrame f, String name)
 	{
 		super(f, name, true);
-		
+
+		set_font(PersistentState.get_font());
+
 		frame    = f;
 		dialog   = this;
 
@@ -123,7 +146,7 @@ public class SetUsCityDialog extends Dialog implements WindowListener {
 		gbc.anchor    = GridBagConstraints.EAST;
 		gbc.gridwidth = 1;
 		gbc.insets    = new Insets(1, 0, 1, 0);		// top, left, bottom, right
-		panel.add(new JLabel("\"City, State\" or Zip Code"), gbc);
+		panel.add(search_jl, gbc);
 
 		gbc = new GridBagConstraints();
 		gbc.gridx     = 1;
@@ -142,7 +165,7 @@ public class SetUsCityDialog extends Dialog implements WindowListener {
 		gbc.anchor    = GridBagConstraints.WEST;
 		gbc.gridwidth = 1;
 		gbc.insets    = new Insets(1, 0, 1, 0);		// top, left, bottom, right
-		panel.add(new JLabel("City"), gbc);
+		panel.add(city_name_jl, gbc);
 
 		gbc = new GridBagConstraints();
 		gbc.gridx     = 1;
@@ -150,7 +173,7 @@ public class SetUsCityDialog extends Dialog implements WindowListener {
 		gbc.anchor    = GridBagConstraints.WEST;
 		gbc.gridwidth = 1;
 		gbc.insets    = new Insets(1, 5, 1, 0);		// top, left, bottom, right
-		panel.add(new JLabel("State"), gbc);
+		panel.add(state_name_jl, gbc);
 
 		gbc = new GridBagConstraints();
 		gbc.gridx     = 2;
@@ -158,7 +181,7 @@ public class SetUsCityDialog extends Dialog implements WindowListener {
 		gbc.anchor    = GridBagConstraints.WEST;
 		gbc.gridwidth = 1;
 		gbc.insets    = new Insets(1, 5, 1, 5);		// top, left, bottom, right
-		panel.add(new JLabel("Time Zone"), gbc);
+		panel.add(zone_name_jl, gbc);
 		
 		
 		row += 1;

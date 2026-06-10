@@ -53,6 +53,8 @@ import javax.swing.JLabel;
 import javax.swing.JPanel;
 import javax.swing.JTextField;
 
+import nightskyataglance.util.PersistentState;
+
 
 public class SetHeartbeatDialog extends Dialog implements WindowListener {
 	private static final long serialVersionUID = -2519693274364184533L;
@@ -66,7 +68,9 @@ public class SetHeartbeatDialog extends Dialog implements WindowListener {
 	public SetHeartbeatDialog(MainFrame f, String name)
 	{
 		super(f, name, true);
-		
+
+		setFont(PersistentState.get_font());
+
 		frame    = f;
 		dialog   = this;
 

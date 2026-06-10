@@ -42,6 +42,7 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 import nightskyataglance.NightSkyAtAGlance;
+import nightskyataglance.util.PersistentState;
 
 public class CatalogMenu extends Menu {
 	private static final long serialVersionUID = 7693871871934518L;
@@ -147,6 +148,8 @@ public class CatalogMenu extends Menu {
     	add(wvs); wvs.setEnabled(aux_enabled && main_frame.webb_variable_stars != null);
     	addSeparator();
     	add(fav); fav.setEnabled(aux_enabled && main_frame.favorite_dsos       != null);
+
+		setFont(PersistentState.get_font());
 
     	addActionListener(new Listener());
 	}

@@ -84,7 +84,9 @@ public class SetDateDialog extends Dialog implements WindowListener {
 	public SetDateDialog(MainFrame f, String name, boolean modality, long ms, TimeZone tz) 
 	{
 		super(f, name, modality);
-		
+
+		setFont(PersistentState.get_font());
+
 		frame = f;
 
 		addWindowListener(this);

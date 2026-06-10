@@ -44,6 +44,7 @@ import java.awt.event.ActionListener;
 import java.awt.event.KeyEvent;
 
 import nightskyataglance.NightSkyAtAGlance;
+import nightskyataglance.util.PersistentState;
 
 public class FileMenu extends Menu {
 	private static final long serialVersionUID = 3897223680174643759L;
@@ -68,6 +69,8 @@ public class FileMenu extends Menu {
 	{
 		super(name);
 		main_frame = f;
+
+		setFont(PersistentState.get_font());
 
 		fv.setEnabled(main_frame.dso_alias_table != null);
 		fs.setEnabled(main_frame.dso_alias_table != null);

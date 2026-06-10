@@ -76,7 +76,9 @@ public class SetTimeDialog extends Dialog implements WindowListener {
 	public SetTimeDialog(MainFrame f, String name)
 	{
 		super(f, name, true);
-		
+
+		setFont(PersistentState.get_font());
+
 		frame    = f;
 		dialog   = this;
 		timezone = PersistentState.timezone;

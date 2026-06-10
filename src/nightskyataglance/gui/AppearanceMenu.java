@@ -1,7 +1,7 @@
 package nightskyataglance.gui;
 
 /*******************************************************************************
- * Copyright (c) 2025-2025 Douglas M. Pase                                     *
+ * Copyright (c) 2025-2026 Douglas M. Pase                                     *
  * All rights reserved.                                                        *
  * Redistribution and use in source and binary forms, with or without          *
  * modification, are permitted provided that the following conditions          *
@@ -42,6 +42,7 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 import nightskyataglance.NightSkyAtAGlance;
+import nightskyataglance.util.PersistentState;
 
 public class AppearanceMenu extends Menu {
 	private static final long serialVersionUID = 7693871871934518L;
@@ -65,11 +66,14 @@ public class AppearanceMenu extends Menu {
 	public static final String RESET_COLORS      = "Reset Colors";
 	public static final String HOURS_ONLY        = "Hours Only";
 	public static final String HOURS_MINUTES     = "Hours & Minutes";
+	public static final String USER_INTERFACE    = "User Interface";
 
 	public AppearanceMenu(MainFrame f, String name)
 	{
 		super(name);
 		main_frame = f;
+
+		// System.out.printf("%s: %3d: new AppearanceMenu%n", NightSkyAtAGlance.CLASS(), NightSkyAtAGlance.LINE());
 
     	MenuItem mnc = new MenuItem(MIDNIGHT_CENTERED);
     	MenuItem ctc = new MenuItem(CUR_TIME_CENTERED);
@@ -88,6 +92,9 @@ public class AppearanceMenu extends Menu {
     	// MenuItem rst = new MenuItem(RESET_COLORS);
     	MenuItem hrs = new MenuItem(HOURS_ONLY);
     	MenuItem ham = new MenuItem(HOURS_MINUTES);
+    	MenuItem usr = new MenuItem(USER_INTERFACE);
+
+    	setFont(PersistentState.get_font());
 
     	mnc.setEnabled(true);
     	add(mnc);
@@ -125,6 +132,8 @@ public class AppearanceMenu extends Menu {
     	hrs.setEnabled(true);
     	add(ham);
     	ham.setEnabled(true);
+    	addSeparator();
+    	add(usr);
 
     	addActionListener(new Listener());
 	}
@@ -174,6 +183,9 @@ public class AppearanceMenu extends Menu {
 				main_frame.scale_style = MainFrame.ScaleStyle.HOURS_ONLY;
 			} else if (HOURS_MINUTES.equals(what)) {
 				main_frame.scale_style = MainFrame.ScaleStyle.HOURS_MINUTES;
+			} else if (USER_INTERFACE.equals(what)) {
+				// UserInterfaceDialog ui = 
+				new UserInterfaceDialog(main_frame, USER_INTERFACE);
 			} else {
 		    	System.out.printf("%s: %3d: else (%s)...\n", NightSkyAtAGlance.CLASS(), NightSkyAtAGlance.LINE(), what);
 			}
