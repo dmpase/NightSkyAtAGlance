@@ -51,11 +51,13 @@ popd
 
 nightsky_hash=data/nightsky/hash.txt
 
-echo                                     |& tee    $nightsky_hash
-certutil -hashfile $nightsky_jar MD5     |& tee -a $nightsky_hash
-echo                                     |& tee -a $nightsky_hash
-certutil -hashfile $nightsky_jar SHA256  |& tee -a $nightsky_hash
-echo                                     |& tee -a $nightsky_hash
+echo 
+echo certutil -hashfile $nightsky_jar MD5    |& tee    $nightsky_hash
+     certutil -hashfile $nightsky_jar MD5    |& tee -a $nightsky_hash
+echo                                         |& tee -a $nightsky_hash
+echo certutil -hashfile $nightsky_jar SHA256 |& tee -a $nightsky_hash
+     certutil -hashfile $nightsky_jar SHA256 |& tee -a $nightsky_hash
+echo 
 
 if [[ $COPY = true ]] ; then
     cp -f $nightsky_jar ~/Desktop

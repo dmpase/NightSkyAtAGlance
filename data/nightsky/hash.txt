@@ -1,9 +1,9 @@
-
+certutil -hashfile nightsky-2026.06.10.jar MD5
 MD5 hash of nightsky-2026.06.10.jar:
-5db0371adbf4be7bf88bd4b65baf6771
+5fd4a6ad2918d81905005df136436c43
 CertUtil: -hashfile command completed successfully.
 
+certutil -hashfile nightsky-2026.06.10.jar SHA256
 SHA256 hash of nightsky-2026.06.10.jar:
-a4e004e3db94a819f54bc34b1c622cb657f5a6a62c465c6b2f68d959cfc688f3
+9ebd0dd3d953e26f51110b99cef512817293aeadcb0a9658d15e3663f50c20da
 CertUtil: -hashfile command completed successfully.
-
