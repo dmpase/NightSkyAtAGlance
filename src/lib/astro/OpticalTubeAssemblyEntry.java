@@ -36,38 +36,89 @@ package lib.astro;
  *******************************************************************************/
 
 
-public class OpticalTubeAssemblyEntry {
+public class OpticalTubeAssemblyEntry implements Comparable<OpticalTubeAssemblyEntry> {
 	
-	public final String name;
-	public final double aperture;
-	public final double focal_length;
-	public final double f_ratio;
+	public final String  name;
+	public final double  aperture;
+	public final double  focal_length;
+	public final double  f_ratio;
+	public final double  reducer;
 
-	public OpticalTubeAssemblyEntry(String str) 
+	public final double eff_aperture;
+	public final double eff_f_length;
+	public final double eff_f_ratio;
+
+	public final boolean editable;
+
+	public OpticalTubeAssemblyEntry(String str)
 	{
+    	// System.out.printf("%s: %d: str='%s'%n", NightSkyAtAGlance.CLASS(), NightSkyAtAGlance.LINE(), str);
 		if (str != null) {
 			String[] field = str.split("[,]");
-			if (field != null && field.length == 4) {
-				name         = field[0];
+			if (field != null && 5 <= field.length) {
+				name         = field[0].trim();
 				aperture     = Double.parseDouble(field[1]);
 				focal_length = Double.parseDouble(field[2]);
 				f_ratio      = Double.parseDouble(field[3]);
+				reducer      = Double.parseDouble(field[4]);
+
+				eff_aperture = aperture;
+				eff_f_length = focal_length * reducer;
+				eff_f_ratio  = f_ratio      * reducer;
+
+				editable     = (field.length < 6 || field[5] == null || field[5].equals("")) ? false : field[5].equalsIgnoreCase("true");
 			} else {
 				name         = null;
 				aperture     = Double.NaN;
 				focal_length = Double.NaN;
 				f_ratio      = Double.NaN;
+				reducer      = Double.NaN;
+				eff_aperture = Double.NaN;
+				eff_f_length = Double.NaN;
+				eff_f_ratio  = Double.NaN;
+				editable     = false;
 			}
 		} else {
 			name         = null;
 			aperture     = Double.NaN;
 			focal_length = Double.NaN;
 			f_ratio      = Double.NaN;
+			reducer      = Double.NaN;
+			eff_aperture = Double.NaN;
+			eff_f_length = Double.NaN;
+			eff_f_ratio  = Double.NaN;
+			editable     = false;
 		}
+    	// System.out.printf("%s: %d: elt='%s'%n", NightSkyAtAGlance.CLASS(), NightSkyAtAGlance.LINE(), toString());
+	}
+
+	public OpticalTubeAssemblyEntry(String n, double a, double l, double r, boolean m) 
+	{
+		name         = n;
+		aperture     = a;
+		focal_length = l;
+		f_ratio      = focal_length / aperture;
+		reducer      = r;
+
+		eff_aperture = aperture;
+		eff_f_length = focal_length * reducer;
+		eff_f_ratio  = f_ratio      * reducer;
+
+		editable     = m;
+	}
+
+	public boolean equals(OpticalTubeAssemblyEntry rhs)
+	{
+		return name.equals(rhs.name) && aperture == rhs.aperture && focal_length == rhs.focal_length && f_ratio == rhs.focal_length && reducer == rhs.reducer;
 	}
 
 	@Override public String toString()
 	{
-		return null;
+		return String.format("%s,%f,%f,%f,%f,%s", name, aperture, focal_length, f_ratio, reducer, editable);
+	}
+
+	@Override public int compareTo(OpticalTubeAssemblyEntry obj)
+	{
+		return name.compareTo(obj.name);
 	}
 }

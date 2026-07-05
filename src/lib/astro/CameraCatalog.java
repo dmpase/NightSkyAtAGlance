@@ -41,19 +41,20 @@ import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.RandomAccessFile;
+import java.util.Arrays;
+import java.util.Enumeration;
+import java.util.Hashtable;
 
 import lib.util.Queue;
 
 public class CameraCatalog {
 	
-	public final String        catalog;
-	public final File          file;
-	public final CameraEntry[] elts;
+	public CameraEntry[] elts;
+	public Hashtable<String,CameraEntry> table = new Hashtable<String,CameraEntry>();
 
 	public CameraCatalog(String c) throws IOException 
 	{
-		catalog = c;
-		file    = new File(c);
+		File file    = new File(c);
 		
 		// read the file into memory
 		byte[] buf = new byte[10*1024*1024];
@@ -108,6 +109,99 @@ public class CameraCatalog {
 		elts = new CameraEntry[all.length()];
 		for (int i=0; i < elts.length; i++) {
 			elts[i] = all.remove();
+			table.put(elts[i].name.toLowerCase(), elts[i]);
+		}
+	}
+
+	public CameraCatalog(CameraEntry[] e)
+	{
+		elts = e;
+		for (CameraEntry elt: e) {
+			table.put(elt.name.toLowerCase(), elt);
+		}
+	}
+
+	// cat0 is the local catalog with modified entries, cat1 is the built-in catalog with new equipment
+	// if a cat0 entry is modified, the modified entry is retained (cat1 entries are never modified)
+	// if a cat0 entry is NOT modified and an updated entry appears in cat1, the cat1 entry is retained
+	// an entry in cat0 that is not in cat1 (added by the user) is retained
+	// an entry in cat1 that is not in cat0 (added to the master list) is retained
+	public static CameraCatalog merge(CameraCatalog cat0, CameraCatalog cat1) 
+	{
+		Hashtable<String,CameraEntry> all = new Hashtable<String,CameraEntry>();
+
+		if (cat0 != null) {
+			for (CameraEntry elt: cat0.elts) {
+				all.put(elt.name, elt);
+			}
+		}
+
+		// modified overrides non-modified (members of the original catalog)
+		// cat1 overrides cat0 if cat0 is NOT modified or cat1 IS modified
+		if (cat1 != null) {
+			for (CameraEntry elt1: cat1.elts) {
+				CameraEntry elt0 = all.get(elt1.name);
+				if (elt0 == null || ! elt0.editable || elt1.editable) {
+					all.put(elt1.name, elt1);
+				}
+			}
+		}
+
+		CameraEntry[] elts = new CameraEntry[all.size()];
+		Enumeration<String> keys = all.keys();
+		for (int i=0; i < elts.length; i++) {
+			String key = keys.nextElement();
+			elts[i] = all.get(key);
+		}
+		Arrays.sort(elts);
+
+		return new CameraCatalog(elts);
+	}
+
+	public static CameraCatalog merge(CameraCatalog cat, CameraEntry elt)
+	{
+		Hashtable<String,CameraEntry> all = new Hashtable<String,CameraEntry>();
+
+		if (cat != null) {
+			for (CameraEntry e: cat.elts) {
+				all.put(e.name.strip().toLowerCase(), e);
+			}
+		}
+
+		// modified overrides non-modified (members of the original catalog)
+		// cat1 overrides cat0 if cat0 is NOT modified or cat1 IS modified
+		if (elt != null) {
+			CameraEntry elt0 = all.get(elt.name.strip().toLowerCase());
+				if (elt0 == null || ! elt0.editable || elt.editable) {
+					all.put(elt.name.strip().toLowerCase(), elt);
+				}
+		}
+
+		CameraEntry[] elts = new CameraEntry[all.size()];
+		Enumeration<String> keys = all.keys();
+		for (int i=0; i < elts.length; i++) {
+			String key = keys.nextElement();
+			elts[i] = all.get(key);
+		}
+		Arrays.sort(elts);
+
+		return new CameraCatalog(elts);
+	}
+
+	public void remove(String name)
+	{
+		if (name != null) {
+			name = name.strip().toLowerCase();
+			if (! name.equals("")) {
+				table.remove(name);
+				elts = new CameraEntry[table.size()];
+				Enumeration<String> keys = table.keys();
+				for (int i=0; keys.hasMoreElements() && i < elts.length; i++) {
+					String key = keys.nextElement();
+					elts[i] = table.get(key);
+				}
+				Arrays.sort(elts);
+			}
 		}
 	}
 }

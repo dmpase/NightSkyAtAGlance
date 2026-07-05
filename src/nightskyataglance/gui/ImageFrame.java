@@ -366,7 +366,7 @@ public class ImageFrame extends JFrame implements WindowListener, ComponentListe
 	{
 		// System.out.printf("%s: %d: cache='%s' path='%s'%n", NightSkyAtAGlance.CLASS(), NightSkyAtAGlance.LINE(), cache_images, cache_path);
 		BufferedImage scaled_buffered_image   = null;
-		if (0 < width_arcmin && width_arcmin <= max_width_amin && 0 < height_arcmin && height_arcmin < max_height_amin) {	// TODO
+		if (0 < width_arcmin && width_arcmin <= max_width_amin && 0 < height_arcmin && height_arcmin <= max_height_amin) {	// TODO
 	        BufferedImage unscaled_buffered_image = read_image_from_disk(ra_hrs, de_deg, width_arcmin, height_arcmin, width_px, height_px);
 
 			if (unscaled_buffered_image == null) {

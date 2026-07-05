@@ -36,38 +36,64 @@ package lib.astro;
  *******************************************************************************/
 
 
-public class EyepieceEntry {
+public class EyepieceEntry implements Comparable<EyepieceEntry> {
 	
 	public final String name;
 	public final double focal_length_mm;
 	public final double apparent_field_of_view_deg;
 	public final double eye_relief_mm;
+	public final boolean editable;
 
 	public EyepieceEntry(String str) 
 	{
 		if (str != null) {
 			String[] field = str.split("[,]");
-			if (field != null) {
+			if (field != null && 1 <= field.length) {
 				name                       = field[0];
 				focal_length_mm            = (field.length < 2 || field[1] == null || field[1].equals("")) ? Double.NaN : Double.parseDouble(field[1]);
 				apparent_field_of_view_deg = (field.length < 3 || field[2] == null || field[2].equals("")) ? Double.NaN : Double.parseDouble(field[2]);
 				eye_relief_mm              = (field.length < 4 || field[3] == null || field[3].equals("")) ? Double.NaN : Double.parseDouble(field[3]);
+				editable                   = (field.length < 5 || field[4] == null || field[4].equals("")) ? false      : field[4].equalsIgnoreCase("true");
 			} else {
 				name                       = null;
 				focal_length_mm            = Double.NaN;
 				apparent_field_of_view_deg = Double.NaN;
 				eye_relief_mm              = Double.NaN;
+				editable                   = false;
 			}
 		} else {
 			name                       = null;
 			focal_length_mm            = Double.NaN;
 			apparent_field_of_view_deg = Double.NaN;
 			eye_relief_mm              = Double.NaN;
+			editable                   = false;
 		}
+	}
+
+	public boolean equals(EyepieceEntry rhs)
+	{
+		return name.equals(rhs.name) && 
+			focal_length_mm == rhs.focal_length_mm && 
+			apparent_field_of_view_deg == rhs.apparent_field_of_view_deg && 
+			eye_relief_mm == rhs.eye_relief_mm;
+	}
+
+	public EyepieceEntry(String n, double f, double a, double e, boolean m) 
+	{
+		name                       = n;
+		focal_length_mm            = f;
+		apparent_field_of_view_deg = a;
+		eye_relief_mm              = e;
+		editable                   = m;
 	}
 
 	@Override public String toString()
 	{
-		return null;
+		return String.format("%s,%f,%f,%f,%s", name, focal_length_mm, apparent_field_of_view_deg, apparent_field_of_view_deg, editable);
+	}
+
+	@Override public int compareTo(EyepieceEntry obj) 
+	{
+		return name.compareTo(obj.name);
 	}
 }

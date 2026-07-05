@@ -51,6 +51,12 @@ import javax.swing.UIManager;
 import javax.swing.UnsupportedLookAndFeelException;
 import javax.swing.UIManager.LookAndFeelInfo;
 
+import lib.astro.CameraCatalog;
+import lib.astro.CameraEntry;
+import lib.astro.EyepieceCatalog;
+import lib.astro.EyepieceEntry;
+import lib.astro.OpticalTubeAssemblyCatalog;
+import lib.astro.OpticalTubeAssemblyEntry;
 import nightskyataglance.NightSkyAtAGlance;
 
 public class PersistentState {
@@ -91,18 +97,26 @@ public class PersistentState {
 	public static Font get_radiobutton_font() { return new Font(font.getFamily(), Font.BOLD,  font.getSize()); }
 	public static Font get_textfield_font()   { return new Font(font.getFamily(), Font.PLAIN, font.getSize()); }
 
-	public static final String ui_mgr_file   = "ui_mgr.nsc";
-	public static LookAndFeel ui_mgr         = default_ui_mgr;
+	public static final String ui_mgr_file = "ui_mgr.nsc";
+	public static LookAndFeel ui_mgr       = default_ui_mgr;
 	public static LookAndFeel set_ui_mgr(LookAndFeel m) { if (m != null) { LookAndFeel tmp = ui_mgr; ui_mgr = m; return tmp; } else { return ui_mgr; } }
 
-	public static final String menu_height_file   = "menu_height.nsc";
+	public static final String menu_height_file = "menu_height.nsc";
 	public static int menu_height  = 48;
 
-	public static final String chart_margin_file  = "chart_margin.nsc";
+	public static final String chart_margin_file = "chart_margin.nsc";
 	public static int chart_margin =  0;
 
 	public static final String dso_icon_scale_factor_file = "dso_icon_scale_factor.nsc";
 	public static double dso_icon_scale_factor = 1.0;
+
+	public static final String ota_file = "ota.csv";
+	public static final String cam_file = "camera.csv";
+	public static final String eye_file = "eyepiece.csv";
+
+	public static OpticalTubeAssemblyCatalog otas      = null;
+	public static CameraCatalog              cameras   = null;
+	public static EyepieceCatalog            eyepieces = null;
 
 	public static String[] ui_mgr_list = null;
 	public static String[] font_list   = null;
@@ -123,6 +137,9 @@ public class PersistentState {
 			load_ui_mgr();
 			load_dso_scale();
 			load_chart_margin();
+			load_ota();
+			load_eyepiece();
+			load_camera();
 		}
 	}
 
@@ -139,6 +156,9 @@ public class PersistentState {
 			save_ui_mgr();
 			save_dso_scale();
 			save_chart_margin();
+			save_ota();
+			save_eyepiece();
+			save_camera();
 		}
 	}
 
@@ -525,6 +545,127 @@ public class PersistentState {
 				;
 			}
 		}
+	}
+
+	// TODO
+	public static void load_ota()
+	{
+		File fd = new File(home_path, ota_file);
+		// System.out.printf("%s: %d: load ota='%s'%n", NightSkyAtAGlance.CLASS(), NightSkyAtAGlance.LINE(), fd.getAbsoluteFile());
+		if (fd.isFile() && fd.canRead()) {
+			// System.out.printf("%s: %d: fd='%s'%n", NightSkyAtAGlance.CLASS(), NightSkyAtAGlance.LINE(), fd.getAbsoluteFile());
+			try {
+				otas = new OpticalTubeAssemblyCatalog(fd.getAbsolutePath());
+			} catch (IOException e) {
+				;
+			}
+			// otas.print(System.out);
+		}
+	}
+
+	public static void save_ota()
+	{
+		File fd = new File(home_path, ota_file);
+		// System.out.printf("%s: %d: save ota='%s'%n", NightSkyAtAGlance.CLASS(), NightSkyAtAGlance.LINE(), fd.getAbsoluteFile());
+		// otas.print(System.out);
+		if (fd.canWrite() || ! fd.exists()) {
+			// System.out.printf("%s: %d: fd='%s'%n", NightSkyAtAGlance.CLASS(), NightSkyAtAGlance.LINE(), fd.getAbsoluteFile());
+			try {
+				RandomAccessFile raf = new RandomAccessFile(fd, "rw");
+				raf.setLength(0);
+				for (OpticalTubeAssemblyEntry elt: otas.elts) {
+					String rec = elt.toString() + "\n";
+					raf.write(rec.getBytes());
+				}
+				raf.close();
+			} catch (IOException e) {
+				;
+			}
+		}
+	}
+
+	public static void merge(OpticalTubeAssemblyCatalog cat)
+	{
+		otas = OpticalTubeAssemblyCatalog.merge(otas, cat);
+	}
+
+	public static void load_eyepiece()
+	{
+		File fd = new File(home_path, eye_file);
+		// System.out.printf("%s: %d: fd='%s'%n", NightSkyAtAGlance.CLASS(), NightSkyAtAGlance.LINE(), fd.getAbsoluteFile());
+		if (fd.isFile() && fd.canRead()) {
+			// System.out.printf("%s: %d: fd='%s'%n", NightSkyAtAGlance.CLASS(), NightSkyAtAGlance.LINE(), fd.getAbsoluteFile());
+			try {
+				eyepieces = new EyepieceCatalog(fd.getAbsolutePath());
+			} catch (IOException e) {
+				;
+			}
+		}
+	}
+
+	public static void save_eyepiece()
+	{
+		File fd = new File(home_path, eye_file);
+		// System.out.printf("%s: %d: fd='%s'%n", NightSkyAtAGlance.CLASS(), NightSkyAtAGlance.LINE(), fd.getAbsoluteFile());
+		if (fd.canWrite() || ! fd.exists()) {
+			// System.out.printf("%s: %d: fd='%s'%n", NightSkyAtAGlance.CLASS(), NightSkyAtAGlance.LINE(), fd.getAbsoluteFile());
+			try {
+				RandomAccessFile raf = new RandomAccessFile(fd, "rw");
+				raf.setLength(0);
+				for (EyepieceEntry elt: eyepieces.elts) {
+					String rec = elt.toString() + "\n";
+					raf.write(rec.getBytes());
+				}
+				raf.close();
+			} catch (IOException e) {
+				;
+			}
+		}
+	}
+
+	public static void merge(EyepieceCatalog cat)
+	{
+		eyepieces = EyepieceCatalog.merge(eyepieces, cat);
+	}
+
+	public static void load_camera()
+	{
+		File fd = new File(home_path, cam_file);
+		// System.out.printf("%s: %d: fd='%s'%n", NightSkyAtAGlance.CLASS(), NightSkyAtAGlance.LINE(), fd.getAbsoluteFile());
+		if (fd.isFile() && fd.canRead()) {
+			// System.out.printf("%s: %d: fd='%s'%n", NightSkyAtAGlance.CLASS(), NightSkyAtAGlance.LINE(), fd.getAbsoluteFile());
+			try {
+		    	cameras = new CameraCatalog(fd.getAbsolutePath());
+			} catch (IOException e) {
+				;
+			}
+		}
+	}
+
+	public static void save_camera()
+	{
+		File fd = new File(home_path, cam_file);
+		// System.out.printf("%s: %d: fd='%s'%n", NightSkyAtAGlance.CLASS(), NightSkyAtAGlance.LINE(), fd.getAbsoluteFile());
+		if (fd.canWrite() || ! fd.exists()) {
+			// System.out.printf("%s: %d: fd='%s'%n", NightSkyAtAGlance.CLASS(), NightSkyAtAGlance.LINE(), fd.getAbsoluteFile());
+			try {
+				RandomAccessFile raf = new RandomAccessFile(fd, "rw");
+				raf.setLength(0);
+				for (CameraEntry elt: cameras.elts) {
+					String rec = elt.toString() + "\n";
+					raf.write(rec.getBytes());
+					// System.out.printf("%s: %d: elt='%s'%n", NightSkyAtAGlance.CLASS(), NightSkyAtAGlance.LINE(), elt.toString());
+				}
+				raf.close();
+			} catch (IOException e) {
+				;
+			}
+		}
+	}
+
+	public static void merge(CameraCatalog cat)
+	{
+		cameras = CameraCatalog.merge(cameras, cat);
 	}
 
 	/*/

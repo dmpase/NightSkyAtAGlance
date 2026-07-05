@@ -204,6 +204,16 @@ public class NightSkyAtAGlance {
 					System.out.printf("missing UI manager%n");
 					System.exit(0);
 				}
+			} else if (args[i].equalsIgnoreCase("--path") || args[i].equalsIgnoreCase("-path") 
+					|| args[i].equalsIgnoreCase("--catalog-path") || args[i].equalsIgnoreCase("-catalog-path")) {
+				if ((i+1) < args.length) {
+					i += 1;
+					String[] path = new String[MainFrame.alternate_paths.length + 1];
+					path[0] = args[i];
+					for (int j=0; j < MainFrame.alternate_paths.length; j++) {
+						path[j+1] = MainFrame.alternate_paths[j];
+					}
+				}
 			} else if (args[i].equalsIgnoreCase("--url") || args[i].equalsIgnoreCase("-url")) {
 				arg_url();
 				System.exit(0);

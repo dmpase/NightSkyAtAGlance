@@ -418,11 +418,6 @@ public class MainFrame extends Frame implements MouseListener, MouseMotionListen
 	public UsCitiesCatalog          us_cities          = null;
 	public WorldCitiesCatalog       world_cities       = null;
 
-	public OpticalTubeAssemblyCatalog otas             = null;
-	public ReducerCatalog             reducers         = null;
-	public CameraCatalog              cameras          = null;
-	public EyepieceCatalog            eyepieces        = null;
-	
 	public DsoFilter filter          = null;
 	public DsoAlias  dso_alias_table = null;
 
@@ -435,28 +430,25 @@ public class MainFrame extends Frame implements MouseListener, MouseMotionListen
 
 	public final int max_dso_name_len = 75;
 
+	public static String[] alternate_paths = { 
+		System.getProperty("java.class.path") + "/data/nightsky/catalogs/",
+		System.getProperty("user.dir") + "/data/nightsky/catalogs/",
+		System.getProperty("user.home") + "/data/nightsky/catalogs/",
+
+		"/data/nightsky/catalogs/",
+		"D:/home/projects/org.hypercomputing/data/nightsky/catalogs/",
+		"D:/dmpase/home/projects/org.hypercomputing/data/nightsky/catalogs/",
+		"E:/home/projects/org.hypercomputing/data/nightsky/catalogs/",
+		"C:/Users/Doug/Desktop/home/projects/org.hypercomputing/data/nightsky/catalogs/",
+		"//magrathea/dsk/dmpase/home/projects/org.hypercomputing/data/nightsky/catalogs/",
+	};
+
 	public MainFrame() throws IOException
 	{
     	super(NightSkyAtAGlance.title);
     	addNotify();
 
     	String path = null;
-    	String[] alternate_paths = { 
-			System.getProperty("java.class.path") + "/data/nightsky/catalogs/",
-			System.getProperty("user.dir") + "/data/nightsky/catalogs/",
-			System.getProperty("user.home") + "/data/nightsky/catalogs/",
-
-			System.getProperty("java.class.path") + "/data/night sky/catalogs/",
-			System.getProperty("user.dir") + "/data/night sky/catalogs/",
-			System.getProperty("user.home") + "/data/night sky/catalogs/",
-
-    		"/data/nightsky/catalogs/",
-    		"D:/home/projects/org.hypercomputing/data/nightsky/catalogs/",
-			"D:/dmpase/home/projects/org.hypercomputing/data/nightsky/catalogs/",
-    		"E:/home/projects/org.hypercomputing/data/nightsky/catalogs/",
-    		"C:/Users/Doug/Desktop/home/projects/org.hypercomputing/data/nightsky/catalogs/",
-    		"//magrathea/dsk/dmpase/home/projects/org.hypercomputing/data/nightsky/catalogs/",
-    	};
     	for (String p: alternate_paths) {
     		File f = new File(p);
     		if (f.isDirectory()) {
@@ -470,14 +462,13 @@ public class MainFrame extends Frame implements MouseListener, MouseMotionListen
     	// System.out.printf("%s: %d: path='%s'%n", NightSkyAtAGlance.CLASS(), NightSkyAtAGlance.LINE(), path);
     	LoadDatabases db = LoadDatabases.load(this, path);
 
-    	// System.out.printf("%s: %d: path='%s'%n", NightSkyAtAGlance.CLASS(), NightSkyAtAGlance.LINE(), path);
-
     	// long start = System.currentTimeMillis();
 
-    	otas               = new OpticalTubeAssemblyCatalog(path + ota_path);
-    	reducers           = new ReducerCatalog            (path + reducer_path);
-    	cameras            = new CameraCatalog             (path + camera_path);
-    	eyepieces          = new EyepieceCatalog           (path + eyepiece_path);
+    	// add the installed/global entries to the local entries
+    	// System.out.printf("%s: %d: path='%s'%n", NightSkyAtAGlance.CLASS(), NightSkyAtAGlance.LINE(), path);
+    	PersistentState.merge(new OpticalTubeAssemblyCatalog(path + ota_path));
+    	PersistentState.merge(new CameraCatalog             (path + camera_path));
+    	PersistentState.merge(new EyepieceCatalog           (path + eyepiece_path));
 
     	mainframe = this;
 
@@ -603,6 +594,14 @@ public class MainFrame extends Frame implements MouseListener, MouseMotionListen
 
 		public void paint(Graphics g) 
 		{
+			if (g == null) {
+				Toolkit toolkit = Toolkit.getDefaultToolkit();
+				Dimension display = toolkit.getScreenSize();
+				Image img = createImage(display.width, display.height);
+				if (img == null) System.exit(0);
+				g = img.getGraphics();
+			}
+
 			graphics = g;
 
 			{	// keep the screen alive
@@ -657,7 +656,7 @@ public class MainFrame extends Frame implements MouseListener, MouseMotionListen
 					display_area.width  - display_insets.left - display_insets.right  - chart_insets.left - chart_insets.right, 
 					display_area.height - display_insets.top  - display_insets.bottom - chart_insets.top  - chart_insets.bottom);
 
-			Image img  = createImage(display_size.width, display_size.height);
+			Image img = createImage(display_size.width, display_size.height);
 			if (img == null) System.exit(0);
 			Graphics h = img.getGraphics();
 

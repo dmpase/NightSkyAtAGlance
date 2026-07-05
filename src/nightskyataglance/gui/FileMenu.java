@@ -56,6 +56,7 @@ public class FileMenu extends Menu {
     public static final String ANGLE_OF_SEPARATION = "Angle of Separation";
     public static final String PLANETARY_ALIGNMENT = "Planetary Alignment";
     public static final String IMAGE_CACHE         = "Image Cache";
+    public static final String EQUIPMENT_EDITOR    = "Equipment Editor";
     public static final String EXIT                = "Exit";
 
     public static final MenuItem fv = new MenuItem(FIELD_OF_VIEW,       new MenuShortcut(KeyEvent.VK_F));
@@ -63,6 +64,7 @@ public class FileMenu extends Menu {
     public static final MenuItem fs = new MenuItem(ANGLE_OF_SEPARATION, new MenuShortcut(KeyEvent.VK_S));
     public static final MenuItem fa = new MenuItem(PLANETARY_ALIGNMENT, new MenuShortcut(KeyEvent.VK_A));
     public static final MenuItem fc = new MenuItem(IMAGE_CACHE,         new MenuShortcut(KeyEvent.VK_C));
+    public static final MenuItem fe = new MenuItem(EQUIPMENT_EDITOR,    new MenuShortcut(KeyEvent.VK_E));
     public static final MenuItem fx = new MenuItem(EXIT,                new MenuShortcut(KeyEvent.VK_Q));
 
 	public FileMenu(MainFrame f, String name)
@@ -72,7 +74,7 @@ public class FileMenu extends Menu {
 
 		setFont(PersistentState.get_font());
 
-		fv.setEnabled(main_frame.dso_alias_table != null);
+		// fv.setEnabled(main_frame.dso_alias_table != null);
 		fs.setEnabled(main_frame.dso_alias_table != null);
 		fa.setEnabled(main_frame.dso_alias_table != null);
 		fc.setEnabled(true);
@@ -82,6 +84,7 @@ public class FileMenu extends Menu {
     	add(fs);
     	add(fa);
     	add(fc);
+    	add(fe);
     	addSeparator();
     	add(fx);
 
@@ -108,6 +111,8 @@ public class FileMenu extends Menu {
 		    	new AlignmentDialog(main_frame, PLANETARY_ALIGNMENT);
 			} else if (IMAGE_CACHE.equals(what)) {
 		    	new ImageCacheDialog(main_frame, IMAGE_CACHE);
+			} else if (EQUIPMENT_EDITOR.equals(what)) {
+		    	new EquipmentEditor(main_frame, EQUIPMENT_EDITOR);
 			} else if (EXIT.equals(what)) {
 				main_frame.exit();
 			} else {

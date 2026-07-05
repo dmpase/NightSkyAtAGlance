@@ -71,6 +71,8 @@ public class PlanetaryAlignment {
 		boolean sun, boolean moon, boolean mercury, boolean venus, boolean mars, boolean jupiter, 
 		boolean saturn, boolean uranus, boolean neptune, Element dso)
 	{
+		// System.out.printf("%s: %d: dso='%s'%n", NightSkyAtAGlance.CLASS(), NightSkyAtAGlance.LINE(), dso);
+
 		elts[DSO    ] = dso;
 		elts[SUN    ] = new Element(new String[] {"Sun"    },  0   , -0.50, -26.74, -26.74, 60*0.536, DsoType.star[0]);
 		elts[MOON   ] = new Element(new String[] {"Moon"   },  0   , +2.50,  -2.50, -12.90, 60*0.536, DsoType.moon[0]);

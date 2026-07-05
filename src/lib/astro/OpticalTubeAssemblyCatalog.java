@@ -40,20 +40,23 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.InputStream;
+import java.io.PrintStream;
 import java.io.RandomAccessFile;
+import java.util.Arrays;
+import java.util.Enumeration;
+import java.util.Hashtable;
 
 import lib.util.Queue;
 
 public class OpticalTubeAssemblyCatalog {
-	
-	public final String          catalog;
-	public final File            file;
-	public final OpticalTubeAssemblyEntry[] elts;
 
-	public OpticalTubeAssemblyCatalog(String c) throws IOException 
+	public OpticalTubeAssemblyEntry[] elts;
+	public Hashtable<String,OpticalTubeAssemblyEntry> table = new Hashtable<String,OpticalTubeAssemblyEntry>();
+
+	public OpticalTubeAssemblyCatalog(String catalog_path) throws IOException 
 	{
-		catalog = c;
-		file    = new File(c);
+    	// System.out.printf("%s: %d: path='%s'%n", NightSkyAtAGlance.CLASS(), NightSkyAtAGlance.LINE(), catalog_path);
+		File file = new File(catalog_path);
 		
 		// read the file into memory
 		byte[] buf = new byte[10*1024*1024];
@@ -64,9 +67,9 @@ public class OpticalTubeAssemblyCatalog {
 			len = raf.read(buf);
 			raf.close();
 		} else {
-			try(InputStream input_stream = getClass().getResourceAsStream(c)) {
+			try(InputStream input_stream = getClass().getResourceAsStream(catalog_path)) {
 			    if (input_stream == null) {
-			        throw new FileNotFoundException("File '" + c + "' not found!");
+			        throw new FileNotFoundException("File '" + catalog_path + "' not found!");
 			    }
 			    
 			    int ch = input_stream.read();
@@ -108,6 +111,106 @@ public class OpticalTubeAssemblyCatalog {
 		elts = new OpticalTubeAssemblyEntry[all.length()];
 		for (int i=0; i < elts.length; i++) {
 			elts[i] = all.remove();
+			table.put(elts[i].name.toLowerCase(), elts[i]);
+		}
+	}
+
+	public OpticalTubeAssemblyCatalog(OpticalTubeAssemblyEntry[] e)
+	{
+		elts = e;
+		for (OpticalTubeAssemblyEntry elt: e) {
+			table.put(elt.name.toLowerCase(), elt);
+		}
+	}
+
+	// cat0 is the local catalog with modified entries, cat1 is the built-in catalog with new equipment
+	// if a cat0 entry is modified, the modified entry is retained (cat1 entries are never modified)
+	// if a cat0 entry is NOT modified and an updated entry appears in cat1, the cat1 entry is retained
+	// an entry in cat0 that is not in cat1 (added by the user) is retained
+	// an entry in cat1 that is not in cat0 (added to the master list) is retained
+	public static OpticalTubeAssemblyCatalog merge(OpticalTubeAssemblyCatalog cat0, OpticalTubeAssemblyCatalog cat1)
+	{
+		Hashtable<String,OpticalTubeAssemblyEntry> all = new Hashtable<String,OpticalTubeAssemblyEntry>();
+
+		if (cat0 != null) {
+			for (OpticalTubeAssemblyEntry elt: cat0.elts) {
+				all.put(elt.name.strip().toLowerCase(), elt);
+			}
+		}
+
+		// modified overrides non-modified (members of the original catalog)
+		// cat1 overrides cat0 if cat0 is NOT modified or cat1 IS modified
+		if (cat1 != null) {
+			for (OpticalTubeAssemblyEntry elt1: cat1.elts) {
+				OpticalTubeAssemblyEntry elt0 = all.get(elt1.name);
+				if (elt0 == null || ! elt0.editable || elt1.editable) {
+					all.put(elt1.name.strip().toLowerCase(), elt1);
+				}
+			}
+		}
+
+		OpticalTubeAssemblyEntry[] elts = new OpticalTubeAssemblyEntry[all.size()];
+		Enumeration<String> keys = all.keys();
+		for (int i=0; i < elts.length; i++) {
+			String key = keys.nextElement();
+			elts[i] = all.get(key);
+		}
+		Arrays.sort(elts);
+
+		return new OpticalTubeAssemblyCatalog(elts);
+	}
+
+	public static OpticalTubeAssemblyCatalog merge(OpticalTubeAssemblyCatalog cat, OpticalTubeAssemblyEntry elt)
+	{
+		Hashtable<String,OpticalTubeAssemblyEntry> all = new Hashtable<String,OpticalTubeAssemblyEntry>();
+
+		if (cat != null) {
+			for (OpticalTubeAssemblyEntry e: cat.elts) {
+				all.put(e.name.strip().toLowerCase(), e);
+			}
+		}
+
+		// modified overrides non-modified (members of the original catalog)
+		// cat1 overrides cat0 if cat0 is NOT modified or cat1 IS modified
+		if (elt != null) {
+				OpticalTubeAssemblyEntry elt0 = all.get(elt.name.strip().toLowerCase());
+				if (elt0 == null || ! elt0.editable || elt.editable) {
+					all.put(elt.name.strip().toLowerCase(), elt);
+				}
+		}
+
+		OpticalTubeAssemblyEntry[] elts = new OpticalTubeAssemblyEntry[all.size()];
+		Enumeration<String> keys = all.keys();
+		for (int i=0; i < elts.length; i++) {
+			String key = keys.nextElement();
+			elts[i] = all.get(key);
+		}
+		Arrays.sort(elts);
+
+		return new OpticalTubeAssemblyCatalog(elts);
+	}
+	
+	public void remove(String name)
+	{
+		if (name != null) {
+			name = name.strip().toLowerCase();
+			if (! name.equals("")) {
+				table.remove(name);
+				elts = new OpticalTubeAssemblyEntry[table.size()];
+				Enumeration<String> keys = table.keys();
+				for (int i=0; keys.hasMoreElements() && i < elts.length; i++) {
+					String key = keys.nextElement();
+					elts[i] = table.get(key);
+				}
+				Arrays.sort(elts);
+			}
+		}
+	}
+	
+	public void print(PrintStream out)
+	{
+		for (OpticalTubeAssemblyEntry elt: elts) {
+			out.printf("%s%n", elt.toString());
 		}
 	}
 }

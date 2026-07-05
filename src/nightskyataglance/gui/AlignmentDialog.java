@@ -97,17 +97,6 @@ public class AlignmentDialog extends Dialog implements WindowListener, KeyListen
 	public static final JLabel neptune_jl = new JLabel("Neptune");
 	public static final JLabel dso_jl     = new JLabel("DSO");
 
-	public static boolean sun_e     = false;
-	public static boolean moon_e    = false;
-	public static boolean mercury_e = false;
-	public static boolean venus_e   = false;
-	public static boolean mars_e    = false;
-	public static boolean jupiter_e = false;
-	public static boolean saturn_e  = false;
-	public static boolean uranus_e  = false;
-	public static boolean neptune_e = false;
-	public static boolean dso_e     = false;
-
 	public static final JLabel search_jl  = new JLabel("Search");
 	public static final JLabel type_jl    = new JLabel("Type");
 	public static final JLabel found_jl   = new JLabel("Found");
@@ -1178,7 +1167,6 @@ public class AlignmentDialog extends Dialog implements WindowListener, KeyListen
 			search_tf.addKeyListener(new KeyListener() {
 				@Override public void keyTyped(KeyEvent evt) 
 				{
-					// TODO
 					// System.out.printf("%s: %d: name='%s'%n", NightSkyAtAGlance.CLASS(), NightSkyAtAGlance.LINE(), search_tf.getText());
 					String search_text = (search_tf.getText() + (char) evt.getKeyChar()).trim();
 					dso = (main_frame.dso_alias_table != null) ? main_frame.dso_alias_table.find(search_text) : null;
@@ -1204,70 +1192,60 @@ public class AlignmentDialog extends Dialog implements WindowListener, KeyListen
 			sun_cb.addItemListener(new ItemListener() {
 				@Override public void itemStateChanged(ItemEvent e) 
 				{
-					sun_e = e.getStateChange() == ItemEvent.SELECTED;
 				}
 			});
 
 			moon_cb.addItemListener(new ItemListener() {
 				@Override public void itemStateChanged(ItemEvent e) 
 				{
-					moon_e = e.getStateChange() == ItemEvent.SELECTED;
 				}
 			});
 
 			mercury_cb.addItemListener(new ItemListener() {
 				@Override public void itemStateChanged(ItemEvent e) 
 				{
-					mercury_e = e.getStateChange() == ItemEvent.SELECTED;
 				}
 			});
 
 			venus_cb.addItemListener(new ItemListener() {
 				@Override public void itemStateChanged(ItemEvent e) 
 				{
-					venus_e = e.getStateChange() == ItemEvent.SELECTED;
 				}
 			});
 
 			mars_cb.addItemListener(new ItemListener() {
 				@Override public void itemStateChanged(ItemEvent e) 
 				{
-					mars_e = e.getStateChange() == ItemEvent.SELECTED;
 				}
 			});
 
 			jupiter_cb.addItemListener(new ItemListener() {
 				@Override public void itemStateChanged(ItemEvent e) 
 				{
-					jupiter_e = e.getStateChange() == ItemEvent.SELECTED;
 				}
 			});
 
 			saturn_cb.addItemListener(new ItemListener() {
 				@Override public void itemStateChanged(ItemEvent e) 
 				{
-					saturn_e = e.getStateChange() == ItemEvent.SELECTED;
 				}
 			});
 
 			uranus_cb.addItemListener(new ItemListener() {
 				@Override public void itemStateChanged(ItemEvent e) 
 				{
-					uranus_e = e.getStateChange() == ItemEvent.SELECTED;
 				}
 			});
 
 			neptune_cb.addItemListener(new ItemListener() {
 				@Override public void itemStateChanged(ItemEvent e) 
 				{
-					neptune_e = e.getStateChange() == ItemEvent.SELECTED;
 				}
 			});
 
 			dso_cb.addItemListener(new ItemListener() {
 				@Override public void itemStateChanged(ItemEvent e) 
 				{
-					dso_e = e.getStateChange() == ItemEvent.SELECTED;
 				}
 			});
 
@@ -1297,25 +1275,66 @@ public class AlignmentDialog extends Dialog implements WindowListener, KeyListen
 				}
 			});
 
-			compute_b.addActionListener(new ActionListener() {
+			compute_b.addActionListener(new ActionListener() {		// TODO compute the nearest alignment
 				@Override public void actionPerformed(ActionEvent e)
 				{
 					compute_b.setEnabled(false);
-					// System.out.printf("%s: %d: date='%s'%n", NightSkyAtAGlance.CLASS(), NightSkyAtAGlance.LINE(), SelectDateDialog.show_date(end_ms));
-					long delta_time_ms = 60 * 60 * 1000;
-					PlanetaryAlignment pa = new PlanetaryAlignment(timezone, start_ms, end_ms, delta_time_ms, sun_e, moon_e, mercury_e, venus_e, mars_e, jupiter_e, saturn_e, uranus_e, neptune_e, dso_e ? dso : null);
+					/*
+					System.out.printf("%s: %d: sun='%s' %s%n", NightSkyAtAGlance.CLASS(), NightSkyAtAGlance.LINE(), sun_cb, sun_cb.getSelectedObjects()==null);
+					System.out.printf("%s: %d: moon='%s' %s%n", NightSkyAtAGlance.CLASS(), NightSkyAtAGlance.LINE(), moon_cb, moon_cb.getSelectedObjects()==null);
+					System.out.printf("%s: %d: mercury='%s' %s%n", NightSkyAtAGlance.CLASS(), NightSkyAtAGlance.LINE(), mercury_cb, mercury_cb.getSelectedObjects()==null);
+					System.out.printf("%s: %d: venus='%s' %s%n", NightSkyAtAGlance.CLASS(), NightSkyAtAGlance.LINE(), venus_cb, venus_cb.getSelectedObjects()==null);
+					System.out.printf("%s: %d: mars='%s' %s%n", NightSkyAtAGlance.CLASS(), NightSkyAtAGlance.LINE(), mars_cb, mars_cb.getSelectedObjects()==null);
+					System.out.printf("%s: %d: jupiter='%s' %s%n", NightSkyAtAGlance.CLASS(), NightSkyAtAGlance.LINE(), jupiter_cb, jupiter_cb.getSelectedObjects()==null);
+					System.out.printf("%s: %d: saturn='%s' %s%n", NightSkyAtAGlance.CLASS(), NightSkyAtAGlance.LINE(), saturn_cb, saturn_cb.getSelectedObjects()==null);
+					System.out.printf("%s: %d: uranus='%s' %s%n", NightSkyAtAGlance.CLASS(), NightSkyAtAGlance.LINE(), uranus_cb, uranus_cb.getSelectedObjects()==null);
+					System.out.printf("%s: %d: neptune='%s' %s%n", NightSkyAtAGlance.CLASS(), NightSkyAtAGlance.LINE(), neptune_cb, neptune_cb.getSelectedObjects()==null);
+					System.out.printf("%s: %d: dso='%s' %s%n", NightSkyAtAGlance.CLASS(), NightSkyAtAGlance.LINE(), dso, dso_cb.getSelectedObjects()==null);
+					*/
+					long delta_time_ms = 60 * 60 * 1000;		// one hour
+					PlanetaryAlignment pa = new PlanetaryAlignment(timezone, start_ms, end_ms, delta_time_ms, 
+							sun_cb.getSelectedObjects() != null, 
+							moon_cb.getSelectedObjects() != null, 
+							mercury_cb.getSelectedObjects() != null, 
+							venus_cb.getSelectedObjects() != null, 
+							mars_cb.getSelectedObjects() != null, 
+							jupiter_cb.getSelectedObjects() != null, 
+							saturn_cb.getSelectedObjects() != null, 
+							uranus_cb.getSelectedObjects() != null, 
+							neptune_cb.getSelectedObjects() != null, 
+							dso_cb.getSelectedObjects() != null ? dso : null);
 			    	if (pa.valid) {
 						long days = 15;
-						delta_time_ms = 60 * 1000;
+						delta_time_ms = 60 * 1000;				// one minute
 						long s_ms = Math.max(start_ms, pa.best_cst - days * 24 * 60 * 60 * 1000);
 			    		long e_ms = Math.min(end_ms,   pa.best_cst + days * 24 * 60 * 60 * 1000);
-						pa = new PlanetaryAlignment(timezone, s_ms, e_ms, delta_time_ms, sun_e, moon_e, mercury_e, venus_e, mars_e, jupiter_e, saturn_e, uranus_e, neptune_e, dso_e ? dso : null);
+						pa = new PlanetaryAlignment(timezone, s_ms, e_ms, delta_time_ms, 
+								sun_cb.getSelectedObjects() != null, 
+								moon_cb.getSelectedObjects() != null, 
+								mercury_cb.getSelectedObjects() != null, 
+								venus_cb.getSelectedObjects() != null, 
+								mars_cb.getSelectedObjects() != null, 
+								jupiter_cb.getSelectedObjects() != null, 
+								saturn_cb.getSelectedObjects() != null, 
+								uranus_cb.getSelectedObjects() != null, 
+								neptune_cb.getSelectedObjects() != null, 
+								dso_cb.getSelectedObjects() != null ? dso : null);
 
 						long minutes = 15;
-						delta_time_ms = 1000;
+						delta_time_ms = 1000;					// one second
 						s_ms = Math.max(start_ms, pa.best_cst - minutes * 60 * 1000);
 			    		e_ms = Math.min(end_ms,   pa.best_cst + minutes * 60 * 1000);
-						pa = new PlanetaryAlignment(timezone, s_ms, e_ms, delta_time_ms, sun_e, moon_e, mercury_e, venus_e, mars_e, jupiter_e, saturn_e, uranus_e, neptune_e, dso_e ? dso : null);
+						pa = new PlanetaryAlignment(timezone, s_ms, e_ms, delta_time_ms, 
+								sun_cb.getSelectedObjects() != null, 
+								moon_cb.getSelectedObjects() != null, 
+								mercury_cb.getSelectedObjects() != null, 
+								venus_cb.getSelectedObjects() != null, 
+								mars_cb.getSelectedObjects() != null, 
+								jupiter_cb.getSelectedObjects() != null, 
+								saturn_cb.getSelectedObjects() != null, 
+								uranus_cb.getSelectedObjects() != null, 
+								neptune_cb.getSelectedObjects() != null, 
+								dso_cb.getSelectedObjects() != null ? dso : null);
 
 						if (pa.best_elt[PlanetaryAlignment.SUN] != null) sun_ra_de_tf.setText(String.format("RA %s, DE %s", 
 			    				PracticalAstronomy.decimal_hours_to_str_hms(pa.best_elt[PlanetaryAlignment.SUN].ra_hrs()),
@@ -1362,7 +1381,7 @@ public class AlignmentDialog extends Dialog implements WindowListener, KeyListen
 			    				PracticalAstronomy.decimal_degrees_to_str_dms(pa.best_elt[PlanetaryAlignment.NEPTUNE].de_deg()))
 				    		);
 
-			    		if (dso_e && dso != null) {
+			    		if (dso_cb.getSelectedObjects() != null && dso != null) {
 			    			dso_ra_de_tf.setText(String.format("RA %s, DE %s", 
 				    				PracticalAstronomy.decimal_hours_to_str_hms(pa.best_elt[PlanetaryAlignment.DSO].ra_hrs()),
 				    				PracticalAstronomy.decimal_degrees_to_str_dms(pa.best_elt[PlanetaryAlignment.DSO].de_deg()))
